@@ -9,6 +9,7 @@ exports.getConfig = function() {
             '../../bem-bl/blocks-common',
             '../../bem-bl/blocks-desktop',
             '../../bemhtml/common.blocks',
+            '../../bl-controls/desktop.blocks',
             '../../common.blocks',
             '../../desktop.blocks'
         ])

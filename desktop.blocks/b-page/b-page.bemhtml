@@ -1,0 +1,6 @@
+block b-page {
+    content: {
+        elem: 'inner',
+        content: this.ctx.content //applyNext()
+    }
+}

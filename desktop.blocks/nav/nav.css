@@ -1,0 +1,21 @@
+.nav
+{
+    margin-left: 415px;
+
+    text-align: center;
+}
+
+.nav .b-menu-horiz__item
+{
+    padding: 0 19px;
+}
+
+.nav .b-link
+{
+    color: #1c1c1c;
+}
+
+.b-menu-horiz__item_kind_special .b-link
+{
+    color: #39c;
+}

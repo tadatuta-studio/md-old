@@ -18,9 +18,13 @@ MAKE.decl('Arch', {
                 url: 'git://github.com/bem/bem-bl.git',
                 treeish: '0.3'
             },
-            'bemhtml' : {
+            'bemhtml': {
                 type: 'git',
                 url: 'git://github.com/bem/bemhtml.git'
+            },
+            'bl-controls': {
+                type: 'git',
+                url: 'git://github.com/bem/bl-controls.git'
             }
         };
 
@@ -48,4 +52,10 @@ MAKE.decl('BundleNode', {
         ];
     }
 
+});
+
+MAKE.decl('BundlesLevelNode', {
+    buildMergedBundle: function() {
+        return true;
+    }
 });

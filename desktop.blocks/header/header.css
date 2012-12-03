@@ -1,0 +1,37 @@
+.header
+{
+    position: relative;
+
+    margin-bottom: 42px;
+    padding: 30px 0 16px;
+
+    border-bottom: 10px solid #c6c7cb;
+}
+
+.header:before,
+.header:after
+{
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+
+    content: '';
+
+    width: 72px;
+    height: 10px;
+
+    border-left: 72px solid #d94c81;
+    border-right: 72px solid #6cae11;
+
+    background: #39c;
+}
+
+.header:after
+{
+    left: 216px;
+
+    border: 0;
+    border-left: 72px solid #e25e3a;
+
+    background: #ecac51;
+}

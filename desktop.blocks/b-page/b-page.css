@@ -1,0 +1,15 @@
+.b-page
+{
+    font-family: wf_SegoeUI, Tahoma, Verdana, Arial, sans-serif;
+
+    margin: 0;
+
+    color: #666;
+}
+
+.b-page__inner
+{
+    min-width: 1000px;
+    max-width: 1400px;
+    margin: auto;
+}

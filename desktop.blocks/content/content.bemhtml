@@ -1,0 +1,4 @@
+block content {
+    elem p, tag: 'p'
+    elem h3, tag: 'h3'
+}
