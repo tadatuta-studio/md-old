@@ -1,9 +1,17 @@
 .button_theme_download
 {
-    width: 271px;
-    height: 79px;
+    background: #6cae11;
+    background: -moz-linear-gradient(top,  #6cae11 , #609b0f);
+    background: -webkit-linear-gradient(top,  #6cae11 ,#609b0f);
+    background: -o-linear-gradient(top,  #6cae11 ,#609b0f);
+    background: -ms-linear-gradient(top,  #6cae11 ,#609b0f);
+    background: linear-gradient(to bottom,  #6cae11 ,#609b0f);
 
-    background: url(../../../i/button_theme_download.png) no-repeat;
+    -moz-box-shadow: 0 2px 4px #cfcfcf;
+    -webkit-box-shadow: 0 2px 4px #cfcfcf;
+    -o-box-shadow: 0 2px 4px #cfcfcf;
+    -ms-box-shadow: 0 2px 4px #cfcfcf;
+    box-shadow: 0 2px 4px #cfcfcf;
 
     font-size: 35px;
     color: #fff;
@@ -15,17 +23,30 @@
     -webkit-transition: .2s;
     -moz-transition: .2s;
 
-    margin-right: 6%;
-    float: right;
-}
-
-.button_theme_download:hover
-{
-    color: #eaf4e9;
+    position: relative;
 }
 
 .button_theme_download .button__text
 {
     display: block;
-    margin-top: -3px;
+    padding: 20px 48px;
+}
+
+.button_theme_download:after
+{
+    content: "";
+
+    width: 31px;
+    height: 39px;
+
+    background: url(../../../i/button_theme_download.png) no-repeat;
+
+    position: absolute;
+    left: 7px;
+    bottom: -10px;
+}
+
+.button_theme_download:hover
+{
+    color: #eaf4e9;
 }
