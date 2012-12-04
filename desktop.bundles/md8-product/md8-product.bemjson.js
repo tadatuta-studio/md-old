@@ -13,102 +13,12 @@
     mods: { page: 'md8-product' },
     content:[
         {
+            block: 'header'
+        },
+        {
             elem: 'inner',
             mix: [{ block: 'clearfix' }],
             content: [
-                {
-                    block: 'header',
-                    content: [
-                        {
-                            block: 'logo',
-                            content: [
-                                {
-                                    block: 'b-link',
-                                    url: '/',
-                                    content: 'Magic Desktop 8'
-                                },
-                                {
-                                    elem: 'tagline',
-                                    content: [
-                                        'is like ',
-                                        {
-                                            elem: 'tagline-highlight',
-                                            content: 'Windows'
-                                        },
-                                        ' for kids.'
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            block: 'lang-switcher',
-                            content: [
-                                'International - ',
-                                'English'
-                            ]
-                        },
-                        {
-                            block: 'b-menu-horiz',
-                            mods: { layout: 'normal' },
-                            js: false,
-                            mix: [{ block: 'nav' }, { block: 'clearfix' }],
-                            content: [
-                                {
-                                    elem: 'item',
-                                    // elemMods: { state: 'current' },
-                                    content: {
-                                        block: 'b-link',
-                                        url: '/',
-                                        content: 'Home'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#product',
-                                        content: 'Product'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#community',
-                                        content: 'Community'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#support',
-                                        content: 'Support'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { kind: 'special' },
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#download',
-                                        content: 'Download'
-                                    }
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { kind: 'special' },
-                                    content: {
-                                        block: 'b-link',
-                                        url: '#buy',
-                                        content: 'Buy'
-                                    }
-                                }
-                            ]
-                        }
-
-                    ]
-                },
                 {
                     block: 'about-product',
                     mix: [{ block: 'clearfix' }],
@@ -137,12 +47,10 @@
                                 {
                                     elem: 'h3',
                                     content: 'All that your kids would probably need when mastering a computer!'
-                                },
-                                {
-                                    block: 'button',
-                                    mods: { size: 'm', theme: 'download' },
-                                    content: 'Get it now'
-                                }
+                                }
+                                // {
+                                //     block: 'button'
+                                // }
                             ]
                         },
                         {
@@ -803,9 +711,6 @@
                             mix: [{ block: 'clearfix' }],
                             content: [
                                 {
-                                    block: 'shadow'
-                                },
-                                {
                                     block: 'b-text',
                                     mods: { position: 'left' },
                                     content: [
@@ -820,9 +725,9 @@
                                     ]
                                 },
                                 {
-                                   block: 'button',
-                                   mods: { size: 'm', theme: 'download' },
-                                   content: 'Get it now'
+                                    block: 'button',
+                                    mods: { size: 'm' },
+                                    content: 'Custom Button'
                                 }
                             ]
                         }
@@ -831,95 +736,7 @@
             ]
         },
         {
-            block: 'footer',
-            content: [
-                {
-                    block: 'copyright',
-                    content: [
-                        {
-                            elem: 'logo'
-                        },
-                        '© 2013 EasyBits Software. All Rights Reserved.'
-                    ]
-                },
-                {
-                    block: 'social',
-                    content: [
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                url: '#google'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                url: '#twitter'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                url: '#youtube'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                url: '#facebook'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                url: '#facebook'
-                            }
-                        }
-                    ]
-                },
-                {
-                    block: 'b-menu-horiz',
-                    mods: { layout: 'normal' },
-                    js: false,
-                    mix: [{ block: 'footer-nav' }],
-                    content: [
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                url: '#company',
-                                content: 'Company'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { state: 'current' },
-                            content: 'License Agreement'
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                url: '#privacy-policy',
-                                content: 'Privacy Policy'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                url: '#contact-us',
-                                content: 'Contact Us'
-                            }
-                        }
-                    ]
-                }
-            ]
+            block: 'footer'
         }
     ]
 })

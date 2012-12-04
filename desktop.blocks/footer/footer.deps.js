@@ -22,6 +22,11 @@
             block: 'b-menu-horiz',
             mods: { layout: 'normal' }
         },
-        { block: 'footer-nav' }
+        {
+            block: 'footer-nav'
+        },
+        {
+            block: 'shadow'
+        }
     ]
 })

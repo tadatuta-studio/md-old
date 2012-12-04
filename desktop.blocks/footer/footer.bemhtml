@@ -1,11 +1,10 @@
 block footer {
+    mix: [{ block: 'shadow' }]
+
     content: {
         elem: 'inner',
         mix: [{ block: 'clearfix' }],
         content: [
-            {
-                block: 'shadow'
-            },
             {
                 block: 'copyright',
                 content: [
