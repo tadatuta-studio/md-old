@@ -4,6 +4,9 @@ block footer {
         mix: [{ block: 'clearfix' }],
         content: [
             {
+                block: 'shadow'
+            },
+            {
                 block: 'copyright',
                 content: [
                     {

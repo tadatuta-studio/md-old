@@ -53,3 +53,17 @@
     background-position: 0 -896px;
 }
 
+.services__title_type_security
+{
+    background-position: 0 -660px;
+}
+
+.services__title_type_startup
+{
+    background-position: 0 -823px;
+}
+
+.services__title_type_switch
+{
+    background-position: 0 -741px;
+}

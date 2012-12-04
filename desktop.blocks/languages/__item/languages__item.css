@@ -1,0 +1,114 @@
+.languages__item
+{
+    background-image: url(../../../i/languages__item.png);
+    background-repeat: no-repeat;
+
+    color: #666;
+
+    display: block;
+
+    float: left;
+
+    font-size: 12px;
+
+    margin-right: 1.5%;
+    padding: 36px 0 0;
+
+    text-align: center;
+    width: 75px
+}
+
+.languages__item:hover
+{
+    color: #39c;
+}
+
+.languages__item_type_danish
+{
+    background-position: 3px -5px;
+}
+
+.languages__item_type_english
+{
+    background-position: -88px -5px;
+}
+
+.languages__item_type_french
+{
+    background-position: -181px -5px;
+}
+
+.languages__item_type_greek
+{
+    background-position: -273px -5px;
+}
+
+.languages__item_type_italian
+{
+    background-position: -365px -5px;
+}
+
+.languages__item_type_norwegian
+{
+    background-position: -456px -5px;
+}
+
+.languages__item_type_portuguese
+{
+    background-position: -549px -5px;
+}
+
+.languages__item_type_russian
+{
+    background-position: -641px -5px;
+}
+
+.languages__item_type_swedish
+{
+    background-position: -732px -5px;
+}
+
+.languages__item_type_nederlands
+{
+    background-position: 3px -54px;
+}
+
+.languages__item_type_finnish
+{
+    background-position: -90px -54px;
+}
+
+.languages__item_type_german
+{
+    background-position: -181px -54px;
+}
+
+.languages__item_type_hungarian
+{
+    background-position: -273px -54px;
+}
+
+.languages__item_type_japanese
+{
+    background-position: -365px -54px;
+}
+
+.languages__item_type_polish
+{
+    background-position: -458px -54px;
+}
+
+.languages__item_type_romanian
+{
+    background-position: -549px -54px;
+}
+
+.languages__item_type_spanish
+{
+    background-position: -642px -54px;
+}
+
+.languages__item_type_turkish
+{
+    background-position: -732px -54px;
+}

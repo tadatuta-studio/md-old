@@ -152,6 +152,9 @@
                     block: 'main',
                     content: [
                         {
+                            block: 'shadow'
+                        },
+                        {
                             block: 'block',
                             mods: { type: 'learn' },
                             mix: [{ block: 'clearfix' }],
@@ -533,6 +536,289 @@
                                         }
                                     ]
                                 }
+                            ]
+                        },
+                        {
+                            block: 'block',
+                            mods: { type: 'computer' },
+                            mix: [{ block: 'clearfix' }],
+                            content: [
+                                {
+                                    elem: 'left',
+                                    content: [
+                                        {
+                                            block: 'block-info',
+                                            content: [
+                                                {
+                                                    elem: 'h2',
+                                                    content: 'Protects your computer'
+                                                },
+                                                {
+                                                    elem: 'p',
+                                                    content: "Kids won't be able to delete your photo album or corrupt system files. You are in charge with you Master Password!"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'content',
+                                    content: [
+                                        {
+                                            block: 'services',
+                                            content: [
+                                                {
+                                                    elem: 'left',
+                                                    content: [
+                                                        {
+                                                            elem: 'item',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    mods: { type: 'security' },
+                                                                    content: 'Security Shield'
+                                                                },
+                                                                {
+                                                                    block: 'b-text',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'p',
+                                                                            content: 'Magic Desktop Security Shield will lock Windows away and create a protective environment specially designed for children, easy to use and visually appealing.'
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            elem: 'item',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    mods: { type: 'startup' },
+                                                                    content: 'Run at startup'
+                                                                },
+                                                                {
+                                                                    block: 'b-text',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'p',
+                                                                            content: 'If your kid has his own computer, you can setup Magic Desktop to create complete safety and seamless user experience.'
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    elem: 'right',
+                                                    content: [
+                                                        {
+                                                            elem: 'item',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    mods: { type: 'switch' },
+                                                                    content: 'Easy Switch'
+                                                                },
+                                                                {
+                                                                    block: 'b-text',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'p',
+                                                                            content: 'If you share your computer with kids, you can easily switch between Magic Desktop and Windows.'
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            block: 'block',
+                            mods: { type: 'languages' },
+                            mix: [{ block: 'clearfix' }],
+                            content: [
+                                {
+                                    elem: 'left',
+                                    content: [
+                                        {
+                                            block: 'block-info',
+                                            content: [
+                                                {
+                                                    elem: 'h2',
+                                                    content: 'Languages'
+                                                },
+                                                {
+                                                    elem: 'p',
+                                                    content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'content',
+                                    content: [
+                                        {
+                                            block: 'languages',
+                                            content: [
+                                                {
+                                                    elem: 'string',
+                                                    mix: [{ block: 'clearfix' }],
+                                                    content: [
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'danish'} },
+                                                            content: 'Danish',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'english'  }},
+                                                            content: 'English',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'french'  }},
+                                                            content: 'French',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'greek'  }},
+                                                            content: 'Greek',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'italian'  }},
+                                                            content: 'Italian',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'norwegian'  }},
+                                                            content: 'Norwegian',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'portuguese'  }},
+                                                            content: 'Portuguese',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'russian'  }},
+                                                            content: 'Russian',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'swedish'  }},
+                                                            content: 'Swedish',
+                                                            url: '#'
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    elem: 'string',
+                                                    mix: [{ block: 'clearfix' }],
+                                                    content: [
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'nederlands'  }},
+                                                            content: 'Nederlands',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'finnish'  }},
+                                                            content: 'Finnish',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'german'  }},
+                                                            content: 'German',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'hungarian'  }},
+                                                            content: 'Hungarian',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'japanese'  }},
+                                                            content: 'Japanese',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'polish'  }},
+                                                            content: 'Polish',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'romanian'  }},
+                                                            content: 'Romanian',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'spanish'  }},
+                                                            content: 'Spanish',
+                                                            url: '#'
+                                                        },
+                                                        {
+                                                            block: 'b-link',
+                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'turkish' } },
+                                                            content: 'Turkish',
+                                                            url: '#'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            block: 'block',
+                            mods: { type: 'magic-desktop' },
+                            mix: [{ block: 'clearfix' }],
+                            content: [
+                                {
+                                    block: 'b-text',
+                                    mods: { position: 'left' },
+                                    content: [
+                                        {
+                                            elem: 'h2',
+                                            content: 'Magic Desktop –'
+                                        },
+                                        {
+                                            elem: 'h3',
+                                            content: 'a complete solution for your children.'
+                                        }
+                                    ]
+                                },
+                                {
+                                    block: 'button',
+                                    mods: { size: 'm' },
+                                    content: 'Custom Button'
+                                }
                             ]
                         }
                     ]

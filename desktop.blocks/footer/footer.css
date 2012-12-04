@@ -7,25 +7,6 @@
     background: #f0efef;
 }
 
-.footer:before
-{
-    position: absolute;
-    top: 0;
-    left: 50%;
-
-    content: '';
-
-    width: 800px;
-    height: 40px;
-    margin-left: -400px;
-
-    background:    -moz-radial-gradient(center top, ellipse farthest-side, rgba(0,0,0,.2), rgba(0,0,0,.1) 20%, rgba(0,0,0,0) 100%);
-    background: -webkit-radial-gradient(center top, ellipse farthest-side, rgba(0,0,0,.2), rgba(0,0,0,.1) 20%, rgba(0,0,0,0) 100%);
-    background:      -o-radial-gradient(center top, ellipse farthest-side, rgba(0,0,0,.2), rgba(0,0,0,.1) 20%, rgba(0,0,0,0) 100%);
-    background:     -ms-radial-gradient(center top, ellipse farthest-side, rgba(0,0,0,.2), rgba(0,0,0,.1) 20%, rgba(0,0,0,0) 100%);
-    background:         radial-gradient(center top, ellipse farthest-side, rgba(0,0,0,.2), rgba(0,0,0,.1) 20%, rgba(0,0,0,0) 100%);
-}
-
 .footer__inner
 {
     min-width: 1000px;
