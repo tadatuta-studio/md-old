@@ -1,15 +1,22 @@
 .header
 {
+    margin-bottom: 42px;
+}
+
+.header__inner
+{
     position: relative;
 
-    margin-bottom: 42px;
+    min-width: 1000px;
+    max-width: 1400px;
+    margin: auto;
     padding: 41px 0 16px;
 
     border-bottom: 10px solid #c6c7cb;
 }
 
-.header:before,
-.header:after
+.header__inner:before,
+.header__inner:after
 {
     position: absolute;
     left: 0;
@@ -26,7 +33,7 @@
     background: #39c;
 }
 
-.header:after
+.header__inner:after
 {
     left: 216px;
 

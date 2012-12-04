@@ -1,0 +1,96 @@
+block header {
+    content: {
+        elem: 'inner',
+        content: [
+            {
+                block: 'logo',
+                content: [
+                    {
+                        block: 'b-link',
+                        url: '/',
+                        mix: [{ block: 'logo', elem: 'link' }],
+                        content: 'Magic Desktop 8'
+                    },
+                    {
+                        elem: 'tagline',
+                        content: [
+                            'is like ',
+                            {
+                                elem: 'tagline-highlight',
+                                content: 'Windows'
+                            },
+                            ' for kids.'
+                        ]
+                    }
+                ]
+            },
+            {
+                block: 'lang-switcher',
+                content: [
+                    'International - ',
+                    'English'
+                ]
+            },
+            {
+                block: 'b-menu-horiz',
+                mods: { layout: 'normal' },
+                js: false,
+                mix: [{ block: 'nav' }, { block: 'clearfix' }],
+                content: [
+                    {
+                        elem: 'item',
+                        // elemMods: { state: 'current' },
+                        content: {
+                            block: 'b-link',
+                            url: '/',
+                            content: 'Home'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            url: '#product',
+                            content: 'Product'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            url: '#community',
+                            content: 'Community'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            url: '#support',
+                            content: 'Support'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        elemMods: { kind: 'special' },
+                        content: {
+                            block: 'b-link',
+                            url: '#download',
+                            content: 'Download'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        elemMods: { kind: 'special' },
+                        content: {
+                            block: 'b-link',
+                            url: '#buy',
+                            content: 'Buy'
+                        }
+                    }
+                ]
+            }
+
+        ]
+    }
+}

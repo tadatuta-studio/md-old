@@ -2,6 +2,98 @@ block footer {
     content: {
         elem: 'inner',
         mix: [{ block: 'clearfix' }],
-        content: this.ctx.content
+        content: [
+            {
+                block: 'copyright',
+                content: [
+                    {
+                        elem: 'logo'
+                    },
+                    '© 2013 EasyBits Software. All Rights Reserved.'
+                ]
+            },
+            {
+                block: 'social',
+                content: [
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            mods: { link: 'google' },
+                            url: '#google'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            mods: { link: 'twitter' },
+                            url: '#twitter'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            mods: { link: 'youtube' },
+                            url: '#youtube'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            mods: { link: 'facebook' },
+                            url: '#facebook'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            mods: { link: 'mail' },
+                            url: '#mail'
+                        }
+                    }
+                ]
+            },
+            {
+                block: 'b-menu-horiz',
+                mods: { layout: 'normal' },
+                js: false,
+                mix: [{ block: 'footer-nav' }],
+                content: [
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            url: '#company',
+                            content: 'Company'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        elemMods: { state: 'current' },
+                        content: 'License Agreement'
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            url: '#privacy-policy',
+                            content: 'Privacy Policy'
+                        }
+                    },
+                    {
+                        elem: 'item',
+                        content: {
+                            block: 'b-link',
+                            url: '#contact-us',
+                            content: 'Contact Us'
+                        }
+                    }
+                ]
+            }
+        ]
     }
 }
