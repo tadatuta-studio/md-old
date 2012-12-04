@@ -137,10 +137,12 @@
                                 {
                                     elem: 'h3',
                                     content: 'All that your kids would probably need when mastering a computer!'
-                                }
-                                // {
-                                //     block: 'button'
-                                // }
+                                },
+                                {
+                                    block: 'button',
+                                    mods: { size: 'm', theme: 'download' },
+                                    content: 'Get it now'
+                                }
                             ]
                         },
                         {
@@ -801,6 +803,9 @@
                             mix: [{ block: 'clearfix' }],
                             content: [
                                 {
+                                    block: 'shadow'
+                                },
+                                {
                                     block: 'b-text',
                                     mods: { position: 'left' },
                                     content: [
@@ -815,9 +820,9 @@
                                     ]
                                 },
                                 {
-                                    block: 'button',
-                                    mods: { size: 'm' },
-                                    content: 'Custom Button'
+                                   block: 'button',
+                                   mods: { size: 'm', theme: 'download' },
+                                   content: 'Get it now'
                                 }
                             ]
                         }
