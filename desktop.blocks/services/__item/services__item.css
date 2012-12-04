@@ -3,6 +3,16 @@
     margin: 5px 0 20px;
 }
 
+.services__item_image_yes
+{
+    background: url(../../../i/block_type_computer.png) no-repeat;
+
+    width: 321px;
+    height: 204px;
+
+    margin-left: 16%;
+}
+
 .services__item .b-text
 {
     margin-top: -5px;

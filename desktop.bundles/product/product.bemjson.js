@@ -10,7 +10,7 @@
         { elem: 'meta', attrs: { name: 'description', content: '' }},
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],
-    mods: { page: 'md8-product' },
+    mods: { page: 'product' },
     content:[
         {
             block: 'header'
@@ -45,8 +45,30 @@
                             elem: 'right',
                             content: [
                                 {
-                                    elem: 'h3',
-                                    content: 'All that your kids would probably need when mastering a computer!'
+                                    block: 'b-text',
+                                    content: [
+                                        {
+                                            elem: 'ul',
+                                            content: [
+                                                {
+                                                    elem: 'li',
+                                                    content: 'All that your kids'
+                                                },
+                                                {
+                                                    elem: 'li',
+                                                    content: 'would probably need'
+                                                },
+                                                {
+                                                    elem: 'li',
+                                                    content: 'when mastering '
+                                                },
+                                                {
+                                                    elem: 'li',
+                                                    content: 'a computer!'
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 },
                                 {
                                     block: 'button',
@@ -54,18 +76,13 @@
                                     content: 'Get it now'
                                 }
                             ]
-                        },
-                        {
-                            elem: 'shadow'
                         }
                     ]
                 },
                 {
                     block: 'main',
+                    mix: [{ block: 'shadow' }],
                     content: [
-                        {
-                            block: 'shadow'
-                        },
                         {
                             block: 'block',
                             mods: { type: 'learn', border: 'yes' },
@@ -543,6 +560,10 @@
                                                                     ]
                                                                 }
                                                             ]
+                                                        },
+                                                        {
+                                                            elem: 'item',
+                                                            mods: { image: 'yes' }
                                                         }
                                                     ]
                                                 }
@@ -710,7 +731,7 @@
                         {
                             block: 'block',
                             mods: { type: 'magic-desktop' },
-                            mix: [{ block: 'clearfix' }],
+                            mix: [{ block: 'clearfix' }, { block: 'shadow' }],
                             content: [
                                 {
                                     block: 'b-text',
@@ -728,7 +749,7 @@
                                 },
                                 {
                                     block: 'button',
-                                    mods: { size: 'm', theme: 'download', position: 'right' },
+                                    mods: { size: 'm', theme: 'download', position: 'right', block: 'desktop' },
                                     content: 'Get it now'
                                 }
                             ]

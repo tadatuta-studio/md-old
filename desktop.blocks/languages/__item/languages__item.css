@@ -11,11 +11,11 @@
 
     font-size: 12px;
 
-    margin-right: 1.5%;
+    margin: 0 1%;
     padding: 36px 0 0;
 
     text-align: center;
-    width: 75px
+    width: 58px;
 }
 
 .languages__item:hover
@@ -25,90 +25,90 @@
 
 .languages__item_type_danish
 {
-    background-position: 3px -5px;
+    background-position: -3px -5px;
 }
 
 .languages__item_type_english
 {
-    background-position: -88px -5px;
+    background-position: -95px -5px;
 }
 
 .languages__item_type_french
 {
-    background-position: -181px -5px;
+    background-position: -187px -5px;
 }
 
 .languages__item_type_greek
 {
-    background-position: -273px -5px;
+    background-position: -280px -5px;
 }
 
 .languages__item_type_italian
 {
-    background-position: -365px -5px;
+    background-position: -372px -5px;
 }
 
 .languages__item_type_norwegian
 {
-    background-position: -456px -5px;
+    background-position: -465px -5px;
 }
 
 .languages__item_type_portuguese
 {
-    background-position: -549px -5px;
+    background-position: -555px -5px;
 }
 
 .languages__item_type_russian
 {
-    background-position: -641px -5px;
+    background-position: -649px -5px;
 }
 
 .languages__item_type_swedish
 {
-    background-position: -732px -5px;
+    background-position: -738px -5px;
 }
 
 .languages__item_type_nederlands
 {
-    background-position: 3px -54px;
+    background-position: -3px -54px;
 }
 
 .languages__item_type_finnish
 {
-    background-position: -90px -54px;
+    background-position: -96px -54px;
 }
 
 .languages__item_type_german
 {
-    background-position: -181px -54px;
+    background-position: -187px -54px;
 }
 
 .languages__item_type_hungarian
 {
-    background-position: -273px -54px;
+    background-position: -280px -54px;
 }
 
 .languages__item_type_japanese
 {
-    background-position: -365px -54px;
+    background-position: -372px -54px;
 }
 
 .languages__item_type_polish
 {
-    background-position: -458px -54px;
+    background-position: -465px -54px;
 }
 
 .languages__item_type_romanian
 {
-    background-position: -549px -54px;
+    background-position: -555px -54px;
 }
 
 .languages__item_type_spanish
 {
-    background-position: -642px -54px;
+    background-position: -649px -54px;
 }
 
 .languages__item_type_turkish
 {
-    background-position: -732px -54px;
+    background-position: -739px -54px;
 }

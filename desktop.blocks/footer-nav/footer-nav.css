@@ -3,11 +3,13 @@
     line-height: 22px;
 
     padding-left: 415px;
+
+    width: 38%;
 }
 
 .footer-nav .b-menu-horiz__item
 {
-    margin: 0 47px 0 -10px;
+    margin: 0 47px 10px -10px;
     padding-left: 10px;
 }
 

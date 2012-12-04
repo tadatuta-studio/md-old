@@ -4,7 +4,9 @@
     padding: 20px 20px 25px 90px;
 
     background-image: url(../../../i/services.png);
-    background-repeat: no-repeat;;
+    background-repeat: no-repeat;
+
+    white-space: nowrap;
 }
 
 

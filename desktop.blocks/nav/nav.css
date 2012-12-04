@@ -1,6 +1,7 @@
 .nav
 {
-    margin-left: 415px;
+/*    margin-left: 415px;*/
+    padding-top: 55px;
 
     text-align: center;
 }
