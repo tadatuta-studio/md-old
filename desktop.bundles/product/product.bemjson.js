@@ -1,6 +1,6 @@
 ({
     block: 'b-page',
-    title: 'md8-Product',
+    title: 'Product',
     favicon: '/favicon.ico',
     head: [
         { elem: 'css', url: '../merged/_merged.css', ie: false },
