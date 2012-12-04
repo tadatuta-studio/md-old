@@ -1,4 +1,22 @@
 .footer-nav
 {
+    line-height: 22px;
+
     padding-left: 415px;
+}
+
+.footer-nav .b-menu-horiz__item
+{
+    margin: 0 47px 0 -10px;
+    padding-left: 10px;
+}
+
+.footer-nav .b-menu-horiz__item_state_current
+{
+    padding: 0 10px;
+    margin: 0 27px 0 0;
+
+    background: #39c;
+
+    color: #fff;
 }

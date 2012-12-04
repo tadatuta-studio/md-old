@@ -1,4 +1,19 @@
 .content
 {
+    margin-bottom: 66px;
     padding-left: 415px;
+}
+
+.content__h3
+{
+    font-size: 22px;
+
+    color: #333;
+
+    font-weight: 400;
+}
+
+.content__p
+{
+    line-height: 18px;
 }

@@ -1,0 +1,5 @@
+block social {
+    tag: 'ul'
+
+    elem item, tag: 'li'
+}

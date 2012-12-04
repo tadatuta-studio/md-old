@@ -1,4 +1,26 @@
 .social
 {
     float: right;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.social__item
+{
+    float: right;
+
+    margin-left: 20px;
+}
+
+.social .b-link
+{
+    display: block;
+
+    width: 30px;
+    height: 30px;
+
+    background: #ccc; /* TODO: remove this! */
 }
