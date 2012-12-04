@@ -3,7 +3,7 @@
     margin-bottom: 40px;
 }
 
-.block:after
+.block_border_yes:after
 {
     content: "";
 

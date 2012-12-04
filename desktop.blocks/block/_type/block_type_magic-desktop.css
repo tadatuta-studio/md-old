@@ -33,11 +33,3 @@
 
     margin: 0.5em 0;
 }
-
-.block_type_magic-desktop:after
-{
-    height: auto;
-    width: auto;
-
-    background: #fff;
-}

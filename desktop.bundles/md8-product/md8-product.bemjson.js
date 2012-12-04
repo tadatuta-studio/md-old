@@ -47,10 +47,12 @@
                                 {
                                     elem: 'h3',
                                     content: 'All that your kids would probably need when mastering a computer!'
+                                },
+                                {
+                                    block: 'button',
+                                    mods: { size: 'm', theme: 'download', position: 'right' },
+                                    content: 'Get it now'
                                 }
-                                // {
-                                //     block: 'button'
-                                // }
                             ]
                         },
                         {
@@ -66,7 +68,7 @@
                         },
                         {
                             block: 'block',
-                            mods: { type: 'learn' },
+                            mods: { type: 'learn', border: 'yes' },
                             mix: [{ block: 'clearfix' }],
                             content: [
                                 {
@@ -367,7 +369,7 @@
                         },
                         {
                             block: 'block',
-                            mods: { type: 'safety' },
+                            mods: { type: 'safety', border: 'yes' },
                             mix: [{ block: 'clearfix' }],
                             content: [
                                 {
@@ -450,7 +452,7 @@
                         },
                         {
                             block: 'block',
-                            mods: { type: 'computer' },
+                            mods: { type: 'computer', border: 'yes' },
                             mix: [{ block: 'clearfix' }],
                             content: [
                                 {
@@ -725,10 +727,10 @@
                                     ]
                                 },
                                 {
-                                    block: 'button',
-                                    mods: { size: 'm' },
-                                    content: 'Custom Button'
-                                }
+                                    block: 'button',
+                                    mods: { size: 'm', theme: 'download', position: 'right' },
+                                    content: 'Get it now'
+                                }
                             ]
                         }
                     ]
