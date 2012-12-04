@@ -153,6 +153,7 @@
                     content: [
                         {
                             block: 'block',
+                            mods: { type: 'learn' },
                             mix: [{ block: 'clearfix' }],
                             content: [
                                 {
@@ -374,6 +375,153 @@
                                                                                     content: 'Send a voice mail'
                                                                                 }
                                                                             ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            elem: 'item',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    mods: { type: 'gamepad' },
+                                                                    content: 'Gamepad'
+                                                                },
+                                                                {
+                                                                    block: 'b-text',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'ul',
+                                                                            content:[
+                                                                                {
+                                                                                    elem: 'li',
+                                                                                    content: 'Hours of entertainment'
+                                                                                },
+                                                                                {
+                                                                                    elem: 'li',
+                                                                                    content: 'Includes 28 games for all ages'
+                                                                                },
+                                                                                {
+                                                                                    elem: 'li',
+                                                                                    content: 'Games with educational touch'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            elem: 'item',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    mods: { type: 'detective' },
+                                                                    content: 'Detective Bob'
+                                                                },
+                                                                {
+                                                                    block: 'b-text',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'ul',
+                                                                            content:[
+                                                                                {
+                                                                                    elem: 'li',
+                                                                                    content: 'Hours of entertainment'
+                                                                                },
+                                                                                {
+                                                                                    elem: 'li',
+                                                                                    content: 'Includes 28 games for all ages'
+                                                                                },
+                                                                                {
+                                                                                    elem: 'li',
+                                                                                    content: 'Games with educational touch'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            block: 'block',
+                            mods: { type: 'safety' },
+                            mix: [{ block: 'clearfix' }],
+                            content: [
+                                {
+                                    elem: 'left',
+                                    content: [
+                                        {
+                                            block: 'block-info',
+                                            content: [
+                                                {
+                                                    elem: 'h2',
+                                                    content: 'Ensures Online Safety'
+                                                },
+                                                {
+                                                    elem: 'p',
+                                                    content: 'Internet safety for children is paramount. Because of this we have designed a couple of applications that will provide a worry-free experience online.'
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'content',
+                                    content: [
+                                        {
+                                            block: 'services',
+                                            content: [
+                                                {
+                                                    elem: 'left',
+                                                    content: [
+                                                        {
+                                                            elem: 'item',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    mods: { type: 'browser' },
+                                                                    content: 'My First Browser'
+                                                                },
+                                                                {
+                                                                    block: 'b-text',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'p',
+                                                                            content: 'A browser that keeps kids inside the safe boundaries of the www experience by using content advisors such as EasySearch and parental control features to allow parents to search and approve websites.'
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    elem: 'right',
+                                                    content: [
+                                                        {
+                                                            elem: 'item',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    mods: { type: 'mail' },
+                                                                    content: 'Magic Mail'
+                                                                },
+                                                                {
+                                                                    block: 'b-text',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'p',
+                                                                            content: 'The easiest, and completely secure e-mail client that hides away spam and phishing messages while allowing parents to supervise contacts to ensure their kids do not start conversations with strangers online.'
                                                                         }
                                                                     ]
                                                                 }
