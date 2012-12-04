@@ -1,9 +1,25 @@
 .logo
 {
+    font-size: 25px;
+
     float: left;
+
+    color: #333;
 }
 
-.tagline-highlight
+.logo .b-link
+{
+    font-size: 35px;
+
+    color: #333;
+}
+
+.logo .b-link:hover
+{
+    text-decoration: none;
+}
+
+.logo__tagline-highlight
 {
     color: #39c;
 }

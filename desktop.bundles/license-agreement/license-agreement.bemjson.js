@@ -30,7 +30,7 @@
                                 {
                                     elem: 'tagline',
                                     content: [
-                                        'is like' ,
+                                        'is like ',
                                         {
                                             elem: 'tagline-highlight',
                                             content: 'Windows'
