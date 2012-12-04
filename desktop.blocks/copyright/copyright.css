@@ -1,6 +1,17 @@
 .copyright
 {
+    font-size: 11px;
+
     float: left;
 
     width: 415px;
+}
+
+.copyright__logo
+{
+    width: 125px;
+    height: 24px;
+    margin-bottom: 20px;
+
+    background: url(../../i/copyright__logo.png);
 }

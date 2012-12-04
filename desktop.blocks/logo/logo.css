@@ -4,17 +4,35 @@
 
     float: left;
 
+    padding-left: 100px;
+
     color: #333;
 }
 
-.logo .b-link
+.logo__link
 {
+    position: relative;
+
     font-size: 35px;
 
     color: #333;
 }
 
-.logo .b-link:hover
+.logo__link:before
+{
+    position: absolute;
+    top: -11px;
+    left: -100px;
+
+    content: '';
+
+    width: 80px;
+    height: 87px;
+
+    background: url(../../i/logo.png) no-repeat;
+}
+
+.logo .logo__link:hover
 {
     text-decoration: none;
 }

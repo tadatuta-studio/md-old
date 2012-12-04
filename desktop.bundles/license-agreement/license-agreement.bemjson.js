@@ -25,6 +25,7 @@
                                 {
                                     block: 'b-link',
                                     url: '/',
+                                    mix: [{ block: 'logo', elem: 'link' }],
                                     content: 'Magic Desktop 8'
                                 },
                                 {

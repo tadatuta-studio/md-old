@@ -1,6 +1,7 @@
 block footer {
     content: {
         elem: 'inner',
+        mix: [{ block: 'clearfix' }],
         content: this.ctx.content
     }
 }
