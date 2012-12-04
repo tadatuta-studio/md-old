@@ -1,0 +1,14 @@
+.services__item
+{
+    margin: 5px 0 20px;
+}
+
+.services__item .b-text
+{
+    margin-top: -5px;
+}
+
+.services__item .b-text__ul
+{
+    margin-left: 70px;
+}

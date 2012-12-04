@@ -1,0 +1,14 @@
+.block-info__h2
+{
+    font-weight: 400;
+    font-size: 35px;
+
+    color: #333;
+
+    margin-bottom: 25px;   
+}
+
+.block-info__p
+{
+    font-size: 14px;
+}

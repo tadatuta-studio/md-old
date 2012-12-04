@@ -1,0 +1,34 @@
+.services__title
+{
+    font-size: 22px;
+    padding: 20px 20px 25px 90px;
+
+    background-image: url(../../../i/services.png);
+    background-repeat: no-repeat;;
+}
+
+
+.services__title_type_paint
+{
+    background-position: 0 -145px;
+}
+
+.services__title_type_write
+{
+    background-position: 0 -285px;
+}
+
+.services__title_type_homework
+{
+    background-position: 0 -430px;
+}
+
+.services__title_type_rainbow
+{
+    background-position: 0 -67px;
+}
+
+.services__title_type_talking
+{
+    background-position: 0 -215px;
+}

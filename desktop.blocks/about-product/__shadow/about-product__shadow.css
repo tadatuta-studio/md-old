@@ -1,0 +1,9 @@
+/*.about-product__shadow
+{
+    background: radial-gradient(ellipse closest-side at center center , #BBBDC1 0px, #fff 100%);
+
+    height: 33px;
+    margin-top: -19px;
+    position: relative;
+    z-index: 0;
+}*/

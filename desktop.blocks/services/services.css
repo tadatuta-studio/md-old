@@ -1,0 +1,13 @@
+.services__left
+{
+    width: 38%;
+    float: left;
+}
+
+.services__right
+{
+    width: 38%;
+
+    float: left;
+    margin-left: 2%;
+}
