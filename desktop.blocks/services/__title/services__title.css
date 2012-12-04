@@ -32,3 +32,24 @@
 {
     background-position: 0 -215px;
 }
+
+.services__title_type_gamepad
+{
+    background-position: 0 -360px;
+}
+
+.services__title_type_detective
+{
+    background-position: 0 -505px;
+}
+
+.services__title_type_browser
+{
+    background-position: 0 -583px;
+}
+
+.services__title_type_mail
+{
+    background-position: 0 -896px;
+}
+

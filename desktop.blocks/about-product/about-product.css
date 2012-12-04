@@ -4,6 +4,8 @@
 
     height: 330px;
     width: 100%;
+
+    position: relative;
 }
 
 .about-product__h3
