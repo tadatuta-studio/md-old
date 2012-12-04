@@ -329,6 +329,7 @@
                             elem: 'item',
                             content: {
                                 block: 'b-link',
+                                mods: { link: 'google' },
                                 url: '#google'
                             }
                         },
@@ -336,6 +337,7 @@
                             elem: 'item',
                             content: {
                                 block: 'b-link',
+                                mods: { link: 'twitter' },
                                 url: '#twitter'
                             }
                         },
@@ -343,6 +345,7 @@
                             elem: 'item',
                             content: {
                                 block: 'b-link',
+                                mods: { link: 'youtube' },
                                 url: '#youtube'
                             }
                         },
@@ -350,6 +353,7 @@
                             elem: 'item',
                             content: {
                                 block: 'b-link',
+                                mods: { link: 'facebook' },
                                 url: '#facebook'
                             }
                         },
@@ -357,7 +361,8 @@
                             elem: 'item',
                             content: {
                                 block: 'b-link',
-                                url: '#facebook'
+                                mods: { link: 'mail' },
+                                url: '#mail'
                             }
                         }
                     ]

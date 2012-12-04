@@ -10,7 +10,7 @@
 
 .social__item
 {
-    float: right;
+    float: left;
 
     margin-left: 20px;
 }
@@ -22,5 +22,26 @@
     width: 30px;
     height: 30px;
 
-    background: #ccc; /* TODO: remove this! */
+    background-image: url(../../i/social.png);
+    background-repeat: no-repeat;
+}
+
+.b-link_link_twitter
+{
+    background-position: -36px 0;
+}
+
+.b-link_link_facebook
+{
+    background-position: -72px 0;
+}
+
+.b-link_link_youtube
+{
+    background-position: -107px 0;
+}
+
+.b-link_link_mail
+{
+    background-position: -142px 0;
 }
