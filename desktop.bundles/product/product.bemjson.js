@@ -56,32 +56,23 @@
                             elem: 'right',
                             content: [
                                 {
-                                    block: 'b-text',
-                                    mix: [{ block: 'about-product', elem: 'description' }],
+                                    elem: 'description',
                                     content: [
                                         {
-                                            elem: 'ul',
-                                            content: [
-                                                {
-                                                    elem: 'li',
-                                                    content: 'All that your kids'
-                                                },
-                                                {
-                                                    elem: 'li',
-                                                    mix: [{ block: 'about-product', elem: 'description-line', elemMods: { line: '2' } }],
-                                                    content: 'would probably need'
-                                                },
-                                                {
-                                                    elem: 'li',
-                                                    mix: [{ block: 'about-product', elem: 'description-line', elemMods: { line: '3' } }],
-                                                    content: 'when mastering '
-                                                },
-                                                {
-                                                    elem: 'li',
-                                                    mix: [{ block: 'about-product', elem: 'description-line', elemMods: { line: '4' } }],
-                                                    content: 'a computer!'
-                                                }
-                                            ]
+                                            elem: 'description-line',
+                                            content: 'All that your kids'
+                                        },
+                                        {
+                                            elem: 'description-line', elemMods: { line: '2' },
+                                            content: 'would probably need'
+                                        },
+                                        {
+                                            elem: 'description-line', elemMods: { line: '3' },
+                                            content: 'when mastering'
+                                        },
+                                        {
+                                            elem: 'description-line', elemMods: { line: '4' },
+                                            content: 'a computer!'
                                         }
                                     ]
                                 },

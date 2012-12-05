@@ -1,6 +1,0 @@
-block about-product-image {
-   elem inner {
-       tag: 'img',
-       attrs: { src: this.ctx.url, alt: this.ctx.alt || '' }
-   }
-}
