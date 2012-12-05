@@ -50,6 +50,7 @@ block header {
                         elem: 'item',
                         content: {
                             block: 'b-link',
+                            mods: { page: 'product' },
                             url: '#product',
                             content: 'Product'
                         }

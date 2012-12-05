@@ -9,7 +9,9 @@ block footer {
                 block: 'copyright',
                 content: [
                     {
-                        elem: 'logo'
+                        block: 'b-link',
+                        mix: [{ block: 'copyright', elem: 'logo' }],
+                        url: '#'
                     },
                     '© 2013 EasyBits Software. All Rights Reserved.'
                 ]

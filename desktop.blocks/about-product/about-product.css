@@ -5,39 +5,5 @@
     height: 330px;
     width: 100%;
 
-/*    margin: auto;*/
-
     position: relative;
-}
-
-.about-product .b-text__ul
-{
-    font-weight: 400;
-    font-style: italic;
-    font-size: 30px;
-
-    color: #39c;
-
-    margin: 0 0 25px -80px;
-}
-
-.about-product .b-text__ul .b-text__li
-{
-    list-style: none;
-    margin-bottom: .1em;
-}
-
-.about-product .b-text__ul .b-text__li:nth-child(2)
-{
-    padding-left: 15px;
-}
-
-.about-product .b-text__ul .b-text__li:nth-child(3)
-{
-    padding-left: 30px;
-}
-
-.about-product .b-text__ul .b-text__li:nth-child(4)
-{
-    padding-left: 45px;
 }

@@ -4,3 +4,8 @@
 
     float: left;
 }
+
+.about-product__left .block-info
+{
+    margin-top: 30px;
+}
