@@ -77,8 +77,11 @@ block footer {
                     },
                     {
                         elem: 'item',
-                        elemMods: { state: 'current' },
-                        content: 'License Agreement'
+                        content: {
+                            block: 'b-link',
+                            url: '#license-agreement',
+                            content: 'License Agreement'
+                        }
                     },
                     {
                         elem: 'item',
