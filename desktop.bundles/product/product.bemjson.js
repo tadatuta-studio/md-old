@@ -31,8 +31,14 @@
                                     block: 'block-info',
                                     content: [
                                         {
-                                            elem: 'h2',
-                                            content: 'About Magic Desktop'
+                                           elem: 'h2',
+                                           content: [
+                                               'About',
+                                               {
+                                                   tag: 'br'
+                                               },
+                                               'Magic Desktop'
+                                            ]
                                         },
                                         {
                                             elem: 'p',
@@ -41,6 +47,10 @@
                                     ]
                                 }
                             ]
+                        },
+                        {
+                            elem: 'image',
+                            url: '../../../i/about-product__image.png'
                         },
                         {
                             elem: 'right',
@@ -58,17 +68,17 @@
                                                 },
                                                 {
                                                     elem: 'li',
-                                                    mix: [{ block: 'about-product', elem: 'description', elemMods: { line: '2' } }],
+                                                    mix: [{ block: 'about-product', elem: 'description-line', elemMods: { line: '2' } }],
                                                     content: 'would probably need'
                                                 },
                                                 {
                                                     elem: 'li',
-                                                    mix: [{ block: 'about-product', elem: 'description', elemMods: { line: '3' } }],
+                                                    mix: [{ block: 'about-product', elem: 'description-line', elemMods: { line: '3' } }],
                                                     content: 'when mastering '
                                                 },
                                                 {
                                                     elem: 'li',
-                                                    mix: [{ block: 'about-product', elem: 'description', elemMods: { line: '4' } }],
+                                                    mix: [{ block: 'about-product', elem: 'description-line', elemMods: { line: '4' } }],
                                                     content: 'a computer!'
                                                 }
                                             ]

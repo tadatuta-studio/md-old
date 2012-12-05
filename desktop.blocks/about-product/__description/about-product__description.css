@@ -1,6 +1,7 @@
 .about-product__description
 {
-    margin: 30px 0 0 -55px;
+    margin: 30px 0 0 -60px;
+    position: relative;
 }
 
 .about-product__description .b-text__ul
@@ -18,17 +19,17 @@
     margin-bottom: 0;
 }
 
-.about-product__description .b-text__ul .about-product__description_line_2
+.about-product__description .b-text__ul .about-product__description-line_line_2
 {
     padding-left: 15px;
 }
 
-.about-product__description .b-text__ul .about-product__description_line_3
+.about-product__description .b-text__ul .about-product__description-line_line_3
 {
     padding-left: 30px;
 }
 
-.about-product__description .b-text__ul .about-product__description_line_4
+.about-product__description .b-text__ul .about-product__description-line_line_4
 {
     padding-left: 45px;
 }
