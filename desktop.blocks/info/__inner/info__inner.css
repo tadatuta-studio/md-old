@@ -1,11 +1,4 @@
-.footer
-{
-    padding: 42px 0 48px;
-
-    background: #f0efef;
-}
-
-.footer__inner
+.info__inner
 {
     min-width: 940px;
     max-width: 1400px;

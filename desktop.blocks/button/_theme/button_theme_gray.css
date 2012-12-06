@@ -1,0 +1,46 @@
+.button_theme_gray
+{
+    border: 1px solid #999;
+
+    background: #fefefe;
+    background: -moz-linear-gradient(top,  #fefefe 8%, #e0e1e4);
+    background: -webkit-linear-gradient(top,  #fefefe 8%,#e0e1e4);
+    background: -o-linear-gradient(top,  #fefefe 8%,#e0e1e4);
+    background: -ms-linear-gradient(top,  #fefefe 8%,#e0e1e4);
+    background: linear-gradient(to bottom,  #fefefe 8%,#e0e1e4);
+
+    padding: 7px 0 4px;
+    width: 185px;
+
+    -moz-box-shadow: 0 1px 2px #e3e3e3;
+    -webkit-box-shadow: 0 1px 2px #e3e3e3;
+    -o-box-shadow: 0 1px 2px #e3e3e3;
+    -ms-box-shadow: 0 1px 2px #e3e3e3;
+    box-shadow: 0 1px 2px #e3e3e3;
+
+    cursor: pointer;
+}
+
+.button_theme_gray.button_hovered_yes
+{
+    background: #e8e9ea;
+    background: -moz-linear-gradient(top,  #fff 8%, #e8e9ea);
+    background: -webkit-linear-gradient(top,  #fff 8%,#e8e9ea);
+    background: -o-linear-gradient(top,  #fff 8%,#e8e9ea);
+    background: -ms-linear-gradient(top,  #fff 8%,#e8e9ea);
+    background: linear-gradient(to bottom,  #fff 8%,#e8e9ea);   
+}
+
+.button_theme_gray.button_pressed_yes
+{
+    background: #e4e4e4;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.button_theme_gray .button__text
+{
+    font-weight: 700;
+    font-size: 26px;
+
+    color: #333;
+}

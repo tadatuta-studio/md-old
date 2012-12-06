@@ -1,0 +1,31 @@
+.price__cost
+{
+    color: #68a515;
+    font-weight: 700;
+
+    background: #f7f7f7;
+
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+    margin: 15px 0 20px;
+}
+
+.price__cost-item 
+{
+    display: inline-block;
+    font-size: 60px;
+}
+
+.price__cost-item_type_count
+{
+    font-size: 100px;
+}
+
+.price__cost-item_type_trifle
+{
+    font-size: 40px;
+
+    vertical-align: top;
+    padding-top: 20px;
+}

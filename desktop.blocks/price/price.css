@@ -1,0 +1,28 @@
+.price:after,
+.price:before
+{
+    content: "";
+
+    height: 1px;
+    width: 95%;
+
+    margin: auto;
+
+    background: #ddd;
+
+    background: -moz-linear-gradient(left,  transparent , #d9d9d9 50%, transparent);
+    background: -webkit-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: -o-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: -ms-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: linear-gradient(to right,  transparent,#d9d9d9 50%,transparent);
+}
+
+.price:before
+{
+    margin-bottom: 40px;
+}
+
+.price:after
+{
+    margin-top: 40px;
+}

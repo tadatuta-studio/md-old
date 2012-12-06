@@ -1,0 +1,36 @@
+.info__item
+{
+    width: 38%;
+
+    margin: 0 5% 35px 0;
+    padding-left: 45px;
+
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.info__title-item
+{
+    font-size: 22px;
+    font-weight: 700;
+
+    color: #333;
+
+    margin-bottom: 20px;
+}
+
+.info__item_color_blue
+{
+    background: url(../../../i/info__item_color_blue.png) -3px -3px no-repeat;
+}
+
+.info__item_color_red
+{
+    background: url(../../../i/info__item_color_red.png) -6px -3px no-repeat;
+}
+
+.info__item_color_pink
+{
+    background: url(../../../i/info__item_color_pink.png) -6px -3px no-repeat;
+}

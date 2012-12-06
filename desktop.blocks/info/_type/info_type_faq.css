@@ -1,0 +1,28 @@
+.info_type_faq
+{
+    background: #f7f7f7;
+
+    padding: 35px 0 25px;
+    margin-bottom: 0;
+}
+
+.info_type_faq .info__item
+{
+    padding-left: 0;
+
+    width: 43%;
+}
+
+.info_type_faq .info__title-item
+{
+    background: url(../../../i/info__title-item.png) 3px 0 no-repeat;
+
+    padding-left: 45px;
+}
+
+.info_type_faq .info__description
+{
+    background: url(../../../i/info__description.png) 2px -5px no-repeat;
+
+    padding-left: 45px;
+}

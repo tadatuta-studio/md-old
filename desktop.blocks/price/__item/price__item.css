@@ -1,0 +1,20 @@
+.price__item
+{
+    border: 1px solid #999;
+
+    padding: 20px 0 30px;
+    margin-right: 4%;
+
+    display: inline-block;
+
+    width: 30%;
+
+    background: #fff;
+
+    text-align: center;
+}
+
+.price__item_position_last
+{
+    margin-right: 0;
+}

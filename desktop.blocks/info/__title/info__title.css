@@ -1,0 +1,9 @@
+.info__title
+{
+    font-size: 35px;
+    color: #333;
+
+    float: left;
+
+    width: 25%;
+}
