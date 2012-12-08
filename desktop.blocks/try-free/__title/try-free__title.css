@@ -3,5 +3,8 @@
     font-size: 50px;
     color: #333;
 
-    float: left;
+    display: inline-block;
+    vertical-align: top;
+
+    width: 26%;
 }

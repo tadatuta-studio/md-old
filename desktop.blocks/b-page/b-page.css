@@ -1,12 +1,6 @@
-@font-face 
-{
-    font-family: wf_SegoeUILight;
-    src: url(wf_SegoeUILight.ttf);
-}
-
 .b-page
 {
-    font-family: "wf_SegoeUILight", Tahoma, Verdana, Arial, sans-serif;
+    font-family: "wf_SegoeUILight","wf_SegoeUI","Tahoma","Verdana","Arial","sans-serif";
     font-size: 14px;
 
     margin: 0;

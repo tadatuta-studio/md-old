@@ -39,6 +39,7 @@
                                         },
                                         {
                                             elem: 'cost',
+                                            mix: [{ block: 'i-font', mods: { face: 'univers' } }],
                                             content: [
                                                 {
                                                     elem: 'cost-item',
@@ -46,7 +47,7 @@
                                                 },
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'count' },
-                                                    content: '49'
+                                                    content: '4'
                                                 },
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'trifle' },
@@ -60,7 +61,7 @@
                                         },
                                         {
                                             block: 'button',
-                                            mods: { size: 'm', theme: 'gray', type: 'price'  },
+                                            mods: { size: '45', theme: 'gray', type: 'price'  },
                                             content: 'Buy'
                                         }
                                     ]
@@ -70,10 +71,11 @@
                                     content: [
                                         {
                                             elem: 'time-license',
-                                            content: 'Monthly'
+                                            content: 'One year'
                                         },
                                         {
                                             elem: 'cost',
+                                            mix: [{ block: 'i-font', mods: { face: 'univers' } }],
                                             content: [
                                                 {
                                                     elem: 'cost-item',
@@ -81,7 +83,7 @@
                                                 },
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'count' },
-                                                    content: '49'
+                                                    content: '39'
                                                 },
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'trifle' },
@@ -91,11 +93,11 @@
                                         },
                                         {
                                             elem: 'description',
-                                            content: 'Not sure for how long your variant kid is going to be interested? Take this option. You can drop at any time.'
+                                            content: 'You feel your kid is about to grow out of Magic Desktop, and he has no younger brothers and sisters? This option is just for you.'
                                         },
                                         {
                                             block: 'button',
-                                            mods: { size: 'm', theme: 'gray', type: 'price'  },
+                                            mods: { size: '45', theme: 'gray', type: 'price'  },
                                             content: 'Buy'
                                         }
                                     ]
@@ -110,6 +112,7 @@
                                         },
                                         {
                                             elem: 'cost',
+                                            mix: [{ block: 'i-font', mods: { face: 'univers' } }],
                                             content: [
                                                 {
                                                     elem: 'cost-item',
@@ -117,7 +120,7 @@
                                                 },
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'count' },
-                                                    content: '49'
+                                                    content: '79'
                                                 },
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'trifle' },
@@ -127,11 +130,11 @@
                                         },
                                         {
                                             elem: 'description',
-                                            content: 'Not sure for how long your variant kid is going to be interested? Take this option. You can drop at any time.'
+                                            content: "Your kid is really young and you plan to use Magic Desktop for 3-5 years? This is the best choice and investment in your kid's future."
                                         },
                                         {
                                             block: 'button',
-                                            mods: { size: 'm', theme: 'gray', type: 'price' },
+                                            mods: { size: '45', theme: 'gray', type: 'price' },
                                             content: 'Buy'
                                         }
                                     ]
@@ -159,16 +162,21 @@
                             content: [
                                 {
                                     elem: 'title',
-                                    content: 'Try it Free'
+                                    content: 'Try it <b>Free</b>'
                                 },
                                 {
                                     elem: 'description',
                                     content: 'Try Magic Desktop 8 full version and when you’re ready to buy, you can choose from any of the plans above.'
                                 },
                                 {
-                                    block: 'button',
-                                    mods: { size: 'm', theme: 'gray', align: 'right' },
-                                    content: 'Download'
+                                    elem: 'button',
+                                    content: [
+                                        {
+                                            block: 'button',
+                                            mods: { size: '45', theme: 'gray' },
+                                            content: 'Download'
+                                        }
+                                    ]
                                 }
                             ]
                         },

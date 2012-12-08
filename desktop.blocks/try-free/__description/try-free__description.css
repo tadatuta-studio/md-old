@@ -1,7 +1,23 @@
 .try-free__description
 {
-    width: 33%;
-    float: left;
+    width: 34%;
+    display: inline-block;
 
-    margin: 1.3em 0 0 7%;
+    margin: 1.3em 0 0 0;
+
+    position: relative;
+}
+
+.try-free__description:after
+{
+    content: "";
+
+    position: absolute;
+    top: 6px;
+    left: -20px;
+
+    background: #d9d9d9;
+
+    width: 1px;
+    height: 30px;
 }

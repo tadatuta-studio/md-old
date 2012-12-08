@@ -9,9 +9,6 @@
     background: -ms-linear-gradient(top,  #fefefe 8%,#e0e1e4);
     background: linear-gradient(to bottom,  #fefefe 8%,#e0e1e4);
 
-    padding: 7px 0 4px;
-    width: 185px;
-
     -moz-box-shadow: 0 1px 2px #e3e3e3;
     -webkit-box-shadow: 0 1px 2px #e3e3e3;
     -o-box-shadow: 0 1px 2px #e3e3e3;
@@ -39,7 +36,6 @@
 
 .button_theme_gray .button__text
 {
-    font-weight: 700;
     font-size: 26px;
 
     color: #333;
