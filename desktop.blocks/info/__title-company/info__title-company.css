@@ -1,0 +1,47 @@
+.info__title-company
+{
+    font-size: 22px;
+    font-weight: 700;
+
+    color: #333;
+
+    margin-bottom: 20px;
+}
+
+.info__title-company:before
+{
+    content: "";
+
+    position: absolute;
+    
+    width: 100px;
+    height: 73px;
+
+    margin: -20px 0 0 -119px;
+}
+
+.info__title-company_type_glance:before
+{
+    background: url(../../../i/info__title-company.png) no-repeat;
+}
+
+.info__title-company_type_md:before
+{
+    background: url(../../../i/info__title-company.png) 0 -76px no-repeat;
+}
+
+.info__title-company_type_mail:before
+{
+    background: url(../../../i/info__title-company.png) 0 -152px no-repeat;
+}
+
+.info__title-company_type_address:before
+{
+    background: url(../../../i/info__title-company.png) 0 -232px no-repeat;
+}
+
+.info__title-company_type_mail,
+.info__title-company_type_address
+{
+    margin-bottom: 30px;
+}

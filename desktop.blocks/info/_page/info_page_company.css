@@ -1,0 +1,15 @@
+.info_page_company .info__description
+{
+    width: 100%;
+}
+
+.info_page_company .info__list
+{
+    width: 67%;
+}
+
+.info_page_company .info__item
+{
+    margin-right: 3%;
+    width: 38%;
+}

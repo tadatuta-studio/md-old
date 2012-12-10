@@ -25,13 +25,6 @@ block header {
                 ]
             },
             {
-                block: 'lang-switcher',
-                content: [
-                    'International - ',
-                    'English'
-                ]
-            },
-            {
                 block: 'b-menu-horiz',
                 mods: { layout: 'normal' },
                 js: false,
@@ -90,8 +83,14 @@ block header {
                         }
                     }
                 ]
+            },
+            {
+                block: 'lang-switcher',
+                content: [
+                    'International - ',
+                    'English'
+                ]
             }
-
         ]
     }
 }

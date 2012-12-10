@@ -10,6 +10,11 @@
     vertical-align: top;
 }
 
+.info__item_col_2
+{
+    margin-top: 48px;
+}
+
 .info__item_color_blue
 {
     background: url(../../../i/info__item_color_blue.png) -3px -3px no-repeat;

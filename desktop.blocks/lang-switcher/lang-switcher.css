@@ -1,4 +1,6 @@
 .lang-switcher
 {
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 45px;
 }
