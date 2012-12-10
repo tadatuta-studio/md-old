@@ -1,7 +1,13 @@
 .content
 {
     margin-bottom: 66px;
-    padding-left: 415px;
+/*    padding-left: 415px;*/
+    overflow: hidden;
+}
+
+.content_page_privacy-policy
+{
+    margin-bottom: 190px;
 }
 
 .content__h3
