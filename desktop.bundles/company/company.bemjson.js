@@ -14,7 +14,7 @@
     content:[
         {
             block: 'header',
-            mods: { page: 'Company' }
+            mods: { page: 'company' }
         },
         {
             elem: 'inner',

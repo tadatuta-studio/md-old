@@ -1,0 +1,30 @@
+.services_page_download .services__title
+{
+    background-image: url(../../../i/services__title.png);
+    background-repeat: no-repeat;
+
+    max-height: 39px;
+    overflow: hidden;
+
+    white-space: normal;
+}
+
+.services__title_type_started
+{
+    background-position: -5px 0;
+}
+
+.services__title_type_faq
+{
+    background-position: -5px -154px;
+}
+
+.services__title_type_tutorials
+{
+    background-position: -5px -79px;
+}
+
+.services__title_type_community
+{
+    background-position: -5px -231px;
+}

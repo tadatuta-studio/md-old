@@ -1,0 +1,11 @@
+.services__more
+{
+    width: 70px;
+
+    margin: 20px 0 0 92px;
+    padding: 0 15px 0 0;
+
+    background: url(../../../i/services__more.png) 100% 7px no-repeat;
+
+    color: #666;
+}

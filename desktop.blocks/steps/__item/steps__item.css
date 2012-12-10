@@ -1,0 +1,11 @@
+.steps__item
+{
+    width: 25%;
+    min-width: 200px;
+    
+    margin: 0 5% 40px 0;
+
+    display: inline-block;
+
+    vertical-align: top;
+}

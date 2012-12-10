@@ -13,14 +13,7 @@ block header {
                     },
                     {
                         elem: 'tagline',
-                        content: [
-                            'is like ',
-                            {
-                                elem: 'tagline-highlight',
-                                content: 'Windows'
-                            },
-                            ' for kids.'
-                        ]
+                        content: 'is like Windows for kids.'
                     }
                 ]
             },

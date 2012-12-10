@@ -1,0 +1,10 @@
+.download__description
+{
+    width: 66%;
+    float: left;
+
+    font-size: 22px;
+    color: #333;
+
+    margin-top: 8pxx;
+}

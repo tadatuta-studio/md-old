@@ -9,6 +9,10 @@
     white-space: nowrap;
 }
 
+.services_page_download .services__title
+{
+    color: #333;
+}
 
 .services__title_type_paint
 {
