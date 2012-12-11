@@ -1,0 +1,9 @@
+.units__item
+{
+    width: 30%;
+
+    margin: 0 3% 65px 0;
+    vertical-align: top;
+
+    display: inline-block;
+}
