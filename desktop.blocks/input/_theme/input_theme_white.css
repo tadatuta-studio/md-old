@@ -11,9 +11,19 @@
     display: block;
 }
 
+.input_theme_white .input__hint
+{
+    padding: .6em 1em 0 1.2em;
+}
+
+.input_theme_white.input_type_textarea .input__hint
+{
+    padding-top: .7em;
+}
+
 .input_theme_white .input__box .input__control
 {
-    color: #999;
+    color: #333;
     font-size: 14px;
 
     padding: 11px 14px;

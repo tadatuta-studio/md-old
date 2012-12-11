@@ -1,0 +1,14 @@
+block form {
+    tag: 'form'
+       attrs, !this.elem, !this.ctx._attr: {
+           var attrs,
+               ctx = this.ctx,
+               default_attrs = {
+                   action: (this.ctx.action || ctx.attrs.action)
+               };
+           ctx.attrs && ctx.attrs.action && (default_attrs.method = 'post');
+           local(this.ctx._attr = true)
+               attrs = this.apply() || {};
+           return this._.extend(default_attrs, attrs);
+    }
+}

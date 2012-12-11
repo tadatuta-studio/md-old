@@ -41,6 +41,7 @@
                             content: [
                                 {
                                     block: 'form',
+                                    attrs: { action: '/' },
                                     mods: { type: 'contact' },
                                     content: [
                                         {
@@ -50,16 +51,26 @@
                                         },
                                         {
                                             block: 'input',
+                                            js: true,
                                             mods: { theme: 'white', size: '330', form: 'contact', type: 'textarea' },
-                                            content: { elem: 'control' }
+                                            content: [
+                                                {
+                                                    elem: 'hint',
+                                                    content: 'Enter text here...'
+                                                },
+                                                {
+                                                    elem: 'control'
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'input',
+                                            js: true,
                                             mods: { theme: 'white', type: 'input' },
                                             content: [
                                                 {
                                                     elem: 'hint',
-                                                     content: 'Name'
+                                                    content: 'Name'
                                                 },
                                                 {
                                                     elem: 'control',
@@ -69,11 +80,12 @@
                                         },
                                         {
                                             block: 'input',
+                                            js: true,
                                             mods: { theme: 'white', type: 'input' },
                                             content: [
                                                 {
                                                     elem: 'hint',
-                                                     content: 'Email'
+                                                    content: 'Email'
                                                 },
                                                 {
                                                     elem: 'control',
