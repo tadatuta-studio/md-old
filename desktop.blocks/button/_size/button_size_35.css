@@ -1,0 +1,10 @@
+.button_size_35
+{
+    padding: 5px 0 6px;
+    width: 155px;
+}
+
+.button_size_35.button_theme_gray .button__text
+{
+    font-size: 20px;
+}

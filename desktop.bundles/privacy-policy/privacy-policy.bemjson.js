@@ -30,7 +30,6 @@
                 },
                 {
                     block: 'content',
-                    mods: { page: 'privacy-policy' },
                     content: [
                         {
                             elem: 'h3',

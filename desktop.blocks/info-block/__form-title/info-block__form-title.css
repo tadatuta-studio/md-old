@@ -1,0 +1,10 @@
+.info-block__form-title
+{
+    font-size: 22px;
+    color: #333;
+
+    background: url(../../../i/info-block__form-title.png) no-repeat;
+
+    padding: 19px 0 19px 78px;
+    margin-left: -78px;
+}

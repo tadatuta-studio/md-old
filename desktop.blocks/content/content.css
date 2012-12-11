@@ -1,13 +1,9 @@
 .content
 {
     margin-bottom: 66px;
-/*    padding-left: 415px;*/
-    overflow: hidden;
-}
 
-.content_page_privacy-policy
-{
-    margin-bottom: 190px;
+    float: left;
+    width: 65%;
 }
 
 .content__h3

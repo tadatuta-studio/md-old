@@ -1,0 +1,9 @@
+.input_type_input
+{
+    margin-top: 20px;
+}
+
+.input_type_input .input__box .input__control
+{
+    height: 35px;
+}

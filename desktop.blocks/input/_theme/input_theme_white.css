@@ -1,0 +1,22 @@
+.input_theme_white
+{
+    background: #fff;
+
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 0 0 4px #eee inset;
+    -moz-box-shadow: 0 0 4px #eee inset;
+    -o-box-shadow: 0 0 4px #eee inset;
+    box-shadow: 0 0 4px #eee inset;
+
+    display: block;
+}
+
+.input_theme_white .input__box .input__control
+{
+    color: #999;
+    font-size: 14px;
+
+    padding: 11px 14px;
+
+    resize: none;
+}
