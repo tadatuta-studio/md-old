@@ -56,12 +56,30 @@
                                         {
                                             block: 'input',
                                             mods: { theme: 'white', type: 'input' },
-                                            content: { elem: 'control' }
+                                            content: [
+                                                {
+                                                    elem: 'hint',
+                                                     content: 'Name'
+                                                },
+                                                {
+                                                    elem: 'control',
+                                                    mods: { type: 'input' }
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'input',
                                             mods: { theme: 'white', type: 'input' },
-                                            content: { elem: 'control' }
+                                            content: [
+                                                {
+                                                    elem: 'hint',
+                                                     content: 'Email'
+                                                },
+                                                {
+                                                    elem: 'control',
+                                                    mods: { type: 'input' }
+                                                }
+                                            ]
                                         },
                                         {
                                             elem: 'inner',

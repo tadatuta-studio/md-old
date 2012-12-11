@@ -20,3 +20,8 @@
 
     resize: none;
 }
+
+.input_theme_white .input__box .input__control_type_input
+{
+    padding: 0 14px;
+}
