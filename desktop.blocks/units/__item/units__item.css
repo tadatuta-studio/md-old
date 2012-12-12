@@ -7,3 +7,13 @@
 
     display: inline-block;
 }
+
+.units__item_image_yes
+{
+    background: url(../../../i/units__item_image_yes.jpg) -2px 0 no-repeat;
+
+    height: 223px;
+    width: 31%;
+
+    margin-bottom: 0;
+}
