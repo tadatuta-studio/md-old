@@ -1,9 +1,0 @@
-.b-carousel__button_state_active:before
-{
-    background: #e12823;
-}
-
-.b-carousel__button_position_first.b-carousel__button_state_active:before
-{
-    background: #e12823;
-}

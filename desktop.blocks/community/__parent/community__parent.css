@@ -1,0 +1,9 @@
+.community__parent
+{
+    width: 230px;
+    height: 30px;
+
+    background: url(../../../i/community__parent.png) no-repeat;
+
+    margin-bottom: 15px;
+}

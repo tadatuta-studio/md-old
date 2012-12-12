@@ -1,24 +1,4 @@
 .b-carousel__button_state_active
 {
-    background: url(b-carousel__button_state_active.png) no-repeat no-repeat 50% 11px;
-    line-height: 15px;
-}
-
-.b-carousel__button_state_active:before
-{
-    background: #fff;
-    background: -moz-linear-gradient(left,  rgba(255,255,255,1) 49%, rgba(225,40,35,1) 100%);
-    background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 49%,rgba(225,40,35,1) 100%);
-    background: -o-linear-gradient(left,  rgba(255,255,255,1) 49%,rgba(225,40,35,1) 100%);
-    background: linear-gradient(to right,  rgba(255,255,255,1) 49%,rgba(225,40,35,1) 100%);
-    
-}
-
-.b-carousel__button_position_first.b-carousel__button_state_active:before
-{
-    background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(225,40,35,0.66) 66%, rgba(225,40,35,1) 100%);
-    background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(225,40,35,0.66) 66%,rgba(225,40,35,1) 100%);
-    background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(225,40,35,0.66) 66%,rgba(225,40,35,1) 100%);
-    background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(225,40,35,0.66) 66%,rgba(225,40,35,1) 100%);
-   
+    background-color: #e25e3a;
 }

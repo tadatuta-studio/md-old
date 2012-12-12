@@ -1,0 +1,6 @@
+block b-carousel {
+   elem slide {
+       tag: 'img',
+       attrs: { src: this.ctx.url, alt: this.ctx.alt || '' }
+   }
+}

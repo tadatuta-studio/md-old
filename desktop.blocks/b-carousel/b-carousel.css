@@ -1,4 +1,9 @@
 .b-carousel
 {
     position: relative;
+    overflow: hidden;
+
+    color: #fff;
+
+    height: 350px;
 }

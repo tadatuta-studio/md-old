@@ -20,144 +20,317 @@
             elem: 'inner',
             mix: [{ block: 'clearfix' }],
             content: [
-                // {
-                //     block: 'b-carousel',
-                //     content: [
-                //         {
-                //             elem: 'items',
-                //             content: [
-                //                 {
-                //                     elem: 'item',
-                //                     elemMods: { state: 'active' },
-                //                     content: [
-                //                         {
-                //                             elem: 'title',
-                //                             content: 'Play & Learn'
-                //                         },
-                //                         {
-                //                             elem: 'description',
-                //                             content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
-                //                         },
-                //                         {
-                //                             elem: 'slide',
-                //                             tag: 'img', /* вынести в bemhtml */
-                //                             url: 'тут-url-картинки'
-                //                         }
-                //                     ]
-                //                 },
-                //                 {
-                //                     elem: 'item',
-                //                     content: [
-                //                         {
-                //                             elem: 'title',
-                //                             content: 'Play & Learn'
-                //                         },
-                //                         {
-                //                             elem: 'description',
-                //                             content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
-                //                         },
-                //                         {
-                //                             elem: 'slide',
-                //                             tag: 'img', /* вынести в bemhtml */
-                //                             url: 'тут-url-картинки'
-                //                         }
-                //                     ]
-                //                 },
-                //                 {
-                //                     elem: 'item',
-                //                     content: [
-                //                         {
-                //                             elem: 'title',
-                //                             content: 'Play & Learn'
-                //                         },
-                //                         {
-                //                             elem: 'description',
-                //                             content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
-                //                         },
-                //                         {
-                //                             elem: 'slide',
-                //                             tag: 'img', /* вынести в bemhtml */
-                //                             url: 'тут-url-картинки'
-                //                         }
-                //                     ]
-                //                 },
-                //                 {
-                //                     elem: 'item',
-                //                     content: [
-                //                         {
-                //                             elem: 'title',
-                //                             content: 'Play & Learn'
-                //                         },
-                //                         {
-                //                             elem: 'description',
-                //                             content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
-                //                         },
-                //                         {
-                //                             elem: 'slide',
-                //                             tag: 'img', /* вынести в bemhtml */
-                //                             url: 'тут-url-картинки'
-                //                         }
-                //                     ]
-                //                 },
-                //                 {
-                //                     elem: 'item',
-                //                     content: [
-                //                         {
-                //                             elem: 'title',
-                //                             content: 'Play & Learn'
-                //                         },
-                //                         {
-                //                             elem: 'description',
-                //                             content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
-                //                         },
-                //                         {
-                //                             elem: 'slide',
-                //                             tag: 'img', /* вынести в bemhtml */
-                //                             url: 'тут-url-картинки'
-                //                         }
-                //                     ]
-                //                 }
-                //             ]
-                //         },
-                //         {
-                //             elem: 'switcher', /* позиционировать поверх слайдов */
-                //             content: [
-                //                 {
-                //                     elem: 'button',
-                //                     elemMods: { type: 'play', state: 'active' },
-                //                     content: '1' /* убрать контент, когда будут иконки */
-                //                 },
-                //                 {
-                //                     elem: 'button',
-                //                     elemMods: { type: 'safe' },
-                //                     content: '2'
-                //                 },
-                //                 {
-                //                     elem: 'button',
-                //                     elemMods: { type: 'control' },
-                //                     content: '3'
-                //                 },
-                //                 {
-                //                     elem: 'button',
-                //                     elemMods: { type: 'entertainment' },
-                //                     content: '4'
-                //                 },
-                //                 {
-                //                     elem: 'button',
-                //                     elemMods: { type: 'protection' },
-                //                     content: '5'
-                //                 }
-                //             ]
-                //         }
-                //     ]
-                // },
+                {
+                    block: 'b-carousel',
+                    content: [
+                        {
+                            elem: 'play'
+                        },
+                        {
+                            elem: 'items',
+                            content: [
+                                {
+                                    elem: 'item',
+                                    elemMods: { state: 'active' },
+                                    content: [
+                                        {
+                                            elem: 'inner',
+                                            content: [
+                                                {
+                                                    elem: 'title',
+                                                    content: 'Play & Learn'
+                                                },
+                                                {
+                                                    elem: 'description',
+                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'slide',
+                                            url: '../../i/b-carousel__slide_slide_1.png'
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            elem: 'inner',
+                                            content: [
+                                                {
+                                                    elem: 'title',
+                                                    content: 'Play & Learn'
+                                                },
+                                                {
+                                                    elem: 'description',
+                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'slide',
+                                            url: '../../i/b-carousel__slide_slide_2.png'
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            elem: 'inner',
+                                            content: [
+                                                {
+                                                    elem: 'title',
+                                                    content: 'Play & Learn'
+                                                },
+                                                {
+                                                    elem: 'description',
+                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'slide',
+                                            url: '../../i/b-carousel__slide_slide_3.png'
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            elem: 'inner',
+                                            content: [
+                                                {
+                                                    elem: 'title',
+                                                    content: 'Play & Learn'
+                                                },
+                                                {
+                                                    elem: 'description',
+                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'slide',
+                                            url: '../../i/b-carousel__slide_slide_4.png'
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'item',
+                                    content: [
+                                        {
+                                            elem: 'inner',
+                                            content: [
+                                                {
+                                                    elem: 'title',
+                                                    content: 'Play & Learn'
+                                                },
+                                                {
+                                                    elem: 'description',
+                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'slide',
+                                            url: '../../i/b-carousel__slide_slide_5.png'
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            elem: 'switcher', /* позиционировать поверх слайдов */
+                            content: [
+                                {
+                                    elem: 'button',
+                                    elemMods: { type: 'play', state: 'active' }
+                                },
+                                {
+                                    elem: 'button',
+                                    elemMods: { type: 'safe' }
+                                },
+                                {
+                                    elem: 'button',
+                                    elemMods: { type: 'control' }
+                                },
+                                {
+                                    elem: 'button',
+                                    elemMods: { type: 'entertainment' }
+                                },
+                                {
+                                    elem: 'button',
+                                    elemMods: { type: 'protection' }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            block: 'info-block',
+            content: [
+                {
+                    elem: 'inner',
+                    content: [
+                        {
+                            block: 'chapter',
+                            mods: { type: 'reasons' },
+                            mix: [{ block: 'clearfix' }, { block: 'shadow' }],
+                            content: [
+                                {
+                                    elem: 'inner',
+                                    content: [
+                                        {
+                                            elem: 'title',
+                                            content: [
+                                                'Top Reasons',
+                                                {
+                                                    elem: 'sub-title',
+                                                    content: 'why you need Magic Desktop:'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'image',
+                                            url: '../../../i/chapter__image.png'
+                                        }
+                                    ]
+                                },
+                                {
+                                    block: 'units',
+                                    content: [
+                                        {
+                                            elem: 'inner',
+                                            content: [
+                                                {
+                                                    elem: 'item',
+                                                    content: [
+                                                        {
+                                                            elem: 'pic',
+                                                            mods: { count: '1' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Kids Love It'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: [
+                                                        {
+                                                            elem: 'pic',
+                                                            mods: { count: '2' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Peace Of Mind'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: [
+                                                        {
+                                                            elem: 'pic',
+                                                            mods: { count: '3' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'The Safest Web'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: [
+                                                        {
+                                                            elem: 'pic',
+                                                            mods: { count: '4' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Early Start'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: [
+                                                        {
+                                                            elem: 'pic',
+                                                            mods: { count: '5' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Unleash Their Creativity'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: [
+                                                        {
+                                                            elem: 'pic',
+                                                            mods: { count: '6' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Family Fun'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            elem: 'inner',
+            mix: [{ block: 'clearfix' }, { block: 'shadow' }],
+            content: [
                 {
                     block: 'chapter',
-                    mods: { border: 'yes' },
+                    mods: { border: 'yes', type: 'community' },
                     mix: [{ block: 'clearfix' }],
                     content: [
                         {
                             elem: 'inner',
+                            mods: { type: 'community' },
                             content: [
                                 {
                                     elem: 'title',
@@ -168,9 +341,57 @@
                                     content: 'There are a lot of parents who are active Magic Desktop users. We are trying to create a better place for them for sharing ideas, supporting each other, and providing feedback. Join us!'
                                 },
                                 {
-                                    block: 'button',
-                                    mods: { size: '240', theme: 'blue', type: 'apply' },
-                                    content: 'Apply now!'
+                                    block: 'community',
+                                    content: [
+                                        {
+                                            elem: 'parent'
+                                        },
+                                        {
+                                            block: 'social',
+                                            content: [
+                                                {
+                                                    elem: 'item',
+                                                    content: {
+                                                        block: 'b-link',
+                                                        mods: { link: 'google' },
+                                                        url: '#google'
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: {
+                                                        block: 'b-link',
+                                                        mods: { link: 'twitter' },
+                                                        url: '#twitter'
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: {
+                                                        block: 'b-link',
+                                                        mods: { link: 'youtube' },
+                                                        url: '#youtube'
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: {
+                                                        block: 'b-link',
+                                                        mods: { link: 'facebook' },
+                                                        url: '#facebook'
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    content: {
+                                                        block: 'b-link',
+                                                        mods: { link: 'mail' },
+                                                        url: '#mail'
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
                                 }
                             ]
                         },
@@ -178,8 +399,8 @@
                             block: 'units',
                             content: [
                                 {
-                                    elem: 'notice',
-                                    content: 'Who are you?'
+                                    elem: 'image',
+                                    url: '../../../i/units__image.png'
                                 }
                             ]
                         }

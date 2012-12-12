@@ -24,6 +24,11 @@
 
     background-image: url(../../i/social.png);
     background-repeat: no-repeat;
+
+    -webkit-box-shadow: 0 0 1px #fff;
+    -moz-box-shadow: 0 0 1px #fff;
+    -o-box-shadow: 0 0 1px #fff;
+    box-shadow: 0 0 1px #fff;
 }
 
 .b-link_link_twitter

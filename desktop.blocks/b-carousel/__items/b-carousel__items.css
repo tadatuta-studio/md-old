@@ -1,8 +1,5 @@
 .b-carousel__items
 {
-    position: relative;
- 
-    overflow: hidden;
-
-    width: 100%;
+    position: absolute;
+    height: inherit;
 }

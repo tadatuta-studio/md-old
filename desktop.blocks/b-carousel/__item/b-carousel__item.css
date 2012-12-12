@@ -1,13 +1,13 @@
 .b-carousel__item
 {
-    position: relative;
-
     display: none;
 
     -moz-transition: left .5s;
     -webkit-transition: left .5s;
     -o-transition: left .5s;
     transition: left .5s;
+
+    height: inherit;
 }
 
 .b-carousel__item_state_active,
@@ -29,6 +29,11 @@
     top: 0;
 
     width: 100%;
+}
+
+.b-carousel__item_pos_prev
+{
+    z-index: 2;
 }
 
 .b-carousel__item_pos_next

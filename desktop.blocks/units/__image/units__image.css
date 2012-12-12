@@ -1,0 +1,11 @@
+.units__image
+{
+    position: absolute;
+    left: 35%;
+
+    max-width: 50%;
+    min-width: 645px;
+
+    width: 100%;
+    height: auto;
+}

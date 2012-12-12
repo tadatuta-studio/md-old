@@ -1,0 +1,10 @@
+.b-carousel__inner
+{
+    width: 51%;
+    height: inherit;
+
+    background: #4e4d4d;
+
+    z-index: 1;
+    position: relative;
+}

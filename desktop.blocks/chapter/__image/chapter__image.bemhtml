@@ -1,0 +1,6 @@
+block chapter {
+   elem image {
+       tag: 'img',
+       attrs: { src: this.ctx.url, alt: this.ctx.alt || '' }
+   }
+}
