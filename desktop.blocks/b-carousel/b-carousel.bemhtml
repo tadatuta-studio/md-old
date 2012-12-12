@@ -1,0 +1,3 @@
+block b-carousel {
+    js: true
+}

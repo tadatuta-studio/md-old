@@ -1,0 +1,20 @@
+.b-carousel__button_position_first:before
+{
+    content: '';
+
+    cursor: default;
+
+    position: absolute;
+
+    margin: 6px 0 0 -73px;
+
+    width: 50px;
+    height: 2px;
+
+    background: rgb(75,79,87); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(75,79,87,1) 0%, rgba(120,123,129,1) 20%, rgba(165,167,171,1) 42%, rgba(210,211,213,1) 67%, rgba(255,255,255,1) 99%); /* FF3.6+ */
+    background: -webkit-linear-gradient(left,  rgba(75,79,87,1) 0%,rgba(120,123,129,1) 20%,rgba(165,167,171,1) 42%,rgba(210,211,213,1) 67%,rgba(255,255,255,1) 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(75,79,87,1) 0%,rgba(120,123,129,1) 20%,rgba(165,167,171,1) 42%,rgba(210,211,213,1) 67%,rgba(255,255,255,1) 99%); /* Opera 11.10+ */
+    background: linear-gradient(to right,  rgba(75,79,87,1) 0%,rgba(120,123,129,1) 20%,rgba(165,167,171,1) 42%,rgba(210,211,213,1) 67%,rgba(255,255,255,1) 99%); /* W3C */
+
+}

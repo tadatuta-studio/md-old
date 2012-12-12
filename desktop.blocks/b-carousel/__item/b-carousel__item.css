@@ -1,0 +1,58 @@
+.b-carousel__item
+{
+    position: relative;
+
+    display: none;
+
+    -moz-transition: left .5s;
+    -webkit-transition: left .5s;
+    -o-transition: left .5s;
+    transition: left .5s;
+}
+
+.b-carousel__item_state_active,
+.b-carousel__item_pos_next,
+.b-carousel__item_pos_prev
+{
+    display: block;
+}
+
+.b-carousel__item_state_active
+{
+    left: 0;
+}
+
+.b-carousel__item_pos_next,
+.b-carousel__item_pos_prev
+{
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+}
+
+.b-carousel__item_pos_next
+{
+    left: 100%;
+}
+
+.b-carousel__item_pos_prev
+{
+    left: -100%;
+}
+
+.b-carousel__item_pos_next.b-carousel__item_direction_left,
+.b-carousel__item_pos_prev.b-carousel__item_direction_right
+{
+    left: 0;
+}
+
+.b-carousel__item_state_active.b-carousel__item_pos_left
+{
+    left: -100%;
+}
+
+.b-carousel__item_state_active.b-carousel__item_pos_right
+{
+    left: 100%;
+}

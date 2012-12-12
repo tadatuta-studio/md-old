@@ -1,0 +1,33 @@
+.b-carousel__nav
+{
+    position: absolute;
+    left: 0;
+    top: 158px;
+
+    z-index: 10;
+
+    width: 19px;
+    height: 49px;
+
+    background: url(b-carousel__nav.png) no-repeat;
+
+    cursor: pointer;
+}
+
+.b-carousel__nav:hover
+{
+    background-position: 0 -50px;
+}
+
+.b-carousel__nav_type_next
+{
+    left: auto;
+    right: 0;
+
+    background-position: -20px 0;
+}
+
+.b-carousel__nav_type_next:hover
+{
+    background-position: -20px -50px;
+}
