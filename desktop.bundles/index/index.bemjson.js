@@ -10,11 +10,11 @@
         { elem: 'meta', attrs: { name: 'description', content: '' }},
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],
-    mods: { page: 'home' },
+    mods: { page: 'index' },
     content:[
         {
             block: 'header',
-            mods: { page: 'home' }
+            mods: { page: 'index' }
         },
         {
             elem: 'inner',
