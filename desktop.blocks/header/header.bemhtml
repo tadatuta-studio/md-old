@@ -28,7 +28,7 @@ block header {
                         // elemMods: { state: 'current' },
                         content: {
                             block: 'b-link',
-                            url: '/',
+                            url: '/desktop.bundles/index/index.html',
                             content: 'Home'
                         }
                     },
@@ -37,7 +37,7 @@ block header {
                         content: {
                             block: 'b-link',
                             mods: { page: 'product' },
-                            url: '#product',
+                            url: '/desktop.bundles/product/product.html',
                             content: 'Product'
                         }
                     },
@@ -45,7 +45,7 @@ block header {
                         elem: 'item',
                         content: {
                             block: 'b-link',
-                            url: '#community',
+                            url: '/desktop.bundles/company/company.html',
                             content: 'Community'
                         }
                     },
@@ -53,7 +53,7 @@ block header {
                         elem: 'item',
                         content: {
                             block: 'b-link',
-                            url: '#support',
+                            url: '/desktop.bundles/support/support.html',
                             content: 'Support'
                         }
                     },
@@ -62,7 +62,7 @@ block header {
                         elemMods: { kind: 'special' },
                         content: {
                             block: 'b-link',
-                            url: '#download',
+                            url: '/desktop.bundles/download/download.html',
                             content: 'Download'
                         }
                     },
@@ -71,7 +71,7 @@ block header {
                         elemMods: { kind: 'special' },
                         content: {
                             block: 'b-link',
-                            url: '#buy',
+                            url: '/desktop.bundles/buy/buy.html',
                             content: 'Buy'
                         }
                     }

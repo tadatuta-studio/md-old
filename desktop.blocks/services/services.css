@@ -10,9 +10,14 @@
     margin-left: -90px;
 }
 
+.services__left_page_product
+{
+    margin-left: 0;
+}
+
 .services_page_download
 {
-    float: left; 
+    float: left;
     margin-left: 34%;
 
     width: 66%;

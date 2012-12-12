@@ -161,12 +161,47 @@
                             content: [
                                 {
                                     elem: 'title',
+                                    content: 'Community'
+                                },
+                                {
+                                    elem: 'description',
+                                    content: 'There are a lot of parents who are active Magic Desktop users. We are trying to create a better place for them for sharing ideas, supporting each other, and providing feedback. Join us!'
+                                },
+                                {
+                                    block: 'button',
+                                    mods: { size: '240', theme: 'blue', type: 'apply' },
+                                    content: 'Apply now!'
+                                }
+                            ]
+                        },
+                        {
+                            block: 'units',
+                            content: [
+                                {
+                                    elem: 'notice',
+                                    content: 'Who are you?'
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block: 'chapter',
+                    mods: { border: 'yes' },
+                    mix: [{ block: 'clearfix' }],
+                    content: [
+                        {
+                            elem: 'inner',
+                            content: [
+                                {
+                                    elem: 'title',
                                     content: 'Testimonials'
                                 }
                             ]
                         },
                         {
                             block: 'units',
+                            mods: { type: 'testimonials' },
                             content: [
                                 {
                                     elem: 'inner',
@@ -177,6 +212,20 @@
                                                 {
                                                     elem: 'description',
                                                     content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
+                                                },
+                                                {
+                                                    elem: 'adds',
+                                                    content: [
+                                                        {
+                                                            elem: 'author-item',
+                                                            content: 'Lindsay'
+                                                        }, ' / ',
+                                                        {
+                                                            elem: 'author-item',
+                                                            mods: { type: 'country' },
+                                                            content: 'USA'
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         },
@@ -186,6 +235,20 @@
                                                 {
                                                     elem: 'description',
                                                     content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
+                                                },
+                                                {
+                                                    elem: 'adds',
+                                                    content: [
+                                                        {
+                                                            elem: 'author-item',
+                                                            content: 'Michael'
+                                                        }, ' / ',
+                                                        {
+                                                            elem: 'author-item',
+                                                            mods: { type: 'country' },
+                                                            content: 'Ukraine'
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         },
@@ -195,6 +258,20 @@
                                                 {
                                                     elem: 'description',
                                                     content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
+                                                },
+                                                {
+                                                    elem: 'adds',
+                                                    content: [
+                                                        {
+                                                            elem: 'author-item',
+                                                            content: 'Ann'
+                                                        }, ' / ',
+                                                        {
+                                                            elem: 'author-item',
+                                                            mods: { type: 'country' },
+                                                            content: 'Norway'
+                                                        }
+                                                    ]
                                                 }
                                             ]
                                         }

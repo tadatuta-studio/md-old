@@ -120,6 +120,7 @@
                                             content: [
                                                 {
                                                     elem: 'left',
+                                                    mods: { page: 'product' },
                                                     content: [
                                                         {
                                                             elem: 'item',
@@ -421,6 +422,7 @@
                                             content: [
                                                 {
                                                     elem: 'left',
+                                                    mods: { page: 'product' },
                                                     content: [
                                                         {
                                                             elem: 'item',
@@ -504,6 +506,7 @@
                                             content: [
                                                 {
                                                     elem: 'left',
+                                                    mods: { page: 'product' },
                                                     content: [
                                                         {
                                                             elem: 'item',
