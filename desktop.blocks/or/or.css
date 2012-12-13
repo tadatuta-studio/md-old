@@ -3,15 +3,15 @@
     color: #333;
     font-size: 22px;
     text-align: center;
-    
+
     margin: -18px auto 0;
-    padding: 0 30px;  
+    padding: 0 30px;
 
     position: relative;
     z-index: 1;
 
     min-width: 940px;
-    max-width: 1400px;  
+    max-width: 1200px;
 }
 
 .or:after
@@ -20,12 +20,12 @@
 
     background: #fff;
 
-    position: absolute;    
+    position: absolute;
     bottom: 12px;
     margin-left: -29px;
 
     height: 1px;
     width: 37px;
 
-    z-index: -1;    
+    z-index: -1;
 }
