@@ -1,4 +1,6 @@
 .logo__tagline
 {
-    margin-left: 15px;   
+    margin-left: 15px;
+
+    white-space: nowrap;
 }
