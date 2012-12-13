@@ -22,6 +22,7 @@
             content: [
                 {
                     block: 'b-carousel',
+                    mods: { auto: 'yes' },
                     content: [
                         {
                             elem: 'play'
