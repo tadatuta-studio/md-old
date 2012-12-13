@@ -51,7 +51,6 @@
                                         },
                                         {
                                             block: 'input',
-                                            js: true,
                                             mods: { theme: 'white', size: '330', form: 'contact', type: 'textarea' },
                                             content: [
                                                 {
@@ -65,7 +64,6 @@
                                         },
                                         {
                                             block: 'input',
-                                            js: true,
                                             mods: { theme: 'white', type: 'input' },
                                             content: [
                                                 {
@@ -80,7 +78,6 @@
                                         },
                                         {
                                             block: 'input',
-                                            js: true,
                                             mods: { theme: 'white', type: 'input' },
                                             content: [
                                                 {

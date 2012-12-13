@@ -1,7 +1,5 @@
 .nav
 {
-    width: 59%;
-
     padding-top: 70px;
 
     text-align: left;
@@ -12,7 +10,7 @@
 
 .nav .b-menu-horiz__item
 {
-    padding: 0 19%;
+    padding: 0 17px;
 }
 
 .nav .b-link
