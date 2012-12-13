@@ -13,7 +13,8 @@
     mods: { page: 'privacy-policy' },
     content: [
         {
-            block: 'header'
+            block: 'header',
+            mods: { border: 'yes' }
         },
         {
             elem: 'inner',

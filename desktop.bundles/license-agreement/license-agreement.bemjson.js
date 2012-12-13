@@ -13,7 +13,8 @@
     mods: { page: 'license-agreement' },
     content: [
         {
-            block: 'header'
+            block: 'header',
+            mods: { border: 'yes' }
         },
         {
             elem: 'inner',

@@ -1,0 +1,22 @@
+.popupa__title
+{
+    max-width: 410px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    display: inline-block;
+
+    color: #808080;
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.popupa__title:hover
+{
+    color: #fff;
+}

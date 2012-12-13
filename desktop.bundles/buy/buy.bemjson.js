@@ -14,7 +14,7 @@
     content:[
         {
             block: 'header',
-            mods: { page: 'Buy' }
+            mods: { page: 'buy', border: 'yes' }
         },
         {
             block: 'notice',

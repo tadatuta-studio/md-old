@@ -1,0 +1,6 @@
+block popupa {
+   elem video {
+       tag: 'iframe',
+       attrs: { src: this.ctx.url, frameborder: this.ctx.frameborder || '' }
+   }
+}

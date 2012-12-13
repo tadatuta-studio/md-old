@@ -1,0 +1,21 @@
+.popupa__inner
+{
+    background: #000;
+
+    display: block;
+
+    margin-left: -280px;
+    margin-top: -194px;
+    padding: 15px 20px 20px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    z-index: 99;
+
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,.5);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,.5);
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+}

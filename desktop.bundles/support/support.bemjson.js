@@ -14,7 +14,7 @@
     content:[
         {
             block: 'header',
-            mods: { page: 'support' }
+            mods: { page: 'support', border: 'yes' }
         },
         {
             block: 'info-block',

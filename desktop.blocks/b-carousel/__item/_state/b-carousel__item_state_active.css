@@ -1,13 +1,4 @@
-.b-carousel__title
-{
-    background: url(../../../i/b-carousel__title.png) no-repeat 98% 86%;
-    font-size: 43px;
-
-    padding: 35px 20px 10px;
-    margin-left: 7%;
-}
-
-.b-carousel__item_type_play.b-carousel__item_state_active .b-carousel__title
+/*.b-carousel__item_type_play.b-carousel__item_state_active .b-carousel__title
 {
     background-color: #e25e3a;
 }
@@ -30,4 +21,4 @@
 .b-carousel__item_type_protection.b-carousel__item_state_active .b-carousel__title
 {
     background-color: #e0962d;
-}
+}*/

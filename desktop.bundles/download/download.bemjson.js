@@ -14,7 +14,7 @@
     content:[
         {
             block: 'header',
-            mods: { page: 'download' }
+            mods: { page: 'download', border: 'yes' }
         },
         {
             elem: 'inner',

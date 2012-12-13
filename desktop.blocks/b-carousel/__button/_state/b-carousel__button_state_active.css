@@ -1,4 +1,24 @@
-.b-carousel__button_state_active
+.b-carousel__button_type_play.b-carousel__button_state_active
 {
     background-color: #e25e3a;
+}
+
+.b-carousel__button_type_safe.b-carousel__button_state_active
+{
+    background-color: #39c;
+}
+
+.b-carousel__button_type_control.b-carousel__button_state_active
+{
+    background-color: #6cae11;
+}
+
+.b-carousel__button_type_entertainment.b-carousel__button_state_active
+{
+    background-color: #d94c81;
+}
+
+.b-carousel__button_type_protection.b-carousel__button_state_active
+{
+    background-color: #e0962d;
 }

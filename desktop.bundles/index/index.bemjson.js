@@ -31,7 +31,7 @@
                             content: [
                                 {
                                     elem: 'item',
-                                    elemMods: { state: 'active' },
+                                    elemMods: { state: 'active', type: 'play' },
                                     content: [
                                         {
                                             elem: 'inner',
@@ -54,13 +54,14 @@
                                 },
                                 {
                                     elem: 'item',
+                                    elemMods: { type: 'safe' },
                                     content: [
                                         {
                                             elem: 'inner',
                                             content: [
                                                 {
                                                     elem: 'title',
-                                                    content: 'Play & Learn'
+                                                    content: 'Safe internet'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -76,13 +77,14 @@
                                 },
                                 {
                                     elem: 'item',
+                                    elemMods: { type: 'control' },
                                     content: [
                                         {
                                             elem: 'inner',
                                             content: [
                                                 {
                                                     elem: 'title',
-                                                    content: 'Play & Learn'
+                                                    content: 'Parental control'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -98,13 +100,14 @@
                                 },
                                 {
                                     elem: 'item',
+                                    elemMods: { type: 'entertainment' },
                                     content: [
                                         {
                                             elem: 'inner',
                                             content: [
                                                 {
                                                     elem: 'title',
-                                                    content: 'Play & Learn'
+                                                    content: 'Entertainment'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -120,13 +123,14 @@
                                 },
                                 {
                                     elem: 'item',
+                                    elemMods: { type: 'protection' },
                                     content: [
                                         {
                                             elem: 'inner',
                                             content: [
                                                 {
                                                     elem: 'title',
-                                                    content: 'Play & Learn'
+                                                    content: 'Windows protection'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -166,6 +170,97 @@
                                     elemMods: { type: 'protection' }
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    block: 'popupa',
+                    mods: { type: 'video-md8' },
+                    content: [
+                        {
+                            elem: 'paranja'
+                        },
+                        {
+                            elem: 'inner',
+                            content: [
+                                {
+                                    elem: 'info',
+                                    content: [
+                                        {
+                                            block: 'b-link',
+                                            mix: [{ block: 'popupa', elem: 'title' }],
+                                            url: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0',
+                                            target: '_blank',
+                                            content: 'Magic Desktop 8 official demo'
+                                        },
+                                        {
+                                            elem: 'close',
+                                            content: 'Close'
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'video',
+                                    attrs: { src: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0', frameborder: '0' }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block: 'about-program',
+                    content: [
+                        {
+                            elem: 'downloads',
+                            content: [
+                                {
+                                    elem: 'downloads-item',
+                                    content: [
+                                    'Over ',
+                                        {
+                                            block: 'b-link',
+                                            content: '70 million',
+                                            url: '#70-million'
+                                        },' computers'
+                                    ]
+                                },
+                                {
+                                    elem: 'downloads-item',
+                                    elemMods: { line: '2' },
+                                    content: 'with Magic Desktop preloaded'
+                                },
+                                {
+                                    elem: 'downloads-item',
+                                    elemMods: { line: '3' },
+                                    content: 'have been sold world wide.'
+                                }
+                            ]
+                        },
+                        {
+                            elem: 'downloads',
+                            elemMods: { type: 'community' },
+                            content: [
+                                {
+                                    elem: 'downloads-item',
+                                    content: 'Millions of users'
+                                },
+                                {
+                                    elem: 'downloads-item',
+                                    elemMods: { line: '2' },
+                                    content: 'cannot be wrong.'
+                                },
+                                {
+                                    block: 'b-link',
+                                    mix: [{ block: 'about-program', elem: 'downloads-item', elemMods: { line: '3' } }],
+                                    content: 'Join the community!',
+                                    url: '#join-the-community'
+                                }
+                            ]
+                        },
+                        {
+                            block: 'button',
+                            mods: { size: 'm', theme: 'download', page: 'home' },
+                            content: 'Get it now'
                         }
                     ]
                 }

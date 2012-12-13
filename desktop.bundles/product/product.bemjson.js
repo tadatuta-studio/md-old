@@ -14,7 +14,7 @@
     content:[
         {
             block: 'header',
-            mods: { page: 'product' }
+            mods: { page: 'product', border: 'yes' }
         },
         {
             elem: 'inner',

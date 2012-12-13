@@ -1,9 +1,9 @@
 .try-free__description
 {
-    width: 34%;
+    width: 35%;
     display: inline-block;
 
-    margin: 1.3em 0 0 0;
+    margin: 1.3em 0 0 4%;
 
     position: relative;
 }
@@ -13,7 +13,7 @@
     content: "";
 
     position: absolute;
-    top: 6px;
+    top: 5px;
     left: -20px;
 
     background: #d9d9d9;

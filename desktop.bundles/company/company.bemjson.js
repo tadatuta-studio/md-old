@@ -14,7 +14,7 @@
     content:[
         {
             block: 'header',
-            mods: { page: 'company' }
+            mods: { page: 'company', border: 'yes' }
         },
         {
             elem: 'inner',

@@ -5,7 +5,12 @@
     {
         onSetMod: {
             'js': function() {
-                var _this = this;
+                var _this = this,
+                    popupa = this.findBlockOutside('b-page').findBlockInside({ block: 'popupa', modName: 'type', modVal: 'video-md8' });
+
+                this.bindTo(this.elem('play'), 'click', function() {
+                    popupa.show();
+                });
 
                 this.bindTo(this.elem('button'), 'click', function(e) {
                     var button = e.data.domElem;
