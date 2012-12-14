@@ -1,11 +1,17 @@
 .steps__item
 {
-    width: 25%;
-    min-width: 200px;
-    
-    margin: 0 5% 40px 0;
+    width: 30%;
+    min-width: 174px;
+
+    margin: 0 5% 35px 0;
 
     display: inline-block;
 
     vertical-align: top;
+    position: relative;
+}
+
+.steps__item_position_last
+{
+    margin-right: 0
 }

@@ -66,7 +66,7 @@
                                                 },
                                                 {
                                                     elem: 'description',
-                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                    content: 'My First Browser is the safest Internet browser for kids that exists! You can pick kid-friendly websites and allow your kids to visit only those parent-approved sites.'
                                                 }
                                             ]
                                         },
@@ -89,7 +89,7 @@
                                                 },
                                                 {
                                                     elem: 'description',
-                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                    content: 'Not only can you control which programs kids can access, you can also control when and how kids access the approved programs. "No Homework-No Play!" technology becomes your virtual babysitter.'
                                                 }
                                             ]
                                         },
@@ -112,7 +112,7 @@
                                                 },
                                                 {
                                                     elem: 'description',
-                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                    content: 'Magic Desktop includes large collection of games, photo and drawing applications, plenty of child-friendly Web content that is updated monthly.'
                                                 }
                                             ]
                                         },
@@ -135,7 +135,7 @@
                                                 },
                                                 {
                                                     elem: 'description',
-                                                    content: 'Magic Desktop creates a fun and safe entertainment where kids can learn to use PC at their own pace. The child-friendly design is perfect for those tiny little hands while the collection of included programs is suitable for all ages.'
+                                                    content: 'Magic Desktop protects your system settings and important data files from accidental kid-interference, ensuring your PC will always work when you return.'
                                                 }
                                             ]
                                         },
@@ -708,7 +708,8 @@
             ]
         },
         {
-            block: 'footer'
+            block: 'footer',
+            mods: { page: 'home' }
         }
     ]
 })

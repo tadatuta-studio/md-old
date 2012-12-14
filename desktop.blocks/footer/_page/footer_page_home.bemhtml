@@ -1,0 +1,130 @@
+block footer {
+    mix: [{ block: 'shadow' }]
+
+    content: {
+        elem: 'inner',
+        mix: [{ block: 'clearfix' }],
+        content: [
+            {
+                elem: 'left',
+                content: [
+                    {
+                        block: 'b-menu-vert',
+                        mods: { layout: 'normal' },
+                        js: false,
+                        content: [
+                            {
+                                elem: 'item',
+                                content: {
+                                    block: 'b-link',
+                                    url: '#company',
+                                    content: 'Company'
+                                }
+                            },
+                            {
+                                elem: 'item',
+                                content: {
+                                    block: 'b-link',
+                                    url: '#license-agreement',
+                                    content: 'License Agreement'
+                                }
+                            },
+                            {
+                                elem: 'item',
+                                content: {
+                                    block: 'b-link',
+                                    url: '#privacy-policy',
+                                    content: 'Privacy Policy'
+                                }
+                            },
+                            {
+                                elem: 'item',
+                                content: {
+                                    block: 'b-link',
+                                    url: '#contact-us',
+                                    content: 'Contact Us'
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        block: 'copyright',
+                        content: [
+                            {
+                                block: 'b-link',
+                                mix: [{ block: 'copyright', elem: 'logo' }],
+                                url: '#'
+                            },
+                            '© 2013 EasyBits Software. All Rights Reserved.'
+                        ]
+                    }
+                ]
+            },
+            {
+                block: 'partners',
+                content: [
+                    {
+                        elem: 'item',
+                        mods: { type: 'disney' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'milkshake' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'uol' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'dixons' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'telecom' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'telenor' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'pb' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'pc-worlds' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'couto' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'advent' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'asus' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'acer' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'intel' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'hp' }
+                    },
+                    {
+                        elem: 'item',
+                        mods: { type: 'five' }
+                    }
+                ]
+            }
+        ]
+    }
+}

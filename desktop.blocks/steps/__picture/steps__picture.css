@@ -1,29 +1,11 @@
 .steps__picture
 {
-    width: 230px;
-    height: 175px;
+    position: absolute;
+    right: 0;
+    top: 45px;
 
-    background: url(../../../i/steps__picture.png) -3px 0 no-repeat;
+    height: auto;
+    width: 100%;
 
-    margin-bottom: 15px;
-}
-
-.steps__picture_slide_2
-{
-    background-position: -235px 0;
-}
-
-.steps__picture_slide_3
-{
-    background-position: -467px 0;
-}
-
-.steps__picture_slide_4
-{
-    background-position: -3px -180px;
-}
-
-.steps__picture_slide_5
-{
-    background-position: -235px -180px;
+    max-width: 100%;
 }

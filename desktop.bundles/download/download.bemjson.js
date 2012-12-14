@@ -91,7 +91,7 @@
                                                 },
                                                 {
                                                     elem: 'picture',
-                                                    mods: { slide: '1' }
+                                                    url: '../../i/steps__picture_slide_1.png'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -108,7 +108,7 @@
                                                 },
                                                 {
                                                     elem: 'picture',
-                                                    mods: { slide: '2' }
+                                                    url: '../../i/steps__picture_slide_2.png'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -118,6 +118,7 @@
                                         },
                                         {
                                             elem: 'item',
+                                            elemMods: { position: 'last' },
                                             content: [
                                                 {
                                                     elem: 'title',
@@ -125,7 +126,7 @@
                                                 },
                                                 {
                                                     elem: 'picture',
-                                                    mods: { slide: '3' }
+                                                    url: '../../i/steps__picture_slide_3.png'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -142,7 +143,7 @@
                                                 },
                                                 {
                                                     elem: 'picture',
-                                                    mods: { slide: '4' }
+                                                    url: '../../i/steps__picture_slide_4.png'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -159,7 +160,7 @@
                                                 },
                                                 {
                                                     elem: 'picture',
-                                                    mods: { slide: '5' }
+                                                    url: '../../i/steps__picture_slide_5.png'
                                                 },
                                                 {
                                                     elem: 'description',
@@ -298,7 +299,8 @@
             ]
         },
         {
-            block: 'footer'
+            block: 'footer',
+            mods: { page: 'home' }
         }
     ]
 })

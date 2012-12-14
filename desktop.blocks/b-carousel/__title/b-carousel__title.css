@@ -1,9 +1,10 @@
 .b-carousel__title
 {
     background: url(../../../i/b-carousel__title.png) no-repeat 98% 86%;
-    font-size: 43px;
+    font-size: 265%;
+    white-space: nowrap;
 
-    padding: 35px 20px 10px;
+    padding: 7% 4% 2%;
     margin-left: 7%;
 }
 

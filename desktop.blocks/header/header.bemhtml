@@ -7,7 +7,7 @@ block header {
                 content: [
                     {
                         block: 'b-link',
-                        url: '/',
+                        url: '/desktop.bundles/index/index.html',
                         mix: [{ block: 'logo', elem: 'link' }],
                         content: 'Magic Desktop 8'
                     },

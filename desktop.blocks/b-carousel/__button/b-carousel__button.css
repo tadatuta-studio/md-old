@@ -4,32 +4,33 @@
 
     cursor: pointer;
 
-    width: 95px;
+    width: 8%;
+    max-width: 95px;
     height: 60px;
 
 
     list-style: none;
     float: left;
 
-    background: url(../../../i/b-carousel__button.png) 8px -8px  no-repeat;
+    background: url(../../../i/b-carousel__button.png) 50% -4px  no-repeat;
 }
 
 .b-carousel__button_type_safe
 {
-    background-position: -82px -8px;
+    background-position: 50% -61px;
 }
 
 .b-carousel__button_type_control
 {
-    background-position: -176px -8px;
+    background-position: 50% -117px;
 }
 
 .b-carousel__button_type_entertainmen
 {
-    background-position: -271px -8px;
+    background-position: 50% -177px;
 }
 
 .b-carousel__button_type_protection
 {
-    background-position: -366px -8px;
+    background-position: 50% -239px;
 }

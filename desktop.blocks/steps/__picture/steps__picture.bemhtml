@@ -1,0 +1,6 @@
+block steps {
+   elem picture {
+       tag: 'img',
+       attrs: { src: this.ctx.url, alt: this.ctx.alt || '' }
+   }
+}

@@ -2,9 +2,9 @@
 {
     line-height: 22px;
 
-    padding-left: 32.5%;
+    padding-left: 30%;
 
-    width: 39%;
+    width: 43%;
 }
 
 .footer-nav .b-menu-horiz__item
@@ -13,12 +13,21 @@
     padding-left: 10px;
 }
 
+.footer-nav .b-menu-horiz__item .b-link
+{
+    color: #666;
+}
+
 .footer-nav .b-menu-horiz__item_state_current
 {
     padding: 0 10px;
     margin: 0 27px 0 0;
 
-    background: #39c;
+    background: #666;
+}
 
+.footer-nav .b-menu-horiz__item_state_current .b-link
+{
     color: #fff;
+    text-decoration: none;
 }

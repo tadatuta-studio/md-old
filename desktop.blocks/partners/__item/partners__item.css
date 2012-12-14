@@ -1,0 +1,86 @@
+.partners__item
+{
+    height: 60px;
+    width: 17%;
+
+    display: inline-block;
+
+    margin: 0 3% 15px 0;
+
+    background: url(../../../i/partners__item.png) no-repeat;
+}
+
+.partners__item_type_disney
+{
+    background-position: 0 0;
+}
+
+.partners__item_type_milkshake
+{
+    background-position: -175px 0;
+}
+
+.partners__item_type_uol
+{
+    background-position: -342px 0;
+}
+
+.partners__item_type_dixons
+{
+    background-position: -513px 0;
+}
+
+.partners__item_type_telecom
+{
+    background-position: -683px 0;
+}
+
+.partners__item_type_telenor
+{
+    background-position: 0 -80px;
+}
+
+.partners__item_type_pb
+{
+    background-position: -171px -80px;
+}
+
+.partners__item_type_pc-worlds
+{
+    background-position: -340px -80px;
+}
+
+.partners__item_type_couto
+{
+    background-position: -510px -80px;
+}
+
+.partners__item_type_advent
+{
+    background-position: -680px -80px;
+}
+
+.partners__item_type_acer
+{
+    background-position: 0 -160px;
+}
+
+.partners__item_type_acer
+{
+    background-position: -170px -160px;
+}
+
+.partners__item_type_intel
+{
+    background-position: -338px -160px;
+}
+
+.partners__item_type_hp
+{
+    background-position: -508px -160px;
+}
+
+.partners__item_type_five
+{
+    background-position: -682px -160px;
+}
