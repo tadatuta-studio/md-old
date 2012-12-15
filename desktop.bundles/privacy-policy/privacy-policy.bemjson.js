@@ -57,7 +57,8 @@
             ]
         },
         {
-            block: 'footer'
+            block: 'footer',
+            page: 'privacy-policy'
         }
     ]
 })

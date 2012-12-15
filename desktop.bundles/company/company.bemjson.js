@@ -297,7 +297,8 @@
             ]
         },
         {
-            block: 'footer'
+            block: 'footer',
+            page: 'company'
         }
     ]
 })

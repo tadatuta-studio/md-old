@@ -1,4 +1,15 @@
 block content {
     elem p, tag: 'p'
-    elem h3, tag: 'h3'
+
+    elem h3 {
+
+        tag: 'h3'
+
+/*
+        attrs: {
+            return { id: this.ctx.content.toLowerCase().split(' ').join('-').replace('.', '') };
+        }
+*/
+    }
+
 }

@@ -1,7 +1,6 @@
 .info__title-company
 {
     font-size: 22px;
-    font-weight: 700;
 
     color: #333;
 
@@ -13,7 +12,7 @@
     content: "";
 
     position: absolute;
-    
+
     width: 100px;
     height: 73px;
 

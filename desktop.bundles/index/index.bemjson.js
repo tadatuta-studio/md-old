@@ -333,7 +333,7 @@
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'For parents. No more worrying about kids damaging the system or deleting files on the family PC.'
                                                         }
                                                     ]
                                                 },
@@ -350,7 +350,7 @@
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'Smooth sailing around the Web. Plenty of child-friendly content updated monthly. Parents have full control.'
                                                         }
                                                     ]
                                                 },
@@ -367,7 +367,7 @@
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'Suitable even for toddlers. Give your child a head start in computers and let them explore while they learn.'
                                                         }
                                                     ]
                                                 },
@@ -380,11 +380,17 @@
                                                         },
                                                         {
                                                             elem: 'title',
-                                                            content: 'Unleash Their Creativity'
+                                                            content: [
+                                                                'Unleash Their',
+                                                                {
+                                                                    tag: 'br'
+                                                                },
+                                                                ' Creativity'
+                                                            ]
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'Provide a multitude of creation tools for your kids to express themselves and share with their friends and family.'
                                                         }
                                                     ]
                                                 },
@@ -401,9 +407,22 @@
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'Gather the family around the home computer - parents, grandparents and children - for endless hours of fun.'
                                                         }
                                                     ]
+                                                },
+                                                {
+                                                    block: 'units',
+                                                    elem: 'readmore',
+                                                    content: {
+                                                        block: 'b-link',
+                                                        mods: { type: 'readmore' },
+                                                        url: '#Read-more',
+                                                        content: {
+                                                            elem: 'inner',
+                                                            content: 'Read more'
+                                                        }
+                                                    }
                                                 }
                                             ]
                                         }
@@ -551,7 +570,7 @@
                                             content: [
                                                 {
                                                     elem: 'description',
-                                                    content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
+                                                    content: '"The Kid’s E-mail and Internet browser programs are great, so much better than all the other filters I have tried. My son is 9 and his parent-approved websites list is growing quickly. I add a new site in exchange for 50 bonus points. He loves it!""'
                                                 },
                                                 {
                                                     elem: 'adds',
@@ -574,7 +593,7 @@
                                             content: [
                                                 {
                                                     elem: 'description',
-                                                    content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
+                                                    content: '"I love your "No Homework-No Play" technology! You should see my kids trying hard to get the bonus points in Easy Learning doing multiplication tables so that they can play games afterwards. Parental control system is so simple and effective! Fantastic!"'
                                                 },
                                                 {
                                                     elem: 'adds',
@@ -648,11 +667,11 @@
                                             content: [
                                                 {
                                                     elem: 'title',
-                                                    content: 'Software reseller'
+                                                    content: 'Website owner'
                                                 },
                                                 {
                                                     elem: 'description',
-                                                    content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                    content: 'You have a popular website where you have visitors that you believe is in our target audience, take contact today and we will setup the proper program for you.'
                                                 }
                                             ]
                                         },
@@ -661,11 +680,11 @@
                                             content: [
                                                 {
                                                     elem: 'title',
-                                                    content: 'Software reseller'
+                                                    content: 'ISP'
                                                 },
                                                 {
                                                     elem: 'description',
-                                                    content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                    content: 'You are an Internet Service Provider and want to offer your customers a safe family solution? Do as many other ISP’s around the globe and offer Magic Desktop today.'
                                                 }
                                             ]
                                         },
@@ -674,11 +693,11 @@
                                             content: [
                                                 {
                                                     elem: 'title',
-                                                    content: 'Software reseller'
+                                                    content: 'OEM'
                                                 },
                                                 {
                                                     elem: 'description',
-                                                    content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                    content: 'You produce computers targeting the consumer market and would like to preload Magic Desktop? Please contact us today for a price quote.'
                                                 }
                                             ]
                                         },
@@ -687,11 +706,11 @@
                                             content: [
                                                 {
                                                     elem: 'title',
-                                                    content: 'Software reseller'
+                                                    content: 'Magic Desktop fan'
                                                 },
                                                 {
                                                     elem: 'description',
-                                                    content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                    content: 'You like the product and want to promote and sell it to others as a private person? Start making some extra money today; you can actually make a fortune!'
                                                 }
                                             ]
                                         },

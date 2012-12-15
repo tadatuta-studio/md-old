@@ -1,0 +1,9 @@
+.units__readmore
+{
+    display: inline-block;
+
+    width: 100%;
+    margin-bottom: 10px;
+
+    text-align: right;
+}

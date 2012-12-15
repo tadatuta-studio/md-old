@@ -61,7 +61,7 @@
                                         },
                                         {
                                             block: 'button',
-                                            mods: { size: '45', theme: 'gray', type: 'price'  },
+                                            mods: { size: '45', theme: 'gray' },
                                             content: 'Buy'
                                         }
                                     ]
@@ -97,7 +97,7 @@
                                         },
                                         {
                                             block: 'button',
-                                            mods: { size: '45', theme: 'gray', type: 'price'  },
+                                            mods: { size: '45', theme: 'gray' },
                                             content: 'Buy'
                                         }
                                     ]
@@ -134,7 +134,7 @@
                                         },
                                         {
                                             block: 'button',
-                                            mods: { size: '45', theme: 'gray', type: 'price' },
+                                            mods: { size: '45', theme: 'gray' },
                                             content: 'Buy'
                                         }
                                     ]

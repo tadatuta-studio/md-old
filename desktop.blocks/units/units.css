@@ -3,3 +3,8 @@
     float: left;
     width: 70%;
 }
+
+.units__inner
+{
+    position: relative;
+}

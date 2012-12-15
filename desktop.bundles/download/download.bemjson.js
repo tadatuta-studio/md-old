@@ -11,7 +11,7 @@
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],
     mods: { page: 'download' },
-    content:[
+    content: [
         {
             block: 'header',
             mods: { page: 'download', border: 'yes' }
@@ -299,8 +299,7 @@
             ]
         },
         {
-            block: 'footer',
-            mods: { page: 'home' }
+            block: 'footer'
         }
     ]
 })

@@ -1,0 +1,21 @@
+.b-link_type_readmore
+{
+    color: #666;
+}
+
+.b-link_type_readmore:after
+{
+    font-size: 10px;
+
+    content: " ▶";
+}
+
+.b-link_type_readmore:hover
+{
+    text-decoration: none;
+}
+
+.b-link_type_readmore:hover .b-link__inner
+{
+    text-decoration: underline;
+}

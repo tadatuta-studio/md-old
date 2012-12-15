@@ -34,7 +34,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Permited-License-uses-and-restrictions',
+                                        url: '#permited-license-uses-and-restrictions',
                                         content: 'Permited License uses and restrictions'
                                     }
                                 },
@@ -42,7 +42,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Ownership-of-copyrights-and-intellectual-property',
+                                        url: '#ownership-of-copyrights-and-intellectual-property',
                                         content: 'Ownership of copyrights and intellectual property'
                                     }
                                 },
@@ -50,7 +50,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Consent-to-use-of-data',
+                                        url: '#consent-to-use-of-data',
                                         content: 'Consent to use of data'
                                     }
                                 },
@@ -58,7 +58,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Other-services',
+                                        url: '#other-services',
                                         content: 'Other services'
                                     }
                                 },
@@ -66,7 +66,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Limited-media-warranty',
+                                        url: '#limited-media-warranty',
                                         content: 'Limited media warranty'
                                     }
                                 },
@@ -74,7 +74,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Exclusion-of-other-warranties',
+                                        url: '#exclusion-of-other-warranties',
                                         content: 'Exclusion of other warranties'
                                     }
                                 },
@@ -82,7 +82,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Limitation-of-liability',
+                                        url: '#limitation-of-liability',
                                         content: 'Limitation of liability'
                                     }
                                 },
@@ -90,7 +90,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#User-submissions',
+                                        url: '#user-submissions',
                                         content: 'User submissions'
                                     }
                                 },
@@ -98,7 +98,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Termination',
+                                        url: '#termination',
                                         content: 'Termination'
                                     }
                                 },
@@ -106,7 +106,7 @@
                                     elem: 'item',
                                     content: {
                                         block: 'b-link',
-                                        url: '#Applicable-laws-and-general-provisions',
+                                        url: '#applicable-laws-and-general-provisions',
                                         content: 'Applicable laws and general provisions'
                                     }
                                 }
@@ -127,6 +127,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'permited-license-uses-and-restrictions' },
                             content: 'Permited License uses and restrictions.'
                         },
                         {
@@ -139,6 +140,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'ownership-of-copyrights-and-intellectual-property' },
                             content: 'Ownership of copyrights and intellectual property.'
                         },
                         {
@@ -147,6 +149,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'consent-to-use-of-data' },
                             content: 'Consent to use of data.'
                         },
                         {
@@ -155,6 +158,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'other-services' },
                             content: 'Other services.'
                         },
                         {
@@ -163,6 +167,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'limited-media-warranty' },
                             content: 'Limited media warranty.'
                         },
                         {
@@ -171,6 +176,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'exclusion-of-other-warranties' },
                             content: 'Exclusion of other warranties.'
                         },
                         {
@@ -179,6 +185,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'limitation-of-liability' },
                             content: 'Limitation of liability.'
                         },
                         {
@@ -186,7 +193,8 @@
                             content: 'TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT SHALL EASYBITS BE LIABLE FOR PERSONAL INJURY, OR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, LOSS OF DATA, BUSINESS INTERRUPTION OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE SOFTWARE OR SERVICES, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORT OR OTHERWISE) AND EVEN IF EASYBITS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OF LIABILITY FOR PERSONAL INJURY, OR OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION MAY NOT APPLY TO YOU. IN NO EVENT SHALL EASYBITS’ TOTAL LIABILITY TO YOU FOR ALL DAMAGES (OTHER THAN AS MAY BE REQUIRED BY APPLICABLE LAW IN CASES INVOLVING PERSONAL INJURY) EXCEED THE AMOUNT YOU PAID TO PURCHASE THE SOFTWARE. THE FOREGOING LIMITATIONS WILL APPLY EVEN IF THE ABOVE STATED REMEDIES FAIL THEIR ESSENTIAL PURPOSE.'
                         },
                         {
-                            elem: 'title',
+                            elem: 'h3',
+                            attrs: { id: 'user-submissions' },
                             content: 'User submissions.'
                         },
                         {
@@ -203,6 +211,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'termination' },
                             content: 'Termination.'
                         },
                         {
@@ -211,6 +220,7 @@
                         },
                         {
                             elem: 'h3',
+                            attrs: { id: 'applicable-laws-and-general-provisions' },
                             content: 'Applicable laws and general provisions.'
                         },
                         {
@@ -222,7 +232,8 @@
             ]
         },
         {
-            block: 'footer'
+            block: 'footer',
+            page: 'license-agreement'
         }
     ]
 })

@@ -17,7 +17,7 @@ block footer {
                                 elem: 'item',
                                 content: {
                                     block: 'b-link',
-                                    url: '#company',
+                                    url: '/desktop.bundles/company/company.html',
                                     content: 'Company'
                                 }
                             },
@@ -25,7 +25,7 @@ block footer {
                                 elem: 'item',
                                 content: {
                                     block: 'b-link',
-                                    url: '#license-agreement',
+                                    url: '/desktop.bundles/license-agreement/license-agreement.html',
                                     content: 'License Agreement'
                                 }
                             },
@@ -33,7 +33,7 @@ block footer {
                                 elem: 'item',
                                 content: {
                                     block: 'b-link',
-                                    url: '#privacy-policy',
+                                    url: '/desktop.bundles/privacy-policy/privacy-policy.html',
                                     content: 'Privacy Policy'
                                 }
                             },
@@ -41,7 +41,7 @@ block footer {
                                 elem: 'item',
                                 content: {
                                     block: 'b-link',
-                                    url: '#contact-us',
+                                    url: '/desktop.bundles/support/support.html',
                                     content: 'Contact Us'
                                 }
                             }
@@ -52,10 +52,14 @@ block footer {
                         content: [
                             {
                                 block: 'b-link',
-                                mix: [{ block: 'copyright', elem: 'logo' }],
-                                url: '#'
+                                mix: [{ block: 'copyright', elem: 'logo' }]
+                                // , url: '#'
                             },
-                            '© 2013 EasyBits Software. All Rights Reserved.'
+                            '© 2013 EasyBits Software.',
+                            {
+                                tag: 'br'
+                            },
+                            'All Rights Reserved.'
                         ]
                     }
                 ]

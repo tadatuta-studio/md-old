@@ -1,5 +1,6 @@
 .b-layout-table_type_languages
 {
-    width: 89%;
-    margin-left: 83px;
+    /*width: 89%;
+    margin-left: 83px;*/
+    float: right;
 }

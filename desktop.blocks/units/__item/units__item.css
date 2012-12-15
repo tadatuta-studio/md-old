@@ -2,7 +2,8 @@
 {
     width: 30%;
 
-    margin: 0 3% 65px 0;
+    /*margin: 0 3% 65px 0;*/
+    margin: 0 0 65px 3.3%;
     vertical-align: top;
 
     display: inline-block;
@@ -10,10 +11,13 @@
 
 .units__item_image_yes
 {
-    background: url(../../../i/units__item_image_yes.jpg) -2px 0 no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
-    height: 223px;
     width: 31%;
-
+    height: 223px;
     margin-bottom: 0;
+
+    background: url(../../../i/units__item_image_yes.jpg) -2px 0 no-repeat;
 }

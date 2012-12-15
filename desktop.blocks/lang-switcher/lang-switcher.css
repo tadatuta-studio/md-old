@@ -4,3 +4,7 @@
     right: 0;
     top: 45px;
 }
+
+.lang-switcher__current:after {
+    content: " ▾";
+}

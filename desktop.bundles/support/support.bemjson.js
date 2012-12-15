@@ -114,7 +114,8 @@
             ]
         },
         {
-            block: 'footer'
+            block: 'footer',
+            page: 'contact-us'
         }
     ]
 })

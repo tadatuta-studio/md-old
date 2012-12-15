@@ -1,89 +1,99 @@
 block header {
     content: {
-        elem: 'inner',
-        content: [
-            {
-                block: 'logo',
-                content: [
-                    {
-                        block: 'b-link',
-                        url: '/desktop.bundles/index/index.html',
-                        mix: [{ block: 'logo', elem: 'link' }],
-                        content: 'Magic Desktop 8'
-                    },
-                    {
-                        elem: 'tagline',
-                        content: 'is like Windows for kids.'
-                    }
-                ]
-            },
-            {
-                block: 'b-menu-horiz',
-                mods: { layout: 'normal' },
-                js: false,
-                mix: [{ block: 'nav' }, { block: 'clearfix' }],
-                content: [
-                    {
-                        elem: 'item',
-                        // elemMods: { state: 'current' },
-                        content: {
+        var page = this.ctx.mods ? this.ctx.mods.page : '';
+
+        return {
+            elem: 'inner',
+            content: [
+                {
+                    block: 'logo',
+                    content: [
+                        {
                             block: 'b-link',
-                            url: '/desktop.bundles/index/index.html',
-                            content: 'Home'
+                            url: page === 'index' ? undefined : '/desktop.bundles/index/index.html',
+                            mix: [{ block: 'logo', elem: 'link' }],
+                            content: 'Magic Desktop 8'
+                        },
+                        {
+                            elem: 'tagline',
+                            content: 'is like Windows for kids.'
                         }
-                    },
-                    {
-                        elem: 'item',
-                        content: {
-                            block: 'b-link',
-                            mods: { page: 'product' },
-                            url: '/desktop.bundles/product/product.html',
-                            content: 'Product'
+                    ]
+                },
+                {
+                    block: 'b-menu-horiz',
+                    mods: { layout: 'normal' },
+                    js: false,
+                    mix: [{ block: 'nav' }, { block: 'clearfix' }],
+                    content: [
+                        {
+                            elem: 'item',
+                            elemMods: { page: 'index', state: page === 'index' ? 'current' : undefined },
+                            content: page === 'index' ? 'Home' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/index/index.html',
+                                content: 'Home'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            elemMods: { page: 'product', state: page === 'product' ? 'current' : undefined },
+                            content: page === 'product' ? 'Product' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/product/product.html',
+                                content: 'Product'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            elemMods: { page: 'community', state: page === 'community' ? 'current' : undefined },
+                            content: page === 'community' ? 'Community' : {
+                                block: 'b-link',
+                                // url: '/desktop.bundles/community/community.html',
+                                content: 'Community'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            elemMods: { page: 'support', state: page === 'support' ? 'current' : undefined },
+                            content: page === 'support' ? 'Support' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/support/support.html',
+                                content: 'Support'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            // elemMods: { kind: 'special' },
+                            elemMods: { page: 'download', state: page === 'download' ? 'current' : undefined },
+                            content:  page === 'download' ? 'Download' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/download/download.html',
+                                content: 'Download'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            // elemMods: { kind: 'special' },
+                            elemMods: { page: 'buy', state: page === 'buy' ? 'current' : undefined },
+                            content: page === 'buy' ? 'Buy' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/buy/buy.html',
+                                content: 'Buy'
+                            }
                         }
-                    },
-                    {
-                        elem: 'item',
-                        content: {
-                            block: 'b-link',
-                            url: '/desktop.bundles/company/company.html',
-                            content: 'Community'
+                    ]
+                },
+                {
+                    block: 'lang-switcher',
+                    content: [
+                        {
+                            elem: 'current',
+                            content: 'International (English)'
                         }
-                    },
-                    {
-                        elem: 'item',
-                        content: {
-                            block: 'b-link',
-                            url: '/desktop.bundles/support/support.html',
-                            content: 'Support'
-                        }
-                    },
-                    {
-                        elem: 'item',
-                        elemMods: { kind: 'special' },
-                        content: {
-                            block: 'b-link',
-                            url: '/desktop.bundles/download/download.html',
-                            content: 'Download'
-                        }
-                    },
-                    {
-                        elem: 'item',
-                        elemMods: { kind: 'special' },
-                        content: {
-                            block: 'b-link',
-                            url: '/desktop.bundles/buy/buy.html',
-                            content: 'Buy'
-                        }
-                    }
-                ]
-            },
-            {
-                block: 'lang-switcher',
-                content: [
-                    'International - ',
-                    'English'
-                ]
-            }
-        ]
+                    ]
+                }
+            ]
+        }
     }
 }
