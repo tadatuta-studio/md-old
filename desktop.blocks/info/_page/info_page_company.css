@@ -3,13 +3,13 @@
     width: 100%;
 }
 
-.info_page_company .info__list
+.b-page_page_company .info__list
 {
     width: 67%;
 }
 
 .info_page_company .info__item
 {
-    margin-right: 3%;
+    /*margin-left: 3%;*/
     width: 38%;
 }

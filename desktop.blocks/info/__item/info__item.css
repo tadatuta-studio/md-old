@@ -10,6 +10,11 @@
     vertical-align: top;
 }
 
+.b-page_page_company .info__item
+{
+    margin: 0 0 35px 3%;
+}
+
 .info__item_col_2
 {
     margin-top: 48px;
