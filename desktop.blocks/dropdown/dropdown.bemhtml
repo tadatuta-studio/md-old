@@ -1,0 +1,34 @@
+block dropdown {
+    content: [
+        {
+            elem: 'item',
+            content: [
+                {
+                    block: 'b-link',
+                    url: '#russian',
+                    content: 'Rissian'
+                }
+            ]
+        },
+        {
+            elem: 'item',
+            content: [
+                {
+                    block: 'b-link',
+                    url: '#english',
+                    content: 'English'
+                }
+            ]
+        },
+        {
+            elem: 'item',
+            content: [
+                {
+                    block: 'b-link',
+                    url: '#german',
+                    content: 'German'
+                }
+            ]
+        }
+    ]
+}

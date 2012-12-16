@@ -1,0 +1,9 @@
+.slider__items
+{
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    background: #4E4D4D
+}

@@ -1,0 +1,30 @@
+.slider__play
+{
+    background: url(../../../i/slider__play.png) no-repeat;
+
+    width: 128px;
+    height: 128px;
+
+    position: absolute;
+    top: 30%;
+    left: 39%;
+
+    z-index: 3;
+
+    cursor: pointer;
+
+    border-radius: 65px;
+
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.slider__play:hover
+{
+    -webkit-box-shadow: 0 0 10px #39c;
+    -moz-box-shadow: 0 0 10px #39c;
+    -o-box-shadow: 0 0 10px #39c;
+    box-shadow: 0 0 10px #39c;
+}

@@ -1,0 +1,19 @@
+.dropdown
+{
+    position: absolute;
+    z-index: 10;
+
+    border: 1px solid #999;
+    background: #fff;
+
+    padding: 7px 10px;
+
+    width: 100%;
+
+    display: none;
+}
+
+.dropdown_visibility_visible
+{
+    display: block;
+}

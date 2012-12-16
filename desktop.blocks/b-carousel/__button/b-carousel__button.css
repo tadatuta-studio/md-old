@@ -4,33 +4,15 @@
 
     cursor: pointer;
 
-    width: 8%;
-    max-width: 95px;
-    height: 60px;
+    width: 12px;
+    height: 12px;
 
 
     list-style: none;
     float: left;
 
-    background: url(../../../i/b-carousel__button.png) 50% -4px  no-repeat;
-}
+    background: #a5a5a6;
 
-.b-carousel__button_type_safe
-{
-    background-position: 50% -61px;
-}
-
-.b-carousel__button_type_control
-{
-    background-position: 50% -117px;
-}
-
-.b-carousel__button_type_entertainmen
-{
-    background-position: 50% -177px;
-}
-
-.b-carousel__button_type_protection
-{
-    background-position: 50% -239px;
+    margin-right: 7px;
+    border-radius: 20px;
 }

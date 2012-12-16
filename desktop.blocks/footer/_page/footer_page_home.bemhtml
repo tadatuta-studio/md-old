@@ -85,7 +85,7 @@ block footer {
                     },
                     {
                         elem: 'item',
-                        mods: { type: 'telecom' }
+                        mods: { type: 'telecom', position: 'last' }
                     },
                     {
                         elem: 'item',
@@ -105,7 +105,7 @@ block footer {
                     },
                     {
                         elem: 'item',
-                        mods: { type: 'advent' }
+                        mods: { type: 'advent', position: 'last' }
                     },
                     {
                         elem: 'item',
@@ -125,7 +125,7 @@ block footer {
                     },
                     {
                         elem: 'item',
-                        mods: { type: 'five' }
+                        mods: { type: 'five', position: 'last' }
                     }
                 ]
             }

@@ -1,10 +1,9 @@
 .footer-nav
 {
     line-height: 22px;
+    text-align: center;
 
-    padding-left: 30%;
-
-    width: 43%;
+    margin-top: -6px;
 }
 
 .footer-nav .b-menu-horiz__item

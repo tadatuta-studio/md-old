@@ -1,13 +1,18 @@
 .partners__item
 {
     height: 60px;
-    width: 17%;
+    width: 16%;
 
     display: inline-block;
 
-    margin: 0 3% 15px 0;
+    margin: 0 5% 15px 0;
 
     background: url(../../../i/partners__item.png) no-repeat;
+}
+
+.partners__item_position_last
+{
+    margin-right: 0;
 }
 
 .partners__item_type_disney

@@ -14,6 +14,10 @@
             block: 'lang-switcher'
         },
         {
+            block: 'dropdown',
+            elems: ['item']
+        },
+        {
             block: 'b-menu-horiz',
             mods: { layout: 'normal' },
             elems: ['item', { elem: 'item', elemMods: { kind: 'special' } }]

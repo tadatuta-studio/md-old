@@ -1,0 +1,14 @@
+.dropdown__item .b-link
+{
+    padding: 4px 12px;
+    color: #888;
+
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown__item .b-link:hover
+{
+    background: #eee;
+    color: #000;
+}

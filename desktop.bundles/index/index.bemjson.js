@@ -21,8 +21,7 @@
             mix: [{ block: 'clearfix' }],
             content: [
                 {
-                    block: 'b-carousel',
-                    mods: { auto: 'yes' },
+                    block: 'slider',
                     content: [
                         {
                             elem: 'play'
@@ -32,7 +31,7 @@
                             content: [
                                 {
                                     elem: 'item',
-                                    elemMods: { state: 'active', type: 'play' },
+                                    elemMods: { state: 'active', type: 'play', slide: '1' },
                                     content: [
                                         {
                                             elem: 'inner',
@@ -49,13 +48,13 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/b-carousel__slide_slide_1.png'
+                                            url: '../../i/slider__slide_slide_1.png'
                                         }
                                     ]
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { type: 'safe' },
+                                    elemMods: { type: 'safe',  slide: '2' },
                                     content: [
                                         {
                                             elem: 'inner',
@@ -72,13 +71,13 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/b-carousel__slide_slide_2.png'
+                                            url: '../../i/slider__slide_slide_2.png'
                                         }
                                     ]
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { type: 'control' },
+                                    elemMods: { type: 'control',  slide: '3' },
                                     content: [
                                         {
                                             elem: 'inner',
@@ -95,13 +94,13 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/b-carousel__slide_slide_3.png'
+                                            url: '../../i/slider__slide_slide_3.png'
                                         }
                                     ]
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { type: 'entertainment' },
+                                    elemMods: { type: 'entertainment',  slide: '4' },
                                     content: [
                                         {
                                             elem: 'inner',
@@ -118,13 +117,13 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/b-carousel__slide_slide_4.png'
+                                            url: '../../i/slider__slide_slide_4.png'
                                         }
                                     ]
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { type: 'protection' },
+                                    elemMods: { type: 'protection',  slide: '5' },
                                     content: [
                                         {
                                             elem: 'inner',
@@ -141,14 +140,14 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/b-carousel__slide_slide_5.png'
+                                            url: '../../i/slider__slide_slide_5.png'
                                         }
                                     ]
                                 }
                             ]
                         },
                         {
-                            elem: 'switcher', /* позиционировать поверх слайдов */
+                            elem: 'switcher',
                             content: [
                                 {
                                     elem: 'button',
@@ -179,9 +178,6 @@
                     mods: { type: 'video-md8' },
                     content: [
                         {
-                            elem: 'paranja'
-                        },
-                        {
                             elem: 'inner',
                             content: [
                                 {
@@ -202,7 +198,7 @@
                                 },
                                 {
                                     elem: 'video',
-                                    attrs: { src: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0', frameborder: '0' }
+                                    attrs: { src: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0', datasrc: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0', frameborder: '0' }
                                 }
                             ]
                         }
@@ -536,30 +532,93 @@
                             ]
                         },
                         {
-                            block: 'units',
-                            mods: { type: 'testimonials' },
+                            block: 'b-carousel',
+                            mods: { auto: 'yes' },
                             content: [
                                 {
-                                    elem: 'inner',
+                                    elem: 'items',
                                     content: [
                                         {
                                             elem: 'item',
+                                            elemMods: { type: 'first-block', state: 'active' },
                                             content: [
                                                 {
-                                                    elem: 'description',
-                                                    content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
-                                                },
-                                                {
-                                                    elem: 'adds',
+                                                    block: 'units',
+                                                    mods: { type: 'testimonials' },
                                                     content: [
                                                         {
-                                                            elem: 'author-item',
-                                                            content: 'Lindsay'
-                                                        }, ' / ',
-                                                        {
-                                                            elem: 'author-item',
-                                                            mods: { type: 'country' },
-                                                            content: 'USA'
+                                                            elem: 'inner',
+                                                            content: [
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Lindsay'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'USA'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"The Kid’s E-mail and Internet browser programs are great, so much better than all the other filters I have tried. My son is 9 and his parent-approved websites list is growing quickly. I add a new site in exchange for 50 bonus points. He loves it!""'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Michael'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'Ukraine'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"I love your "No Homework-No Play" technology! You should see my kids trying hard to get the bonus points in Easy Learning doing multiplication tables so that they can play games afterwards. Parental control system is so simple and effective! Fantastic!"'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Ann'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'Norway'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
                                                         }
                                                     ]
                                                 }
@@ -567,49 +626,102 @@
                                         },
                                         {
                                             elem: 'item',
+                                            elemMods: { type: 'second-block' },
                                             content: [
                                                 {
-                                                    elem: 'description',
-                                                    content: '"The Kid’s E-mail and Internet browser programs are great, so much better than all the other filters I have tried. My son is 9 and his parent-approved websites list is growing quickly. I add a new site in exchange for 50 bonus points. He loves it!""'
-                                                },
-                                                {
-                                                    elem: 'adds',
+                                                    block: 'units',
+                                                    mods: { type: 'testimonials' },
                                                     content: [
                                                         {
-                                                            elem: 'author-item',
-                                                            content: 'Michael'
-                                                        }, ' / ',
-                                                        {
-                                                            elem: 'author-item',
-                                                            mods: { type: 'country' },
-                                                            content: 'Ukraine'
+                                                            elem: 'inner',
+                                                            content: [
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Lindsay'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'USA'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"The Kid’s E-mail and Internet browser programs are great, so much better than all the other filters I have tried. My son is 9 and his parent-approved websites list is growing quickly. I add a new site in exchange for 50 bonus points. He loves it!""'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Michael'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'Ukraine'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"I love your "No Homework-No Play" technology! You should see my kids trying hard to get the bonus points in Easy Learning doing multiplication tables so that they can play games afterwards. Parental control system is so simple and effective! Fantastic!"'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Ann'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'Norway'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
                                                         }
                                                     ]
                                                 }
                                             ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    elem: 'switcher',
+                                    content: [
+                                        {
+                                            elem: 'button',
+                                            elemMods: { type: 'first-block', state: 'active' }
                                         },
                                         {
-                                            elem: 'item',
-                                            content: [
-                                                {
-                                                    elem: 'description',
-                                                    content: '"I love your "No Homework-No Play" technology! You should see my kids trying hard to get the bonus points in Easy Learning doing multiplication tables so that they can play games afterwards. Parental control system is so simple and effective! Fantastic!"'
-                                                },
-                                                {
-                                                    elem: 'adds',
-                                                    content: [
-                                                        {
-                                                            elem: 'author-item',
-                                                            content: 'Ann'
-                                                        }, ' / ',
-                                                        {
-                                                            elem: 'author-item',
-                                                            mods: { type: 'country' },
-                                                            content: 'Norway'
-                                                        }
-                                                    ]
-                                                }
-                                            ]
+                                            elem: 'button',
+                                            elemMods: { type: 'second-block' }
                                         }
                                     ]
                                 }

@@ -1,0 +1,8 @@
+.slider__switcher
+{
+    position: relative;
+
+    z-index: 2;
+
+    margin: 24% 0 0 -40px
+}

@@ -90,6 +90,9 @@ block header {
                         {
                             elem: 'current',
                             content: 'International (English)'
+                        },
+                        {
+                            block: 'dropdown'
                         }
                     ]
                 }

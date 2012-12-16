@@ -1,8 +1,9 @@
 .b-carousel__switcher
 {
-    position: relative;
+    position: absolute;
 
     z-index: 2;
 
-    margin: 24% 0 0 -40px
+    bottom: 0;
+    right: 0;
 }

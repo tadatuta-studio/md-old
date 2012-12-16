@@ -1,0 +1,34 @@
+.slider__title
+{
+    background: url(../../../i/slider__title.png) no-repeat 98% 86%;
+    font-size: 265%;
+    white-space: nowrap;
+
+    padding: 7% 4% 2%;
+    margin-left: 7%;
+}
+
+.slider__item_type_play.slider__item_state_active .slider__title
+{
+    background-color: #e25e3a;
+}
+
+.slider__item_type_safe.slider__item_state_active .slider__title
+{
+    background-color: #39c;
+}
+
+.slider__item_type_control.slider__item_state_active .slider__title
+{
+    background-color: #6cae11;
+}
+
+.slider__item_type_entertainment.slider__item_state_active .slider__title
+{
+    background-color: #d94c81;
+}
+
+.slider__item_type_protection.slider__item_state_active .slider__title
+{
+    background-color: #e0962d;
+}

@@ -1,0 +1,36 @@
+.slider__button
+{
+    text-align: center;
+
+    cursor: pointer;
+
+    width: 8%;
+    max-width: 95px;
+    height: 60px;
+
+
+    list-style: none;
+    float: left;
+
+    background: url(../../../i/slider__button.png) 50% -4px  no-repeat;
+}
+
+.slider__button_type_safe
+{
+    background-position: 50% -61px;
+}
+
+.slider__button_type_control
+{
+    background-position: 50% -117px;
+}
+
+.slider__button_type_entertainmen
+{
+    background-position: 50% -177px;
+}
+
+.slider__button_type_protection
+{
+    background-position: 50% -239px;
+}

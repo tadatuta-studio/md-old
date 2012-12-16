@@ -1,0 +1,24 @@
+.slider__button_type_play.slider__button_state_active
+{
+    background-color: #e25e3a;
+}
+
+.slider__button_type_safe.slider__button_state_active
+{
+    background-color: #39c;
+}
+
+.slider__button_type_control.slider__button_state_active
+{
+    background-color: #6cae11;
+}
+
+.slider__button_type_entertainment.slider__button_state_active
+{
+    background-color: #d94c81;
+}
+
+.slider__button_type_protection.slider__button_state_active
+{
+    background-color: #e0962d;
+}
