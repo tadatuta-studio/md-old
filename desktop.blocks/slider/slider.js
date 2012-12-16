@@ -1,3 +1,15 @@
+BEM.DOM.decl('slider',
+    {
+        onSetMod: {
+            'js': function() {
+                var popupa = this.findBlockOutside('b-page').findBlockInside({ block: 'popupa', modName: 'type', modVal: 'video-md8' });
+                this.bindTo(this.elem('play'), 'click', function() {
+                    popupa.show();
+                });
+            }
+        }
+    });
+
 $(function(){
     $('.slider').each(function () {
         var tmp = $(this);

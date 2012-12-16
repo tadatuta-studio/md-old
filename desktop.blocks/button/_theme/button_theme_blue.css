@@ -3,21 +3,21 @@
     cursor: pointer;
 
     background: #39c;
-    background: -moz-linear-gradient(top,  #3da5d9 8%, #39c);
-    background: -webkit-linear-gradient(top,  #3da5d9 8%,#39c);
-    background: -o-linear-gradient(top,  #3da5d9 8%,#39c);
-    background: -ms-linear-gradient(top,  #3da5d9 8%,#39c);
-    background: linear-gradient(to bottom,  #3da5d9 8%,#39c);
+    background: -moz-linear-gradient(top, #3da5d9 8%, #39c);
+    background: -webkit-linear-gradient(top, #3da5d9 8%, #39c);
+    background: -o-linear-gradient(top, #3da5d9 8%, #39c);
+    background: -ms-linear-gradient(top, #3da5d9 8%, #39c);
+    background: linear-gradient(to bottom, #3da5d9 8%, #39c);
 }
 
 .button_theme_blue.button_hovered_yes
 {
     background: #3ca1d3;
-    background: -moz-linear-gradient(top,  #45aee2 8%, #3ca1d3);
-    background: -webkit-linear-gradient(top,  #fff 8%,#3ca1d3);
-    background: -o-linear-gradient(top,  #45aee2 8%,#3ca1d3);
-    background: -ms-linear-gradient(top,  #45aee2 8%,#3ca1d3);
-    background: linear-gradient(to bottom,  #45aee2 8%,#3ca1d3);
+    background: -moz-linear-gradient(top, #45aee2 8%, #3ca1d3);
+    background: -webkit-linear-gradient(top, #45aee2 8%, #3ca1d3);
+    background: -o-linear-gradient(top, #45aee2 8%, #3ca1d3);
+    background: -ms-linear-gradient(top, #45aee2 8%, #3ca1d3);
+    background: linear-gradient(to bottom, #45aee2 8%, #3ca1d3);
 }
 
 .button_theme_blue.button_pressed_yes
