@@ -11,6 +11,9 @@
     font-style: italic;
 
     white-space: nowrap;
+
+    margin-top: 11px;
+    line-height: 1.35;
 }
 
 .download__title-line.download__title-line_line_2

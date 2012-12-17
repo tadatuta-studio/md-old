@@ -862,7 +862,8 @@
             ]
         },
         {
-            block: 'footer'
+            block: 'footer',
+            mods: { page: 'product' }
         }
     ]
 })
