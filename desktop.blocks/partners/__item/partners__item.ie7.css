@@ -3,5 +3,12 @@
     zoom: 1;
     display: inline;
 
-    margin-right: 4%
+    margin-right: 3%;
+    width: 18%;
+}
+
+.partners__item_position_last
+{
+    margin-right: 0 !important;
+    width: 16%;
 }

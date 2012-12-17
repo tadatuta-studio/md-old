@@ -4,6 +4,11 @@
     margin-bottom: 40px;
 }
 
+.chapter_block_testimonials.chapter_border_yes:after
+{
+    margin-top: 0;
+}
+
 .chapter_border_yes .units__item
 {
     margin-bottom: 40px;

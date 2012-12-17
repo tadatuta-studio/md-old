@@ -519,7 +519,7 @@
                 },
                 {
                     block: 'chapter',
-                    mods: { border: 'yes' },
+                    mods: { border: 'yes', block: 'testimonials' },
                     mix: [{ block: 'clearfix' }],
                     content: [
                         {

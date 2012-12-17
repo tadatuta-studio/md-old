@@ -1,6 +1,6 @@
 .about-product__description
 {
-    margin: 30px 0 30px 10px;
+    margin: 34px 0 30px 10px;
 
     position: relative;
 
@@ -10,6 +10,11 @@
     line-height: 1.2;
 
     color: #39c;
+}
+
+.about-product__description-line
+{
+    white-space: nowrap;
 }
 
 .about-product__description .about-product__description-line_line_2

@@ -117,6 +117,7 @@
                                     content: [
                                         {
                                             block: 'services',
+                                            mix: [{ block: 'clearfix' }],
                                             content: [
                                                 {
                                                     elem: 'left',
@@ -419,6 +420,7 @@
                                     content: [
                                         {
                                             block: 'services',
+                                            mix: [{ block: 'clearfix' }],
                                             content: [
                                                 {
                                                     elem: 'left',
@@ -500,9 +502,11 @@
                                 },
                                 {
                                     elem: 'content',
+                                    elemMods: { type: 'languages' },
                                     content: [
                                         {
                                             block: 'services',
+                                            mix: [{ block: 'clearfix' }],
                                             content: [
                                                 {
                                                     elem: 'left',
@@ -617,6 +621,7 @@
                                                     content: [
                                                         {
                                                             elem: 'cell',
+                                                            elemMods: { position: 'first' },
                                                             content: [
                                                                 {
                                                                     block: 'b-link',

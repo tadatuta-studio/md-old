@@ -109,11 +109,11 @@ block footer {
                     },
                     {
                         elem: 'item',
-                        mods: { type: 'asus' }
+                        mods: { type: 'acer' }
                     },
                     {
                         elem: 'item',
-                        mods: { type: 'acer' }
+                        mods: { type: 'asus' }
                     },
                     {
                         elem: 'item',
