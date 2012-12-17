@@ -708,8 +708,8 @@
                                                             content: [
                                                                 {
                                                                     block: 'b-link',
-                                                                    mix: { block: 'languages', elem: 'item', elemMods: { type: 'portuguese'  }},
-                                                                    content: 'Portuguese',
+                                                                    mix: { block: 'languages', elem: 'item', elemMods: { type: 'swedish'  }},
+                                                                    content: 'Swedish',
                                                                     url: '#'
                                                                 }
                                                             ]

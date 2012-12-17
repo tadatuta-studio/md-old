@@ -1,0 +1,9 @@
+.input_type_input .input__box .input__control
+{
+    height: 25px;
+    width: 94%;
+}
+.input_type_textarea .input__box .input__control
+{
+    width: 94%
+}

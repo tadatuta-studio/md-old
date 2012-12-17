@@ -13,6 +13,8 @@
     -ms-box-shadow: 0 2px 4px #cfcfcf;
     box-shadow: 0 2px 4px #cfcfcf;
 
+    border: 0;
+
     font-family: "wf_SegoeUILight", Tahoma, Verdana, Arial, sans-serif;
     font-size: 35px;
     color: #fff;
@@ -45,7 +47,7 @@
     padding: 17px 44px 22px 52px;
 }
 
-.button_theme_download:after
+.button_theme_download .button__text:after
 {
     content: "";
 

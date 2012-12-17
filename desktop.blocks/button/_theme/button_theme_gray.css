@@ -2,7 +2,7 @@
 {
     border: 1px solid #999;
 
-    background: #fefefe;
+    background: #e0e1e4;
     background: -moz-linear-gradient(top,  #fefefe 8%, #e0e1e4);
     background: -webkit-linear-gradient(top,  #fefefe 8%,#e0e1e4);
     background: -o-linear-gradient(top,  #fefefe 8%,#e0e1e4);
@@ -25,7 +25,7 @@
     background: -webkit-linear-gradient(top,  #fff 8%,#e8e9ea);
     background: -o-linear-gradient(top,  #fff 8%,#e8e9ea);
     background: -ms-linear-gradient(top,  #fff 8%,#e8e9ea);
-    background: linear-gradient(to bottom,  #fff 8%,#e8e9ea);   
+    background: linear-gradient(to bottom,  #fff 8%,#e8e9ea);
 }
 
 .button_theme_gray.button_pressed_yes

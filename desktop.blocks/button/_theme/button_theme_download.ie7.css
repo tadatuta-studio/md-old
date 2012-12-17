@@ -1,0 +1,19 @@
+.button_theme_download
+{
+    height: 66px !important;
+    float: right;
+
+    zoom: 1;
+
+    margin-top: 10px
+}
+
+.button_page_home.button_theme_download
+{
+    margin-top: -84px
+}
+
+.button_theme_download .button__text
+{
+    padding-top: 11px;
+}

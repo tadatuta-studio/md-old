@@ -48,7 +48,7 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/slider__slide_slide_1.png'
+                                            url: '../../i/slider__slide_slide_1.jpg'
                                         }
                                     ]
                                 },
@@ -71,7 +71,7 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/slider__slide_slide_2.png'
+                                            url: '../../i/slider__slide_slide_2.jpg'
                                         }
                                     ]
                                 },
@@ -94,7 +94,7 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/slider__slide_slide_3.png'
+                                            url: '../../i/slider__slide_slide_3.jpg'
                                         }
                                     ]
                                 },
@@ -117,7 +117,7 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/slider__slide_slide_4.png'
+                                            url: '../../i/slider__slide_slide_4.jpg'
                                         }
                                     ]
                                 },
@@ -140,7 +140,7 @@
                                         },
                                         {
                                             elem: 'slide',
-                                            url: '../../i/slider__slide_slide_5.png'
+                                            url: '../../i/slider__slide_slide_5.jpg'
                                         }
                                     ]
                                 }
