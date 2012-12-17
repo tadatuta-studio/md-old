@@ -1,7 +1,7 @@
 .dropdown
 {
     position: absolute;
-    z-index: 10;
+    z-index: 999;
 
     border: 1px solid #bfc0c4;
     -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.3);

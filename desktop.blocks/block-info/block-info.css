@@ -1,3 +1,8 @@
+.block_type_languages .block-info
+{
+    margin-top: -23px;
+}
+
 .block-info__h2
 {
     font-weight: 400;

@@ -1,12 +1,12 @@
 .chapter__image
 {
     position: absolute;
-    left: 1%;
+    left: 0;
     bottom: 0;
 
     height: auto;
     width: 100%;
 
     max-width: 26%;
-    min-width: 305px;
+    min-width: 300px;
 }

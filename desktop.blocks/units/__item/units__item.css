@@ -9,6 +9,11 @@
     display: inline-block;
 }
 
+.chapter_type_reasons .units__item
+{
+    width: 33%;
+    margin-left: 0;
+}
 
 .units__item_position_bottom
 {
