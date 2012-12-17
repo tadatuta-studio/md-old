@@ -5,12 +5,15 @@
     display: inline-block;
 
     padding-top: 70px;
+    margin-left: -18px;
 
     vertical-align: top;
 
     text-align: left;
 
     color: #1c1c1c;
+
+    width: 57%;
 }
 
 .nav .b-menu-horiz__item

@@ -11,6 +11,11 @@ block header {
                         {
                             block: 'b-link',
                             url: page === 'index' ? undefined : '/desktop.bundles/index/index.html',
+                            mix: [{ block: 'logo', elem: 'pic' }]
+                        },
+                        {
+                            block: 'b-link',
+                            url: page === 'index' ? undefined : '/desktop.bundles/index/index.html',
                             mix: [{ block: 'logo', elem: 'link' }],
                             content: 'Magic Desktop 8'
                         },

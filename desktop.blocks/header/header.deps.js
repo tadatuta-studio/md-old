@@ -8,7 +8,7 @@
         },
         {
             block: 'logo',
-            elems: ['link', 'tagline', 'tagline-highlight']
+            elems: ['link', 'pic', 'tagline', 'tagline-highlight']
         },
         {
             block: 'lang-switcher'
