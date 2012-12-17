@@ -709,6 +709,92 @@
                                                     ]
                                                 }
                                             ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { type: 'third-block' },
+                                            content: [
+                                                {
+                                                    block: 'units',
+                                                    mods: { type: 'testimonials' },
+                                                    content: [
+                                                        {
+                                                            elem: 'inner',
+                                                            content: [
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnt believe she did it all by herself!"'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Lindsay'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'USA'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"The Kid’s E-mail and Internet browser programs are great, so much better than all the other filters I have tried. My son is 9 and his parent-approved websites list is growing quickly. I add a new site in exchange for 50 bonus points. He loves it!""'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Michael'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'Ukraine'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    elem: 'item',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'description',
+                                                                            content: '"I love your "No Homework-No Play" technology! You should see my kids trying hard to get the bonus points in Easy Learning doing multiplication tables so that they can play games afterwards. Parental control system is so simple and effective! Fantastic!"'
+                                                                        },
+                                                                        {
+                                                                            elem: 'adds',
+                                                                            content: [
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    content: 'Ann'
+                                                                                }, ' / ',
+                                                                                {
+                                                                                    elem: 'author-item',
+                                                                                    mods: { type: 'country' },
+                                                                                    content: 'Norway'
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
@@ -722,6 +808,10 @@
                                         {
                                             elem: 'button',
                                             elemMods: { type: 'second-block' }
+                                        },
+                                        {
+                                            elem: 'button',
+                                            elemMods: { type: 'third-block' }
                                         }
                                     ]
                                 }
