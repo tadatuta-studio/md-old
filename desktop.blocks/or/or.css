@@ -18,14 +18,14 @@
 {
     content: "";
 
-    background: #fff;
-
     position: absolute;
-    bottom: 12px;
-    margin-left: -29px;
-
-    height: 1px;
-    width: 37px;
+    top: 17px;
 
     z-index: -1;
+
+    width: 37px;
+    height: 4px;
+    margin-left: -29px;
+
+    background: #fff;
 }
