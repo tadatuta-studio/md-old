@@ -2,9 +2,9 @@
 {
     font-size: 11px;
 
-    float: left;
+    display: inline-block;
 
-    width: 25%;
+    width: 38%;
 }
 
 .copyright__logo
