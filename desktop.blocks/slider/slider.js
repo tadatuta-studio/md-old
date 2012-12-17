@@ -28,9 +28,12 @@ BEM.DOM.decl('slider',
             currentButton = buttons.eq(idx),
             items = this.elem('item'),
             oldItem = this.elem('item', 'state', 'active'),
+            oldIdx = items.index(oldItem),
             currentItem = items.eq(idx);
 
         this.tick = 0;
+
+        if (oldIdx === idx) return;
 
         this.delMod(buttons, 'state');
         this.setMod(currentButton, 'state', 'active');
