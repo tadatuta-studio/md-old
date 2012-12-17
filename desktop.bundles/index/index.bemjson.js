@@ -178,24 +178,30 @@
                     mods: { type: 'video-md8' },
                     content: [
                         {
+                            elem: 'paranja'
+                        },
+                        {
+                            elem: 'close'
+                        },
+                        {
                             elem: 'inner',
                             content: [
-                                {
-                                    elem: 'info',
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            mix: [{ block: 'popupa', elem: 'title' }],
-                                            url: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0',
-                                            target: '_blank',
-                                            content: 'Magic Desktop 8 official demo'
-                                        },
-                                        {
-                                            elem: 'close',
-                                            content: 'Close'
-                                        }
-                                    ]
-                                },
+                                // {
+                                //     elem: 'info',
+                                //     content: [
+                                //         {
+                                //             block: 'b-link',
+                                //             mix: [{ block: 'popupa', elem: 'title' }],
+                                //             url: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0',
+                                //             target: '_blank',
+                                //             content: 'Magic Desktop 8 official demo'
+                                //         },
+                                //         {
+                                //             elem: 'close',
+                                //             content: 'Close'
+                                //         }
+                                //     ]
+                                // },
                                 {
                                     elem: 'video',
                                     url: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0'
@@ -352,6 +358,7 @@
                                                 },
                                                 {
                                                     elem: 'item',
+                                                    elemMods: { position: 'bottom' },
                                                     content: [
                                                         {
                                                             elem: 'pic',
@@ -369,6 +376,7 @@
                                                 },
                                                 {
                                                     elem: 'item',
+                                                    elemMods: { position: 'bottom' },
                                                     content: [
                                                         {
                                                             elem: 'pic',
@@ -392,6 +400,7 @@
                                                 },
                                                 {
                                                     elem: 'item',
+                                                    elemMods: { position: 'bottom' },
                                                     content: [
                                                         {
                                                             elem: 'pic',

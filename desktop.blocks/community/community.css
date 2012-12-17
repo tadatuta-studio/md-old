@@ -6,5 +6,12 @@
 .community .social
 {
     float: left;
-    margin-left: -20px;
+
+    margin-left: -22px;
+    width: 252px;
+}
+
+.community .social__item
+{
+    margin-left: 20px;
 }

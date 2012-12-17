@@ -11,6 +11,8 @@
 
 .logo__link
 {
+    font-family: "Segoe UI Semibold", "Segoe UI", Helvetica,Arial,sans-serif;
+
     position: relative;
 
     font-size: 35px;

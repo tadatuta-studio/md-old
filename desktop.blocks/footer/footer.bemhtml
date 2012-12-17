@@ -20,6 +20,50 @@ block footer {
                     ]
                 },
                 {
+                    block: 'b-menu-horiz',
+                    mods: { layout: 'normal' },
+                    js: false,
+                    mix: [{ block: 'footer-nav' }],
+                    content: [
+                        {
+                            elem: 'item',
+                            elemMods: { state: page === 'company' ? 'current' : undefined },
+                            content: page === 'company' ? 'Company' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/company/company.html',
+                                content: 'Company'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            elemMods: { state: page === 'license-agreement' ? 'current' : undefined },
+                            content: page === 'license-agreement' ? 'License Agreement' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/license-agreement/license-agreement.html',
+                                content: 'License Agreement'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            elemMods: { state: page === 'privacy-policy' ? 'current' : undefined },
+                            content: page === 'privacy-policy' ? 'Privacy Policy' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/privacy-policy/privacy-policy.html',
+                                content: 'Privacy Policy'
+                            }
+                        },
+                        {
+                            elem: 'item',
+                            elemMods: { state: page === 'contact-us' ? 'current' : undefined },
+                            content: page === 'contact-us' ? 'Contact Us' : {
+                                block: 'b-link',
+                                url: '/desktop.bundles/support/support.html',
+                                content: 'Contact Us'
+                            }
+                        }
+                    ]
+                },
+                {
                     block: 'social',
                     content: [
                         {
@@ -60,50 +104,6 @@ block footer {
                                 block: 'b-link',
                                 mods: { link: 'mail' },
                                 url: '#mail'
-                            }
-                        }
-                    ]
-                },
-                {
-                    block: 'b-menu-horiz',
-                    mods: { layout: 'normal' },
-                    js: false,
-                    mix: [{ block: 'footer-nav' }],
-                    content: [
-                        {
-                            elem: 'item',
-                            elemMods: { state: page === 'company' ? 'current' : undefined },
-                            content: page === 'company' ? 'Company' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/company/company.html',
-                                content: 'Company'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { state: page === 'license-agreement' ? 'current' : undefined },
-                            content: page === 'license-agreement' ? 'License Agreement' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/license-agreement/license-agreement.html',
-                                content: 'License Agreement'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { state: page === 'privacy-policy' ? 'current' : undefined },
-                            content: page === 'privacy-policy' ? 'Privacy Policy' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/privacy-policy/privacy-policy.html',
-                                content: 'Privacy Policy'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { state: page === 'contact-us' ? 'current' : undefined },
-                            content: page === 'contact-us' ? 'Contact Us' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/support/support.html',
-                                content: 'Contact Us'
                             }
                         }
                     ]
