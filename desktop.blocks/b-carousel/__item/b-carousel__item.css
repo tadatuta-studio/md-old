@@ -8,6 +8,8 @@
     transition: left .5s;
 
     height: inherit;
+
+    background: #fff;
 }
 
 .b-carousel__item_state_active,

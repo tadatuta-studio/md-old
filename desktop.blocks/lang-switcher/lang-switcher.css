@@ -3,6 +3,8 @@
     position: absolute;
     right: 0;
     top: 45px;
+
+    cursor: pointer;
 }
 
 .lang-switcher__current:after {

@@ -1,7 +1,8 @@
 .units__image
 {
     position: absolute;
-    left: 35%;
+    /*left: 35%;*/
+    left: 34%;
 
     max-width: 50%;
     min-width: 645px;

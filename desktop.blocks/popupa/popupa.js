@@ -7,7 +7,7 @@ BEM.DOM.decl('popupa',
     },
     show: function() {
         this.setMod('visibility', 'visible');
-        var video = $('.popupa__video');
+        var video = this.elem('video');
         if (video) {
             var dataSrc = video.attr('datasrc');
             video.attr('src',  dataSrc);
@@ -17,7 +17,7 @@ BEM.DOM.decl('popupa',
     },
     hide: function() {
         this.delMod('visibility');
-        var video = $('.popupa__video');
+        var video = this.elem('video');
         video && video.attr('src', '');
         return this;
     },

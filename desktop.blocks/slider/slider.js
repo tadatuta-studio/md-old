@@ -1,28 +1,61 @@
 BEM.DOM.decl('slider',
-    {
-        onSetMod: {
-            'js': function() {
-                var popupa = this.findBlockOutside('b-page').findBlockInside({ block: 'popupa', modName: 'type', modVal: 'video-md8' });
-                this.bindTo(this.elem('play'), 'click', function() {
-                    popupa.show();
-                });
-            }
-        }
-    });
+{
+    onSetMod: {
+        'js': function() {
+            var _this = this,
+                buttons = this.elem('button');
 
-$(function(){
-    $('.slider').each(function () {
-        var tmp = $(this);
-        $(tmp).find('.slider__switcher li').each(function (i) {
-            $(tmp).find('.slider__switcher li:eq('+i+')').live('click', function(){
-                var tab_id=i+1;
-                $(tmp).find('.slider__switcher li').removeClass('slider__button_state_active');
-                $(this).addClass('slider__button_state_active');
-                $(tmp).find('.slider__item .slider__description').css('padding-left','30px').animate({paddingLeft:"0"}, 500);
-                $(tmp).find('.slider__item').stop(false,false).fadeOut(300).removeClass('slider__item_state_active');
-                $(tmp).find('.slider__item_slide_'+tab_id).stop(false,false).fadeIn(600).addClass('slider__item_state_active');
-                return false;
+            this.bindTo(buttons, 'click', function(e) {
+                var currentButton = e.data.domElem,
+                    currentIdx = buttons.index(currentButton);
+
+                this.go(currentIdx);
             });
+
+            // bind to Play button to show video popup
+            var popupa = this.findBlockOutside('b-page').findBlockInside({ block: 'popupa', modName: 'type', modVal: 'video-md8' });
+            this.bindTo(this.elem('play'), 'click', function() {
+                popupa.show();
+            });
+
+            this.tick = 0;
+            BEM.channel('sys').on('tick', _this._onTick, _this);
+        }
+    },
+    go: function(idx) {
+        var _this = this,
+            buttons = this.elem('button'),
+            currentButton = buttons.eq(idx),
+            items = this.elem('item'),
+            oldItem = this.elem('item', 'state', 'active'),
+            currentItem = items.eq(idx);
+
+        this.tick = 0;
+
+        this.delMod(buttons, 'state');
+        this.setMod(currentButton, 'state', 'active');
+
+        _this.setMod(currentItem, 'pos', 'next');
+
+        oldItem.fadeOut(600, function() {
+            _this.delMod(oldItem, 'state');
+            oldItem.css('display', '');
+            _this.delMod(currentItem, 'pos');
+            _this.setMod(currentItem, 'state', 'active');
         });
-    });
+
+        this.elem('description').css('padding-left', '30px').animate({ paddingLeft: '0' }, 700);
+
+    },
+    next: function() {
+        var buttons = this.elem('button'),
+            currentButton = this.elem('button', 'state', 'active'),
+            currentIdx = buttons.index(currentButton);
+
+        this.go(currentIdx + 1 < buttons.length ? currentIdx + 1 : 0);
+    },
+    _onTick: function() {
+        this.tick++;
+        this.tick > 150 && this.next();
+    }
 });

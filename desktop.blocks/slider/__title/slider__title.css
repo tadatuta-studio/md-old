@@ -8,27 +8,27 @@
     margin-left: 7%;
 }
 
-.slider__item_type_play.slider__item_state_active .slider__title
+.slider__item_type_play .slider__title
 {
     background-color: #e25e3a;
 }
 
-.slider__item_type_safe.slider__item_state_active .slider__title
+.slider__item_type_safe .slider__title
 {
     background-color: #39c;
 }
 
-.slider__item_type_control.slider__item_state_active .slider__title
+.slider__item_type_control .slider__title
 {
     background-color: #6cae11;
 }
 
-.slider__item_type_entertainment.slider__item_state_active .slider__title
+.slider__item_type_entertainment .slider__title
 {
     background-color: #d94c81;
 }
 
-.slider__item_type_protection.slider__item_state_active .slider__title
+.slider__item_type_protection .slider__title
 {
     background-color: #e0962d;
 }

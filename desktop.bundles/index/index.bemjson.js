@@ -198,7 +198,7 @@
                                 },
                                 {
                                     elem: 'video',
-                                    attrs: { src: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0', datasrc: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0', frameborder: '0' }
+                                    url: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0'
                                 }
                             ]
                         }
