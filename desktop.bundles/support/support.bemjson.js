@@ -1,43 +1,46 @@
 ({
     block: 'b-page',
-    title: 'Support',
+    title: 'Support — Magic Desktop 8',
     favicon: '/favicon.ico',
     head: [
-        { elem: 'css', url: '../merged/_merged.css', ie: false },
-        { elem: 'css', url: '../merged/_merged', ie: true },
+        { elem: 'css', url: '_support.css', ie: false },
+        { elem: 'css', url: '_support', ie: true },
         { block: 'i-jquery', elem: 'core' },
-        { elem: 'js', url: '../merged/_merged.js' },
+        { elem: 'js', url: '_support.js' },
         { elem: 'meta', attrs: { name: 'description', content: '' }},
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],
     mods: { page: 'support' },
-    content:[
+    content: [
         {
-            block: 'header',
-            mods: { page: 'support', border: 'yes' }
-        },
-        {
-            block: 'info-block',
-            mix: [{ block: 'clearfix' }],
+            block: 'container',
             content: [
                 {
-                    elem: 'inner',
+                    block: 'header',
+                    mods: { page: 'support' }
+                },
+                {
+                    block: 'row-fluid',
                     content: [
                         {
-                            elem: 'left',
-                            content: [
-                                {
-                                    elem: 'title',
-                                    content: 'Contact us'
-                                },
-                                {
-                                    elem: 'description',
-                                    content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
-                                }
-                            ]
+                            block: 'span3',
+                            content: {
+                                block: 'block-info',
+                                content: [
+                                    {
+                                       elem: 'h2',
+                                       content: 'Contact us'
+                                    },
+                                    {
+                                        elem: 'p',
+                                        content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
+                                    }
+                                ]
+                            }
                         },
                         {
-                            elem: 'right',
+                            block: 'span8',
+                            mix: [{ block: 'offset1' }],
                             content: [
                                 {
                                     block: 'form',
@@ -115,7 +118,7 @@
         },
         {
             block: 'footer',
-            page: 'contact-us'
+            mods: { page: 'support' }
         }
     ]
 })
