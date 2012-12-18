@@ -1,13 +1,13 @@
 .about-product__description
 {
-    margin: 34px 0 30px -10px;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
 
     position: relative;
 
-    font-weight: 400;
-    font-style: italic;
-    font-size: 30px;
-    line-height: 1.2;
+    margin: 34px 0 30px;
 
     color: #39c;
 }

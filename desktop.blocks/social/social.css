@@ -1,6 +1,6 @@
 .social
 {
-    display: inline-block;
+    float: right;
 
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
     list-style: none;
     vertical-align: top;
 
-    width: 22%;
+    width: 40%;
 }
 
 .social__item

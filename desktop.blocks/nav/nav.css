@@ -1,6 +1,7 @@
 .nav
 {
     font-size: 16px;
+    font-weight: 300;
 
     display: inline-block;
 
@@ -12,8 +13,6 @@
     text-align: left;
 
     color: #1c1c1c;
-
-    width: 57%;
 }
 
 .nav .b-menu-horiz__item
@@ -29,7 +28,7 @@
 
 .nav .b-menu-horiz__item_state_current
 {
-    padding: 30px 17px 0;
+    padding: 28px 17px 0;
     background: url(../../i/nav.png) 50% 3px no-repeat;
 }
 

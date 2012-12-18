@@ -1,17 +1,15 @@
 .logo
 {
-    font-size: 23px;
+    font-size: 25px;
 
     display: inline-block;
-
-    width: 43%;
 
     color: #333;
 }
 
 .logo__link
 {
-    font-family: "Segoe UI Semibold", "Segoe UI", Helvetica,Arial,sans-serif;
+    font-family: "Segoe UI Semibold", "Segoe UI", Helvetica, Arial, sans-serif;
 
     position: relative;
 

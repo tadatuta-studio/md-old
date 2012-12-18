@@ -3,300 +3,308 @@ block header {
         var page = this.ctx.mods ? this.ctx.mods.page : '';
 
         return {
-            elem: 'inner',
+            block: 'row-fluid',
             content: [
                 {
+                    block: 'span4',
+                    content: {
                     block: 'logo',
-                    content: [
-                        {
-                            block: 'b-link',
-                            url: page === 'index' ? undefined : '/desktop.bundles/index/index.html',
-                            mix: [{ block: 'logo', elem: 'pic' }]
-                        },
-                        {
-                            block: 'b-link',
-                            url: page === 'index' ? undefined : '/desktop.bundles/index/index.html',
-                            mix: [{ block: 'logo', elem: 'link' }],
-                            content: 'Magic Desktop 8'
-                        },
-                        {
-                            elem: 'tagline',
-                            content: 'is like Windows for kids.'
-                        }
-                    ]
+                        content: [
+                            {
+                                block: 'b-link',
+                                url: page === 'index' ? undefined : '/desktop.bundles/index/index.html',
+                                mix: [{ block: 'logo', elem: 'pic' }]
+                            },
+                            {
+                                block: 'b-link',
+                                url: page === 'index' ? undefined : '/desktop.bundles/index/index.html',
+                                mix: [{ block: 'logo', elem: 'link' }],
+                                content: 'Magic Desktop 8'
+                            },
+                            {
+                                elem: 'tagline',
+                                content: 'is like Windows for kids.'
+                            }
+                        ]
+                    }
                 },
                 {
-                    block: 'b-menu-horiz',
-                    mods: { layout: 'normal' },
-                    js: false,
-                    mix: [{ block: 'nav' }, { block: 'clearfix' }],
+                    block: 'span8',
                     content: [
                         {
-                            elem: 'item',
-                            elemMods: { page: 'index', state: page === 'index' ? 'current' : undefined },
-                            content: page === 'index' ? 'Home' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/index/index.html',
-                                content: 'Home'
-                            }
+                            block: 'lang-switcher',
+                            content: [
+                                {
+                                    elem: 'current',
+                                    content: 'International (English)'
+                                },
+                                {
+                                    block: 'dropdown',
+                                    mix: [{ block: 'lang-switcher', elem: 'dropdown' }],
+                                    content: [
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'english' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#English',
+                                                    content: 'International (English)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'danish' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Danish',
+                                                    content: 'Dansk (Danish)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'dutch' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Nederlands',
+                                                    content: 'Nederlands (Dutch)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'finnish' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Finnish',
+                                                    content: 'Suomi (Finnish)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'french' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#French',
+                                                    content: 'Français (French)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'german' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Deutsch',
+                                                    content: 'Deutsch (German)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'greek' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Greek',
+                                                    content: 'Ελληνικά (Greek)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'hungarian' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Magyar',
+                                                    content: 'Magyar (Hungarian)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'italian' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Italiano',
+                                                    content: 'Italiano (Italian)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'japanese' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Japanese',
+                                                    content: '日本語 (Japanese)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'norwegian' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Norwegian',
+                                                    content: 'Norsk (Norwegian)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            mods: { lang: 'polish' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Polish',
+                                                    content: 'Polski (Polish)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'portuguese' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Portuguese',
+                                                    content: 'Português (Portuguese)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'romanian' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Romanian',
+                                                    content: 'Română (Romanian)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'russian' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Russian',
+                                                    content: 'Русский (Russian)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'spanish' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Spanish',
+                                                    content: 'Español (Spanish)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'swedish' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Russian',
+                                                    content: 'Svenska (Swedish)'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'item',
+                                            elemMods: { lang: 'turkish' },
+                                            content: [
+                                                {
+                                                    block: 'b-link',
+                                                    url: '#Russian',
+                                                    content: 'Türkçe (Turkish)'
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
-                            elem: 'item',
-                            elemMods: { page: 'product', state: page === 'product' ? 'current' : undefined },
-                            content: page === 'product' ? 'Product' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/product/product.html',
-                                content: 'Product'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { page: 'community', state: page === 'community' ? 'current' : undefined },
-                            content: page === 'community' ? 'Community' : {
-                                block: 'b-link',
-                                // url: '/desktop.bundles/community/community.html',
-                                content: 'Community'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { page: 'support', state: page === 'support' ? 'current' : undefined },
-                            content: page === 'support' ? 'Support' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/support/support.html',
-                                content: 'Support'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            // elemMods: { kind: 'special' },
-                            elemMods: { page: 'download', state: page === 'download' ? 'current' : undefined },
-                            content:  page === 'download' ? 'Download' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/download/download.html',
-                                content: 'Download'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            // elemMods: { kind: 'special' },
-                            elemMods: { page: 'buy', state: page === 'buy' ? 'current' : undefined },
-                            content: page === 'buy' ? 'Buy' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/buy/buy.html',
-                                content: 'Buy'
-                            }
-                        }
-                    ]
-                },
-                {
-                    block: 'lang-switcher',
-                    content: [
-                        {
-                            elem: 'current',
-                            content: 'International (English)'
-                        },
-                        {
-                            block: 'dropdown',
-                            mix: [{ block: 'lang-switcher', elem: 'dropdown' }],
+                            block: 'b-menu-horiz',
+                            mods: { layout: 'normal' },
+                            js: false,
+                            mix: [{ block: 'nav' }],
                             content: [
                                 {
                                     elem: 'item',
-                                    elemMods: { lang: 'english' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#English',
-                                            content: 'International (English)'
-                                        }
-                                    ]
+                                    elemMods: { page: 'index', state: page === 'index' ? 'current' : undefined },
+                                    content: page === 'index' ? 'Home' : {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/index/index.html',
+                                        content: 'Home'
+                                    }
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { lang: 'danish' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Danish',
-                                            content: 'Dansk (Danish)'
-                                        }
-                                    ]
+                                    elemMods: { page: 'product', state: page === 'product' ? 'current' : undefined },
+                                    content: page === 'product' ? 'Product' : {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/product/product.html',
+                                        content: 'Product'
+                                    }
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { lang: 'dutch' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Nederlands',
-                                            content: 'Nederlands (Dutch)'
-                                        }
-                                    ]
+                                    elemMods: { page: 'community', state: page === 'community' ? 'current' : undefined },
+                                    content: page === 'community' ? 'Community' : {
+                                        block: 'b-link',
+                                        // url: '/desktop.bundles/community/community.html',
+                                        content: 'Community'
+                                    }
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { lang: 'finnish' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Finnish',
-                                            content: 'Suomi (Finnish)'
-                                        }
-                                    ]
+                                    elemMods: { page: 'support', state: page === 'support' ? 'current' : undefined },
+                                    content: page === 'support' ? 'Support' : {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/support/support.html',
+                                        content: 'Support'
+                                    }
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { lang: 'french' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#French',
-                                            content: 'Français (French)'
-                                        }
-                                    ]
+                                    // elemMods: { kind: 'special' },
+                                    elemMods: { page: 'download', state: page === 'download' ? 'current' : undefined },
+                                    content:  page === 'download' ? 'Download' : {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/download/download.html',
+                                        content: 'Download'
+                                    }
                                 },
                                 {
                                     elem: 'item',
-                                    elemMods: { lang: 'german' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Deutsch',
-                                            content: 'Deutsch (German)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'greek' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Greek',
-                                            content: 'Ελληνικά (Greek)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'hungarian' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Magyar',
-                                            content: 'Magyar (Hungarian)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'italian' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Italiano',
-                                            content: 'Italiano (Italian)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'japanese' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Japanese',
-                                            content: '日本語 (Japanese)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'norwegian' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Norwegian',
-                                            content: 'Norsk (Norwegian)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    mods: { lang: 'polish' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Polish',
-                                            content: 'Polski (Polish)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'portuguese' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Portuguese',
-                                            content: 'Português (Portuguese)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'romanian' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Romanian',
-                                            content: 'Română (Romanian)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'russian' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Russian',
-                                            content: 'Русский (Russian)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'spanish' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Spanish',
-                                            content: 'Español (Spanish)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'swedish' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Russian',
-                                            content: 'Svenska (Swedish)'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'item',
-                                    elemMods: { lang: 'turkish' },
-                                    content: [
-                                        {
-                                            block: 'b-link',
-                                            url: '#Russian',
-                                            content: 'Türkçe (Turkish)'
-                                        }
-                                    ]
+                                    // elemMods: { kind: 'special' },
+                                    elemMods: { page: 'buy', state: page === 'buy' ? 'current' : undefined },
+                                    content: page === 'buy' ? 'Buy' : {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/buy/buy.html',
+                                        content: 'Buy'
+                                    }
                                 }
                             ]
                         }

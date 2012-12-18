@@ -5,110 +5,121 @@ block footer {
         var page = this.ctx.page;
 
         return {
-            elem: 'inner',
-            mix: [{ block: 'clearfix' }],
-            content: [
-                {
-                    block: 'copyright',
-                    content: [
-                        {
-                            block: 'b-link',
-                            mix: [{ block: 'copyright', elem: 'logo' }]
-                            // , url: '#'
-                        },
-                        '© 2013 EasyBits Software. All Rights Reserved.'
-                    ]
-                },
-                {
-                    block: 'b-menu-horiz',
-                    mods: { layout: 'normal' },
-                    js: false,
-                    mix: [{ block: 'footer-nav' }],
-                    content: [
-                        {
-                            elem: 'item',
-                            elemMods: { state: page === 'company' ? 'current' : undefined },
-                            content: page === 'company' ? 'Company' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/company/company.html',
-                                content: 'Company'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { state: page === 'license-agreement' ? 'current' : undefined },
-                            content: page === 'license-agreement' ? 'License Agreement' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/license-agreement/license-agreement.html',
-                                content: 'License Agreement'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { state: page === 'privacy-policy' ? 'current' : undefined },
-                            content: page === 'privacy-policy' ? 'Privacy Policy' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/privacy-policy/privacy-policy.html',
-                                content: 'Privacy Policy'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            elemMods: { state: page === 'contact-us' ? 'current' : undefined },
-                            content: page === 'contact-us' ? 'Contact Us' : {
-                                block: 'b-link',
-                                url: '/desktop.bundles/support/support.html',
-                                content: 'Contact Us'
-                            }
+            block: 'container',
+            content: {
+                block: 'row-fluid',
+                content: [
+                    {
+                        block: 'span4',
+                        content: {
+                            block: 'copyright',
+                            content: [
+                                {
+                                    block: 'b-link',
+                                    mix: [{ block: 'copyright', elem: 'logo' }]
+                                    // , url: '#'
+                                },
+                                '© 2013 EasyBits Software. All Rights Reserved.'
+                            ]
                         }
-                    ]
-                },
-                {
-                    block: 'social',
-                    content: [
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                mods: { link: 'google' },
-                                url: '#google'
+                    },
+                    {
+                        block: 'span8',
+                        content: [
+                            {
+                                block: 'b-menu-horiz',
+                                mods: { layout: 'normal' },
+                                js: false,
+                                mix: [{ block: 'footer-nav' }],
+                                content: [
+                                    {
+                                        elem: 'item',
+                                        elemMods: { state: page === 'company' ? 'current' : undefined },
+                                        content: page === 'company' ? 'Company' : {
+                                            block: 'b-link',
+                                            url: '/desktop.bundles/company/company.html',
+                                            content: 'Company'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        elemMods: { state: page === 'license-agreement' ? 'current' : undefined },
+                                        content: page === 'license-agreement' ? 'License Agreement' : {
+                                            block: 'b-link',
+                                            url: '/desktop.bundles/license-agreement/license-agreement.html',
+                                            content: 'License Agreement'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        elemMods: { state: page === 'privacy-policy' ? 'current' : undefined },
+                                        content: page === 'privacy-policy' ? 'Privacy Policy' : {
+                                            block: 'b-link',
+                                            url: '/desktop.bundles/privacy-policy/privacy-policy.html',
+                                            content: 'Privacy Policy'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        elemMods: { state: page === 'contact-us' ? 'current' : undefined },
+                                        content: page === 'contact-us' ? 'Contact Us' : {
+                                            block: 'b-link',
+                                            url: '/desktop.bundles/support/support.html',
+                                            content: 'Contact Us'
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                block: 'social',
+                                content: [
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            mods: { link: 'google' },
+                                            url: '#google'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            mods: { link: 'twitter' },
+                                            url: '#twitter'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            mods: { link: 'youtube' },
+                                            url: '#youtube'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            mods: { link: 'facebook' },
+                                            url: '#facebook'
+                                        }
+                                    },
+                                    {
+                                        elem: 'item',
+                                        content: {
+                                            block: 'b-link',
+                                            mods: { link: 'mail' },
+                                            url: '#mail'
+                                        }
+                                    }
+                                ]
                             }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                mods: { link: 'twitter' },
-                                url: '#twitter'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                mods: { link: 'youtube' },
-                                url: '#youtube'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                mods: { link: 'facebook' },
-                                url: '#facebook'
-                            }
-                        },
-                        {
-                            elem: 'item',
-                            content: {
-                                block: 'b-link',
-                                mods: { link: 'mail' },
-                                url: '#mail'
-                            }
-                        }
-                    ]
-                }
-            ]
+                        ]
+                    }
+                ]
+            }
         }
+
     }
 }
