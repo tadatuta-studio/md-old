@@ -1,0 +1,8 @@
+.row-fluid__inner
+{
+    max-width: 1200px;
+    min-width: 940px;
+
+    margin: auto;
+    padding: 0 30px;
+}

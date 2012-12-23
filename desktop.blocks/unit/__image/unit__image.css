@@ -1,0 +1,8 @@
+.unit__image
+{
+    margin: -20px 0 0;
+
+    width: 100%;
+    max-width: 785px;
+    min-width: 630px;
+}

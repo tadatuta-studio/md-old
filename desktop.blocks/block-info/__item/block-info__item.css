@@ -1,0 +1,14 @@
+.block-info__item
+{
+    white-space: nowrap;
+}
+
+.block-info__item_line_2
+{
+    margin-left: 20px;
+}
+
+.block-info__item_line_3
+{
+    margin-left: 40px;
+}

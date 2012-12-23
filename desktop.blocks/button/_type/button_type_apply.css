@@ -1,4 +1,5 @@
 .button_type_apply
 {
-    margin-top: 155px;
+    position: absolute;
+    bottom: 3px;
 }

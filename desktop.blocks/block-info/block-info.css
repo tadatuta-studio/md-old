@@ -5,13 +5,18 @@
 
 .block-info__h2
 {
-    font-size: 35px;
-    line-height: 44px;
+    font-size: 23px;
+    line-height: 30px;
     font-weight: 400;
 
     margin: 13px 0 18px;
 
     color: #333;
+}
+
+.block-info__h2_type_italic
+{
+    font-style: italic;
 }
 
 .block-info__p

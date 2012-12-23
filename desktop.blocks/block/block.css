@@ -1,22 +1,4 @@
 .block
 {
-    margin-bottom: 20px;
-}
-
-.block_border_yes:after
-{
-    content: "";
-
-    height: 1px;
-    width: 95%;
-
-    background: #ddd;
-
-    background: -moz-linear-gradient(left,  transparent , #d9d9d9 50%, transparent);
-    background: -webkit-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
-    background: -o-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
-    background: -ms-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
-    background: linear-gradient(to right,  transparent,#d9d9d9 50%,transparent);
-
-    margin: 35px auto 0;
+    color: #333;
 }

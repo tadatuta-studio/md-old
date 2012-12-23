@@ -1,0 +1,41 @@
+.unit__picture
+{
+    background: url(../../../i/unit__picture.png) no-repeat;
+
+    position: absolute;
+    left: -45px;
+    top: -3px;
+
+    width: 39px;
+    height: 110px;
+}
+
+.unit__picture_position_1
+{
+    background-position: -73px 0;
+}
+
+.unit__picture_position_2
+{
+    background-position: -37px 0;
+}
+
+.unit__picture_position_3
+{
+    background-position: 0 0;
+}
+
+.unit__picture_position_4
+{
+    background-position: -73px -123px;
+}
+
+.unit__picture_position_5
+{
+    background-position: -37px -123px;
+}
+
+.unit__picture_position_6
+{
+    background-position: 0 -123px;
+}

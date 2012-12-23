@@ -1,0 +1,10 @@
+.unit__notice
+{
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.2;
+
+    color: #39c;
+
+    margin-left: 8px;
+}

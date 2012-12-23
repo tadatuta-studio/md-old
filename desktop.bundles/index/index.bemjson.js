@@ -220,9 +220,27 @@
                                     {
                                        elem: 'h2',
                                        content: [
-                                           'Over 70 million computers',
-                                           'with Magic Desktop preloaded ',
-                                           'have been sold world wide.'
+                                            {
+                                                elem: 'item',
+                                                content: [
+                                                'Over ',
+                                                {
+                                                    elem: 'item-selection',
+                                                    content: '70 million'
+                                                },
+                                                ' computers'
+                                                ]
+                                            },
+                                            {
+                                                elem: 'item',
+                                                elemMods: { line: '2' },
+                                                content: 'with Magic Desktop preloaded'
+                                            },
+                                            {
+                                                elem: 'item',
+                                                elemMods: { line: '3' },
+                                                content: 'have been sold world wide.'
+                                            }
                                         ]
                                     }
                                 ]
@@ -230,11 +248,33 @@
                         },
                         {
                             block: 'span4',
-                            content: [
-                                'Millions of users',
-                                'cannot be wrong.',
-                                'Join the community!'
-                            ]
+                            mods: { position: 'center' },
+                            content: {
+                                block: 'block-info',
+                                content: [
+                                    {
+                                       elem: 'h2',
+                                       elemMods: { type: 'italic' },
+                                       content: [
+                                            {
+                                                elem: 'item',
+                                                content: 'Millions of users'
+                                            },
+                                            {
+                                                elem: 'item',
+                                                elemMods: { line: '2' },
+                                                content: 'cannot be wrong.'
+                                            },
+                                            {
+                                                elem: 'item',
+                                                mix: [{ elem: 'item-selection' }],
+                                                elemMods: { line: '3' },
+                                                content: 'Join the community!'
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
                         },
                         {
                             block: 'span4',
@@ -245,22 +285,33 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            block: 'row-fluid',
+            mix: [{ block: 'shadow' }],
+            mods: { background: 'gray' },
+            content: [
                 {
-                    block: 'row-fluid',
+                    elem: 'inner',
                     content: [
                         {
                             block: 'span4',
                             content: {
-                                block: 'block-info',
+                                block: 'block',
                                 content: [
                                     {
-                                        elem: 'h2',
+                                        elem: 'h1',
                                         content: 'Top Reasons'
                                     },
                                     {
-                                        elem: 'p',
+                                        elem: 'h2',
                                         content: 'why you need Magic Desktop:'
+                                    },
+                                    {
+                                        elem: 'image',
+                                        url: '../../../i/block__image.png'
                                     }
                                 ]
                             }
@@ -270,18 +321,73 @@
                             content: [
                                 {
                                     block: 'row-fluid',
+                                    mods: { type: 'string' },
                                     content: [
                                         {
                                             block: 'span4',
-                                            content: 'Kids love it'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'picture',
+                                                            elemMods: { position: '1' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Kids love it'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'span4',
-                                            content: 'Peace Of Mind'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'picture',
+                                                            elemMods: { position: '2' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Kids love it'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'span4',
-                                            content: 'The Safest Web'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'picture',
+                                                            elemMods: { position: '3' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Kids love it'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
@@ -290,17 +396,496 @@
                                     content: [
                                         {
                                             block: 'span4',
-                                            content: 'Early Start'
-                                        },
-                                        {
-                                            block: 'span4',
-                                            content: 'Unleash Their Creativity'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'picture',
+                                                            elemMods: { position: '4' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Kids love it'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'span4',
                                             content: [
-                                                'Family Fun',
-                                                'Read more'
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'picture',
+                                                            elemMods: { position: '5' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Kids love it'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            block: 'span4',
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'picture',
+                                                            elemMods: { position: '6' }
+                                                        },
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Kids love it'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            block: 'container',
+            content: [
+                {
+                    block: 'row-fluid',
+                    mix: [{ block: 'shadow' }],
+                    mods: { border: 'yes', type: 'community' },
+                    content: [
+                        {
+                            block: 'span3',
+                            content: {
+                                block: 'block',
+                                content: [
+                                    {
+                                        elem: 'h1',
+                                        content: 'Community'
+                                    },
+                                    {
+                                        elem: 'p',
+                                        content: 'There are a lot of parents who are active Magic Desktop users. We are trying to create a better place for them for sharing ideas, supporting each other, and providing feedback. Join us!'
+                                    },
+                                    {
+                                        block: 'community',
+                                        mix: [{ block: 'clearfix' }],
+                                        content: [
+                                            {
+                                                elem: 'parent'
+                                            },
+                                            {
+                                                block: 'social',
+                                                content: [
+                                                    {
+                                                        elem: 'item',
+                                                        content: {
+                                                            block: 'b-link',
+                                                            mods: { link: 'google' },
+                                                            url: '#google'
+                                                        }
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: {
+                                                            block: 'b-link',
+                                                            mods: { link: 'twitter' },
+                                                            url: '#twitter'
+                                                        }
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: {
+                                                            block: 'b-link',
+                                                            mods: { link: 'youtube' },
+                                                            url: '#youtube'
+                                                        }
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: {
+                                                            block: 'b-link',
+                                                            mods: { link: 'facebook' },
+                                                            url: '#facebook'
+                                                        }
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: {
+                                                            block: 'b-link',
+                                                            mods: { link: 'mail' },
+                                                            url: '#mail'
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            block: 'span8',
+                            mix: [{ block: 'offset1' }],
+                            content: [
+                                {
+                                    block: 'unit',
+                                    content: [
+                                        {
+                                            elem: 'image',
+                                            url: '../../../i/units__image.png'
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block: 'row-fluid',
+                    mods: { border: 'yes', type: 'testimonials' },
+                    content: [
+                        {
+                            block: 'span3',
+                            content: {
+                                block: 'block',
+                                content: [
+                                    {
+                                        elem: 'h1',
+                                        content: 'Testimonials'
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            block: 'span8',
+                            mix: [{ block: 'offset1' }],
+                            content: [
+                                {
+                                    block: 'b-carousel',
+                                    mods: { auto: 'yes' },
+                                    content: [
+                                        {
+                                            elem: 'items',
+                                            content: [
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'first-block', state: 'active' },
+                                                    content: {
+                                                        block: 'row-fluid',
+                                                        content: [
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'second-block' },
+                                                    content: {
+                                                        block: 'row-fluid',
+                                                        content: [
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'third-block' },
+                                                    content: {
+                                                        block: 'row-fluid',
+                                                        content: [
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            {
+                                                                block: 'span4',
+                                                                content: [
+                                                                    {
+                                                                        block: 'unit',
+                                                                        content: [
+                                                                            {
+                                                                                elem: 'description',
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                            },
+                                                                            {
+                                                                                elem: 'author',
+                                                                                content: [
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        mods: { color: 'red' },
+                                                                                        content: 'Lindsay'
+                                                                                    }, ' / ',
+                                                                                    {
+                                                                                        elem: 'author-item',
+                                                                                        content: 'USA'
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'switcher',
+                                            content: [
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'first-block', state: 'active' }
+                                                },
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'second-block' }
+                                                },
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'third-block' }
+                                                }
                                             ]
                                         }
                                     ]
@@ -315,121 +900,17 @@
                         {
                             block: 'span3',
                             content: {
-                                block: 'block-info',
+                                block: 'block',
                                 content: [
                                     {
-                                        elem: 'h2',
-                                        content: 'Community'
+                                        elem: 'h1',
+                                        content: 'Partner with us!'
                                     },
                                     {
                                         elem: 'p',
-                                        content: 'There are a lot of parents who are active Magic Desktop users. We are trying to create a better place for them for sharing ideas, supporting each other, and providing feedback. Join us!'
-                                    },
-                                    {
-                                        content: 'Parent Community'
-                                    },
-                                    {
-                                        block: 'social',
-                                        content: [
-                                            {
-                                                elem: 'item',
-                                                content: {
-                                                    block: 'b-link',
-                                                    mods: { link: 'google' },
-                                                    url: '#google'
-                                                }
-                                            },
-                                            {
-                                                elem: 'item',
-                                                content: {
-                                                    block: 'b-link',
-                                                    mods: { link: 'twitter' },
-                                                    url: '#twitter'
-                                                }
-                                            },
-                                            {
-                                                elem: 'item',
-                                                content: {
-                                                    block: 'b-link',
-                                                    mods: { link: 'youtube' },
-                                                    url: '#youtube'
-                                                }
-                                            },
-                                            {
-                                                elem: 'item',
-                                                content: {
-                                                    block: 'b-link',
-                                                    mods: { link: 'facebook' },
-                                                    url: '#facebook'
-                                                }
-                                            },
-                                            {
-                                                elem: 'item',
-                                                content: {
-                                                    block: 'b-link',
-                                                    mods: { link: 'mail' },
-                                                    url: '#mail'
-                                                }
-                                            }
-                                        ]
+                                        content: 'We have many different types of affiliate & partner programs that we offer, if you are a software reseller, website owner, ISP, OEM or a private person that wants to sell Magic Desktop, we have the right program for you!'
                                     }
                                 ]
-                            }
-                        },
-                        {
-                            block: 'span8',
-                            mix: [{ block: 'offset1' }],
-                            content: 'PARENT Community IMAGE GOES HERE'
-                        }
-                    ]
-                },
-                {
-                    block: 'row-fluid',
-                    content: [
-                        {
-                            block: 'span3',
-                            content: {
-                                block: 'block-info',
-                                content: {
-                                    elem: 'h2',
-                                    content: 'Testimonials'
-                                }
-                            }
-                        },
-                        {
-                            block: 'span8',
-                            mix: [{ block: 'offset1' }],
-                            content: { // TODO: here b-carousel should be
-                                block: 'row-fluid',
-                                content: [
-                                    {
-                                        block: 'span4',
-                                        content: '1'
-                                    },
-                                    {
-                                        block: 'span4',
-                                        content: '2'
-                                    },
-                                    {
-                                        block: 'span4',
-                                        content: '3'
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    block: 'row-fluid',
-                    content: [
-                        {
-                            block: 'span3',
-                            content: {
-                                block: 'block-info',
-                                content: {
-                                    elem: 'h2',
-                                    content: 'Partner with us!'
-                                }
                             }
                         },
                         {
@@ -437,22 +918,72 @@
                             mix: [{ block: 'offset1' }],
                             content: [
                                 {
-                                    content: 'Who are you?'
+                                    block: 'unit',
+                                    mods: { type: 'notice' },
+                                    content: [
+                                        {
+                                            elem: 'notice',
+                                            content: 'Who are you?'
+                                        }
+                                    ]
                                 },
                                 {
                                     block: 'row-fluid',
+                                    mods: { type: 'string' },
                                     content: [
                                         {
                                             block: 'span4',
-                                            content: 'Software reseller'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Software reseller'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'span4',
-                                            content: 'Website owner'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Software reseller'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'span4',
-                                            content: 'ISP'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Software reseller'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 }
@@ -462,6 +993,7 @@
                 },
                 {
                     block: 'row-fluid',
+                    mods: { type: 'string' },
                     content: [
                         {
                             block: 'span3',
@@ -476,22 +1008,61 @@
                             mix: [{ block: 'offset1' }],
                             content: [
                                 {
-                                    content: 'Who are you?'
-                                },
-                                {
                                     block: 'row-fluid',
                                     content: [
                                         {
                                             block: 'span4',
-                                            content: 'OEM'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'OEM'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'You produce computers targeting the consumer market and would like to preload Magic Desktop? Please contact us today for a price quote.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'span4',
-                                            content: 'Magic Desktop fan'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Magic Desktop fan'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         },
                                         {
                                             block: 'span4',
-                                            content: 'IMAGE GOES here'
+                                            content: [
+                                                {
+                                                    block: 'unit',
+                                                    content: [
+                                                        {
+                                                            elem: 'title',
+                                                            content: 'Magic Desktop fan'
+                                                        },
+                                                        {
+                                                            elem: 'description',
+                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 }

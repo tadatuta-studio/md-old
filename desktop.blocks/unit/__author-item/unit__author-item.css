@@ -1,0 +1,10 @@
+.unit__author-item
+{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.unit__author-item_color_red
+{
+    color: #e25e3a;
+}

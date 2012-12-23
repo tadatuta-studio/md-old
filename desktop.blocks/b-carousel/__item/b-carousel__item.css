@@ -1,7 +1,5 @@
 .b-carousel__item
 {
-    display: none;
-
     -moz-transition: left .5s;
     -webkit-transition: left .5s;
     -o-transition: left .5s;
@@ -12,9 +10,14 @@
     background: #fff;
 }
 
-.b-carousel__item_state_active,
-.b-carousel__item_pos_next,
-.b-carousel__item_pos_prev
+.row-fluid .b-carousel__item
+{
+    display: none;
+}
+
+.row-fluid .b-carousel__item_state_active,
+.row-fluid .b-carousel__item_pos_next,
+.row-fluid .b-carousel__item_pos_prev
 {
     display: block;
 }
