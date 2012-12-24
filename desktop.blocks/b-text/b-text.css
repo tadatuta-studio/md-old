@@ -1,0 +1,22 @@
+.b-text_position_left
+{
+    margin-bottom: 35px;
+}
+
+.b-text_position_left .b-text__h2
+{
+    color: #39c;
+    font-size: 32px;
+    font-style: italic;
+
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.b-text_position_left .b-text__h3
+{
+    font-size: 30px;
+    color: #333;
+
+    margin-top: 5px;
+}

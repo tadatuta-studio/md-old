@@ -1,0 +1,11 @@
+.unit__more
+{
+    margin-top: 20px;
+
+    display: inline-block;
+}
+
+.unit__more:after
+{
+    content: ' ►';
+}

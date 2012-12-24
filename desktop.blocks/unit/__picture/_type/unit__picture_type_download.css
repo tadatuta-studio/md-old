@@ -1,0 +1,29 @@
+.unit__picture_type_download
+{
+    background: url(../../../../i/unit__picture_type_download.png) no-repeat;
+
+    width: 78px;
+    height: 75px;
+
+    left: -90px;
+}
+
+.unit__picture_order_1
+{
+    background-position: 0 -6px;
+}
+
+.unit__picture_order_2
+{
+    background-position: 0 -84px;
+}
+
+.unit__picture_order_3
+{
+    background-position: -3px -159px;
+}
+
+.unit__picture_order_4
+{
+    background-position: -3px -234px;
+}

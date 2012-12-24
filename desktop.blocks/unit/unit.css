@@ -8,3 +8,25 @@
 {
     margin: 10px 0 25px;
 }
+
+.unit_image_yes
+{
+    background: url(../../i/units_image_yes.jpg) no-repeat;
+
+    width: 205px;
+    height: 223px;
+}
+
+/*.unit_type_protects
+{
+    background: url(../../i/unit_type_protects.png) no-repeat;
+
+    width: 321px;
+    height: 204px;
+}
+*/
+
+.unit .b-text
+{
+    margin-left: -19px;
+}

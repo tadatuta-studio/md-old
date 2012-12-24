@@ -2,11 +2,10 @@
 {
     position: absolute;
     left: 25%;
-    bottom: 10%;
 
     height: auto;
 
-    width: 100%;
-    max-width: 46%;
+    width: 46%;
+    max-width: 599px;
     min-width: 480px
 }

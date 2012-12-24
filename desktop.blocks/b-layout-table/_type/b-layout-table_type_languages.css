@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-.b-layout-table_type_languages .b-layout-table__cell_position_first
+.b-layout-table_type_languages .b-layout-table__cell
 {
-    width: 142px;
+    text-align: justify;
 }

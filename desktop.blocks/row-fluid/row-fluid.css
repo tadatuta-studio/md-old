@@ -3,3 +3,10 @@
     margin-bottom: 65px;
     position: relative;
 }
+
+.row-fluid_image_yes
+{
+    margin-bottom: 0;
+    padding-bottom: 70px;
+    background: url(../../i/units_image_yes.jpg) no-repeat 96% 100%;
+}

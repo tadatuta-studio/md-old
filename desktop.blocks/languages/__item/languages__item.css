@@ -5,17 +5,14 @@
 
     color: #666;
 
-    display: block;
-
-    float: right;
+    display: inline-block;
 
     font-size: 12px;
 
     padding: 36px 0 0;
     margin-bottom: 10px;
 
-    text-align: center;
-    width: 58px;
+    width: 50px;
 }
 
 .languages__item:hover

@@ -357,11 +357,11 @@
                                                         },
                                                         {
                                                             elem: 'title',
-                                                            content: 'Kids love it'
+                                                            content: 'Peace Of Mind'
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'For parents. No more worrying about kids damaging the system or deleting files on the family PC.'
                                                         }
                                                     ]
                                                 }
@@ -379,11 +379,11 @@
                                                         },
                                                         {
                                                             elem: 'title',
-                                                            content: 'Kids love it'
+                                                            content: 'The Safest Web'
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'Smooth sailing around the Web. Plenty of child-friendly content updated monthly. Parents have full control.'
                                                         }
                                                     ]
                                                 }
@@ -406,11 +406,11 @@
                                                         },
                                                         {
                                                             elem: 'title',
-                                                            content: 'Kids love it'
+                                                            content: 'Early Start'
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'Suitable even for toddlers. Give your child a head start in computers and let them explore while they learn.'
                                                         }
                                                     ]
                                                 }
@@ -432,7 +432,7 @@
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'Provide a multitude of creation tools for your kids to express themselves and share with their friends and family.'
                                                         }
                                                     ]
                                                 }
@@ -450,11 +450,11 @@
                                                         },
                                                         {
                                                             elem: 'title',
-                                                            content: 'Kids love it'
+                                                            content: 'Family Fun'
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Millions of kids use Magic Desktop every day. Lots of activities and applications included just for them.'
+                                                            content: 'Gather the family around the home computer - parents, grandparents and children - for endless hours of fun.'
                                                         }
                                                     ]
                                                 }
@@ -604,8 +604,7 @@
                                                                         content: [
                                                                             {
                                                                                 elem: 'description',
-                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
-                                                                            },
+                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'                                                                            },
                                                                             {
                                                                                 elem: 'author',
                                                                                 content: [
@@ -632,7 +631,7 @@
                                                                         content: [
                                                                             {
                                                                                 elem: 'description',
-                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                                content: '"The Kid’s E-mail and Internet browser programs are great, so much better than all the other filters I have tried. My son is 9 and his parent-approved websites list is growing quickly. I add a new site in exchange for 50 bonus points. He loves it!""'
                                                                             },
                                                                             {
                                                                                 elem: 'author',
@@ -640,11 +639,11 @@
                                                                                     {
                                                                                         elem: 'author-item',
                                                                                         mods: { color: 'red' },
-                                                                                        content: 'Lindsay'
+                                                                                        content: 'Michael'
                                                                                     }, ' / ',
                                                                                     {
                                                                                         elem: 'author-item',
-                                                                                        content: 'USA'
+                                                                                        content: 'Ukraine'
                                                                                     }
                                                                                 ]
                                                                             }
@@ -660,7 +659,7 @@
                                                                         content: [
                                                                             {
                                                                                 elem: 'description',
-                                                                                content: '"My 5 year old is becoming a master at the drawing and image editing program. She created the family Christmas card this year, using her picture and adding Photoshop type effects to it. The extended family couldnot believe she did it all by herself!"'
+                                                                                content: '"I love your "No Homework-No Play" technology! You should see my kids trying hard to get the bonus points in Easy Learning doing multiplication tables so that they can play games afterwards. Parental control system is so simple and effective! Fantastic!"'
                                                                             },
                                                                             {
                                                                                 elem: 'author',
@@ -668,11 +667,11 @@
                                                                                     {
                                                                                         elem: 'author-item',
                                                                                         mods: { color: 'red' },
-                                                                                        content: 'Lindsay'
+                                                                                        content: 'Ann'
                                                                                     }, ' / ',
                                                                                     {
                                                                                         elem: 'author-item',
-                                                                                        content: 'USA'
+                                                                                        content: 'Norway'
                                                                                     }
                                                                                 ]
                                                                             }
@@ -957,11 +956,11 @@
                                                     content: [
                                                         {
                                                             elem: 'title',
-                                                            content: 'Software reseller'
+                                                            content: 'Website owner'
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                            content: 'You have a popular website where you have visitors that you believe is in our target audience, take contact today and we will setup the proper program for you.'
                                                         }
                                                     ]
                                                 }
@@ -975,11 +974,11 @@
                                                     content: [
                                                         {
                                                             elem: 'title',
-                                                            content: 'Software reseller'
+                                                            content: 'ISP'
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                            content: 'You are an Internet Service Provider and want to offer your customers a safe family solution? Do as many other ISP’s around the globe and offer Magic Desktop today.'
                                                         }
                                                     ]
                                                 }
@@ -993,7 +992,7 @@
                 },
                 {
                     block: 'row-fluid',
-                    mods: { type: 'string' },
+                    mods: { type: 'string', image: 'yes' },
                     content: [
                         {
                             block: 'span3',
@@ -1040,25 +1039,7 @@
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            block: 'span4',
-                                            content: [
-                                                {
-                                                    block: 'unit',
-                                                    content: [
-                                                        {
-                                                            elem: 'title',
-                                                            content: 'Magic Desktop fan'
-                                                        },
-                                                        {
-                                                            elem: 'description',
-                                                            content: 'You are a software reseller and have your own online store, start making money today by selling Magic Desktop to your customers.'
+                                                            content: 'You like the product and want to promote and sell it to others as a private person? Start making some extra money today; you can actually make a fortune!'
                                                         }
                                                     ]
                                                 }

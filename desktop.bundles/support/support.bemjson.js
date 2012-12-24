@@ -18,17 +18,24 @@
                 {
                     block: 'header',
                     mods: { page: 'support' }
-                },
+                }
+            ]
+        },
+        {
+            block: 'row-fluid',
+            mods: { background: 'gray' },
+            content: [
                 {
-                    block: 'row-fluid',
+                    elem: 'inner',
                     content: [
                         {
-                            block: 'span3',
+                            block: 'span4',
                             content: {
-                                block: 'block-info',
+                                block: 'block',
+                                mods: { type: 'contact' },
                                 content: [
                                     {
-                                       elem: 'h2',
+                                       elem: 'h1',
                                        content: 'Contact us'
                                     },
                                     {
@@ -40,7 +47,6 @@
                         },
                         {
                             block: 'span8',
-                            mix: [{ block: 'offset1' }],
                             content: [
                                 {
                                     block: 'form',

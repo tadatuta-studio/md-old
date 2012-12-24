@@ -12,16 +12,15 @@
 
     white-space: nowrap;
 
-    margin-top: 11px;
-    line-height: 1.35;
+    line-height: 1.25;
 }
 
 .download__title-line.download__title-line_line_2
 {
-    padding-left: 6%;
+    padding-left: 25px;
 }
 
 .download__title-line.download__title-line_line_3
 {
-    padding-left: 12%;
+    padding-left: 50px;
 }
