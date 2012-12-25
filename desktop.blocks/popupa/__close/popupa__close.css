@@ -1,7 +1,7 @@
 .popupa__close
 {
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
 
     background: url(../../../i/popupa__close.gif) 50% 50% no-repeat;
     opacity: .4;
@@ -13,9 +13,9 @@
     -o-transition: .3s;
     transition: .3s;
 
-    position: fixed;
-    right: 20px;
-    top: 50px;
+    position: absolute;
+    right: -50px;
+    top: -1px;
 
     z-index: 100;
 }

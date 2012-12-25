@@ -180,9 +180,6 @@
                             elem: 'paranja'
                         },
                         {
-                            elem: 'close'
-                        },
-                        {
                             elem: 'inner',
                             content: [
                                 // {
@@ -201,6 +198,9 @@
                                 //         }
                                 //     ]
                                 // },
+                                {
+                                    elem: 'close'
+                                },
                                 {
                                     elem: 'video',
                                     url: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0'

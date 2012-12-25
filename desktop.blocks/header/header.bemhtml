@@ -209,7 +209,7 @@ block header {
                                         },
                                         {
                                             elem: 'item',
-                                            elemMods: { lang: 'spanish' },
+                                            elemMods: { lang: 'spnish' },
                                             content: [
                                                 {
                                                     block: 'b-link',
@@ -224,7 +224,7 @@ block header {
                                             content: [
                                                 {
                                                     block: 'b-link',
-                                                    url: '#Russian',
+                                                    url: '#Swedish',
                                                     content: 'Svenska (Swedish)'
                                                 }
                                             ]
@@ -235,7 +235,7 @@ block header {
                                             content: [
                                                 {
                                                     block: 'b-link',
-                                                    url: '#Russian',
+                                                    url: '#Turkish',
                                                     content: 'Türkçe (Turkish)'
                                                 }
                                             ]
