@@ -13,13 +13,14 @@
     padding: 41px 0 16px;
 }*/
 
-.header_border_yes .header__inner
+.header_border_yes
 {
+    padding-bottom: 10px;
     border-bottom: 10px solid #c6c7cb;
 }
 
-.header_border_yes .header__inner:before,
-.header_border_yes .header__inner:after
+.header_border_yes:before,
+.header_border_yes:after
 {
     position: absolute;
     left: 0;
@@ -36,7 +37,7 @@
     background: #39c;
 }
 
-.header_border_yes .header__inner:after
+.header_border_yes:after
 {
     left: 216px;
 

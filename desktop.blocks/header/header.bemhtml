@@ -1,9 +1,16 @@
 block header {
+    mix: {
+        var page = this.ctx.mods ? this.ctx.mods.page : '';
+
+        return page != 'index' ? [{ block: 'header', mods: { border: 'yes' } }] : undefined;
+    }
+
     content: {
         var page = this.ctx.mods ? this.ctx.mods.page : '';
 
         return {
             block: 'row-fluid',
+            mix: (page != 'index' ? [{ block: 'header', elem: 'inner' }] : undefined),
             content: [
                 {
                     block: 'span4',
