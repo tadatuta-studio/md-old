@@ -9,11 +9,12 @@
     box-shadow: 0 0 4px #eee inset;
 
     display: block;
+    font-weight: 300;
 }
 
 .input_theme_white .input__hint
 {
-    padding: .6em 1em 0 1.2em;
+    padding: .5em 1em 0 1.2em;
 }
 
 .input_theme_white.input_type_textarea .input__hint

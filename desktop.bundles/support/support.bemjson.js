@@ -54,8 +54,10 @@
                                     mods: { type: 'contact' },
                                     content: [
                                         {
-                                            elem: 'form-title',
-                                            mix: [{ block: 'info-block' , elem: 'form-title' }],
+                                            elem: 'icon'
+                                        },
+                                        {
+                                            elem: 'title',
                                             content: 'Please, fill the form'
                                         },
                                         {

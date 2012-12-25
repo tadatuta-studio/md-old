@@ -1,4 +1,7 @@
 .block__p
 {
     margin-top: 20px;
+
+    color: #666;
+    font-weight: 300;
 }
