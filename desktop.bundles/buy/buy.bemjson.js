@@ -179,7 +179,12 @@
                         {
                             block: 'span4',
                             mix: [{ block: 'offset1' }],
-                            content: 'download'
+                            content: {
+                                block: 'button',
+                                mods: { size: '45', theme: 'gray', align: 'middle' },
+                                url: '/desktop.bundles/download/download.html',
+                                content: 'Download'
+                            }
                         }
                     ]
                 },
@@ -225,6 +230,7 @@
         },
         {
             block: 'info-block',
+            mix: [{ block: 'shadow' }],
             content: {
                 block: 'container',
                 content: [
@@ -233,7 +239,13 @@
                         content: [
                             {
                                 block: 'span4',
-                                content: 'Questions and Answers'
+                                content: {
+                                    block: 'block',
+                                    content: {
+                                        elem: 'h1',
+                                        content: 'Questions and Answers'
+                                    }
+                                }
                             },
                             {
                                 block: 'span4',
