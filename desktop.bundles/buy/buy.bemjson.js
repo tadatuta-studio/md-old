@@ -163,6 +163,103 @@
             }
         },
         {
+            block: 'container',
+            content: [
+                {
+                    block: 'row-fluid',
+                    content: [
+                        {
+                            block: 'span3',
+                            content: 'Try it Free'
+                        },
+                        {
+                            block: 'span4',
+                            content: 'Try Magic Desktop 8 full version and when you’re ready to buy, you can choose from any of the plans above.'
+                        },
+                        {
+                            block: 'span4',
+                            mix: [{ block: 'offset1' }],
+                            content: 'download'
+                        }
+                    ]
+                },
+                {
+                    block: 'row-fluid',
+                    content: [
+                        {
+                            block: 'span4',
+                            content: {
+                                block: 'block',
+                                content: {
+                                    elem: 'h1',
+                                    content: 'Special offers'
+                                }
+                            }
+                        },
+                        {
+                            block: 'span4',
+                            content: 'Already own Magic Desktop?'
+                        },
+                        {
+                            block: 'span4',
+                            content: 'For senior sitizens'
+                        }
+                    ]
+                },
+                {
+                    block: 'row-fluid',
+                    content: [
+                        {
+                            block: 'span4'
+                        },
+                        {
+                            block: 'span4',
+                            content: 'For Schools & Kindergardens'
+                        },
+                        {
+                            block: 'span4'
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            block: 'info-block',
+            content: {
+                block: 'container',
+                content: [
+                    {
+                        block: 'row-fluid',
+                        content: [
+                            {
+                                block: 'span4',
+                                content: 'Questions and Answers'
+                            },
+                            {
+                                block: 'span4',
+                                content: 'Do you sell through resellers? How do I become a reseller?'
+                            },
+                            {
+                                block: 'span4',
+                                content: 'Can I install Magic Desktop on more than one computer?'
+                            }
+                        ]
+                    },
+                    {
+                        block: 'row-fluid',
+                        content: [
+                            {
+                                block: 'How do I redeem my eCoupon?'
+                            },
+                            {
+                                block: 'Am I eligible for any discounts?'
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
             block: 'footer',
             page: 'buy'
         }

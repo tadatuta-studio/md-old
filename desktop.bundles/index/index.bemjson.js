@@ -512,16 +512,8 @@
                                                         elem: 'item',
                                                         content: {
                                                             block: 'b-link',
-                                                            mods: { link: 'google' },
-                                                            url: '#google'
-                                                        }
-                                                    },
-                                                    {
-                                                        elem: 'item',
-                                                        content: {
-                                                            block: 'b-link',
-                                                            mods: { link: 'twitter' },
-                                                            url: '#twitter'
+                                                            mods: { link: 'mail' },
+                                                            url: 'mailto:?subject=visit magicdesktop.com'
                                                         }
                                                     },
                                                     {
@@ -529,7 +521,23 @@
                                                         content: {
                                                             block: 'b-link',
                                                             mods: { link: 'youtube' },
-                                                            url: '#youtube'
+                                                            url: 'http://www.youtube.com/user/MagicDesktop8'
+                                                        }
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: {
+                                                            block: 'b-link',
+                                                            mods: { link: 'google' },
+                                                            url: 'https://plus.google.com/117603931670266985878'
+                                                        }
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: {
+                                                            block: 'b-link',
+                                                            mods: { link: 'twitter' },
+                                                            url: 'https://twitter.com/MagicDesktop'
                                                         }
                                                     },
                                                     {
@@ -537,15 +545,7 @@
                                                         content: {
                                                             block: 'b-link',
                                                             mods: { link: 'facebook' },
-                                                            url: '#facebook'
-                                                        }
-                                                    },
-                                                    {
-                                                        elem: 'item',
-                                                        content: {
-                                                            block: 'b-link',
-                                                            mods: { link: 'mail' },
-                                                            url: '#mail'
+                                                            url: 'http://www.facebook.com/magicdesktop'
                                                         }
                                                     }
                                                 ]
@@ -927,7 +927,6 @@
                             content: [
                                 {
                                     block: 'row-fluid',
-                                    mods: { type: 'string' },
                                     content: [
                                         {
                                             block: 'span4',

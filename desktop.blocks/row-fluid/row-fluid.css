@@ -7,6 +7,7 @@
 .row-fluid_image_yes
 {
     margin-bottom: 0;
+    padding-top: 12px;
     padding-bottom: 70px;
     background: url(../../i/units_image_yes.jpg) no-repeat 96% 100%;
 }
