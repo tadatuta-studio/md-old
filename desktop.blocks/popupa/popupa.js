@@ -2,7 +2,9 @@ BEM.DOM.decl('popupa',
 {
     onSetMod: {
         'js': function() {
-            this.bindTo(this.elem('close'), 'click', this.hide);
+            this
+                .bindTo(this.elem('close'), 'click', this.hide);
+                .bindTo(this.elem('paranja'), 'click', this.hide);
         }
     },
     show: function() {

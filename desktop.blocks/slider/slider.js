@@ -29,11 +29,15 @@ BEM.DOM.decl('slider',
             items = this.elem('item'),
             oldItem = this.elem('item', 'state', 'active'),
             oldIdx = items.index(oldItem),
-            currentItem = items.eq(idx);
+            currentItem = items.eq(idx),
+            description = this.elem('description');
 
         this.tick = 0;
 
         if (oldIdx === idx) return;
+
+        oldItem.stop();
+        description.stop();
 
         this.delMod(buttons, 'state');
         this.setMod(currentButton, 'state', 'active');
@@ -47,7 +51,9 @@ BEM.DOM.decl('slider',
             _this.setMod(currentItem, 'state', 'active');
         });
 
-        this.elem('description').css('padding-left', '30px').animate({ paddingLeft: '0' }, 700);
+        description
+            .css('padding-left', '30px')
+            .animate({ paddingLeft: '0' }, 700);
 
     },
     next: function() {
