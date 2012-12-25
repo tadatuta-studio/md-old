@@ -1,4 +1,13 @@
 .row-fluid_type_product
 {
-    margin-bottom: 65px;
+    padding-bottom: 45px;
+    position: relative;
+
+/*  background: url(../../../i/about-product__image.png) no-repeat 45% 0;
+
+    -webkit-background-size: 50% auto;
+    -moz-background-size: 50% auto;
+    -o-background-size: 50% auto;
+    -ms-background-size: 50% auto;
+    background-size: 50% auto; */
 }

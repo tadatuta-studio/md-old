@@ -1,0 +1,9 @@
+.block_type_product
+{
+    margin-top: 20px;
+}
+
+.block_type_product .block__p
+{
+    width: 240px;
+}
