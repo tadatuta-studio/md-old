@@ -1,0 +1,13 @@
+.unit__image_type_company
+{
+    margin: 0;
+
+    width: 33%;
+
+    max-width: 396px;
+    min-width: 350px;
+
+    position: absolute;
+    bottom: 0;
+    margin-left: -40px;
+}

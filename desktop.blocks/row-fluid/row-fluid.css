@@ -10,3 +10,18 @@
     padding-bottom: 70px;
     background: url(../../i/units_image_yes.jpg) no-repeat 96% 100%;
 }
+
+.row-fluid_picture_yes
+{
+    position: relative;
+}
+
+.row-fluid_block_address
+{
+    padding-bottom: 65px;
+}
+
+.row-fluid_block_address .unit__description
+{
+    margin-top: 30px;
+}

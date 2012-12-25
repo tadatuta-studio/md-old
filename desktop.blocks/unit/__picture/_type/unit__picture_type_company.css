@@ -1,0 +1,25 @@
+.unit__picture_type_company
+{
+    background: url(../../../../i/unit__picture_type_company.png);
+
+    width: 78px;
+    height: 75px;
+
+    left: -90px;
+    top: -15px;
+}
+
+.unit__picture_type_company.unit__picture_position_2
+{
+    background-position: 0 -82px;
+}
+
+.unit__picture_type_company.unit__picture_position_3
+{
+    background-position: 0 -158px;
+}
+
+.unit__picture_type_company.unit__picture_position_4
+{
+    background-position: 0 -237px;
+}

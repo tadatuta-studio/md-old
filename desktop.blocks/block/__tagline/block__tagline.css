@@ -1,0 +1,14 @@
+.block__tagline
+{
+    display: inline;
+}
+
+.block__tagline_line_2
+{
+    margin-left: 20%;
+}
+
+.block__tagline_color_blue
+{
+    color: #39c;
+}
