@@ -25,10 +25,10 @@
                         {
                             block: 'span4',
                             content: {
-                                block: 'block-info',
+                                block: 'block',
                                 content: [
                                     {
-                                       elem: 'h2',
+                                       elem: 'h1',
                                        content: 'Easybits Kids Privacy Policy'
                                     }
                                 ]
@@ -42,6 +42,7 @@
                                     content: [
                                         {
                                             elem: 'h3',
+                                            mods: { position: 'first' },
                                             content: 'Dear customer,'
                                         },
                                         {

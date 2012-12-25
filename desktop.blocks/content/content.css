@@ -14,6 +14,12 @@
     padding-top: .9em;
 }
 
+.content__h3_position_first
+{
+    margin-top: 0;
+    padding-top: .3em;
+}
+
 .content__p
 {
     line-height: 18px;
