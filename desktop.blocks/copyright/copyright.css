@@ -1,19 +1,15 @@
 .copyright
 {
     font-size: 12px;
-
-    display: inline-block;
-
-    width: 38%;
 }
 
 .copyright__logo
 {
+    display: block;
+
     width: 125px;
     height: 24px;
     margin-bottom: 20px;
 
     background: url(../../i/copyright__logo.png);
-
-    display: block;
 }
