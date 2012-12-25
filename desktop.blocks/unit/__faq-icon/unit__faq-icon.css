@@ -1,0 +1,16 @@
+.unit__faq-icon
+{
+    position: absolute;
+    top: 0;
+    left: -48px;
+
+    background: url(../../../i/unit__faq-icon-title.png) 0 -33px no-repeat;
+
+    width: 35px;
+    height: 35px;
+}
+
+.unit__faq-icon_type_desc
+{
+    background-position: 0 -3px;
+}

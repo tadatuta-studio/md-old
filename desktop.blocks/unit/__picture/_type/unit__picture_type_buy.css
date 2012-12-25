@@ -1,0 +1,20 @@
+.unit__picture_type_buy
+{
+    background: url(../../../../i/unit__picture_type_buy.png) -85px 0 no-repeat;
+
+    width: 40px;
+    height: 105px;
+
+    left: -48px;
+    top: -10px;
+}
+
+.unit__picture_type_buy.unit__picture_position_2
+{
+    background-position: -46px 0;
+}
+
+.unit__picture_type_buy.unit__picture_position_3
+{
+    background-position: -4px 0;
+}

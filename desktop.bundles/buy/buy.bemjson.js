@@ -27,6 +27,8 @@
         },
         {
             block: 'info-block',
+            mods: { border: 'yes' },
+            mix: [{ block: 'clearfix' }],
             content: {
                 block: 'container',
                 content: [
@@ -154,31 +156,53 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        block: 'or',
-                        content: 'or'
                     }
                 ]
             }
+        },
+        {
+            block: 'or',
+            content: 'or'
         },
         {
             block: 'container',
             content: [
                 {
                     block: 'row-fluid',
+                    mods: { border: 'yes' },
                     content: [
                         {
                             block: 'span3',
-                            content: 'Try it Free'
+                            content: [
+                                {
+                                    block: 'try-free',
+                                    content: [
+                                        {
+                                            elem: 'title',
+                                            content: 'Try it <b>Free</b>'
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             block: 'span4',
-                            content: 'Try Magic Desktop 8 full version and when you’re ready to buy, you can choose from any of the plans above.'
+                            content: [
+                                {
+                                    block: 'try-free',
+                                    content: [
+                                        {
+                                            elem: 'description',
+                                            content: 'Try Magic Desktop 8 full version and when you’re ready to buy, you can choose from any of the plans above.'
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             block: 'span4',
                             mix: [{ block: 'offset1' }],
+                            mods: { type: 'button' },
                             content: {
                                 block: 'button',
                                 mods: { size: '45', theme: 'gray', align: 'middle' },
@@ -190,6 +214,7 @@
                 },
                 {
                     block: 'row-fluid',
+                    mods: { type: 'buy' },
                     content: [
                         {
                             block: 'span4',
@@ -203,23 +228,78 @@
                         },
                         {
                             block: 'span4',
-                            content: 'Already own Magic Desktop?'
+                            content: [
+                                {
+                                    block: 'unit',
+                                    content: [
+                                        {
+                                            elem: 'picture',
+                                            elemMods: { type: 'buy', position: '1' }
+                                        },
+                                        {
+                                            elem: 'title',
+                                            content: 'Already own Magic Desktop?'
+                                        },
+                                        {
+                                            elem: 'description',
+                                            content: 'Get 50% off the regular price! To upgrade to Magic Desktop 8 login to your community portal.'
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             block: 'span4',
-                            content: 'For senior sitizens'
+                            content: [
+                                {
+                                    block: 'unit',
+                                    content: [
+                                        {
+                                            elem: 'picture',
+                                            elemMods: { type: 'buy', position: '2' }
+                                        },
+                                        {
+                                            elem: 'title',
+                                            content: 'For senior sitizens'
+                                        },
+                                        {
+                                            elem: 'description',
+                                            content: 'If you are a senior citizen buying Magic Desktop for your grandchild, be sure to get our special discount on the order page.'
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     block: 'row-fluid',
+                    mods: { type: 'buy', position: 'last' },
                     content: [
                         {
                             block: 'span4'
                         },
                         {
                             block: 'span4',
-                            content: 'For Schools & Kindergardens'
+                            content: [
+                                {
+                                    block: 'unit',
+                                    content: [
+                                        {
+                                            elem: 'picture',
+                                            elemMods: { type: 'buy', position: '3' }
+                                        },
+                                        {
+                                            elem: 'title',
+                                            content: 'For Schools & Kindergardens'
+                                        },
+                                        {
+                                            elem: 'description',
+                                            content: 'We have a special program for schools and kindergardens. If you represent an educational institution and would like to get a number of Magic Desktop licenses, please, get in touch.'
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             block: 'span4'
@@ -231,11 +311,13 @@
         {
             block: 'info-block',
             mix: [{ block: 'shadow' }],
+            mods: { page: 'buy' },
             content: {
                 block: 'container',
                 content: [
                     {
                         block: 'row-fluid',
+                        mods: { type: 'faq' },
                         content: [
                             {
                                 block: 'span4',
@@ -249,22 +331,128 @@
                             },
                             {
                                 block: 'span4',
-                                content: 'Do you sell through resellers? How do I become a reseller?'
+                                content: [
+                                    {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'title',
+                                                content: [
+                                                'Do you sell through resellers? How do I become a reseller?',
+                                                    {
+                                                        elem: 'faq-icon'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                elem: 'description',
+                                                content: [
+                                                'Magic Desktop is distributed through various resellers all over the world. If you are interested in becoming a reseller, please send contact us here.',
+                                                    {
+                                                        elem: 'faq-icon',
+                                                        mods: { type: 'desc' }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 block: 'span4',
-                                content: 'Can I install Magic Desktop on more than one computer?'
+                                content: [
+                                    {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'title',
+                                                content: [
+                                                'Can I install Magic Desktop on more than one computer?',
+                                                    {
+                                                        elem: 'faq-icon'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                elem: 'description',
+                                                content: [
+                                                'Normally, Magic Desktop license can be installed only on one computer. You can purchase additional licenses at special prices. Please, also contact us in case you need a special type of license.',
+                                                    {
+                                                        elem: 'faq-icon',
+                                                        mods: { type: 'desc' }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
                         block: 'row-fluid',
+                        mods: { type: 'faq' },
                         content: [
                             {
-                                block: 'How do I redeem my eCoupon?'
+                                block: 'span4'
                             },
                             {
-                                block: 'Am I eligible for any discounts?'
+                                block: 'span4',
+                                content: [
+                                    {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'title',
+                                                content: [
+                                                'Do you sell through resellers? How do I become a reseller?',
+                                                    {
+                                                        elem: 'faq-icon'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                elem: 'description',
+                                                content: [
+                                                'Magic Desktop is distributed through various resellers all over the world. If you are interested in becoming a reseller, please send contact us here.',
+                                                    {
+                                                        elem: 'faq-icon',
+                                                        mods: { type: 'desc' }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                block: 'span4',
+                                content: [
+                                    {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'title',
+                                                content: [
+                                                'Can I install Magic Desktop on more than one computer?',
+                                                    {
+                                                        elem: 'faq-icon'
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                elem: 'description',
+                                                content: [
+                                                'Normally, Magic Desktop license can be installed only on one computer. You can purchase additional licenses at special prices. Please, also contact us in case you need a special type of license.',
+                                                    {
+                                                        elem: 'faq-icon',
+                                                        mods: { type: 'desc' }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     }

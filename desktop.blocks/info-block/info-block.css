@@ -7,3 +7,37 @@
 {
     padding: 35px 0 60px;
 }
+
+.info-block_page_buy
+{
+    padding: 40px 0 0;
+}
+
+.info-block_border_yes:after,
+.info-block_border_yes:before
+{
+    content: "";
+
+    height: 1px;
+    width: 75%;
+
+    margin: auto;
+
+    background: #ddd;
+
+    background: -moz-linear-gradient(left,  transparent , #d9d9d9 50%, transparent);
+    background: -webkit-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: -o-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: -ms-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: linear-gradient(to right,  transparent,#d9d9d9 50%,transparent);
+}
+
+.info-block_border_yes:before
+{
+    margin-bottom: 40px;
+}
+
+.info-block_border_yes:after
+{
+    margin-top: 40px;
+}

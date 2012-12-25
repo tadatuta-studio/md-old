@@ -1,0 +1,8 @@
+.row-fluid_type_buy .unit
+{
+    margin-bottom: 25px;
+}
+.row-fluid_type_buy.row-fluid_position_last .unit
+{
+    margin-bottom: 45px;
+}
