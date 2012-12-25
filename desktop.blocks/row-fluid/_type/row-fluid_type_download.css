@@ -4,3 +4,8 @@
     margin-bottom: 40px;
     padding-right: 46px;
 }
+
+.row-fluid_type_download .unit__description
+{
+    font-weight: 300;
+}
