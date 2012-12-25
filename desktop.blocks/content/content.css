@@ -10,9 +10,16 @@
     color: #333;
 
     font-weight: 400;
+
+    padding-top: .9em;
 }
 
 .content__p
 {
     line-height: 18px;
+}
+
+.content__p_font_bolder
+{
+    font-family: "Segoe UI Semibold","Segoe UI",Helvetica,Arial,sans-serif;
 }

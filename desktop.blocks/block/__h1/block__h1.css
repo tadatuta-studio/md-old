@@ -1,9 +1,15 @@
 .block__h1
 {
     font-size: 35px;
+    line-height: 125%;
 }
 
 .row-fluid_type_testimonials .block__h1
 {
     line-height: 1.1;
+}
+
+.block__h1_type_license
+{
+    width: 270px;
 }

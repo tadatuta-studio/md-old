@@ -25,10 +25,11 @@
                         {
                             block: 'span4',
                             content: {
-                                block: 'block-info',
+                                block: 'block',
                                 content: [
                                     {
-                                       elem: 'h2',
+                                       elem: 'h1',
+                                       elemMods: { type: 'license' },
                                        content: 'Easybits Kids end user License Agreement'
                                     },
                                     {
@@ -127,11 +128,18 @@
                                     content: [
                                         {
                                             elem: 'p',
+                                            elemMods: { font: 'bolder' },
                                             content: 'DO NOT USE, INSTALL OR LOAD THIS SOFTWARE AND ANY ASSOCIATED MATERIALS (COLLECTIVELY, THE “SOFTWARE”) UNTIL YOU HAVE CAREFULLY READ THE FOLLOWING TERMS AND CONDITIONS. BY LOADING, INSTALLING OR USING THE SOFTWARE, YOU AGREE TO THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT USE, INSTALL OR LOAD THE SOFTWARE.'
                                         },
                                         {
                                             elem: 'p',
-                                            content: 'IMPORTANT NOTE: This Software may be used to reproduce materials. It is licensed to you only for reproduction of materials you are authorized or legally permitted to reproduce. Remote access of copyrighted content is only provided for lawful personal use or as otherwise legally permitted. If you are uncertain about your right to copy or permit access to any material you should contact your legal advisor.'
+                                            content: [
+                                            {
+                                                elem: 'subtitle',
+                                                content: 'IMPORTANT NOTE:'
+                                            },
+                                            ' This Software may be used to reproduce materials. It is licensed to you only for reproduction of materials you are authorized or legally permitted to reproduce. Remote access of copyrighted content is only provided for lawful personal use or as otherwise legally permitted. If you are uncertain about your right to copy or permit access to any material you should contact your legal advisor.'
+                                            ]
                                         },
                                         {
                                             elem: 'h3',
