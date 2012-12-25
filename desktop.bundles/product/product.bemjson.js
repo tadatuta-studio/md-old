@@ -670,322 +670,261 @@
                             mix: [{ block: 'offset1' }],
                             content: [
                                 {
-                                    block: 'b-layout-table',
-                                    mods: { type: 'languages' },
+                                    block: 'languages',
                                     content: [
                                         {
-                                            elem: 'row',
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'danish' }},
+                                            url: '#danish',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Danish'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'english' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'English'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'french' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'French'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'greek' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Greek'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'italian' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Italian'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'norwegian' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Norwegian'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'portuguese' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Portuguese'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'russian' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Russian'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'swedish' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Swedish'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'nederlands' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Nederlands'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'finnish' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Finnish'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'german' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'German'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'hungarian' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Hungarian'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'japanese' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Japanese'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'polish' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Polish'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'romanian' }},
+                                            url: '#',
+                                            content: {
+                                                elem: 'name',
+                                                mix: { block: 'languages', elem: 'name'},
+                                                content: {
+                                                    block: 'languages',
+                                                    elem: 'inner',
+                                                    content: 'Romanian'
+                                                }
+                                            }
+                                        }, ' ',
+                                        {
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 's-panish' }},
+                                            url: '#',
                                             content: [
                                                 {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'danish'} },
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Danish'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'english'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'English'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'french'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'French'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'greek'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Greek'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'italian'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Italian'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'norwegian'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Norwegian'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'portuguese'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Portuguese'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'russian'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Russian'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'swedish'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Swedish'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
+                                                    elem: 'name',
+                                                    mix: { block: 'languages', elem: 'name'},
+                                                    content: {
+                                                        block: 'languages',
+                                                        elem: 'inner',
+                                                        content: 'Spanish'
+                                                    }
                                                 }
                                             ]
-                                        },
+                                        }, ' ',
                                         {
-                                            elem: 'row',
+                                            block: 'b-link',
+                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'turkish' }},
+                                            url: '#',
                                             content: [
                                                 {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'nederlands'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Nederlands'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'finnish'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Finnish'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'german'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'German'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'hungarian'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Hungarian'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'japanese'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Japanese'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'polish'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Polish'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'romanian'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Romanian'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'spanish'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Spanish'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    elem: 'cell',
-                                                    content: [
-                                                        {
-                                                            block: 'b-link',
-                                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'turkish'  }},
-                                                            url: '#',
-                                                            content: [
-                                                                {
-                                                                    elem: 'name',
-                                                                    mix: { block: 'languages', elem: 'name'},
-                                                                    content: 'Turkish'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
+                                                    elem: 'name',
+                                                    mix: { block: 'languages', elem: 'name'},
+                                                    content: {
+                                                        block: 'languages',
+                                                        elem: 'inner',
+                                                        content: 'Turkish'
+                                                    }
                                                 }
                                             ]
                                         }

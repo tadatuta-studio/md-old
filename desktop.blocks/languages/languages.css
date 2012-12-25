@@ -1,0 +1,17 @@
+.languages
+{
+    margin: 10px -20px 0;
+
+    text-align: justify;
+
+    font-weight: 300;
+}
+
+.languages:after
+{
+    content: '';
+
+    display: inline-block;
+
+    width: 100%;
+}
