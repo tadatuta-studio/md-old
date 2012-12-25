@@ -24,9 +24,10 @@
                     mods: { type: 'product' },
                     content: [
                         {
-                            block: 'span3',
+                            block: 'span4',
                             content: {
                                 block: 'block',
+                                mods: { type: 'product' },
                                 content: [
                                     {
                                        elem: 'h1',
@@ -47,7 +48,7 @@
                         },
                         {
                             block: 'span4',
-                            mix: [{ block: 'offset1' }],
+                            // mix: [{ block: 'offset1' }],
                             content: [
                                 {
                                     block: 'about-product',

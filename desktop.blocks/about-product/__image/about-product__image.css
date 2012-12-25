@@ -1,11 +1,12 @@
 .about-product__image
 {
     position: absolute;
-    left: 25%;
+    bottom: 5px;
+    left: 20%;
 
-    height: auto;
-
-    width: 46%;
     max-width: 599px;
-    min-width: 480px
+    min-width: 525px;
+
+    width: 50%;
+    height: auto;
 }
