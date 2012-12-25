@@ -151,6 +151,7 @@
                                 content: [
                                     {
                                         elem: 'h2',
+                                        attrs: { id: 'contact' },
                                         content: {
                                             content: 'Contact us'
                                         }

@@ -64,7 +64,7 @@ block footer {
                                         elemMods: { state: page === 'contact-us' ? 'current' : undefined },
                                         content: page === 'contact-us' ? 'Contact Us' : {
                                             block: 'b-link',
-                                            url: '/desktop.bundles/support/support.html',
+                                            url: '/desktop.bundles/company/company.html#contact',
                                             content: 'Contact Us'
                                         }
                                     }
