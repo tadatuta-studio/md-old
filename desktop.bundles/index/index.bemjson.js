@@ -927,7 +927,6 @@
                             content: [
                                 {
                                     block: 'row-fluid',
-                                    mods: { type: 'string' },
                                     content: [
                                         {
                                             block: 'span4',
