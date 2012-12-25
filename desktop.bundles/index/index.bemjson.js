@@ -521,7 +521,8 @@
                                                         content: {
                                                             block: 'b-link',
                                                             mods: { link: 'youtube' },
-                                                            url: 'http://www.youtube.com/user/MagicDesktop8'
+                                                            url: 'http://www.youtube.com/user/MagicDesktop8',
+                                                            target: '_blank'
                                                         }
                                                     },
                                                     {
@@ -529,7 +530,8 @@
                                                         content: {
                                                             block: 'b-link',
                                                             mods: { link: 'google' },
-                                                            url: 'https://plus.google.com/117603931670266985878'
+                                                            url: 'https://plus.google.com/117603931670266985878',
+                                                            target: '_blank'
                                                         }
                                                     },
                                                     {
@@ -537,7 +539,8 @@
                                                         content: {
                                                             block: 'b-link',
                                                             mods: { link: 'twitter' },
-                                                            url: 'https://twitter.com/MagicDesktop'
+                                                            url: 'https://twitter.com/MagicDesktop',
+                                                            target: '_blank'
                                                         }
                                                     },
                                                     {
@@ -545,7 +548,8 @@
                                                         content: {
                                                             block: 'b-link',
                                                             mods: { link: 'facebook' },
-                                                            url: 'http://www.facebook.com/magicdesktop'
+                                                            url: 'http://www.facebook.com/magicdesktop',
+                                                            target: '_blank'
                                                         }
                                                     }
                                                 ]
