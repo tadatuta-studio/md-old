@@ -281,7 +281,8 @@
                             content: {
                                 block: 'button',
                                 mods: { size: 'm', theme: 'download', page: 'home' },
-                                content: 'Get it now'
+                                url: '/desktop.bundles/download/download.html',
+                                content: 'Get it now!'
                             }
                         }
                     ]

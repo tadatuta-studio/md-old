@@ -169,17 +169,6 @@
                                         {
                                             elem: 'description-item',
                                             content: [
-                                            'If you need product support for Magic Desktop or want to give feedback, contact ',
-                                                {
-                                                    block: 'b-link',
-                                                    content: 'support@easybits.com',
-                                                    url: 'mailto:support@easybits.com'
-                                                }, '.'
-                                            ]
-                                        },
-                                        {
-                                            elem: 'description-item',
-                                            content: [
                                             'If you are interested in finding out how we can make a difference to your business, contact ',
                                                 {
                                                     block: 'b-link',

@@ -1,0 +1,25 @@
+.footer_page_home
+{
+    padding-bottom: 25px;
+}
+
+.footer_page_home .b-menu-vert
+{
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+.footer_page_home .b-menu-vert__item
+{
+    padding: 4px 0;
+}
+
+.footer_page_home .b-link
+{
+    color: #666;
+}
+
+.footer_page_home .copyright
+{
+    width: 48%;
+}
