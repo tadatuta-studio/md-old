@@ -18,6 +18,14 @@
     padding: 0 30px;
 }
 */
+
+.b-page_page_index .b-link_type_readmore
+{
+    float: right;
+
+    margin: 28px 0 7px;
+}
+
 .b-page_page_privacy-policy .content
 {
     margin-bottom: 190px;

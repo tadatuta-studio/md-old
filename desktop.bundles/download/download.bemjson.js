@@ -88,7 +88,7 @@
                                 block: 'block',
                                 content: {
                                     elem: 'h1',
-                                    content: 'While you wait...'
+                                    content: 'Setup Instructions'
                                 }
                             }
                         },
@@ -120,7 +120,7 @@
                                                                 },
                                                                 {
                                                                     elem: 'description',
-                                                                    content: 'Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam.'
+                                                                    content: 'Click the MagicDesktopSetup file in the downloads window to initiate setup.'
                                                                 }
                                                             ]
                                                         }
@@ -148,7 +148,7 @@
                                                                 },
                                                                 {
                                                                     elem: 'description',
-                                                                    content: 'Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam.'
+                                                                    content: 'The system will prompt you to choose an action. Click Run.'
                                                                 }
                                                             ]
                                                         }
@@ -177,7 +177,7 @@
                                                                 },
                                                                 {
                                                                     elem: 'description',
-                                                                    content: 'Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam.'
+                                                                    content: 'Now you may start the setup (you might want to check our license agreement and change the language here).'
                                                                 }
                                                             ]
                                                         }
@@ -210,7 +210,7 @@
                                                                 },
                                                                 {
                                                                     elem: 'description',
-                                                                    content: 'Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam.'
+                                                                    content: 'The setup starts and will preview many of the included features. Within a couple of minutes, it is completed.'
                                                                 }
                                                             ]
                                                         }
@@ -238,7 +238,7 @@
                                                                 },
                                                                 {
                                                                     elem: 'description',
-                                                                    content: 'Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit, sed diam.'
+                                                                    content: 'When Magic Desktop opens, you will be prompted to start a preview session, buy a license or activate the license, once purchased.'
                                                                 }
                                                             ]
                                                         }
@@ -257,7 +257,14 @@
                     mods: { type: 'download' },
                     content: [
                         {
-                            block: 'span4'
+                            block: 'span4',
+                            content: {
+                                block: 'block',
+                                content: {
+                                    elem: 'h1',
+                                    content: 'While you wait…'
+                                }
+                            }
                         },
                         {
                             block: 'span4',
@@ -275,13 +282,17 @@
                                         },
                                         {
                                             elem: 'description',
-                                            content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.'
+                                            content: 'Here you will find a quick user guide to learn the ropes as a parent. Every key function of Magic Desktop is explained here to help you secure your computer so that your kids can start playing!'
                                         },
                                         {
                                             block: 'b-link',
+                                            mods: { type: 'readmore' },
                                             mix: [{ block: 'unit', elem: 'more'}],
-                                            url: '#read-more',
-                                            content: 'Read more'
+                                            url: '#readmore',
+                                            content: {
+                                                elem: 'inner',
+                                                content: 'Read more'
+                                            }
                                         }
                                     ]
                                 }
@@ -303,13 +314,17 @@
                                         },
                                         {
                                             elem: 'description',
-                                            content: 'The easiest, and completely secure e-mail client that hides away spam and phishing messages while allowing parents to supervise contacts to ensure their kids do not start conversations with strangers online.'
+                                            content: 'Made specifically by one of our community fans, this set of tutorials provides visual aid into configuring Magic Desktop for the first time. Please make sure to watch them before you get started!'
                                         },
                                         {
                                             block: 'b-link',
+                                            mods: { type: 'readmore' },
                                             mix: [{ block: 'unit', elem: 'more'}],
-                                            url: '#read-more',
-                                            content: 'Read more'
+                                            url: '#readmore',
+                                            content: {
+                                                elem: 'inner',
+                                                content: 'Read more'
+                                            }
                                         }
                                     ]
                                 }
@@ -336,17 +351,21 @@
                                         },
                                         {
                                             elem: 'title',
-                                            content: 'Easy Learning'
+                                            content: 'Frequently Asked Questions'
                                         },
                                         {
                                             elem: 'description',
-                                            content: 'A browser that keeps kids inside the safe boundaries of the www experience by using content advisors such as EasySearch and parental control features to allow parents to search and approve websites.'
+                                            content: 'Have a question about Magic Desktop? It is likely it was already asked before. Please check this section to get the help you need.'
                                         },
                                         {
                                             block: 'b-link',
+                                            mods: { type: 'readmore' },
                                             mix: [{ block: 'unit', elem: 'more'}],
-                                            url: '#read-more',
-                                            content: 'Read more'
+                                            url: '#readmore',
+                                            content: {
+                                                elem: 'inner',
+                                                content: 'Read more'
+                                            }
                                         }
                                     ]
                                 }
@@ -364,17 +383,21 @@
                                         },
                                         {
                                             elem: 'title',
-                                            content: 'Magic Mail'
+                                            content: 'Join community'
                                         },
                                         {
                                             elem: 'description',
-                                            content: 'The easiest, and completely secure e-mail client that hides away spam and phishing messages while allowing parents to supervise contacts to ensure their kids do not start conversations with strangers online.'
+                                            content: 'Magic Desktop parents from around the world are gathered here to discuss, post ideas or ask for help. Join us and you will benefit from sharing your ideas and helping us shape the product to your expectations. Welcome to the Magic Desktop Family!'
                                         },
                                         {
                                             block: 'b-link',
+                                            mods: { type: 'readmore' },
                                             mix: [{ block: 'unit', elem: 'more'}],
-                                            url: '#read-more',
-                                            content: 'Read more'
+                                            url: '#readmore',
+                                            content: {
+                                                elem: 'inner',
+                                                content: 'Read more'
+                                            }
                                         }
                                     ]
                                 }
