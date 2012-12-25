@@ -7,7 +7,7 @@
 
     position: absolute;
     top: 30%;
-    left: 39%;
+    left: 40%;
 
     z-index: 99;
 
@@ -23,8 +23,8 @@
 
 .slider__play:hover
 {
-    -webkit-box-shadow: 0 0 10px #39c;
-    -moz-box-shadow: 0 0 10px #39c;
-    -o-box-shadow: 0 0 10px #39c;
-    box-shadow: 0 0 10px #39c;
+    -webkit-box-shadow: 0 0 25px #fff;
+    -moz-box-shadow: 0 0 25px #fff;
+    -o-box-shadow: 0 0 25px #fff;
+    box-shadow: 0 0 25px #fff;
 }

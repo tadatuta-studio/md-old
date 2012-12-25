@@ -1,17 +1,17 @@
 .header
 {
+    position: relative;
+
     margin: 0 0 42px 0;
 }
 
-.header__inner
+/*.header__inner
 {
-    position: relative;
-
     min-width: 940px;
     max-width: 1200px;
     margin: auto;
     padding: 41px 0 16px;
-}
+}*/
 
 .header_border_yes .header__inner
 {

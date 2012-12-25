@@ -1,43 +1,59 @@
 .nav
 {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
 
-    display: inline-block;
+    width: 100%;
 
-    padding-top: 70px;
-    margin-left: -18px;
+    margin-top: 91px;
 
     vertical-align: top;
 
     text-align: left;
 
-    color: #1c1c1c;
+    color: #333;
+}
+
+.nav .b-menu-horiz__layout
+{
+    float: right;
 }
 
 .nav .b-menu-horiz__item
 {
-    padding: 0 17px;
+    padding: 0 19px 3px;
+    line-height: 22px;
 }
 
 .nav .b-link
 {
-    font-size: 16px;
-    color: #1c1c1c;
+    font-size: 15px;
+    color: #333;
 }
 
 .nav .b-menu-horiz__item_state_current
 {
+    background: #39c;
+    color: #fff;
+}
+
+.nav .b-menu-horiz__item_state_current.b-menu-horiz__item_page_buy
+{
+    background: #6cae11;
+}
+
+/*.nav .b-menu-horiz__item_state_current
+{
     padding: 28px 17px 0;
     background: url(../../i/nav.png) 50% 3px no-repeat;
-}
+}*/
 
 /*.nav .b-menu-horiz__item_state_current.b-menu-horiz__item_page_home
 {
     background-position: 50% 3px;
 }*/
 
-.nav .b-menu-horiz__item_state_current.b-menu-horiz__item_page_product
+/*.nav .b-menu-horiz__item_state_current.b-menu-horiz__item_page_product
 {
     background-position: 50% -45px;
 }
@@ -62,6 +78,7 @@
 {
     background-position: 50% -237px;
 }
+*/
 
 /*
 .b-menu-horiz__item_kind_special,

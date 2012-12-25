@@ -1,14 +1,14 @@
 .lang-switcher
 {
-    position: relative;
+    position: absolute;
+    right: 0;
+    top: 11px;
 
-    float: right;
-
-    margin-top: 20px;
+    font-weight: 300;
 
     cursor: pointer;
 
-    font-weight: 300;
+    color: #999;
 }
 
 .lang-switcher__current:after {

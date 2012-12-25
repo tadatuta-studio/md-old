@@ -23,7 +23,7 @@ block header {
                             },
                             {
                                 elem: 'tagline',
-                                content: 'is like Windows for kids.'
+                                content: 'is like Windows for kids'
                             }
                         ]
                     }
