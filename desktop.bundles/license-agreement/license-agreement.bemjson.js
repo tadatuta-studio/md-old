@@ -245,7 +245,7 @@
         },
         {
             block: 'footer',
-            mods: { page: 'license-agreement' }
+            page: 'license-agreement'
         }
     ]
 })

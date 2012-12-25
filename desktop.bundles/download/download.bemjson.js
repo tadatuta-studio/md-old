@@ -409,7 +409,7 @@
         },
         {
             block: 'footer',
-            mods: { page: 'download' }
+            page: 'download'
         }
     ]
 })

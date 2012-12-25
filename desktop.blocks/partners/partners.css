@@ -1,5 +1,13 @@
 .partners
 {
-    width: 65%;
-    float: left;
+    text-align: justify;
+}
+
+.partners:after
+{
+    display: inline-block;
+
+    width: 100%;
+
+    content: '';
 }

@@ -1,25 +1,26 @@
-.footer_page_home
+.footer_page_index
 {
-    padding-bottom: 25px;
+    padding-bottom: 0;
 }
 
-.footer_page_home .b-menu-vert
+.footer_page_index .b-menu-vert
 {
     padding-left: 0;
     margin-bottom: 30px;
 }
 
-.footer_page_home .b-menu-vert__item
+.footer_page_index .b-menu-vert__item
 {
     padding: 4px 0;
 }
 
-.footer_page_home .b-link
+.footer_page_index .b-link
 {
     color: #666;
+    font-size: 13px;
 }
 
-.footer_page_home .copyright
+.footer_page_index .copyright
 {
     width: 48%;
 }

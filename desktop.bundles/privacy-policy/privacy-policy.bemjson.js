@@ -70,7 +70,7 @@
         },
         {
             block: 'footer',
-            mods: { page: 'privacy-policy' }
+            page: 'privacy-policy'
         }
     ]
 })

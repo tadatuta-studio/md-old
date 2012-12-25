@@ -164,7 +164,7 @@
         },
         {
             block: 'footer',
-            mods: { page: 'buy' }
+            page: 'buy'
         }
     ]
 })

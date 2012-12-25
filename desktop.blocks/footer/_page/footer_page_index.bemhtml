@@ -1,134 +1,164 @@
-block footer {
+block footer, mod page index {
     mix: [{ block: 'shadow' }]
 
     content: {
-        elem: 'inner',
-        mix: [{ block: 'clearfix' }],
-        content: [
-            {
-                elem: 'left',
-                content: [
-                    {
-                        block: 'b-menu-vert',
-                        mods: { layout: 'normal' },
-                        js: false,
-                        content: [
-                            {
-                                elem: 'item',
-                                content: {
-                                    block: 'b-link',
-                                    url: '/desktop.bundles/company/company.html',
-                                    content: 'Company'
+        block: 'container',
+        content: {
+            block: 'row-fluid',
+            mix: [{ block: 'clearfix' }],
+            content: [
+                {
+                    block: 'span4',
+                    content: [
+                        {
+                            block: 'b-menu-vert',
+                            mods: { layout: 'normal' },
+                            js: false,
+                            content: [
+                                {
+                                    elem: 'item',
+                                    content: {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/company/company.html',
+                                        content: 'Company'
+                                    }
+                                },
+                                {
+                                    elem: 'item',
+                                    content: {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/license-agreement/license-agreement.html',
+                                        content: 'License Agreement'
+                                    }
+                                },
+                                {
+                                    elem: 'item',
+                                    content: {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/privacy-policy/privacy-policy.html',
+                                        content: 'Privacy Policy'
+                                    }
+                                },
+                                {
+                                    elem: 'item',
+                                    content: {
+                                        block: 'b-link',
+                                        url: '/desktop.bundles/company/company.html#contact',
+                                        content: 'Contact Us'
+                                    }
                                 }
-                            },
-                            {
-                                elem: 'item',
-                                content: {
+                            ]
+                        },
+                        {
+                            block: 'copyright',
+                            content: [
+                                {
                                     block: 'b-link',
-                                    url: '/desktop.bundles/license-agreement/license-agreement.html',
-                                    content: 'License Agreement'
+                                    mix: [{ block: 'copyright', elem: 'logo' }]
+                                    // , url: '#'
+                                },
+                                '© 2013 EasyBits Software.',
+                                {
+                                    tag: 'br'
+                                },
+                                'All Rights Reserved.'
+                            ]
+                        }
+                    ]
+                },
+                {
+                    block: 'span8',
+                    content: [
+                        {
+                            block: 'partners',
+                            content: [
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'disney' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'milkshake' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'uol' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'dixons' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'telecom' }
                                 }
-                            },
-                            {
-                                elem: 'item',
-                                content: {
-                                    block: 'b-link',
-                                    url: '/desktop.bundles/privacy-policy/privacy-policy.html',
-                                    content: 'Privacy Policy'
+                            ]
+                        },
+                        {
+                            block: 'partners',
+                            content: [
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'telenor' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'pb' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'pc-worlds' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'couto' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'advent' }
                                 }
-                            },
-                            {
-                                elem: 'item',
-                                content: {
-                                    block: 'b-link',
-                                    url: '/desktop.bundles/support/support.html',
-                                    content: 'Contact Us'
+                            ]
+                        },
+                        {
+                            block: 'partners',
+                            content: [
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'acer' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'asus' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'intel' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'hp' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'five' }
                                 }
-                            }
-                        ]
-                    },
-                    {
-                        block: 'copyright',
-                        content: [
-                            {
-                                block: 'b-link',
-                                mix: [{ block: 'copyright', elem: 'logo' }]
-                                // , url: '#'
-                            },
-                            '© 2013 EasyBits Software.',
-                            {
-                                tag: 'br'
-                            },
-                            'All Rights Reserved.'
-                        ]
-                    }
-                ]
-            },
-            {
-                block: 'partners',
-                content: [
-                    {
-                        elem: 'item',
-                        mods: { type: 'disney' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'milkshake' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'uol' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'dixons' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'telecom', position: 'last' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'telenor' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'pb' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'pc-worlds' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'couto' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'advent', position: 'last' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'acer' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'asus' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'intel' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'hp' }
-                    },
-                    {
-                        elem: 'item',
-                        mods: { type: 'five', position: 'last' }
-                    }
-                ]
-            }
-        ]
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

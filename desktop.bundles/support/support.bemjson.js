@@ -124,7 +124,7 @@
         },
         {
             block: 'footer',
-            mods: { page: 'support' }
+            page: 'support'
         }
     ]
 })

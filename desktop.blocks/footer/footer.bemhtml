@@ -4,6 +4,8 @@ block footer {
     content: {
         var page = this.ctx.page;
 
+        console.log('page', page);
+
         return {
             block: 'container',
             content: {

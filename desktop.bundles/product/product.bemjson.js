@@ -1033,7 +1033,7 @@
         },
         {
             block: 'footer',
-            mods: { page: 'product' }
+            page: 'product'
         }
     ]
 })

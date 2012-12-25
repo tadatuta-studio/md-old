@@ -281,7 +281,7 @@
         },
         {
             block: 'footer',
-            mods: { page: 'company' }
+            page: 'company'
         }
     ]
 })
