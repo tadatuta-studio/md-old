@@ -1,18 +1,19 @@
 .languages__item
 {
+    font-size: 12px;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 41px;
+    margin-bottom: 34px;
+    padding: 29px 20px 0;
+
     background-image: url(../../../i/languages__item.png);
     background-repeat: no-repeat;
 
     color: #666;
-
-    display: inline-block;
-
-    font-size: 12px;
-
-    padding: 36px 0 0;
-    margin-bottom: 10px;
-
-    width: 50px;
 }
 
 .languages__item:hover
@@ -22,90 +23,90 @@
 
 .languages__item_type_danish
 {
-    background-position: -5px -5px;
+    background-position: 50% 0;
 }
 
 .languages__item_type_english
 {
-    background-position: -96px -5px;
+    background-position: 50% -70px;
 }
 
 .languages__item_type_french
 {
-    background-position: -189px -5px;
+    background-position: 50% -141px;
 }
 
 .languages__item_type_greek
 {
-    background-position: -280px -5px;
+    background-position: 50% -212px;
 }
 
 .languages__item_type_italian
 {
-    background-position: -372px -5px;
+    background-position: 50% -283px;
 }
 
 .languages__item_type_norwegian
 {
-    background-position: -465px -5px;
+    background-position: 50% -354px;
 }
 
 .languages__item_type_portuguese
 {
-    background-position: -557px -5px;
+    background-position: 50% -424px;
 }
 
 .languages__item_type_russian
 {
-    background-position: -649px -5px;
+    background-position: 50% -493px;
 }
 
 .languages__item_type_swedish
 {
-    background-position: -741px -5px;
+    background-position: 50% -562px;
 }
 
 .languages__item_type_nederlands
 {
-    background-position: -5px -54px;
+    background-position: 50% -635px;
 }
 
 .languages__item_type_finnish
 {
-    background-position: -96px -54px;
+    background-position: 50% -708px;
 }
 
 .languages__item_type_german
 {
-    background-position: -189px -54px;
+    background-position: 50% -781px;
 }
 
 .languages__item_type_hungarian
 {
-    background-position: -280px -54px;
+    background-position: 50% -854px;
 }
 
 .languages__item_type_japanese
 {
-    background-position: -372px -54px;
+    background-position: 50% -927px;
 }
 
 .languages__item_type_polish
 {
-    background-position: -465px -54px;
+    background-position: 50% -1000px;
 }
 
 .languages__item_type_romanian
 {
-    background-position: -555px -54px;
+    background-position: 50% -1073px;
 }
 
-.languages__item_type_spanish
+.languages__item_type_s-panish
 {
-    background-position: -649px -54px;
+    background-position: 50% -1146px;
 }
 
 .languages__item_type_turkish
 {
-    background-position: -741px -54px;
+    background-position: 50% -1219px;
 }
