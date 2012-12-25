@@ -406,7 +406,7 @@
                                                         },
                                                         {
                                                             elem: 'description',
-                                                            content: 'Give your child a head start by teaching them how computers work and encouraging exploration. Magic Desktop is suitable for kids as young as toddlers'
+                                                            content: 'Give your child a head start by teaching them how computers work and encouraging exploration. Magic Desktop is suitable for kids as young as toddlers.'
                                                         }
                                                     ]
                                                 }
@@ -457,6 +457,18 @@
                                             ]
                                         }
                                     ]
+                                },
+                                {
+                                    block: 'row-fluid',
+                                    content: {
+                                        block: 'b-link',
+                                        mods: { type: 'readmore' },
+                                        url: '/desktop.bundles/product/product.html',
+                                        content: {
+                                            elem: 'inner',
+                                            content: 'Read more'
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -912,16 +924,6 @@
                             block: 'span8',
                             mix: [{ block: 'offset1' }],
                             content: [
-                                {
-                                    block: 'unit',
-                                    mods: { type: 'notice' },
-                                    content: [
-                                        {
-                                            elem: 'notice',
-                                            content: 'Who are you?'
-                                        }
-                                    ]
-                                },
                                 {
                                     block: 'row-fluid',
                                     mods: { type: 'string' },

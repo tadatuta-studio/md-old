@@ -1,10 +1,15 @@
 .b-link_type_readmore
 {
+    float: right;
+
+    margin: 28px 0 7px;
+
     color: #666;
 }
 
 .b-link_type_readmore:after
 {
+    font-family: arial, sans-serif;
     font-size: 10px;
 
     content: " ▶";

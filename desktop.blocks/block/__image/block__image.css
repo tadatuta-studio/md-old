@@ -1,7 +1,8 @@
 .block__image
 {
+    display: block;
+
     width: 100%;
     max-width: 315px;
-
-    margin-top: 65px;
+    margin-top: 129px;
 }

@@ -2,3 +2,8 @@
 {
     margin-bottom: 20px;
 }
+
+.row-fluid_type_testimonials .unit__description
+{
+    min-height: 200px;
+}
