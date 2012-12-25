@@ -1,3 +1,8 @@
+html
+{
+    background: #f0efef;
+}
+
 .b-page
 {
     font-family: "wf_SegoeUI", "Segoe UI", "Segoe", "Segoe WP", Tahoma, Verdana, Arial, sans-serif;
@@ -6,6 +11,8 @@
 
     margin: 0;
     padding-top: 10px;
+
+    background: #fff;
 
     color: #666;
 }
@@ -29,6 +36,11 @@
 .b-page_page_privacy-policy .content
 {
     margin-bottom: 190px;
+}
+
+.b-page_page_privacy-policy .content__p
+{
+    font-weight: 300;
 }
 
 .b-page_page_support .header
