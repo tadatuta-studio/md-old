@@ -3,10 +3,10 @@
     title: 'License Agreement — Magic Desktop 8',
     favicon: '/favicon.ico',
     head: [
-        { elem: 'css', url: '_license-agreement.css', ie: false },
-        { elem: 'css', url: '_license-agreement', ie: true },
+        { elem: 'css', url: '../merged/_merged.css', ie: false },
+        { elem: 'css', url: '../merged/_merged', ie: true },
         { block: 'i-jquery', elem: 'core' },
-        { elem: 'js', url: '_license-agreement.js' },
+        { elem: 'js', url: '../merged/_merged.js' },
         { elem: 'meta', attrs: { name: 'description', content: '' }},
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],

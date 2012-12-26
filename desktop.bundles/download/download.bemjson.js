@@ -3,10 +3,10 @@
     title: 'Download — Magic Desktop 8',
     favicon: '/favicon.ico',
     head: [
-        { elem: 'css', url: '_download.css', ie: false },
-        { elem: 'css', url: '_download', ie: true },
+        { elem: 'css', url: '../merged/_merged.css', ie: false },
+        { elem: 'css', url: '../merged/_merged', ie: true },
         { block: 'i-jquery', elem: 'core' },
-        { elem: 'js', url: '_download.js' },
+        { elem: 'js', url: '../merged/_merged.js' },
         { elem: 'meta', attrs: { name: 'description', content: '' }},
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],
