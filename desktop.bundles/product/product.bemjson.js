@@ -1,6 +1,6 @@
 ({
     block: 'b-page',
-    title: 'Layout — Magic Desktop 8',
+    title: 'Product — Magic Desktop 8',
     favicon: '/favicon.ico',
     head: [
         { elem: 'css', url: '_product.css', ie: false },
@@ -132,24 +132,19 @@
                                                 content: 'Easy Learning'
                                             },
                                             {
-                                                block: 'b-text',
+                                                block: 'list',
                                                 content: [
                                                     {
-                                                        elem: 'ul',
-                                                        content:[
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Have fun while learning'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Loads of educational exercises'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Math & Spelling'
-                                                            }
-                                                        ]
+                                                        elem: 'item',
+                                                        content: 'Have fun while learning'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Loads of educational exercises'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Math & Spelling'
                                                     }
                                                 ]
                                             }
@@ -171,24 +166,19 @@
                                                     content: 'Rainbow'
                                                 },
                                                 {
-                                                    block: 'b-text',
+                                                    block: 'list',
                                                     content: [
                                                         {
-                                                            elem: 'ul',
-                                                            content:[
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Take a snapshot'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Apply cool effects to pictures'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Send to friends and family'
-                                                                }
-                                                            ]
+                                                            elem: 'item',
+                                                            content: 'Take a snapshot'
+                                                        },
+                                                        {
+                                                            elem: 'item',
+                                                            content: 'Apply cool effects to pictures'
+                                                        },
+                                                        {
+                                                            elem: 'item',
+                                                            content: 'Send to friends and family'
                                                         }
                                                     ]
                                                 }
@@ -219,24 +209,19 @@
                                                 content: 'Easy Paint'
                                             },
                                             {
-                                                block: 'b-text',
+                                                block: 'list',
                                                 content: [
                                                     {
-                                                        elem: 'ul',
-                                                        content:[
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Paint by free hand'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Large collection of images to color up'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Apply effects and text to your own pictures'
-                                                            }
-                                                        ]
+                                                        elem: 'item',
+                                                        content: 'Paint by free hand'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Large collection of images to color up'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Apply effects and text to your own pictures'
                                                     }
                                                 ]
                                             }
@@ -257,24 +242,19 @@
                                                 content: 'Talking Parrot'
                                             },
                                             {
-                                                block: 'b-text',
+                                                block: 'list',
                                                 content: [
                                                     {
-                                                        elem: 'ul',
-                                                        content:[
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Record your voice'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Play your recordings fast or slow'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Send a voice mail'
-                                                            }
-                                                        ]
+                                                        elem: 'item',
+                                                        content: 'Record your voice'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Play your recordings fast or slow'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Send a voice mail'
                                                     }
                                                 ]
                                             }
@@ -304,24 +284,19 @@
                                                 content: 'Easy Write'
                                             },
                                             {
-                                                block: 'b-text',
+                                                block: 'list',
                                                 content: [
                                                     {
-                                                        elem: 'ul',
-                                                        content:[
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Learn to write'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Many fonts and colors'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Send your story to Grandparents'
-                                                            }
-                                                        ]
+                                                        elem: 'item',
+                                                        content: 'Learn to write'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Many fonts and colors'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Send your story to Grandparents'
                                                     }
                                                 ]
                                             }
@@ -342,24 +317,19 @@
                                                 content: 'Gamepad'
                                             },
                                             {
-                                                block: 'b-text',
+                                                block: 'list',
                                                 content: [
                                                     {
-                                                        elem: 'ul',
-                                                        content:[
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Hours of entertainment'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Includes 28 games for all ages'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Games with educational touch'
-                                                            }
-                                                        ]
+                                                        elem: 'item',
+                                                        content: 'Hours of entertainment'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Includes 28 games for all ages'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Games with educational touch'
                                                     }
                                                 ]
                                             }
@@ -389,24 +359,19 @@
                                                 content: 'No Homework No Play'
                                             },
                                             {
-                                                block: 'b-text',
+                                                block: 'list',
                                                 content: [
                                                     {
-                                                        elem: 'ul',
-                                                        content:[
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Set your own rules'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Motivate your children'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Reward worthily'
-                                                            }
-                                                        ]
+                                                        elem: 'item',
+                                                        content: 'Set your own rules'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Motivate your children'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Reward worthily'
                                                     }
                                                 ]
                                             }
@@ -427,24 +392,19 @@
                                                 content: 'Detective Bob'
                                             },
                                             {
-                                                block: 'b-text',
+                                                block: 'list',
                                                 content: [
                                                     {
-                                                        elem: 'ul',
-                                                        content:[
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Hours of entertainment'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Includes 28 games for all ages'
-                                                            },
-                                                            {
-                                                                elem: 'li',
-                                                                content: 'Games with educational touch'
-                                                            }
-                                                        ]
+                                                        elem: 'item',
+                                                        content: 'Hours of entertainment'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Includes 28 games for all ages'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Games with educational touch'
                                                     }
                                                 ]
                                             }
