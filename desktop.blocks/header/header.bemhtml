@@ -13,7 +13,7 @@ block header {
             mix: (page != 'index' ? [{ block: 'header', elem: 'inner' }] : undefined),
             content: [
                 {
-                    block: 'span4',
+                    block: 'span5',
                     content: {
                     block: 'logo',
                         content: [
@@ -30,13 +30,13 @@ block header {
                             },
                             {
                                 elem: 'tagline',
-                                content: 'is like Windows for kids'
+                                content: 'is like Windows for kids!'
                             }
                         ]
                     }
                 },
                 {
-                    block: 'span8',
+                    block: 'span7',
                     content: [
                         {
                             block: 'lang-switcher',
