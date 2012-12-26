@@ -308,6 +308,7 @@
                                     },
                                     {
                                         elem: 'image',
+                                        elemMods: { type: 'why' },
                                         url: '../../../i/block__image.png'
                                     }
                                 ]
