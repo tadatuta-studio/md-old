@@ -1,8 +1,12 @@
 .try-free__title
 {
     font-size: 55px;
-    color: #333;
 
     display: inline-block;
+
+    width: 110%;
+
     vertical-align: top;
+
+    color: #333;
 }
