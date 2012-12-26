@@ -1002,6 +1002,7 @@
                             content: {
                                 block: 'button',
                                 mods: { size: '240', theme: 'blue', type: 'apply' },
+                                url: '/desktop.bundles/support/support.html',
                                 content: 'Apply now!'
                             }
                         },

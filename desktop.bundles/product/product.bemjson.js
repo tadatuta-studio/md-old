@@ -85,7 +85,7 @@
                                 {
                                     block: 'button',
                                     mods: { size: 'm', theme: 'download', position: 'right' },
-                                    url: '/desktop.bundles/product/product.html',
+                                    url: '/desktop.bundles/download/download.html',
                                     content: 'Get it now!'
                                 }
                             ]
@@ -881,7 +881,7 @@
                             content: {
                                 block: 'button',
                                 mods: { size: 'm', theme: 'download', position: 'right', block: 'desktop' },
-                                url: '/desktop.bundles/product/product.html',
+                                url: '/desktop.bundles/download/download.html',
                                 content: 'Get it now!'
                             }
                         }
