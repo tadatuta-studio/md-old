@@ -1,0 +1,9 @@
+.block_type_learn
+{
+    position: relative;
+}
+
+.block_type_learn .block__p
+{
+    position: absolute;
+}

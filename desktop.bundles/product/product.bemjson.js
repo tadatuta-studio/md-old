@@ -93,74 +93,71 @@
                     ]
                 },
                 {
-                    block: 'row-fluid',
-                    mods: { border: 'yes', type: 'learn' },
-                    mix: [{ block: 'shadow' }],
+                    block: 'learn',
+                    mix: [{ block: 'shadow' }, { block: 'clearfix' }],
                     content: [
                         {
-                            block: 'span3',
-                            content: {
-                                block: 'block',
-                                content: [
-                                    {
-                                        elem: 'h1',
-                                        content: 'Encourages to learn'
-                                    },
-                                    {
-                                        elem: 'p',
-                                        content: 'Magic Desktop is an easy playground to get into, it grows with your kids, offering various programs for them to express their creativity early on, as well as providing lots of fun and exciting new ways to learn!'
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            block: 'span8',
-                            mix: [{ block: 'offset1' }],
-                            mods: { position: 'right' },
+                            block: 'row-fluid',
                             content: [
                                 {
-                                    block: 'span5',
-                                    content: [
-                                        {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '1' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Easy Learning'
-                                                },
-                                                {
-                                                    block: 'b-text',
-                                                    content: [
-                                                        {
-                                                            elem: 'ul',
-                                                            content:[
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Have fun while learning'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Loads of educational exercises'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Math & Spelling'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    block: 'span3',
+                                    content: {
+                                        block: 'block',
+                                        mods: { type: 'learn' },
+                                        content: [
+                                            {
+                                                elem: 'h1',
+                                                content: 'Encourages to learn'
+                                            },
+                                            {
+                                                elem: 'p',
+                                                content: 'Magic Desktop is an easy playground to get into, it grows with your kids, offering various programs for them to express their creativity early on, as well as providing lots of fun and exciting new ways to learn!'
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
-                                    block: 'span5',
+                                    block: 'span4',
                                     mix: [{ block: 'offset1' }],
+                                    // mods: { position: 'right' },
+                                    content: {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'picture',
+                                                elemMods: { type: 'product', pos: '1' }
+                                            },
+                                            {
+                                                elem: 'title',
+                                                content: 'Easy Learning'
+                                            },
+                                            {
+                                                block: 'b-text',
+                                                content: [
+                                                    {
+                                                        elem: 'ul',
+                                                        content:[
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Have fun while learning'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Loads of educational exercises'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Math & Spelling'
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    block: 'span4',
                                     content: [
                                         {
                                             block: 'unit',
@@ -202,266 +199,257 @@
                             ]
                         },
                         {
-                            block: 'span8',
-                            mix: [{ block: 'offset1' }],
-                            mods: { position: 'right' },
+                            block: 'row-fluid',
                             content: [
                                 {
-                                    block: 'span5',
-                                    content: [
-                                        {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '7' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Easy Paint'
-                                                },
-                                                {
-                                                    block: 'b-text',
-                                                    content: [
-                                                        {
-                                                            elem: 'ul',
-                                                            content:[
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Paint by free hand'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Large collection of images to color up'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Apply effects and text to your own pictures'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    block: 'span3'
                                 },
                                 {
-                                    block: 'span5',
+                                    block: 'span4',
                                     mix: [{ block: 'offset1' }],
-                                    content: [
-                                        {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '8' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Talking Parrot'
-                                                },
-                                                {
-                                                    block: 'b-text',
-                                                    content: [
-                                                        {
-                                                            elem: 'ul',
-                                                            content:[
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Record your voice'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Play your recordings fast or slow'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Send a voice mail'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    content: {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'picture',
+                                                elemMods: { type: 'product', pos: '7' }
+                                            },
+                                            {
+                                                elem: 'title',
+                                                content: 'Easy Paint'
+                                            },
+                                            {
+                                                block: 'b-text',
+                                                content: [
+                                                    {
+                                                        elem: 'ul',
+                                                        content:[
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Paint by free hand'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Large collection of images to color up'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Apply effects and text to your own pictures'
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    block: 'span4',
+                                    content: {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'picture',
+                                                elemMods: { type: 'product', pos: '8' }
+                                            },
+                                            {
+                                                elem: 'title',
+                                                content: 'Talking Parrot'
+                                            },
+                                            {
+                                                block: 'b-text',
+                                                content: [
+                                                    {
+                                                        elem: 'ul',
+                                                        content:[
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Record your voice'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Play your recordings fast or slow'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Send a voice mail'
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
                                 }
                             ]
                         },
                         {
-                            block: 'span8',
-                            mix: [{ block: 'offset1' }],
-                            mods: { position: 'right' },
+                            block: 'row-fluid',
                             content: [
                                 {
-                                    block: 'span5',
-                                    content: [
-                                        {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '9' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Easy Write'
-                                                },
-                                                {
-                                                    block: 'b-text',
-                                                    content: [
-                                                        {
-                                                            elem: 'ul',
-                                                            content:[
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Learn to write'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Many fonts and colors'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Send your story to Grandparents'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    block: 'span3'
                                 },
                                 {
-                                    block: 'span5',
+                                    block: 'span4',
                                     mix: [{ block: 'offset1' }],
-                                    content: [
-                                        {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '10' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Gamepad'
-                                                },
-                                                {
-                                                    block: 'b-text',
-                                                    content: [
-                                                        {
-                                                            elem: 'ul',
-                                                            content:[
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Hours of entertainment'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Includes 28 games for all ages'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Games with educational touch'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    content: {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'picture',
+                                                elemMods: { type: 'product', pos: '9' }
+                                            },
+                                            {
+                                                elem: 'title',
+                                                content: 'Easy Write'
+                                            },
+                                            {
+                                                block: 'b-text',
+                                                content: [
+                                                    {
+                                                        elem: 'ul',
+                                                        content:[
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Learn to write'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Many fonts and colors'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Send your story to Grandparents'
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    block: 'span4',
+                                    content: {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'picture',
+                                                elemMods: { type: 'product', pos: '10' }
+                                            },
+                                            {
+                                                elem: 'title',
+                                                content: 'Gamepad'
+                                            },
+                                            {
+                                                block: 'b-text',
+                                                content: [
+                                                    {
+                                                        elem: 'ul',
+                                                        content:[
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Hours of entertainment'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Includes 28 games for all ages'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Games with educational touch'
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
                                 }
                             ]
                         },
                         {
-                            block: 'span8',
-                            mix: [{ block: 'offset1' }],
-                            mods: { position: 'right' },
+                            block: 'row-fluid',
                             content: [
                                 {
-                                    block: 'span5',
-                                    content: [
-                                        {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '11' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'No Homework No Play'
-                                                },
-                                                {
-                                                    block: 'b-text',
-                                                    content: [
-                                                        {
-                                                            elem: 'ul',
-                                                            content:[
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Set your own rules'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Motivate your children'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Reward worthily'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    block: 'span3'
                                 },
                                 {
-                                    block: 'span5',
+                                    block: 'span4',
                                     mix: [{ block: 'offset1' }],
-                                    content: [
-                                        {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '12' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Detective Bob'
-                                                },
-                                                {
-                                                    block: 'b-text',
-                                                    content: [
-                                                        {
-                                                            elem: 'ul',
-                                                            content:[
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Hours of entertainment'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Includes 28 games for all ages'
-                                                                },
-                                                                {
-                                                                    elem: 'li',
-                                                                    content: 'Games with educational touch'
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
+                                    content: {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'picture',
+                                                elemMods: { type: 'product', pos: '11' }
+                                            },
+                                            {
+                                                elem: 'title',
+                                                content: 'No Homework No Play'
+                                            },
+                                            {
+                                                block: 'b-text',
+                                                content: [
+                                                    {
+                                                        elem: 'ul',
+                                                        content:[
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Set your own rules'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Motivate your children'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Reward worthily'
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    block: 'span4',
+                                    content: {
+                                        block: 'unit',
+                                        content: [
+                                            {
+                                                elem: 'picture',
+                                                elemMods: { type: 'product', pos: '12' }
+                                            },
+                                            {
+                                                elem: 'title',
+                                                content: 'Detective Bob'
+                                            },
+                                            {
+                                                block: 'b-text',
+                                                content: [
+                                                    {
+                                                        elem: 'ul',
+                                                        content:[
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Hours of entertainment'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Includes 28 games for all ages'
+                                                            },
+                                                            {
+                                                                elem: 'li',
+                                                                content: 'Games with educational touch'
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -555,95 +543,65 @@
                             }
                         },
                         {
-                            block: 'span8',
+                            block: 'span4',
                             mods: { position: 'right', type: 'protects' },
                             mix: [{ block: 'offset1' }],
                             content: [
                                 {
-                                    block: 'span5',
+                                    block: 'unit',
                                     content: [
                                         {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '5' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Security Shield'
-                                                },
-                                                {
-                                                    elem: 'description',
-                                                    content: 'Magic Desktop Security Shield will lock Windows away and create a protective environment specially designed for children, easy to use and visually appealing.'
-                                                }
-                                            ]
+                                            elem: 'picture',
+                                            elemMods: { type: 'product', pos: '5' }
+                                        },
+                                        {
+                                            elem: 'title',
+                                            content: 'Security Shield'
+                                        },
+                                        {
+                                            elem: 'description',
+                                            content: 'Magic Desktop Security Shield will lock Windows away and create a protective environment specially designed for children, easy to use and visually appealing.'
                                         }
                                     ]
                                 },
                                 {
-                                    block: 'span5',
-                                    mix: [{ block: 'offset1' }],
+                                    block: 'unit',
                                     content: [
                                         {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '6' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Easy Switch'
-                                                },
-                                                {
-                                                    elem: 'description',
-                                                    content: 'If you share your computer with kids, you can easily switch between Magic Desktop and Windows.'
-                                                }
-                                            ]
+                                            elem: 'picture',
+                                            elemMods: { type: 'product', pos: '13' }
+                                        },
+                                        {
+                                            elem: 'title',
+                                            content: 'Run at startup'
+                                        },
+                                        {
+                                            elem: 'description',
+                                            content: 'If your kid has his own computer, you can setup Magic Desktop to create complete safety and seamless user experience.'
                                         }
                                     ]
                                 }
                             ]
                         },
                         {
-                            block: 'span8',
-                            mods: { position: 'right', type: 'protects' },
-                            mix: [{ block: 'offset1' }],
-                            content: [
-                                {
-                                    block: 'span5',
-                                    content: [
-                                        {
-                                            block: 'unit',
-                                            content: [
-                                                {
-                                                    elem: 'picture',
-                                                    elemMods: { type: 'product', pos: '13' }
-                                                },
-                                                {
-                                                    elem: 'title',
-                                                    content: 'Run at startup'
-                                                },
-                                                {
-                                                    elem: 'description',
-                                                    content: 'If your kid has his own computer, you can setup Magic Desktop to create complete safety and seamless user experience.'
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                                // {
-                                //     block: 'span5',
-                                //     mix: [{ block: 'offset1' }],
-                                //     content: [
-                                //         {
-                                //             block: 'unit',
-                                //             mods: { image: 'yes', type: 'protects' }
-                                //         }
-                                //     ]
-                                // }
-                            ]
+                            block: 'span4',
+                            content: {
+                                block: 'unit',
+                                content: [
+                                    {
+                                        elem: 'picture',
+                                        elemMods: { type: 'product', pos: '6' }
+                                    },
+                                    {
+                                        elem: 'title',
+                                        content: 'Easy Switch'
+                                    },
+                                    {
+                                        elem: 'description',
+                                        content: 'If you share your computer with kids, you can easily switch between Magic Desktop and Windows.'
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },

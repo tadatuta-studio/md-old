@@ -1,0 +1,27 @@
+.learn
+{
+    padding-top: 35px;
+
+    background: url(../../../i/row-fluid_type_learn.jpg) 0 100% no-repeat;
+}
+
+.learn:after
+{
+    content: "";
+
+    height: 1px;
+    width: 95%;
+    margin: 0 auto 40px;
+
+    background: #ddd;
+    background: -moz-linear-gradient(left,  transparent , #d9d9d9 50%, transparent);
+    background: -webkit-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: -o-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: -ms-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: linear-gradient(to right,  transparent,#d9d9d9 50%,transparent);
+}
+
+.learn .block__h1
+{
+    margin-top: -5px;
+}
