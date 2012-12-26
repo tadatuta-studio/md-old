@@ -40,7 +40,7 @@
                                     },
                                     {
                                         elem: 'p',
-                                        content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.'
+                                        content: 'We welcome any feedback you have on our product, as well as any specific requests. Our team is on standby to provide the best assistance possible.'
                                     }
                                 ]
                             }

@@ -579,7 +579,7 @@
                                     },
                                     {
                                         elem: 'p',
-                                        content: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.'
+                                        content: 'Magic Desktop is available in all the following languages:'
                                     }
                                 ]
                             }
