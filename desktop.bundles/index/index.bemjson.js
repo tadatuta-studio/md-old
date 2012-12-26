@@ -258,7 +258,7 @@
                                        content: [
                                             {
                                                 elem: 'item',
-                                                content: 'Get Magic Desktop instantly'
+                                                content: 'Get Magic Desktop'
                                             },
                                             {
                                                 elem: 'item',
@@ -644,7 +644,7 @@
                                                                         content: [
                                                                             {
                                                                                 elem: 'description',
-                                                                                content: '"The Kid’s E-mail and Internet browser programs are great, so much better than all the other filters I have tried. My son is 9 and his parent-approved websites list is growing quickly. I add a new site in exchange for 50 bonus points. He loves it!""'
+                                                                                content: '"The Kid’s E-mail and Internet browser programs are great, so much better than all the other filters I have tried. My son is 9 and his parent-approved websites list is growing quickly. I add a new site in exchange for 50 bonus points. He loves it!"'
                                                                             },
                                                                             {
                                                                                 elem: 'author',
@@ -830,7 +830,7 @@
                                                                         content: [
                                                                             {
                                                                                 elem: 'description',
-                                                                                content: '"What I love the most about Magic Desktop is that it grows as my kids grow. They never get bored and I can choose to add regular Windows programs into it, if I feel the kids are prepared. And like you said, it really is the perfect stepping stone for them using my PC as teenagers. Thank you for thinking about our kids!"'
+                                                                                content: '"What I love the most about Magic Desktop is that it grows as my kids grow. They never get bored and I can choose to add regular Windows programs into it, if I feel the kids are prepared. It is really the perfect stepping stone for them using my PC as teenagers."'
                                                                             },
                                                                             {
                                                                                 elem: 'author',
