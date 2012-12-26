@@ -1,6 +1,7 @@
 .unit
 {
     position: relative;
+    margin-top: 5px;
 }
 
 .unit_type_notice

@@ -2,3 +2,8 @@
 {
     padding-top: 30px;
 }
+
+.row-fluid_type_community .block__p
+{
+    min-height: 179px;
+}
