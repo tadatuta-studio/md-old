@@ -251,160 +251,162 @@
                             ]
                         }
                     ]
-                },
-                {
-                    block: 'row-fluid',
-                    mods: { type: 'download' },
-                    content: [
-                        {
-                            block: 'span4',
-                            content: {
-                                block: 'block',
-                                content: {
-                                    elem: 'h1',
-                                    content: 'While you wait…'
-                                }
-                            }
-                        },
-                        {
-                            block: 'span4',
-                            content: [
-                                {
-                                    block: 'unit',
-                                    content: [
-                                        {
-                                            elem: 'picture',
-                                            elemMods: { type: 'download', order: '1' }
-                                        },
-                                        {
-                                            elem: 'title',
-                                            content: 'Getting started'
-                                        },
-                                        {
-                                            elem: 'description',
-                                            content: 'Here you will find a quick user guide to learn the ropes as a parent. Every key function of Magic Desktop is explained here to help you secure your computer so that your kids can start playing!'
-                                        },
-                                        {
-                                            block: 'b-link',
-                                            mods: { type: 'readmore' },
-                                            mix: [{ block: 'unit', elem: 'more'}],
-                                            url: '#readmore',
-                                            content: {
-                                                elem: 'inner',
-                                                content: 'Read more'
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            block: 'span4',
-                            content: [
-                                {
-                                    block: 'unit',
-                                    content: [
-                                        {
-                                            elem: 'picture',
-                                            elemMods: { type: 'download', order: '2' }
-                                        },
-                                        {
-                                            elem: 'title',
-                                            content: 'Video tutorials'
-                                        },
-                                        {
-                                            elem: 'description',
-                                            content: 'Made specifically by one of our community fans, this set of tutorials provides visual aid into configuring Magic Desktop for the first time. Please make sure to watch them before you get started!'
-                                        },
-                                        {
-                                            block: 'b-link',
-                                            mods: { type: 'readmore' },
-                                            mix: [{ block: 'unit', elem: 'more'}],
-                                            url: '#readmore',
-                                            content: {
-                                                elem: 'inner',
-                                                content: 'Read more'
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    block: 'row-fluid',
-                    mods: { type: 'download' },
-                    content: [
-                        {
-                            block: 'span4'
-                        },
-                        {
-                            block: 'span4',
-                            content: [
-                                {
-                                    block: 'unit',
-                                    content: [
-                                        {
-                                            elem: 'picture',
-                                            elemMods: { type: 'download', order: '3' }
-                                        },
-                                        {
-                                            elem: 'title',
-                                            content: 'Frequently Asked Questions'
-                                        },
-                                        {
-                                            elem: 'description',
-                                            content: 'Have a question about Magic Desktop? It is likely it was already asked before. Please check this section to get the help you need.'
-                                        },
-                                        {
-                                            block: 'b-link',
-                                            mods: { type: 'readmore' },
-                                            mix: [{ block: 'unit', elem: 'more'}],
-                                            url: '#readmore',
-                                            content: {
-                                                elem: 'inner',
-                                                content: 'Read more'
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            block: 'span4',
-                            content: [
-                                {
-                                    block: 'unit',
-                                    content: [
-                                        {
-                                            elem: 'picture',
-                                            elemMods: { type: 'download', order: '4' }
-                                        },
-                                        {
-                                            elem: 'title',
-                                            content: 'Join community'
-                                        },
-                                        {
-                                            elem: 'description',
-                                            content: 'Magic Desktop parents from around the world are gathered here to discuss, post ideas or ask for help. Join us and you will benefit from sharing your ideas and helping us shape the product to your expectations. Welcome to the Magic Desktop Family!'
-                                        },
-                                        {
-                                            block: 'b-link',
-                                            mods: { type: 'readmore' },
-                                            mix: [{ block: 'unit', elem: 'more'}],
-                                            url: '#readmore',
-                                            content: {
-                                                elem: 'inner',
-                                                content: 'Read more'
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
                 }
+                // TODO: uncomment styles in span8_border_yes.css
+                // ,
+                // {
+                //     block: 'row-fluid',
+                //     mods: { type: 'download' },
+                //     content: [
+                //         {
+                //             block: 'span4',
+                //             content: {
+                //                 block: 'block',
+                //                 content: {
+                //                     elem: 'h1',
+                //                     content: 'While you wait…'
+                //                 }
+                //             }
+                //         },
+                //         {
+                //             block: 'span4',
+                //             content: [
+                //                 {
+                //                     block: 'unit',
+                //                     content: [
+                //                         {
+                //                             elem: 'picture',
+                //                             elemMods: { type: 'download', order: '1' }
+                //                         },
+                //                         {
+                //                             elem: 'title',
+                //                             content: 'Getting started'
+                //                         },
+                //                         {
+                //                             elem: 'description',
+                //                             content: 'Here you will find a quick user guide to learn the ropes as a parent. Every key function of Magic Desktop is explained here to help you secure your computer so that your kids can start playing!'
+                //                         },
+                //                         {
+                //                             block: 'b-link',
+                //                             mods: { type: 'readmore' },
+                //                             mix: [{ block: 'unit', elem: 'more'}],
+                //                             url: '#readmore',
+                //                             content: {
+                //                                 elem: 'inner',
+                //                                 content: 'Read more'
+                //                             }
+                //                         }
+                //                     ]
+                //                 }
+                //             ]
+                //         },
+                //         {
+                //             block: 'span4',
+                //             content: [
+                //                 {
+                //                     block: 'unit',
+                //                     content: [
+                //                         {
+                //                             elem: 'picture',
+                //                             elemMods: { type: 'download', order: '2' }
+                //                         },
+                //                         {
+                //                             elem: 'title',
+                //                             content: 'Video tutorials'
+                //                         },
+                //                         {
+                //                             elem: 'description',
+                //                             content: 'Made specifically by one of our community fans, this set of tutorials provides visual aid into configuring Magic Desktop for the first time. Please make sure to watch them before you get started!'
+                //                         },
+                //                         {
+                //                             block: 'b-link',
+                //                             mods: { type: 'readmore' },
+                //                             mix: [{ block: 'unit', elem: 'more'}],
+                //                             url: '#readmore',
+                //                             content: {
+                //                                 elem: 'inner',
+                //                                 content: 'Read more'
+                //                             }
+                //                         }
+                //                     ]
+                //                 }
+                //             ]
+                //         }
+                //     ]
+                // },
+                // {
+                //     block: 'row-fluid',
+                //     mods: { type: 'download' },
+                //     content: [
+                //         {
+                //             block: 'span4'
+                //         },
+                //         {
+                //             block: 'span4',
+                //             content: [
+                //                 {
+                //                     block: 'unit',
+                //                     content: [
+                //                         {
+                //                             elem: 'picture',
+                //                             elemMods: { type: 'download', order: '3' }
+                //                         },
+                //                         {
+                //                             elem: 'title',
+                //                             content: 'Frequently Asked Questions'
+                //                         },
+                //                         {
+                //                             elem: 'description',
+                //                             content: 'Have a question about Magic Desktop? It is likely it was already asked before. Please check this section to get the help you need.'
+                //                         },
+                //                         {
+                //                             block: 'b-link',
+                //                             mods: { type: 'readmore' },
+                //                             mix: [{ block: 'unit', elem: 'more'}],
+                //                             url: '#readmore',
+                //                             content: {
+                //                                 elem: 'inner',
+                //                                 content: 'Read more'
+                //                             }
+                //                         }
+                //                     ]
+                //                 }
+                //             ]
+                //         },
+                //         {
+                //             block: 'span4',
+                //             content: [
+                //                 {
+                //                     block: 'unit',
+                //                     content: [
+                //                         {
+                //                             elem: 'picture',
+                //                             elemMods: { type: 'download', order: '4' }
+                //                         },
+                //                         {
+                //                             elem: 'title',
+                //                             content: 'Join community'
+                //                         },
+                //                         {
+                //                             elem: 'description',
+                //                             content: 'Magic Desktop parents from around the world are gathered here to discuss, post ideas or ask for help. Join us and you will benefit from sharing your ideas and helping us shape the product to your expectations. Welcome to the Magic Desktop Family!'
+                //                         },
+                //                         {
+                //                             block: 'b-link',
+                //                             mods: { type: 'readmore' },
+                //                             mix: [{ block: 'unit', elem: 'more'}],
+                //                             url: '#readmore',
+                //                             content: {
+                //                                 elem: 'inner',
+                //                                 content: 'Read more'
+                //                             }
+                //                         }
+                //                     ]
+                //                 }
+                //             ]
+                //         }
+                //     ]
+                // }
             ]
         },
         {

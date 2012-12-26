@@ -38,6 +38,7 @@ block header {
                 {
                     block: 'span7',
                     content: [
+                    /*
                         {
                             block: 'lang-switcher',
                             content: [
@@ -251,6 +252,7 @@ block header {
                                 }
                             ]
                         },
+                        */
                         {
                             block: 'b-menu-horiz',
                             mods: { layout: 'normal' },
