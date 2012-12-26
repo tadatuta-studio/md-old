@@ -1,7 +1,8 @@
 .button_page_home
 {
-    vertical-align: top;
     float: right;
 
-    margin-top: 23px;
+    margin-top: 30px;
+
+    vertical-align: top;
 }
