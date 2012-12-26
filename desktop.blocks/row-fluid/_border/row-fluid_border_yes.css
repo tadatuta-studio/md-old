@@ -15,3 +15,8 @@
 
     margin: 0 auto 40px;
 }
+
+.row-fluid_type_protects.row-fluid_border_yes:after
+{
+    margin-bottom: 33px;
+}

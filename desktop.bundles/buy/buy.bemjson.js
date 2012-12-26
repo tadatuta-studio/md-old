@@ -123,7 +123,7 @@
                                     content: [
                                         {
                                             elem: 'time-license',
-                                            content: 'Monthly'
+                                            content: 'Lifetime'
                                         },
                                         {
                                             elem: 'cost',
@@ -338,7 +338,11 @@
                                             {
                                                 elem: 'title',
                                                 content: [
-                                                'Do you sell through resellers? How do I become a reseller?',
+                                                    'Do you sell through resellers?',
+                                                    {
+                                                        tag: 'br'
+                                                    },
+                                                    'How do I become a reseller?',
                                                     {
                                                         elem: 'faq-icon'
                                                     }
@@ -347,7 +351,12 @@
                                             {
                                                 elem: 'description',
                                                 content: [
-                                                'Magic Desktop is distributed through various resellers all over the world. If you are interested in becoming a reseller, please send contact us here.',
+                                                    'Magic Desktop is distributed through various resellers all over the world. If you are interested in becoming a reseller, please send ',
+                                                    {
+                                                        block: 'b-link',
+                                                        url: '/desktop.bundles/company/company.html#contact',
+                                                        content: 'contact us here.'
+                                                    },
                                                     {
                                                         elem: 'faq-icon',
                                                         mods: { type: 'desc' }
@@ -367,7 +376,7 @@
                                             {
                                                 elem: 'title',
                                                 content: [
-                                                'Can I install Magic Desktop on more than one computer?',
+                                                    'Can I install Magic Desktop on more than one computer?',
                                                     {
                                                         elem: 'faq-icon'
                                                     }
@@ -376,7 +385,7 @@
                                             {
                                                 elem: 'description',
                                                 content: [
-                                                'Normally, Magic Desktop license can be installed only on one computer. You can purchase additional licenses at special prices. Please, also contact us in case you need a special type of license.',
+                                                    'Normally, Magic Desktop license can be installed only on one computer. You can purchase additional licenses at special prices. Please, also contact us in case you need a special type of license.',
                                                     {
                                                         elem: 'faq-icon',
                                                         mods: { type: 'desc' }
@@ -405,7 +414,7 @@
                                             {
                                                 elem: 'title',
                                                 content: [
-                                                'Do you sell through resellers? How do I become a reseller?',
+                                                    'How do I redeem my eCoupon?',
                                                     {
                                                         elem: 'faq-icon'
                                                     }
@@ -414,7 +423,7 @@
                                             {
                                                 elem: 'description',
                                                 content: [
-                                                'Magic Desktop is distributed through various resellers all over the world. If you are interested in becoming a reseller, please send contact us here.',
+                                                    'Please, proceed with the chosen type of the license and enter your eCoupon on ther order page.',
                                                     {
                                                         elem: 'faq-icon',
                                                         mods: { type: 'desc' }
@@ -434,7 +443,7 @@
                                             {
                                                 elem: 'title',
                                                 content: [
-                                                'Can I install Magic Desktop on more than one computer?',
+                                                    'Am I eligible for any discounts?',
                                                     {
                                                         elem: 'faq-icon'
                                                     }
@@ -443,7 +452,7 @@
                                             {
                                                 elem: 'description',
                                                 content: [
-                                                'Normally, Magic Desktop license can be installed only on one computer. You can purchase additional licenses at special prices. Please, also contact us in case you need a special type of license.',
+                                                    'If the regular price is too high for your family, please, contact us to get a special offer.',
                                                     {
                                                         elem: 'faq-icon',
                                                         mods: { type: 'desc' }
