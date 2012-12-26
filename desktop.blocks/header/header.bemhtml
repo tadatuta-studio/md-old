@@ -13,7 +13,7 @@ block header {
             mix: (page != 'index' ? [{ block: 'header', elem: 'inner' }] : undefined),
             content: [
                 {
-                    block: 'span5',
+                    block: 'span8',
                     content: {
                     block: 'logo',
                         content: [
@@ -35,9 +35,6 @@ block header {
                         ]
                     }
                 },
-                {
-                    block: 'span7',
-                    content: [
                     /*
                         {
                             block: 'lang-switcher',
@@ -317,8 +314,6 @@ block header {
                                 }
                             ]
                         }
-                    ]
-                }
             ]
         }
     }
