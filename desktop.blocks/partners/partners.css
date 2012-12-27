@@ -1,5 +1,6 @@
 .partners
 {
+    line-height: 0;
     text-align: justify;
 }
 
@@ -8,6 +9,7 @@
     .partners
     {
         font-size: 0;
+        margin-bottom: 26px;
     }
 }
 
