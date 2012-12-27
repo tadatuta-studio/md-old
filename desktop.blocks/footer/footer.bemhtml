@@ -45,8 +45,8 @@ block footer {
                                     },
                                     {
                                         elem: 'item',
-                                        elemMods: { state: page === 'license-agreement' ? 'current' : undefined },
-                                        content: page === 'license-agreement' ? 'License Agreement' : {
+                                        elemMods: { state: page === 'licenseagreement' ? 'current' : undefined },
+                                        content: page === 'licenseagreement' ? 'License Agreement' : {
                                             block: 'b-link',
                                             url: '/desktop.bundles/license-agreement/license-agreement.html',
                                             content: 'License Agreement'
@@ -54,8 +54,8 @@ block footer {
                                     },
                                     {
                                         elem: 'item',
-                                        elemMods: { state: page === 'privacy-policy' ? 'current' : undefined },
-                                        content: page === 'privacy-policy' ? 'Privacy Policy' : {
+                                        elemMods: { state: page === 'privacypolicy' ? 'current' : undefined },
+                                        content: page === 'privacypolicy' ? 'Privacy Policy' : {
                                             block: 'b-link',
                                             url: '/desktop.bundles/privacy-policy/privacy-policy.html',
                                             content: 'Privacy Policy'

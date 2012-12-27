@@ -10,14 +10,14 @@
         { elem: 'meta', attrs: { name: 'description', content: '' }},
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],
-    mods: { page: 'license-agreement' },
+    mods: { page: 'licenseagreement' },
     content: [
         {
             block: 'container',
             content: [
                 {
                     block: 'header',
-                    mods: { page: 'privacy-policy' }
+                    mods: { page: 'licenseagreement' }
                 },
                 {
                     block: 'row-fluid',
@@ -253,7 +253,7 @@
         },
         {
             block: 'footer',
-            page: 'license-agreement'
+            page: 'licenseagreement'
         }
     ]
 })

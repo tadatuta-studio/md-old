@@ -33,13 +33,13 @@ html
     margin: 28px 0 7px;
 }
 
-.b-page_page_privacy-policy .content
+.b-page_page_privacypolicy .content
 {
     margin-bottom: 210px;
 }
 
-.b-page_page_privacy-policy .content__p,
-.b-page_page_license-agreement .content__p
+.b-page_page_privacypolicy .content__p,
+.b-page_page_licenseagreement .content__p
 {
     font-weight: 300;
 }

@@ -10,14 +10,14 @@
         { elem: 'meta', attrs: { name: 'description', content: '' }},
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],
-    mods: { page: 'privacy-policy' },
+    mods: { page: 'privacypolicy' },
     content: [
         {
             block: 'container',
             content: [
                 {
                     block: 'header',
-                    mods: { page: 'privacy-policy' }
+                    mods: { page: 'privacypolicy' }
                 },
                 {
                     block: 'row-fluid',
@@ -71,7 +71,7 @@
         },
         {
             block: 'footer',
-            page: 'privacy-policy'
+            page: 'privacypolicy'
         }
     ]
 })
