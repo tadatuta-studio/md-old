@@ -1,7 +1,14 @@
 .partners
 {
-    font-size: 0;
     text-align: justify;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .partners
+    {
+        font-size: 0;
+    }
 }
 
 .partners:after

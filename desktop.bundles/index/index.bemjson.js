@@ -917,7 +917,7 @@
                                 content: [
                                     {
                                         elem: 'h1',
-                                        content: 'Partner with us!'
+                                        content: 'Partner&nbsp;with&nbsp;us!'
                                     },
                                     {
                                         elem: 'p',

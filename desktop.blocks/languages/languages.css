@@ -1,11 +1,18 @@
 .languages
 {
-    font-size: 0;
     font-weight: 300;
 
     margin: 17px -20px 16px;
 
     text-align: justify;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    .languages
+    {
+        font-size: 0;
+    }
 }
 
 .languages:after
