@@ -47,7 +47,6 @@
                                         },
                                         {
                                             elem: 'cost',
-                                            mix: [{ block: 'i-font', mods: { face: 'univers' } }],
                                             content: [
                                                 {
                                                     elem: 'cost-item',
@@ -87,7 +86,6 @@
                                         },
                                         {
                                             elem: 'cost',
-                                            mix: [{ block: 'i-font', mods: { face: 'univers' } }],
                                             content: [
                                                 {
                                                     elem: 'cost-item',
@@ -127,7 +125,6 @@
                                         },
                                         {
                                             elem: 'cost',
-                                            mix: [{ block: 'i-font', mods: { face: 'univers' } }],
                                             content: [
                                                 {
                                                     elem: 'cost-item',

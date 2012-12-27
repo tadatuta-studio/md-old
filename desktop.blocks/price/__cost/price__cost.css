@@ -1,20 +1,21 @@
 .price__cost
 {
-    color: #68a515;
-    font-weight: 700;
+    font-family: "Segoe UI Semibold", "Segoe UI", Helvetica, Arial, sans-serif;
 
-    background: #f7f7f7;
+    margin: 15px 0 20px;
 
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 
-    margin: 15px 0 20px;
+    background: #f7f7f7;
+
+    color: #68a515;
 }
 
-.price__cost-item 
+.price__cost-item
 {
     display: inline-block;
-    font-size: 60px;
+    font-size: 50px;
 
     font-weight: 400;
     text-shadow: 0 2px 0 #fff, 0 -1px 0 #507F10;
@@ -27,7 +28,7 @@
 
 .price__cost-item_type_trifle
 {
-    font-size: 40px;
+    font-size: 50px;
 
     vertical-align: top;
     padding-top: 5px;
