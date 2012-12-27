@@ -21,7 +21,7 @@ block footer {
                                     mix: [{ block: 'copyright', elem: 'logo' }]
                                     // , url: '#'
                                 },
-                                '© 2013 EasyBits Software. All Rights Reserved.'
+                                '© 2013 Easybits Software AS. All Rights Reserved.'
                             ]
                         }
                     },

@@ -57,7 +57,7 @@ block footer, mod page index {
                                     mix: [{ block: 'copyright', elem: 'logo' }]
                                     // , url: '#'
                                 },
-                                '© 2013 EasyBits Software.',
+                                '© 2013 Easybits Software AS.',
                                 {
                                     tag: 'br'
                                 },
