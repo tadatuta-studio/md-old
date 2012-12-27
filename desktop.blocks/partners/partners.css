@@ -9,7 +9,11 @@
     .partners
     {
         font-size: 0;
-        margin-bottom: 26px;
+    }
+
+    .partners .partners__item
+    {
+        margin-bottom: 19px;
     }
 }
 
