@@ -1,9 +1,9 @@
 .b-carousel__item
 {
-/*    -moz-transition: left .5s;
+    -moz-transition: left .5s;
     -webkit-transition: left .5s;
     -o-transition: left .5s;
-    transition: left .5s;*/
+    transition: left .5s;
 
     position: relative;
 
