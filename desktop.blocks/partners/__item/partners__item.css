@@ -1,12 +1,10 @@
 .partners__item
 {
-    /*width: 18%;*/
-    width: 100px;
-    height: 58px;
-
     display: inline-block;
 
-    margin: 0 0 15px 0;
+    width: 100px;
+    height: 63px;
+    margin-bottom: 26px;
 
     background: url(../../../i/partners__item.png) no-repeat;
 }

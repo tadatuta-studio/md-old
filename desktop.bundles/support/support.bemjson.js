@@ -62,6 +62,7 @@
                                         },
                                         {
                                             block: 'input',
+                                            name: 'text',
                                             mods: { theme: 'white', size: '330', form: 'contact', type: 'textarea' },
                                             content: [
                                                 {
@@ -75,6 +76,7 @@
                                         },
                                         {
                                             block: 'input',
+                                            name: 'name',
                                             mods: { theme: 'white', type: 'input' },
                                             content: [
                                                 {
@@ -89,6 +91,7 @@
                                         },
                                         {
                                             block: 'input',
+                                            name: 'email',
                                             mods: { theme: 'white', type: 'input' },
                                             content: [
                                                 {
@@ -111,7 +114,8 @@
                                                 },
                                                 {
                                                     block: 'button',
-                                                    mods: { size: '35', theme: 'gray', type: 'contact' },
+                                                    type: 'submit',
+                                                    mods: { size: '35', theme: 'gray', type: 'contact', disabled: 'yes' },
                                                     content: 'Send'
                                                 }
                                             ]

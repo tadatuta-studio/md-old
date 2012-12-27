@@ -18,5 +18,6 @@
 
 .row-fluid_type_protects.row-fluid_border_yes:after
 {
+    margin-top: 320px;
     margin-bottom: 33px;
 }

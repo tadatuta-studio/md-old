@@ -70,7 +70,7 @@
                                         },
                                         {
                                             elem: 'description-line', elemMods: { line: '2' },
-                                            content: 'would probably need'
+                                            content: 'will probably need'
                                         },
                                         {
                                             elem: 'description-line', elemMods: { line: '3' },
@@ -136,7 +136,7 @@
                                                 content: [
                                                     {
                                                         elem: 'item',
-                                                        content: 'Have fun while learning'
+                                                        content: 'Math & Spelling'
                                                     },
                                                     {
                                                         elem: 'item',
@@ -144,7 +144,7 @@
                                                     },
                                                     {
                                                         elem: 'item',
-                                                        content: 'Math & Spelling'
+                                                        content: 'Have fun while learning'
                                                     }
                                                 ]
                                             }
@@ -178,7 +178,7 @@
                                                         },
                                                         {
                                                             elem: 'item',
-                                                            content: 'Send to friends and family'
+                                                            content: 'Share with friends and family'
                                                         }
                                                     ]
                                                 }
@@ -217,7 +217,7 @@
                                                     },
                                                     {
                                                         elem: 'item',
-                                                        content: 'Large collection of images to color up'
+                                                        content: 'Combine colors'
                                                     },
                                                     {
                                                         elem: 'item',
@@ -288,15 +288,15 @@
                                                 content: [
                                                     {
                                                         elem: 'item',
-                                                        content: 'Learn to write'
+                                                        content: 'Learn typing'
                                                     },
                                                     {
                                                         elem: 'item',
-                                                        content: 'Many fonts and colors'
+                                                        content: 'Format text'
                                                     },
                                                     {
                                                         elem: 'item',
-                                                        content: 'Send your story to Grandparents'
+                                                        content: 'Share a story with Grandparents'
                                                     }
                                                 ]
                                             }
@@ -321,15 +321,15 @@
                                                 content: [
                                                     {
                                                         elem: 'item',
-                                                        content: 'Hours of entertainment'
-                                                    },
-                                                    {
-                                                        elem: 'item',
                                                         content: 'Includes 28 games for all ages'
                                                     },
                                                     {
                                                         elem: 'item',
                                                         content: 'Games with educational touch'
+                                                    },
+                                                    {
+                                                        elem: 'item',
+                                                        content: 'Hours of entertainment'
                                                     }
                                                 ]
                                             }
@@ -396,15 +396,15 @@
                                                 content: [
                                                     {
                                                         elem: 'item',
-                                                        content: 'Hours of entertainment'
+                                                        content: 'A quick eye'
                                                     },
                                                     {
                                                         elem: 'item',
-                                                        content: 'Includes 28 games for all ages'
+                                                        content: 'Patience'
                                                     },
                                                     {
                                                         elem: 'item',
-                                                        content: 'Games with educational touch'
+                                                        content: 'Concentration'
                                                     }
                                                 ]
                                             }
@@ -448,7 +448,7 @@
                                         },
                                         {
                                             elem: 'title',
-                                            content: 'Easy Learning'
+                                            content: 'My first Browser'
                                         },
                                         {
                                             elem: 'description',
@@ -474,7 +474,7 @@
                                         },
                                         {
                                             elem: 'description',
-                                            content: 'The easiest, and completely secure e-mail client that hides away spam and phishing messages while allowing parents to supervise contacts to ensure their kids do not start conversations with strangers online.'
+                                            content: 'The easiest and completely secure e-mail client that hides away spam and phishing messages while allowing parents to supervise contacts to ensure their kids do not start conversations with strangers online.'
                                         }
                                     ]
                                 }
@@ -855,7 +855,7 @@
                 },
                 {
                     block: 'row-fluid',
-                    mix: [{ block: 'clearfix' }, { block: 'shadow' }],
+                    mix: [{ block: 'solution' }, { block: 'clearfix' }, { block: 'shadow' }],
                     content: [
                         {
                             block: 'span8',

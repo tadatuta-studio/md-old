@@ -69,6 +69,7 @@
                                         {
                                             block: 'button',
                                             mods: { size: '45', theme: 'gray' },
+                                            url: '#Monthly',
                                             content: 'Buy'
                                         }
                                     ]
@@ -108,6 +109,7 @@
                                         {
                                             block: 'button',
                                             mods: { size: '45', theme: 'gray' },
+                                            url: '#Year',
                                             content: 'Buy'
                                         }
                                     ]
@@ -147,6 +149,7 @@
                                         {
                                             block: 'button',
                                             mods: { size: '45', theme: 'gray' },
+                                            url: '#Lifetime',
                                             content: 'Buy'
                                         }
                                     ]
