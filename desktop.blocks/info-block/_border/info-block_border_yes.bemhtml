@@ -1,0 +1,9 @@
+block info-block, mod border yes, content: [
+    {
+        elem: 'border-top'
+    },
+    this.ctx.content,
+    {
+        elem: 'border-bottom'
+    }
+]

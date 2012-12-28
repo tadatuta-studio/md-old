@@ -1,0 +1,8 @@
+block span8, mod border yes {
+    content: [
+        this.ctx.content,
+        {
+            elem: 'border'
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+block or, content: [
+    this.ctx.content,
+    {
+        elem: 'after'
+    }
+]

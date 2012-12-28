@@ -1,0 +1,26 @@
+.info-block__border-top,
+.info-block__border-bottom
+{
+    display: block;
+
+    height: 1px;
+    width: 75%;
+    margin: auto;
+
+    background: #ddd;
+    background: -moz-linear-gradient(left,  transparent , #d9d9d9 50%, transparent);
+    background: -webkit-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: -o-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: -ms-linear-gradient(left,  transparent,#d9d9d9 50%,transparent);
+    background: linear-gradient(to right,  transparent,#d9d9d9 50%,transparent);
+}
+
+.info-block__border-top
+{
+    margin-bottom: 40px;
+}
+
+.info-block__border-bottom
+{
+    margin-top: 40px;
+}
