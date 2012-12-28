@@ -9,6 +9,8 @@
     cursor: pointer;
 
     color: #999;
+
+    white-space: nowrap;
 }
 
 .lang-switcher__current:after {

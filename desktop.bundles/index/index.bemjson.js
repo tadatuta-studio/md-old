@@ -279,6 +279,7 @@
                         },
                         {
                             block: 'span4',
+                            mods: { type: 'getnow' },
                             content: {
                                 block: 'button',
                                 mods: { size: 'm', theme: 'download', page: 'home' },
