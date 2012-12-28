@@ -4,3 +4,8 @@
     zoom: 1;
     display: inline;
 }
+
+.footer-nav
+{
+    float: left;
+}
