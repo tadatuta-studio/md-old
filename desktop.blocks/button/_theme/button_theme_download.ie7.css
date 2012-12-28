@@ -5,15 +5,13 @@
 
     zoom: 1;
 
-    margin-top: 10px
-}
+    margin-top: 10px;
 
-.button_page_home.button_theme_download
-{
-    margin-top: -84px
+    vertical-align: top;
 }
 
 .button_theme_download .button__text
 {
+    height: auto;
     padding-top: 7px;
 }

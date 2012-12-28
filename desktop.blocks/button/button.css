@@ -1,0 +1,11 @@
+.button,
+.b-page a.button
+{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.b-page .button_pressed_yes .button__text
+{
+    top: 0;
+}

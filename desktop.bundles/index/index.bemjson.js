@@ -247,7 +247,8 @@
                             }
                         },
                         {
-                            block: 'span4',
+                            block: 'span3',
+                            mix: [{ block: 'offset1' }],
                             mods: { position: 'center' },
                             content: {
                                 block: 'block-info',

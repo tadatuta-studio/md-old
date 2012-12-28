@@ -33,7 +33,7 @@
     background: -ms-linear-gradient(top,  #72b417 ,#65a014);
     background: linear-gradient(to bottom,  #72b417 ,#65a014);
 
-    color: #eaf4e9;
+    /*color: #eaf4e9;*/
 }
 
 .button_theme_download.button_pressed_yes

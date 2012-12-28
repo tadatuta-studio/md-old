@@ -592,239 +592,188 @@
                                     block: 'languages',
                                     content: [
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'danish' }},
-                                            url: '#danish',
+                                            elem: 'item',
+                                            elemMods: { type: 'danish' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Danish'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'english' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'english' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'English'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'french' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'french' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'French'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'greek' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'greek' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Greek'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'italian' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'italian' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Italian'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'norwegian' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'norwegian' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Norwegian'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'portuguese' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'portuguese' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Portuguese'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'russian' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'russian' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Russian'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'swedish' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'swedish' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Swedish'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'nederlands' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'nederlands' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Nederlands'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'finnish' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'finnish' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Finnish'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'german' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'german' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'German'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'hungarian' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'hungarian' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Hungarian'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'japanese' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'japanese' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Japanese'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'polish' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'polish' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Polish'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'romanian' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'romanian' },
                                             content: {
                                                 elem: 'name',
-                                                mix: { block: 'languages', elem: 'name'},
                                                 content: {
-                                                    block: 'languages',
                                                     elem: 'inner',
                                                     content: 'Romanian'
                                                 }
                                             }
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 's-panish' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 's-panish' },
                                             content: [
                                                 {
                                                     elem: 'name',
-                                                    mix: { block: 'languages', elem: 'name'},
                                                     content: {
-                                                        block: 'languages',
                                                         elem: 'inner',
                                                         content: 'Spanish'
                                                     }
@@ -832,15 +781,12 @@
                                             ]
                                         }, ' ',
                                         {
-                                            block: 'b-link',
-                                            mix: { block: 'languages', elem: 'item', elemMods: { type: 'turkish' }},
-                                            url: '#',
+                                            elem: 'item',
+                                            elemMods: { type: 'turkish' },
                                             content: [
                                                 {
                                                     elem: 'name',
-                                                    mix: { block: 'languages', elem: 'name'},
                                                     content: {
-                                                        block: 'languages',
                                                         elem: 'inner',
                                                         content: 'Turkish'
                                                     }

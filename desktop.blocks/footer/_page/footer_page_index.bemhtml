@@ -79,12 +79,31 @@ block footer, mod page index {
                                 ' ',
                                 {
                                     elem: 'item',
-                                    mods: { type: 'milkshake' }
+                                    mods: { type: 'hp' }
                                 },
                                 ' ',
                                 {
                                     elem: 'item',
-                                    mods: { type: 'uol' }
+                                    mods: { type: 'samsung' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'acer' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'asus' }
+                                }
+                            ]
+                        },
+                        {
+                            block: 'partners',
+                            content: [
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'intel' }
                                 },
                                 ' ',
                                 {
@@ -94,7 +113,17 @@ block footer, mod page index {
                                 ' ',
                                 {
                                     elem: 'item',
-                                    mods: { type: 'telecom' }
+                                    mods: { type: 'milkshake' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'pb' }
+                                },
+                                ' ',
+                                {
+                                    elem: 'item',
+                                    mods: { type: 'pc-worlds' }
                                 }
                             ]
                         },
@@ -108,46 +137,17 @@ block footer, mod page index {
                                 ' ',
                                 {
                                     elem: 'item',
-                                    mods: { type: 'pb' }
+                                    mods: { type: 'telecom' }
                                 },
                                 ' ',
                                 {
                                     elem: 'item',
-                                    mods: { type: 'pc-worlds' }
-                                },
-                                ' ',
-                                {
-                                    elem: 'item',
-                                    mods: { type: 'couto' }
+                                    mods: { type: 'uol' }
                                 },
                                 ' ',
                                 {
                                     elem: 'item',
                                     mods: { type: 'advent' }
-                                }
-                            ]
-                        },
-                        {
-                            block: 'partners',
-                            content: [
-                                {
-                                    elem: 'item',
-                                    mods: { type: 'acer' }
-                                },
-                                ' ',
-                                {
-                                    elem: 'item',
-                                    mods: { type: 'asus' }
-                                },
-                                ' ',
-                                {
-                                    elem: 'item',
-                                    mods: { type: 'intel' }
-                                },
-                                ' ',
-                                {
-                                    elem: 'item',
-                                    mods: { type: 'hp' }
                                 },
                                 ' ',
                                 {

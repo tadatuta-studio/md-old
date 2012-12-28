@@ -1,14 +1,6 @@
 .partners__item
 {
-    zoom: 1;
     display: inline;
 
-    margin-right: 2%;
-    width: 19%;
-}
-
-.partners__item_position_last
-{
-    margin-right: 0 !important;
-    width: 16%;
+    /*zoom: 1;*/
 }
