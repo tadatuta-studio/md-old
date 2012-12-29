@@ -1,0 +1,17 @@
+.learn
+{
+    margin-bottom: 40px;
+}
+
+.learn__border
+{
+    position: absolute;
+
+    display: block;
+
+    width: 95%;
+    height: 1px;
+    margin: 0 auto 40px;
+
+    background: #ddd;
+}

@@ -67,7 +67,7 @@
                                             content: [
                                                 {
                                                     elem: 'hint',
-                                                    content: 'Enter text here...'
+                                                    content: 'Enter your message here...'
                                                 },
                                                 {
                                                     elem: 'control'
@@ -81,7 +81,7 @@
                                             content: [
                                                 {
                                                     elem: 'hint',
-                                                    content: 'Name'
+                                                    content: 'Your name'
                                                 },
                                                 {
                                                     elem: 'control',
@@ -96,7 +96,7 @@
                                             content: [
                                                 {
                                                     elem: 'hint',
-                                                    content: 'Email'
+                                                    content: 'Your email'
                                                 },
                                                 {
                                                     elem: 'control',
@@ -115,7 +115,7 @@
                                                 {
                                                     block: 'button',
                                                     type: 'submit',
-                                                    mods: { size: '35', theme: 'gray', type: 'contact', disabled: 'yes' },
+                                                    mods: { size: '35', theme: 'gray', type: 'contact' /*, disabled: 'yes'*/ },
                                                     content: 'Send'
                                                 }
                                             ]

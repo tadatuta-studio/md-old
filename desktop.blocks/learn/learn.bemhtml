@@ -1,0 +1,6 @@
+block learn, content: [
+    this.ctx.content,
+    {
+        elem: 'border'
+    }
+]

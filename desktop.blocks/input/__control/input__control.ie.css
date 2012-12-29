@@ -1,0 +1,10 @@
+.input__control
+{
+    outline: 0;
+
+    border: 0;
+    background: none;
+
+    box-sizing: border-box;
+    overflow: hidden;
+}
