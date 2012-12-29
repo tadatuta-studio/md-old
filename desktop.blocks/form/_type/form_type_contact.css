@@ -6,3 +6,8 @@
 
     position: relative;
 }
+
+#form-container
+{
+    min-height: 634px;
+}

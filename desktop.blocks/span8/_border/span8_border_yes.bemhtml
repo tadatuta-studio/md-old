@@ -2,6 +2,7 @@ block span8, mod border yes {
     content: [
         this.ctx.content,
         {
+            block: 's-pan8',
             elem: 'border'
         }
     ]
