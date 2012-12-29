@@ -219,7 +219,7 @@
                                                 'With the exception of ',
                                                 {
                                                     block: 'b-link',
-                                                    url: '#EasyBits-privacy-statement',
+                                                    url: '/desktop.bundles/privacy-policy/privacy-policy.html',
                                                     content: 'EasyBits privacy statement'
                                                 },
                                                 ', you agree that any material, information or other communication you transmit or post to an EasyBits website or provide to EasyBits will be considered non-confidential and non-proprietary ("Communications"). EasyBits will have no obligations with respect to the Communications and you agree that title to any such Communications will be shared with EasyBits. You agree that EasyBits and its designees are free to copy, modify, create derivative works, publicly display, disclose, distribute, license and sublicense through multiple tiers of distribution and licensees, incorporate and otherwise use the Communications and all data, images, sounds, text, and other things embodied therein, including derivative works, for any and all commercial or non-commercial purposes.'

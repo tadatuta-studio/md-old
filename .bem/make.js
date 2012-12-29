@@ -24,7 +24,8 @@ MAKE.decl('Arch', {
     //         },
     //         'bl-controls': {
     //             type: 'git',
-    //             url: 'git://github.com/bem/bl-controls.git'
+    //             url: 'git://github.com/bem/bl-controls.git',
+    //             treeish: '01f8fc89ebf332a2d5066cc60d38ae2aa95010af'
     //         }
     //     };
 
