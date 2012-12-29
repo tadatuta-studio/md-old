@@ -4,14 +4,6 @@
     position: relative;
 }
 
-.row-fluid_image_yes
-{
-    margin-bottom: 0;
-    padding-top: 22px;
-    padding-bottom: 70px;
-    background: url(../../i/units_image_yes.jpg) no-repeat 96% 100%;
-}
-
 .row-fluid_picture_yes
 {
     position: relative;
