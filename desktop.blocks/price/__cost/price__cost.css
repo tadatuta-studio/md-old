@@ -2,7 +2,7 @@
 {
     font-family: "Segoe UI Semibold", "Segoe UI", Helvetica, Arial, sans-serif;
 
-    margin: 15px 0 20px;
+    margin: 0 0 20px;
 
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -23,13 +23,28 @@
 
 .price__cost-item_type_count
 {
-    font-size: 100px;
+    font-size: 80px;
+
+    padding-top: 7px;
 }
 
 .price__cost-item_type_trifle
 {
-    font-size: 50px;
+    font-size: 40px;
 
     vertical-align: top;
     padding-top: 5px;
+}
+
+.price__cost-item_type_currency
+{
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+
+    display: block;
+
+    margin: -19px 0 17px;
+    padding-top: 5px;
+
+    vertical-align: top;
 }

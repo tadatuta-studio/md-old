@@ -1,6 +1,6 @@
 .input_type_input .input__control
 {
-    line-height: 35px;
+    border-right: 30px solid transparent;
 }
 
 .input_type_textarea .input__control

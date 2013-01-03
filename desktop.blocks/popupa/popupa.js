@@ -2,6 +2,8 @@ BEM.DOM.decl('popupa',
 {
     onSetMod: {
         'js': function() {
+            window.location.hash == '#demo' && this.show();
+
             this
                 .bindTo(this.elem('close'), 'click', this.hide)
                 .bindTo(this.elem('paranja'), 'click', this.hide);
@@ -11,7 +13,12 @@ BEM.DOM.decl('popupa',
         this.setMod('visibility', 'visible');
         var video = this.elem('video');
         if (video) {
-            var dataSrc = video.attr('datasrc');
+            var dataSrc = video.attr('data-src');
+
+            if (window.location.hash == '#demo') {
+                dataSrc += '&autoplay=1';
+            }
+
             video.attr('src',  dataSrc);
         }
 

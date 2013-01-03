@@ -59,6 +59,10 @@
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'trifle' },
                                                     content: '99'
+                                                },
+                                                {
+                                                    elem: 'cost-item', elemMods: { type: 'currency' },
+                                                    content: 'USD'
                                                 }
                                             ]
                                         },
@@ -99,6 +103,10 @@
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'trifle' },
                                                     content: '99'
+                                                },
+                                                {
+                                                    elem: 'cost-item', elemMods: { type: 'currency' },
+                                                    content: 'USD'
                                                 }
                                             ]
                                         },
@@ -139,6 +147,10 @@
                                                 {
                                                     elem: 'cost-item', elemMods: { type: 'trifle' },
                                                     content: '99'
+                                                },
+                                                {
+                                                    elem: 'cost-item', elemMods: { type: 'currency' },
+                                                    content: 'USD'
                                                 }
                                             ]
                                         },
@@ -242,7 +254,15 @@
                                         },
                                         {
                                             elem: 'description',
-                                            content: 'Get 50% off the regular price! To upgrade to Magic Desktop 8 login to your community portal.'
+                                            content: [
+                                                'We have a special upgrade program for our customers. Please, ',
+                                                {
+                                                    block: 'b-link',
+                                                    url: '/desktop.bundles/support/support.html',
+                                                    content: 'apply here'
+                                                },
+                                                '.'
+                                            ]
                                         }
                                     ]
                                 }

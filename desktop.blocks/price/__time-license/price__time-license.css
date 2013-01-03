@@ -1,5 +1,9 @@
 .price__time-license
 {
     font-size: 46px;
+    line-height: 70px;
+
+    padding-bottom: 8px;
+
     color: #68a515;
 }

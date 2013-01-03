@@ -2,6 +2,7 @@
 {
     position: absolute;
     top: 19px;
+    left: 50%;
 
     display: block;
 
@@ -9,7 +10,7 @@
 
     width: 37px;
     height: 4px;
-    margin-left: -29px;
+    margin-left: -18px;
 
     background: #fff;
 }

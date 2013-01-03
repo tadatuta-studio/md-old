@@ -10,6 +10,7 @@ BEM.DOM.decl('slider',
                     currentIdx = buttons.index(currentButton);
 
                 this.go(currentIdx);
+                _gaq.push(['_trackEvent', 'MD8', 'Click', 'Demo']);
             });
 
             // bind to Play button to show video popup
