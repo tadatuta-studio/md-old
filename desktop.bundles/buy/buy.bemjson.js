@@ -184,7 +184,7 @@
                     mods: { border: 'yes' },
                     content: [
                         {
-                            block: 'span3',
+                            block: 'span4',
                             content: [
                                 {
                                     block: 'try-free',
@@ -213,7 +213,6 @@
                         },
                         {
                             block: 'span4',
-                            mix: [{ block: 'offset1' }],
                             mods: { type: 'button' },
                             content: {
                                 block: 'button',
