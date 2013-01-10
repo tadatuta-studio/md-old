@@ -13,11 +13,7 @@ BEM.DOM.decl('popupa',
         this.setMod('visibility', 'visible');
         var video = this.elem('video');
         if (video) {
-            var dataSrc = video.attr('data-src');
-
-            if (window.location.hash == '#demo') {
-                dataSrc += '&autoplay=1';
-            }
+            var dataSrc = video.attr('data-src') + '&autoplay=1';
 
             video.attr('src',  dataSrc);
         }
