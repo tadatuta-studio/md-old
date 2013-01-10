@@ -3,6 +3,8 @@
     vertical-align: top;
 
     display: inline-block;
+
+    width: 100%;
 }
 
 .footer-nav .b-menu-horiz__item
