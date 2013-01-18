@@ -43,7 +43,7 @@
             this.setMod(active, 'direction', direction);
             this.setMod(next, 'direction', direction);
 
-            $.browser.msie && next.css({ left: -1 * multiplier * 100 + '%' }).animate({ left: 0 }, 500, function() {
+            $.browser.msie && $.browser.version < 10 && next.css({ left: -1 * multiplier * 100 + '%' }).animate({ left: 0 }, 500, function() {
                 next[0].offsetWidth; // force reflow
             });
 
