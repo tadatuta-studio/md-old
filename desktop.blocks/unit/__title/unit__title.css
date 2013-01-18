@@ -4,5 +4,6 @@
     font-size: 22px;
     color: #333;
 
+    max-width: 175px; /* ? */
     margin-bottom: 15px;
 }

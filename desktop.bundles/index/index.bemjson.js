@@ -911,6 +911,7 @@
                 },
                 {
                     block: 'row-fluid',
+                    mods: { type: 'string', image: 'yes' },
                     content: [
                         {
                             block: 'span3',
@@ -924,6 +925,12 @@
                                     {
                                         elem: 'p',
                                         content: 'Share the magic! Software resellers, website owners, ISPs, OEMs and individuals looking to sell Magic Desktop may participate in a program ideal for their needs. Learn about our range of affiliate and partner programs, today.'
+                                    },
+                                    {
+                                        block: 'button',
+                                        mods: { size: '240', theme: 'blue', type: 'apply' },
+                                        url: '/desktop.bundles/support/support.html',
+                                        content: 'Apply now!'
                                     }
                                 ]
                             }
@@ -934,6 +941,7 @@
                             content: [
                                 {
                                     block: 'row-fluid',
+                                    mods: { partners: 'yse' },
                                     content: [
                                         {
                                             block: 'span4',
@@ -990,28 +998,7 @@
                                             ]
                                         }
                                     ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    block: 'row-fluid',
-                    mods: { type: 'string', image: 'yes' },
-                    content: [
-                        {
-                            block: 'span3',
-                            content: {
-                                block: 'button',
-                                mods: { size: '240', theme: 'blue', type: 'apply' },
-                                url: '/desktop.bundles/support/support.html',
-                                content: 'Apply now!'
-                            }
-                        },
-                        {
-                            block: 'span8',
-                            mix: [{ block: 'offset1' }],
-                            content: [
+                                },
                                 {
                                     block: 'row-fluid',
                                     content: [

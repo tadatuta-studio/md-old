@@ -1,1 +1,4 @@
-block b-page, xUACompatible: false
+block b-page {
+    js: true
+    xUACompatible: false
+}

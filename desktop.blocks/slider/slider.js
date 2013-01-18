@@ -66,6 +66,6 @@ BEM.DOM.decl('slider',
     },
     _onTick: function() {
         this.tick++;
-        this.tick > 150 && this.next();
+        this.tick > 190 && this.next();
     }
 });

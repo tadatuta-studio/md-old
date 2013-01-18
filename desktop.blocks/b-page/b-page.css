@@ -48,3 +48,8 @@ html
 {
     margin: 0;
 }
+
+.b-page_width_small .span3_position_center .block-info
+{
+    display: none;
+}

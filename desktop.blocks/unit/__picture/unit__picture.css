@@ -22,7 +22,7 @@
 
 .unit__picture_position_3
 {
-    background-position: 0 0;
+    background-position: -3px 0;
 }
 
 .unit__picture_position_4
@@ -37,5 +37,5 @@
 
 .unit__picture_position_6
 {
-    background-position: 0 -123px;
+    background-position: -3px -123px;
 }
