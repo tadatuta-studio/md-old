@@ -2,5 +2,5 @@
 {
     /*padding: 8px 0 9px;*/
     padding: 3px 0 10px;
-    max-width: 240px;
+    min-width: 240px;
 }
