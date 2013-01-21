@@ -13,6 +13,12 @@
     white-space: nowrap;
 }
 
+.lang-switcher__current
+{
+    min-width: 140px;
+    text-align: right;
+}
+
 .lang-switcher__current:after {
     content: " ▾";
 }

@@ -10,10 +10,12 @@ BEM.DOM.decl('popupa',
         }
     },
     show: function() {
+        var autoplayParam = window.location.hash == '#demo' ? '&autoplay=1' : '';
+
         this.setMod('visibility', 'visible');
         var video = this.elem('video');
         if (video) {
-            var dataSrc = video.attr('data-src') + '&autoplay=1';
+            var dataSrc = video.attr('data-src') + autoplayParam;
 
             video.attr('src',  dataSrc);
         }
