@@ -6,16 +6,6 @@
 
     z-index: 99;
 
-    display: block;
-
     margin-left: -500px;
     margin-top: -294px;
-    padding-top: 30px;
-
-    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.5);
-    -moz-box-shadow: 0 0 5px rgba(0,0,0,.5);
-    -o-box-shadow: 0 0 5px rgba(0,0,0,.5);
-    box-shadow: 0 0 5px rgba(0,0,0,.5);
-
-    background: #1b1b1b;
 }

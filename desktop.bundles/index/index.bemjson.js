@@ -201,6 +201,14 @@
                                 {
                                     elem: 'close'
                                 },
+                                // {
+                                //     cls: 'addthis_toolbox addthis_floating_style addthis_16x16_style',
+                                //     attrs: { style: 'left:50px;top:50px;' }
+                                // },
+                                {
+                                    block: 'addthis',
+                                    mods: { button: 'compact' }
+                                },
                                 {
                                     elem: 'video',
                                     url: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0'

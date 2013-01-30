@@ -1,0 +1,11 @@
+block addthis, mod button compact {
+    default: applyCtx([
+        this.ctx,
+        {
+            tag: 'script',
+            attrs: { src: '//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51093b6030bfc383' }
+        }
+    ])
+
+    tag: 'a'
+}
