@@ -1,7 +1,9 @@
 .logo__tagline
 {
-    margin-left: 125px;
-
+    font-size: 24px;
     font-weight: 300;
+
+    margin: 0 0 0 125px;
+
     white-space: nowrap;
 }
