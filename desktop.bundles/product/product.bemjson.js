@@ -807,15 +807,15 @@
                             block: 'span8',
                             content: [
                                 {
-                                    block: 'b-text',
-                                    mods: { position: 'left' },
+                                    block: 'solution',
+                                    elem: 'title',
                                     content: [
                                         {
-                                            elem: 'h2',
+                                            elem: 'title-top',
                                             content: 'Magic Desktop –'
                                         },
                                         {
-                                            elem: 'h3',
+                                            elem: 'title-bottom',
                                             content: 'a complete solution for your children.'
                                         }
                                     ]
