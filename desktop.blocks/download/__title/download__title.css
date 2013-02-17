@@ -1,6 +1,7 @@
 .download__title
 {
     width: 34%;
+    margin: 0;
 
     float: left;
 
@@ -13,6 +14,11 @@
     white-space: nowrap;
 
     line-height: 1.25;
+}
+
+.download__title-line
+{
+    display: block;
 }
 
 .download__title-line.download__title-line_line_2
