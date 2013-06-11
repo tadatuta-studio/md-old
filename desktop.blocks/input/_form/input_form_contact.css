@@ -1,4 +1,5 @@
-.input_form_contact
+/* id is used to make selector stronger */
+#form-container .input_form_contact
 {
     margin-top: 25px;
 }
