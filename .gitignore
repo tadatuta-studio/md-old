@@ -6,7 +6,10 @@ node_modules
 .idea
 .project
 .svn
-.bem/cache
 desktop.bundles/*/*.*
 !desktop.bundles/*/*.bemjson.js
 !desktop.bundles/.bem/*
+
+.bem/cache
+*/.bem/cache/
+desktop.bundles/*/blocks/.bem/cache/
