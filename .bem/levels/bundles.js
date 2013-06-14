@@ -13,7 +13,7 @@ exports.getTechs = function() {
     return {
         'bemjson.js'    : '',
         'bemdecl.js'    : 'bemdecl.js',
-        'deps.js'       : 'deps.js',
+        'deps.js'       : 'v2/deps.js',
         'js'            : 'v2/js-i',
         'css'           : 'v2/css',
         'ie.css'        : 'v2/ie.css',
