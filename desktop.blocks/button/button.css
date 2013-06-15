@@ -9,3 +9,10 @@
 {
     top: 0;
 }
+
+.b-page_page_landing .button
+{
+    clear: both;
+
+    z-index: 5;
+}

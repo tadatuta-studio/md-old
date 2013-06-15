@@ -1,0 +1,11 @@
+.b-page_page_landing .button_size_26
+{
+    width: 210px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.b-page_page_landing .button_size_26 .button__text
+{
+    font-size: 26px;
+}

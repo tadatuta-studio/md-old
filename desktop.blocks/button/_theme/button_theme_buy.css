@@ -1,0 +1,62 @@
+.button_theme_buy
+{
+    background: #39c;
+    background: -webkit-linear-gradient(top,  #3ea6da, #39c);
+    background:    -moz-linear-gradient(top,  #3ea6da, #39c);
+    background:      -o-linear-gradient(top,  #3ea6da, #39c);
+    background:     -ms-linear-gradient(top,  #3ea6da, #39c);
+    background:   linear-gradient(to bottom,  #3ea6da, #39c);
+
+    -moz-box-shadow: 0 2px 4px #cfcfcf;
+    -webkit-box-shadow: 0 2px 4px #cfcfcf;
+    -o-box-shadow: 0 2px 4px #cfcfcf;
+    -ms-box-shadow: 0 2px 4px #cfcfcf;
+    box-shadow: 0 2px 4px #cfcfcf;
+
+    border: 0;
+
+    font-family: "Segoe UI Semibold","Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 35px;
+    color: #fff;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+.button_theme_buy.button_hovered_yes
+{
+    background: #3ca1d3;
+    background: -moz-linear-gradient(top, #45aee2 8%, #3ca1d3);
+    background: -webkit-linear-gradient(top, #45aee2 8%, #3ca1d3);
+    background: -o-linear-gradient(top, #45aee2 8%, #3ca1d3);
+    background: -ms-linear-gradient(top, #45aee2 8%, #3ca1d3);
+    background: linear-gradient(to bottom, #45aee2 8%, #3ca1d3);
+
+    /*color: #eaf4e9;*/
+}
+
+.button_theme_buy.button_pressed_yes
+{
+    background: #65a014;
+}
+
+.button_theme_buy .button__text
+{
+    display: block;
+    padding: 17px 44px 14px 52px;
+}
+
+.button_theme_buy .button__text:after
+{
+    content: "";
+
+    width: 31px;
+    height: 39px;
+
+    background: url(../../../i/button_theme_buy.png) no-repeat;
+
+    position: absolute;
+    left: 7px;
+    bottom: -15px;
+}

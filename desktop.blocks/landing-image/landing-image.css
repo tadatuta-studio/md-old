@@ -1,0 +1,88 @@
+.landing-image
+{
+    position: relative;
+
+/*    width: 60%;*/
+    /*max-width: 898px;*/
+    width: 898px;
+    height: 642px;
+    /*margin: auto;*/
+    margin-left: 2%;
+
+    /*background: url(../../../i/landing-image.png) no-repeat;*/
+
+    color: #fff;
+}
+
+.landing-image__img
+{
+    position: absolute;
+
+    width: 100%;
+}
+
+.landing-image__desc
+{
+    position: absolute;
+    left: 435px;
+    top: 50px;
+}
+
+.landing-image__features
+{
+    position: absolute;
+    left: 435px;
+    top: 320px;
+}
+
+.landing-image__title
+{
+    margin-bottom: 25px;
+
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.landing-image__line
+{
+    line-height: 30px;
+}
+
+.landing-image__line_pos_1
+{
+    padding-left: 30px;
+}
+
+.landing-image__line_pos_2
+{
+    padding-left: 53px;
+}
+
+.landing-image__line_pos_3
+{
+    padding-left: 75px;
+}
+
+.landing-image__line_pos_4
+{
+    padding-left: 97px;
+}
+
+.landing-image__list
+{
+    margin: 0 0 27px;
+    padding: 0;
+}
+
+.landing-image__item
+{
+    float: left;
+
+    width: 160px;
+    margin: 0 0 0 10px;
+    padding-left: 21px;
+
+    background: url(../../../i/star.png) no-repeat 0 5px;
+
+    list-style: none;
+}

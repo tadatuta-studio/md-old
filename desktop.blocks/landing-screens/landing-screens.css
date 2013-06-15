@@ -1,0 +1,46 @@
+.landing-screens
+{
+    width: 834px;
+    margin: auto;
+}
+
+.landing-screens__item
+{
+    float: left;
+
+    width: 226px;
+    height: 169px;
+    margin: 0 26px 50px;
+
+    background: #ccc;
+}
+
+.landing-screens__item_pos_1
+{
+    background: url(../../../i/landing-screens__item_pos_1.jpg);
+}
+
+.landing-screens__item_pos_2
+{
+    background: url(../../../i/landing-screens__item_pos_2.jpg);
+}
+
+.landing-screens__item_pos_3
+{
+    background: url(../../../i/landing-screens__item_pos_3.jpg);
+}
+
+.landing-screens__item_pos_4
+{
+    background: url(../../../i/landing-screens__item_pos_4.jpg);
+}
+
+.landing-screens__item_pos_5
+{
+    background: url(../../../i/landing-screens__item_pos_5.jpg);
+}
+
+.landing-screens__item_pos_6
+{
+    background: url(../../../i/landing-screens__item_pos_6.jpg);
+}

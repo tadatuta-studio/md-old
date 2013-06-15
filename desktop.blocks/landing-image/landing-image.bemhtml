@@ -1,0 +1,14 @@
+block landing-image {
+
+    elem img {
+        tag: 'img'
+        attrs: { src: this.ctx.url, alt: 'Works best for ages 2-10' }
+    }
+
+    elem list {
+        tag: 'ul'
+        mix: [{ block: 'clearfix' }]
+    }
+
+    elem item, tag: 'li'
+}
