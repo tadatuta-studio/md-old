@@ -25,96 +25,122 @@
             block: 'container',
             content: [
                 {
-                    block: 'button',
-                    mods: { size: '26', theme: 'download', position: 'right' },
-                    url: '/desktop.bundles/download/download.html',
-                    content: 'Get it now!'
-                },
-                {
-                    block: 'button',
-                    mods: { size: '26', theme: 'buy', position: 'right' },
-                    url: '/desktop.bundles/download/download.html',
-                    content: 'Buy'
-                },
-                {
-                    block: 'landing-image',
+                    block: 'table',
                     content: [
                         {
-                            elem: 'img',
-                            url: '../../i/landing-image.png'
-                        },
-                        {
-                            elem: 'desc',
+                            elem: 'row',
                             content: [
                                 {
-                                    elem: 'title',
-                                    content: 'Magic Desktop is...'
-                                },
-                                {
-                                    elem: 'line',
+                                    elem: 'cell',
                                     elemMods: { pos: 1 },
-                                    content: 'A family-oriented software suit,'
-                                },
-                                {
-                                    elem: 'line',
-                                    elemMods: { pos: 2 },
-                                    content: 'used as Windows for kids;'
-                                },
-                                {
-                                    elem: 'line',
-                                    elemMods: { pos: 3 },
-                                    content: 'it includes lots of features'
-                                },
-                                {
-                                    elem: 'line',
-                                    elemMods: { pos: 4 },
-                                    content: 'for child safety, education and fun.'
-                                }
-                            ]
-                        },
-                        {
-                            elem: 'features',
-                            content: [
-                                {
-                                    elem: 'title',
-                                    content: 'Core features'
-                                },
-                                {
-                                    elem: 'list',
                                     content: [
                                         {
-                                            elem: 'item',
-                                            content: 'Super-kid-friendly.'
-                                        },
-                                        {
-                                            elem: 'item',
-                                            content: 'Encourages kids to learn.'
+                                            block: 'landing-image',
+                                            content: [
+                                                {
+                                                    elem: 'img',
+                                                    url: '../../i/landing-image.png'
+                                                },
+                                                {
+                                                    elem: 'text',
+                                                    content: [
+                                                        {
+                                                            elem: 'desc',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    content: 'Magic Desktop is...'
+                                                                },
+                                                                {
+                                                                    elem: 'line',
+                                                                    elemMods: { pos: 1 },
+                                                                    content: 'A family-oriented software suit,'
+                                                                },
+                                                                {
+                                                                    elem: 'line',
+                                                                    elemMods: { pos: 2 },
+                                                                    content: 'used as Windows for kids;'
+                                                                },
+                                                                {
+                                                                    elem: 'line',
+                                                                    elemMods: { pos: 3 },
+                                                                    content: 'it includes lots of features'
+                                                                },
+                                                                {
+                                                                    elem: 'line',
+                                                                    elemMods: { pos: 4 },
+                                                                    content: 'for child safety, education and fun.'
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            elem: 'features',
+                                                            content: [
+                                                                {
+                                                                    elem: 'title',
+                                                                    content: 'Core features'
+                                                                },
+                                                                {
+                                                                    elem: 'list',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'item',
+                                                                            content: 'Super-kid-friendly.'
+                                                                        },
+                                                                        {
+                                                                            elem: 'item',
+                                                                            content: 'Encourages kids to learn.'
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    elem: 'list',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'item',
+                                                                            content: 'Takes care of Internet and email safety.'
+                                                                        },
+                                                                        {
+                                                                            elem: 'item',
+                                                                            content: 'Develops important skills.'
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    elem: 'list',
+                                                                    content: [
+                                                                        {
+                                                                            elem: 'item',
+                                                                            content: 'Protects system and parental files from damage.'
+                                                                        },
+                                                                        {
+                                                                            elem: 'item',
+                                                                            content: 'Gives a lot of entertainment to kids.'
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
                                         }
                                     ]
                                 },
                                 {
-                                    elem: 'list',
+                                    elem: 'cell',
                                     content: [
                                         {
-                                            elem: 'item',
-                                            content: 'Takes care of Internet and email safety.'
+                                            block: 'button',
+                                            mods: { size: '26', theme: 'download', position: 'right' },
+                                            url: '/desktop.bundles/download/download.html',
+                                            content: 'Get it now!'
                                         },
                                         {
-                                            elem: 'item',
-                                            content: 'Develops important skills.'
-                                        }
-                                    ]
-                                },
-                                {
-                                    elem: 'list',
-                                    content: [
-                                        {
-                                            elem: 'item',
-                                            content: 'Protects system and parental files from damage.'
-                                        },
-                                        {
-                                            elem: 'item',
-                                            content: 'Gives a lot of entertainment to kids.'
+                                            block: 'button',
+                                            mods: { size: '26', theme: 'buy', position: 'right' },
+                                            url: '/desktop.bundles/buy/buy.html',
+                                            content: 'Buy'
                                         }
                                     ]
                                 }

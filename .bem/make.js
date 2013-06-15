@@ -6,6 +6,13 @@
 
 MAKE.decl('Arch', {
 
+    getCachePolicy: function() {
+        return {
+            cache: true,
+            except: ['desktop.blocks']
+        };
+    },
+
     blocksLevelsRegexp: /^.+?\.blocks/,
 
     bundlesLevelsRegexp: /^.+?\.bundles$/,
