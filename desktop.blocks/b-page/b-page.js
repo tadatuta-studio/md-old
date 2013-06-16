@@ -9,4 +9,19 @@ BEM.DOM.decl({ block: 'b-page', modName: 'page', modVal: 'index' },
             });
         }
     }
-})
+});
+
+BEM.DOM.decl({ block: 'b-page', modName: 'page', modVal: 'landing' },
+{
+    onSetMod: {
+        'js': function() {
+            var landingImage = this.findBlockInside('landing-image').domElem;
+
+            landingImage.width() >= 898 && this.setMod('width', 'fullsize');
+
+            this.bindToWin('resize', function() {
+                landingImage.width() >= 898 ? this.setMod('width', 'fullsize') : this.delMod('width');
+            });
+        }
+    }
+});

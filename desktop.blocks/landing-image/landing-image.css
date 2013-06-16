@@ -38,6 +38,16 @@
     font-weight: bold;
 }
 
+.b-page_width_fullsize .landing-image__text
+{
+    top: 57px;
+}
+
+.b-page_width_fullsize .landing-image__features
+{
+    bottom: 46px;
+}
+
 .landing-image__line
 {
     line-height: 30px;
