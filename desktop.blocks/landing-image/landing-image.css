@@ -14,6 +14,14 @@
     width: 100%;
 }
 
+.landing-image__caption
+{
+    position: absolute;
+    top: 22px;
+
+    color: #333;
+}
+
 .landing-image__text
 {
     position: absolute;
@@ -90,4 +98,10 @@
     background: url(../../../i/star.png) no-repeat 0 3px;
 
     list-style: none;
+}
+
+.landing-image__screenshots-title
+{
+    position: absolute;
+    bottom: -76px;
 }

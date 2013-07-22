@@ -30,6 +30,11 @@ MAKE.decl('Arch', {
                 url: 'git://github.com/bem/bem-controls.git',
                 // treeish: '5b16837bd8908d8f98b9386370183d01d99c8718'
                 treeish: 'dev'
+            },
+            'bl-carousel': {
+                type: 'git',
+                url: 'git://github.com/tadatuta/bl-carousel.git',
+                branch: 'master'
             }
         };
 

@@ -1,0 +1,21 @@
+.carousel__control_theme_md8
+{
+    top: auto;
+    left: 50%;
+    bottom: -7px;
+
+    width: 28px;
+    height: 28px;
+    margin-left: -76px;
+
+    background: url(/i/carousel__control_theme_md8.png) no-repeat;
+
+    cursor: pointer;
+}
+
+.carousel__control_type_right
+{
+    margin-left: 50px;
+
+    background-position: -28px 0;
+}

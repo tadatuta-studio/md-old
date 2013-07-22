@@ -1,0 +1,11 @@
+.carousel__img
+{
+    max-height: 770px;
+}
+
+.carousel__counter
+{
+    margin-top: 20px;
+
+    text-align: center;
+}

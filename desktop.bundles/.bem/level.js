@@ -10,6 +10,7 @@ exports.getConfig = function() {
             '../../bem-bl/blocks-desktop',
             '../../bem-controls/common.blocks',
             '../../bem-controls/desktop.blocks',
+            '../../bl-carousel/desktop.blocks',
             '../../common.blocks',
             '../../desktop.blocks'
         ])

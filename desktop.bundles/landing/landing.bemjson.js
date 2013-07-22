@@ -42,6 +42,20 @@
                                                     url: '../../i/landing-image.png'
                                                 },
                                                 {
+                                                    elem: 'caption',
+                                                    mix: [{ block: 'block' }],
+                                                    content: [
+                                                        {
+                                                            elem: 'cation-line',
+                                                            mix: [{ block: 'block', elem: 'h1' }],
+                                                            content: [
+                                                                'Works best for<br>',
+                                                                '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ages 2-10'
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
                                                     elem: 'text',
                                                     content: [
                                                         {
@@ -122,7 +136,15 @@
                                                             ]
                                                         }
                                                     ]
-                                                }
+                                                },
+                                                {
+                                                    block: 'block',
+                                                    mix: { block: 'landing-image', elem: 'screenshots-title' },
+                                                    content: {
+                                                        elem: 'h1',
+                                                        content: 'Screenshots'
+                                                    }
+                                                },
                                             ]
                                         }
                                     ]
@@ -149,13 +171,6 @@
                     ]
                 },
                 {
-                    block: 'block',
-                    content: {
-                        elem: 'h1',
-                        content: 'Screenshots'
-                    }
-                },
-                {
                     block: 'landing-screens',
                     mix: [{ block: 'clearfix' }],
                     content: [1,2,3,4,5,6].map(function(i) {
@@ -164,6 +179,90 @@
                             elemMods: { pos: i }
                         };
                     })
+                }
+            ]
+        },
+        {
+            block: 'popupa',
+            content: [
+                {
+                    elem: 'paranja'
+                },
+                {
+                    elem: 'inner',
+                    content: [
+                        {
+                            elem: 'close'
+                        },
+                        {
+                            elem: 'content',
+                            content: {
+                                block: 'carousel',
+                                mods: { animate: 'yes', counter: 'yes' },
+                                content: [
+                                    {
+                                        elem: 'inner',
+                                        content: [
+                                            {
+                                                elem: 'item',
+                                                elemMods: { state: 'active' },
+                                                content: {
+                                                    elem: 'img',
+                                                    url: '/i/landing-screens__image_pos_1.png'
+                                                }
+                                            },
+                                            {
+                                                elem: 'item',
+                                                content: {
+                                                    elem: 'img',
+                                                    url: '/i/landing-screens__image_pos_2.png'
+                                                }
+                                            },
+                                            {
+                                                elem: 'item',
+                                                content: {
+                                                    elem: 'img',
+                                                    url: '/i/landing-screens__image_pos_3.png'
+                                                }
+                                            },
+                                            {
+                                                elem: 'item',
+                                                content: {
+                                                    elem: 'img',
+                                                    url: '/i/landing-screens__image_pos_4.png'
+                                                }
+                                            },
+                                            {
+                                                elem: 'item',
+                                                content: {
+                                                    elem: 'img',
+                                                    url: '/i/landing-screens__image_pos_5.png'
+                                                }
+                                            },
+                                            {
+                                                elem: 'item',
+                                                content: {
+                                                    elem: 'img',
+                                                    url: '/i/landing-screens__image_pos_6.png'
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        elem: 'control',
+                                        elemMods: { type: 'left', theme: 'md8' }
+                                    },
+                                    {
+                                        elem: 'control',
+                                        elemMods: { type: 'right', theme: 'md8' }
+                                    },
+                                    {
+                                        elem: 'counter'
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             ]
         },
