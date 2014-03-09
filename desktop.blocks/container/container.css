@@ -13,18 +13,20 @@
 
 .container_type_landing-second-step
 {
-    height: 760px;
+    height: 658px;
+    padding-top: 100px;
     background: url(/i/landing2-second.jpg) no-repeat 30px 0;
 }
 
 .container_type_landing-fourth-step
 {
     height: 568px;
-    background: #f2cc47 url(/i/landing2-fourth.jpg) no-repeat 30px 100%;
+    background: url(/i/landing2-fourth.jpg) no-repeat 30px 100%;
 }
 
 .container_type_landing-fifth-step
 {
-    height: 760px;
+    height: 634px;
+    padding-top: 96px;
     background: #89c13b url(/i/landing2-fifth.jpg) no-repeat 30px 0;
 }
