@@ -25,6 +25,7 @@
             block: 'section',
             content: {
                 block: 'container',
+                mods: { type: 'landing' },
                 content: [
                     {
                         block: 'row-fluid',
@@ -68,9 +69,11 @@
             mods: { step: 'first' },
             content: {
                 block: 'container',
+                mods: { type: 'landing-first-step' },
                 content: [
                     {
                         block: 'row-fluid',
+                        mix: { block: 'shadow' },
                         content: [
                             {
                                 block: 'span8',
@@ -110,6 +113,7 @@
             mods: { step: 'second' },
             content: {
                 block: 'container',
+                mods: { type: 'landing-second-step' },
                 content: [
                     {
                         block: 'row-fluid',
@@ -141,6 +145,7 @@
             mods: { step: 'third' },
             content: {
                 block: 'container',
+                mods: { type: 'landing-third-step' },
                 content: [
                     {
                         block: 'row-fluid',
@@ -181,6 +186,7 @@
             mods: { step: 'fourth' },
             content: {
                 block: 'container',
+                mods: { type: 'landing-fourth-step' },
                 content: [
                     {
                         block: 'row-fluid',
@@ -239,6 +245,7 @@
             mods: { step: 'fifth' },
             content: {
                 block: 'container',
+                mods: { type: 'landing-fifth-step' },
                 content: [
                     {
                         block: 'row-fluid',
@@ -276,6 +283,7 @@
             mods: { step: 'sixth' },
             content: {
                 block: 'container',
+                mods: { type: 'landing-sixth-step' },
                 content: [
                     {
                         block: 'row-fluid',
@@ -310,6 +318,7 @@
             mods: { step: 'seventh' },
             content: {
                 block: 'container',
+                mods: { type: 'landing-seventh-step' },
                 content: [
                     {
                         block: 'row-fluid',

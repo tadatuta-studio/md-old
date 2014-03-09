@@ -1,12 +1,22 @@
 .section_step_first
 {
     background: #86e2f1; /* TODO: remove */
+    background: -webkit-linear-gradient(top, #fff 0%, #71b8db 100%);
+    background:    -moz-linear-gradient(top, #fff 0%, #71b8db 100%);
+    background:      -o-linear-gradient(top, #fff 0%, #71b8db 100%);
+    background:     -ms-linear-gradient(top, #fff 0%, #71b8db 100%);
+    background:   linear-gradient(to bottom, #fff 0%, #71b8db 100%);
 }
 
 .section_step_second
 {
     height: 760px;
     background: #89c13b;
+}
+
+.section_step_third
+{
+    /*background:*/
 }
 
 .section_step_fourth
@@ -18,4 +28,10 @@
 {
     height: 760px;
     background: #89c13b;
+}
+
+.section_step_seventh .block__h1
+{
+    font-style: italic;
+    color: #39c;
 }
