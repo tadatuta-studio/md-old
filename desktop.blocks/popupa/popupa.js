@@ -10,15 +10,19 @@ BEM.DOM.decl('popupa',
         }
     },
     show: function() {
-        var autoplayParam = window.location.hash == '#demo' ? '&autoplay=1' : '';
+        this.autoplayParam = this.autoplayParam || (window.location.hash == '#demo' ? '&amp;autoplay=1' : '');
 
         this.setMod('visibility', 'visible');
         var video = this.elem('video');
-        if (video) {
-            var dataSrc = video.attr('data-src') + autoplayParam;
+        if (!video) return this;
 
-            video.attr('src',  dataSrc);
-        }
+        if ($.browser.msie  && parseInt($.browser.version, 10) <= 8) {
+            this.elem('video-wrapper').html('<object class="popupa__video"><param name="movie" value="//www.youtube.com/v/1ZpTwSULBh0?hl=ru_RU&amp;version=3' + this.autoplayParam + '"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed class="popupa__video-embed" src="//www.youtube.com/v/1ZpTwSULBh0?hl=ru_RU&amp;version=3' + this.autoplayParam + '" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true"></embed></object>');
+            return this;
+        }
+
+        var dataSrc = video.attr('data-src') + this.autoplayParam;
+        video.attr('src',  dataSrc);
 
         return this;
     },

@@ -1,4 +1,5 @@
-.popupa__video
+.popupa__video,
+.popupa__video-embed
 {
     height: 588px;
     width: 1000px;

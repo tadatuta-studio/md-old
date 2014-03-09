@@ -210,8 +210,11 @@
                                     mods: { button: 'compact' }
                                 },
                                 {
-                                    elem: 'video',
-                                    url: 'http://www.youtube.com/embed/1ZpTwSULBh0?rel=0'
+                                    elem: 'video-wrapper',
+                                    content: {
+                                        elem: 'video',
+                                        url: 'http://www.youtube.com/v/1ZpTwSULBh0?hl=ru_RU&amp;version=3'
+                                    }
                                 }
                             ]
                         }
