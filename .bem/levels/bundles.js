@@ -12,7 +12,7 @@ exports.getTechs = function() {
 
     return {
         'bemjson.js'    : '',
-        'bemdecl.js'    : 'bemdecl.js',
+        'bemdecl.js'    : 'v2/bemdecl.js',
         'deps.js'       : 'v2/deps.js',
         'js'            : 'v2/js-i',
         'css'           : 'v2/css',
@@ -23,7 +23,7 @@ exports.getTechs = function() {
         'ie9.css'       : 'v2/ie9.css',
 
         'bemhtml'       : pjoin(PRJ_ROOT, 'bem-bl/blocks-common/i-bem/bem/techs/v2/bemhtml.js'),
-        'html'          : pjoin(PRJ_ROOT, 'bem-bl/blocks-common/i-bem/bem/techs/html')
+        'html'          : pjoin(PRJ_ROOT, 'bem-bl/blocks-common/i-bem/bem/techs/v2/html')
     };
 
 };

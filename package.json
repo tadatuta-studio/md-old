@@ -1,0 +1,19 @@
+{
+  "name": "md8",
+  "version": "0.0.0",
+  "description": "Minimal configs and folders to start BEM project ================================================",
+  "main": "index.js",
+  "dependencies": {
+    "bem": "~0.7.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:md8/md8.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
