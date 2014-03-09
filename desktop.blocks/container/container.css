@@ -8,23 +8,23 @@
 .container_type_landing-first-step
 {
     padding-bottom: 86px;
-    background: url(/i/landing2-first-bottom.jpg) no-repeat 50% 100%;
+    background: url(/i/landing2-first-bottom.jpg) no-repeat 29px 100%;
 }
 
 .container_type_landing-second-step
 {
     height: 760px;
-    background: url(/i/landing2-second.jpg) no-repeat;
+    background: url(/i/landing2-second.jpg) no-repeat 30px 0;
 }
 
 .container_type_landing-fourth-step
 {
     height: 568px;
-    background: #f2cc47 url(/i/landing2-fourth.jpg) no-repeat 50% 100%;
+    background: #f2cc47 url(/i/landing2-fourth.jpg) no-repeat 30px 100%;
 }
 
 .container_type_landing-fifth-step
 {
     height: 760px;
-    background: #89c13b url(/i/landing2-fifth.jpg) no-repeat;
+    background: #89c13b url(/i/landing2-fifth.jpg) no-repeat 30px 0;
 }
