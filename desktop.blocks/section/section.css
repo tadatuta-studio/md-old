@@ -44,22 +44,12 @@
 
 .section_step_first
 {
-    background: #86e2f1;
-    background: -webkit-linear-gradient(top, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
-    background:    -moz-linear-gradient(top, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
-    background:      -o-linear-gradient(top, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
-    background:     -ms-linear-gradient(top, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
-    background:   linear-gradient(to bottom, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
+    background: #fff url(/i/gradient1.jpg) repeat-x 0 100%;
 }
 
 .section_step_second
 {
-    background: #89c13b;
-    background: -webkit-linear-gradient(top, #89c13b 0%, #89c13b 50%, #b8da53 100%);
-    background:    -moz-linear-gradient(top, #89c13b 0%, #89c13b 50%, #b8da53 100%);
-    background:      -o-linear-gradient(top, #89c13b 0%, #89c13b 50%, #b8da53 100%);
-    background:     -ms-linear-gradient(top, #89c13b 0%, #89c13b 50%, #b8da53 100%);
-    background:   linear-gradient(to bottom, #89c13b 0%, #89c13b 50%, #b8da53 100%);
+    background: #89c13b url(/i/gradient2.jpg) repeat-x;
 }
 
 .section_step_third
@@ -70,17 +60,12 @@
 
 .section_step_fourth
 {
-    background: #f2cc47;
-    background: -webkit-linear-gradient(top, #f2cc47 0%, #f4d250 70%, #f9e66b 100%);
-    background:    -moz-linear-gradient(top, #f2cc47 0%, #f4d250 70%, #f9e66b 100%);
-    background:      -o-linear-gradient(top, #f2cc47 0%, #f4d250 70%, #f9e66b 100%);
-    background:     -ms-linear-gradient(top, #f2cc47 0%, #f4d250 70%, #f9e66b 100%);
-    background:   linear-gradient(to bottom, #f2cc47 0%, #f4d250 70%, #f9e66b 100%);
+    background: #f2cc47 url(/i/gradient4.jpg) repeat-x 0 100%;
 }
 
 .section_step_fifth
 {
-    background: #89c13b;
+    background: #89c13b url(/i/gradient5.jpg) repeat-x;
 }
 
 .section_step_seventh .block__h2
