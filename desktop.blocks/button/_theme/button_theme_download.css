@@ -7,11 +7,7 @@
     background: -ms-linear-gradient(top,  #6cae11 ,#609b0f);
     background: linear-gradient(to bottom,  #6cae11 ,#609b0f);
 
-    -moz-box-shadow: 0 2px 4px #cfcfcf;
-    -webkit-box-shadow: 0 2px 4px #cfcfcf;
-    -o-box-shadow: 0 2px 4px #cfcfcf;
-    -ms-box-shadow: 0 2px 4px #cfcfcf;
-    box-shadow: 0 2px 4px #cfcfcf;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
 
     border: 0;
 

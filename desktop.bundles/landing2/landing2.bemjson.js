@@ -42,7 +42,7 @@
                                         },
                                         {
                                             elem: 'p',
-                                            content: 'Install Magic Desktop to give your children a fantastic and safe experience while mastering a computer.'
+                                            content: 'Install Magic Desktop to give your children a&nbsp;fantastic and safe experience while mastering a computer.'
                                         },
                                         {
                                             block: 'button',
@@ -52,7 +52,7 @@
                                         },
                                         {
                                             block: 'button',
-                                            mods: { size: '240', theme: 'blue' },
+                                            mods: { size: 'm', theme: 'howitworks' },
                                             url: '/desktop.bundles/support/support.html',
                                             content: 'How it works'
                                         }
@@ -70,10 +70,10 @@
             content: {
                 block: 'container',
                 mods: { type: 'landing-first-step' },
+                mix: { block: 'shadow' },
                 content: [
                     {
                         block: 'row-fluid',
-                        mix: { block: 'shadow' },
                         content: [
                             {
                                 block: 'span8',
@@ -82,6 +82,7 @@
                                         block: 'block',
                                         content: {
                                             elem: 'h1',
+                                            elemMods: { star: 'red' },
                                             content: 'Once started, Magic Desktop creates the Environment.'
                                         }
                                     }
@@ -102,8 +103,11 @@
                         ]
                     },
                     {
-                        tag: 'img',
-                        attrs: { src: '/i/landing2-demo.png' }
+                        block: 'landing-demo',
+                        content: {
+                            tag: 'img',
+                            attrs: { src: '/i/landing2-demo.png' }
+                        }
                     }
                 ]
             }
@@ -157,7 +161,8 @@
                                     content: [
                                         {
                                             elem: 'h1',
-                                            content: 'There is lots of activities included into Magic Desktop.'
+                                            elemMods: { star: 'green' },
+                                            content: 'There is lots of activities included into Magic&nbsp;Desktop.'
                                         },
                                         {
                                             elem: 'p',
@@ -174,7 +179,73 @@
                             },
                             {
                                 block: 'span8',
-                                content: 'IMG'
+                                content: {
+                                    block: 'b-carousel',
+                                    mods: { auto: 'yes' },
+                                    content: [
+                                        {
+                                            elem: 'items',
+                                            content: [
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'first-block', state: 'active' },
+                                                    content: 'first item'
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'second-block' },
+                                                    content: 'second item'
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'third-block' },
+                                                    content: 'third item'
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'fourth-block' }
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'fifth-block' }
+                                                },
+                                                {
+                                                    elem: 'item',
+                                                    elemMods: { type: 'sixth-block' }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'switcher',
+                                            content: [
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'first-block', state: 'active' }
+                                                },
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'second-block' }
+                                                },
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'third-block' }
+                                                },
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'fourth-block' }
+                                                },
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'fifth-block' }
+                                                },
+                                                {
+                                                    elem: 'button',
+                                                    elemMods: { type: 'sixth-block' }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -233,9 +304,6 @@
                                 }
                             }
                         ]
-                    },
-                    {
-                        content: 'IMG'
                     }
                 ]
             }
@@ -295,6 +363,7 @@
                                     content: [
                                         {
                                             elem: 'h1',
+                                            elemMods: { star: 'yes' },
                                             content: 'It\'s not only friendly, but is also completely safe.'
                                         },
                                         {
@@ -304,10 +373,7 @@
                                     ]
                                 }
                             },
-                            {
-                                block: 'span8',
-                                content: 'IMG'
-                            }
+                            { block: 'span8' }
                         ]
                     }
                 ]
@@ -319,10 +385,10 @@
             content: {
                 block: 'container',
                 mods: { type: 'landing-seventh-step' },
+                mix: { block: 'shadow' },
                 content: [
                     {
                         block: 'row-fluid',
-                        mix: { block: 'shadow' },
                         content: [
                             {
                                 block: 'span8',
@@ -330,8 +396,8 @@
                                     {
                                         block: 'block',
                                         content: {
-                                            elem: 'h1',
-                                            content: 'Getting it work does not require any technical skills.'
+                                            elem: 'h2',
+                                            content: 'Getting it work does not require any<br>technical skills.'
                                         }
                                     }
                                 ]

@@ -5,8 +5,19 @@
     background: url(/i/landing2-first.jpg) no-repeat 30px 0
 }
 
+.container_type_landing .block__p
+{
+    margin-bottom: 60px;
+}
+
+.container_type_landing .button_theme_download
+{
+    margin-bottom: 30px;
+}
+
 .container_type_landing-first-step
 {
+    padding-top: 45px;
     padding-bottom: 86px;
     background: url(/i/landing2-first-bottom.jpg) no-repeat 29px 100%;
 }
@@ -18,6 +29,11 @@
     background: url(/i/landing2-second.jpg) no-repeat 30px 0;
 }
 
+.container_type_landing-third-step
+{
+    padding-top: 80px;
+}
+
 .container_type_landing-fourth-step
 {
     height: 568px;
@@ -26,7 +42,18 @@
 
 .container_type_landing-fifth-step
 {
-    height: 634px;
-    padding-top: 96px;
+    height: 652px;
+    padding-top: 88px;
     background: #89c13b url(/i/landing2-fifth.jpg) no-repeat 30px 0;
+}
+
+.container_type_landing-sixth-step
+{
+    height: 608px;
+    background: url(/i/landing2-sixth.jpg) no-repeat 30px 0;
+}
+
+.container_type_landing-seventh-step
+{
+    padding: 60px 0;
 }

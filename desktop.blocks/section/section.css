@@ -1,16 +1,54 @@
+.section .block__h1
+{
+    font-size: 45px;
+}
+
+.block__h1_star_yes,
+.block__h1_star_red,
+.block__h1_star_green
+{
+    padding-left: 75px;
+}
+
+.block__h1_star_red
+{
+    background: url('/i/landing2-star_red.png') no-repeat;
+}
+
+.block__h1_star_green
+{
+    background: url('/i/landing2-star_green.jpg') no-repeat;
+}
+
+.section .block__p
+{
+    font-size: 18px;
+
+    width: 360px;
+}
+
+.section .button_theme_download
+{
+    padding-right: 30px;
+}
+
+.section_step_sixth
+{
+    padding-top: 80px;
+}
+
 .section_step_first
 {
     background: #86e2f1;
-    background: -webkit-linear-gradient(top, #fff 0%, #71b8db 50%, #86e2f1 100%);
-    background:    -moz-linear-gradient(top, #fff 0%, #71b8db 50%, #86e2f1 100%);
-    background:      -o-linear-gradient(top, #fff 0%, #71b8db 50%, #86e2f1 100%);
-    background:     -ms-linear-gradient(top, #fff 0%, #71b8db 50%, #86e2f1 100%);
-    background:   linear-gradient(to bottom, #fff 0%, #71b8db 50%, #86e2f1 100%);
+    background: -webkit-linear-gradient(top, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
+    background:    -moz-linear-gradient(top, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
+    background:      -o-linear-gradient(top, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
+    background:     -ms-linear-gradient(top, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
+    background:   linear-gradient(to bottom, #fff 0%, #fff 194px, #71b8db 50%, #86e2f1 100%);
 }
 
 .section_step_second
 {
-    /*height: 758px;*/
     background: #89c13b;
     background: -webkit-linear-gradient(top, #89c13b 0%, #89c13b 50%, #b8da53 100%);
     background:    -moz-linear-gradient(top, #89c13b 0%, #89c13b 50%, #b8da53 100%);
@@ -39,8 +77,55 @@
     background: #89c13b;
 }
 
-.section_step_seventh .block__h1
+.section_step_seventh .block__h2
 {
     font-style: italic;
     color: #39c;
+    font-size: 35px;
+}
+
+.section_step_seventh .button
+{
+    margin-top: 11px;
+}
+
+.section .b-carousel
+{
+    background: url('/i/landing-activities.png') no-repeat;
+}
+
+.section .b-carousel__item
+{
+    width: 778px;
+    height: 417px;
+}
+
+.section .b-carousel__item_type_first-block
+{
+    background: url('/i/landing-activities_first.jpg');
+}
+
+.section .b-carousel__item_type_second-block
+{
+    background: url('/i/landing-activities_second.jpg');
+}
+
+.section .b-carousel__item_type_third-block
+{
+    background: url('/i/landing-activities_third.jpg');
+}
+
+.section .b-carousel__item_type_fourth-block
+{
+    background: url('/i/landing-activities_fourth.jpg');
+}
+
+.section .b-carousel__item_type_fifth-block
+{
+    background: url('/i/landing-activities_fifth.jpg');
+}
+
+.section .b-carousel__item_type_sixth-block
+{
+    background: url('/i/landing-activities_sixth.jpg');
 }
