@@ -24,20 +24,72 @@
 
 .container_type_landing-second-step
 {
+    position: relative;
+
     height: 658px;
     padding-top: 100px;
     background: url(/i/landing2-second.jpg) no-repeat 30px 0;
 }
 
+.container_type_landing-second-step:after
+{
+    position: absolute;
+    bottom: -16px;
+    left: 278px;
+
+    width: 82px;
+    height: 16px;
+
+    content: "";
+
+    background: url(/i/landing-second-part.jpg) no-repeat;
+}
+
+.container_type_landing-second-step .block__p
+{
+    color: #222;
+}
+
 .container_type_landing-third-step
 {
     padding-top: 80px;
+    height: 578px; /* TODO: remove */
+    background: url('/i/landing-activities-bg.png') no-repeat 438px 80px;
+}
+
+.container_type_landing-third-step .block .block__p
+{
+    width: 310px;
+    margin-left: 70px;
+    color: #222;
+}
+
+.container_type_landing-third-step .button
+{
+    margin-top: 140px;
+    margin-left: 70px;
 }
 
 .container_type_landing-fourth-step
 {
+    position: relative;
+
     height: 568px;
     background: url(/i/landing2-fourth.jpg) no-repeat 30px 100%;
+}
+
+.container_type_landing-fourth-step:after
+{
+    position: absolute;
+    top: -170px;
+    left: 278px;
+
+    width: 468px;
+    height: 182px;
+
+    content: "";
+
+    background: url(/i/landing-fourth-part.jpg) no-repeat;
 }
 
 .container_type_landing-fifth-step
@@ -51,6 +103,11 @@
 {
     height: 608px;
     background: url(/i/landing2-sixth.jpg) no-repeat 30px 0;
+}
+
+.container_type_landing-sixth-step .block__p
+{
+    margin-left: 70px;
 }
 
 .container_type_landing-seventh-step

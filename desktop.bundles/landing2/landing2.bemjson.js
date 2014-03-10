@@ -188,18 +188,15 @@
                                             content: [
                                                 {
                                                     elem: 'item',
-                                                    elemMods: { type: 'first-block', state: 'active' },
-                                                    content: 'first item'
+                                                    elemMods: { type: 'first-block', state: 'active' }
                                                 },
                                                 {
                                                     elem: 'item',
-                                                    elemMods: { type: 'second-block' },
-                                                    content: 'second item'
+                                                    elemMods: { type: 'second-block' }
                                                 },
                                                 {
                                                     elem: 'item',
-                                                    elemMods: { type: 'third-block' },
-                                                    content: 'third item'
+                                                    elemMods: { type: 'third-block' }
                                                 },
                                                 {
                                                     elem: 'item',
@@ -269,6 +266,7 @@
                                         block: 'block',
                                         content: {
                                             elem: 'h1',
+                                            elemMods: { star: 'red' },
                                             content: 'No Homework – No Play!<br>Second string...'
                                         }
                                     }
@@ -364,7 +362,7 @@
                                         {
                                             elem: 'h1',
                                             elemMods: { star: 'yes' },
-                                            content: 'It\'s not only friendly, but is also completely safe.'
+                                            content: 'It\'s not only friendly, but is also&nbsp;completely safe.'
                                         },
                                         {
                                             elem: 'p',
