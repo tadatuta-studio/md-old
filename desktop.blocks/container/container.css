@@ -81,7 +81,7 @@
 .container_type_landing-fourth-step:after
 {
     position: absolute;
-    top: -170px;
+    top: -240px;
     left: 278px;
 
     width: 468px;
@@ -97,6 +97,11 @@
     height: 652px;
     padding-top: 88px;
     background: url(/i/landing2-fifth.jpg) no-repeat 30px 0;
+}
+
+.container_type_landing-fifth-step .button
+{
+    margin-top: 330px;
 }
 
 .container_type_landing-sixth-step

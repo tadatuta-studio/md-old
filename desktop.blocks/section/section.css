@@ -1,6 +1,6 @@
 .section .container
 {
-    min-width: 1200px;
+    min-width: 1140px;
 }
 
 .section .block__h1
@@ -60,6 +60,7 @@
 
 .section_step_fourth
 {
+    padding-top: 70px;
     background: #f2cc47 url(/i/gradient4.jpg) repeat-x 0 100%;
 }
 

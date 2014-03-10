@@ -53,3 +53,13 @@ html
 {
     display: none;
 }
+
+.b-page_page_landing2
+{
+    min-width: 1200px;
+}
+
+.b-page_page_landing2 .block__p
+{
+    color: #222;
+}
