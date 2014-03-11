@@ -28,8 +28,7 @@ MAKE.decl('Arch', {
             'bem-controls': {
                 type: 'git',
                 url: 'git://github.com/bem/bem-controls.git',
-                // treeish: '5b16837bd8908d8f98b9386370183d01d99c8718'
-                treeish: 'dev'
+                treeish: 'f22c0a81116aecf557c4c36c7d5bca20d82cea1d'
             },
             'bl-carousel': {
                 type: 'git',
