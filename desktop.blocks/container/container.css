@@ -53,7 +53,7 @@
 .container_type_landing-third-step
 {
     padding-top: 80px;
-    height: 578px; /* TODO: remove */
+    height: 668px;
     background: url('/i/landing-activities-bg.png') no-repeat 438px 80px;
 }
 
@@ -74,7 +74,7 @@
 {
     position: relative;
 
-    height: 568px;
+    height: 592px;
     background: url(/i/landing2-fourth.jpg) no-repeat 30px 100%;
 }
 

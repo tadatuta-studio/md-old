@@ -8,8 +8,37 @@
     font-size: 45px;
 }
 
+.section .list
+{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.section .list__item
+{
+    position: relative;
+
+    padding-left: 16px;
+}
+
+.section .list__item:before
+{
+    position: absolute;
+    left: 0;
+    top: 10px;
+
+    content: "";
+
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+
+    background: #e25e3a;
+}
+
 .block__h1_star_yes,
 .block__h1_star_red,
+.block__h1_star_white,
 .block__h1_star_green
 {
     padding-left: 75px;
@@ -23,6 +52,11 @@
 .block__h1_star_green
 {
     background: url('/i/landing2-star_green.jpg') no-repeat;
+}
+
+.block__h1_star_white
+{
+    background: url('/i/landing2-star_white.png') no-repeat;
 }
 
 .section .block__p
@@ -115,4 +149,86 @@
 .section .b-carousel__item_type_sixth-block
 {
     background: url('/i/landing-activities_sixth.jpg');
+}
+
+.section .b-carousel__switcher
+{
+    position: static;
+    float: right;
+    margin-top: 24px;
+}
+
+.section .b-carousel__button
+{
+    position: relative;
+
+    font-size: 19px;
+    font-family: "Comic Sans MS", sans-serif;
+
+    width: 112px;
+    margin-right: 0;
+    padding-top: 120px;
+    background: url(/i/landing-activities-buttons.png) no-repeat;
+}
+
+.section .b-carousel__button_type_second-block
+{
+    padding-top: 140px;
+
+    background-position: -112px 0;
+}
+
+.section .b-carousel__button_type_third-block
+{
+    padding-top: 112px;
+
+    background-position: -224px 0;
+}
+
+.section .b-carousel__button_type_fourth-block
+{
+    padding-top: 140px;
+
+    background-position: -343px 0;
+}
+
+.section .b-carousel__button_type_fifth-block
+{
+    padding-top: 112px;
+
+    background-position: -457px 0;
+}
+
+.section .b-carousel__button_type_sixth-block
+{
+    padding-top: 140px;
+
+    background-position: -569px 0;
+}
+
+.section .b-carousel__button:before
+{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+
+    width: 19px;
+    height: 13px;
+    margin-left: -9px;
+
+    display: none;
+    background: url(/i/landing-activities-select.png) no-repeat;
+    content: "";
+}
+
+.section .b-carousel__button_state_active:before
+{
+    display: block;
+}
+
+.section .b-carousel__button_type_second-block:before,
+.section .b-carousel__button_type_fourth-block:before,
+.section .b-carousel__button_type_sixth-block:before
+{
+    top: 10px;
 }

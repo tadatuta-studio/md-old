@@ -221,27 +221,33 @@
                                                     content: [
                                                         {
                                                             elem: 'button',
-                                                            elemMods: { type: 'first-block', state: 'active' }
+                                                            elemMods: { type: 'first-block', state: 'active' },
+                                                            content: 'Create'
                                                         },
                                                         {
                                                             elem: 'button',
-                                                            elemMods: { type: 'second-block' }
+                                                            elemMods: { type: 'second-block' },
+                                                            content: 'Play'
                                                         },
                                                         {
                                                             elem: 'button',
-                                                            elemMods: { type: 'third-block' }
+                                                            elemMods: { type: 'third-block' },
+                                                            content: 'Draw'
                                                         },
                                                         {
                                                             elem: 'button',
-                                                            elemMods: { type: 'fourth-block' }
+                                                            elemMods: { type: 'fourth-block' },
+                                                            content: 'Communicate'
                                                         },
                                                         {
                                                             elem: 'button',
-                                                            elemMods: { type: 'fifth-block' }
+                                                            elemMods: { type: 'fifth-block' },
+                                                            content: 'Browse'
                                                         },
                                                         {
                                                             elem: 'button',
-                                                            elemMods: { type: 'sixth-block' }
+                                                            elemMods: { type: 'sixth-block' },
+                                                            content: 'Have fun'
                                                         }
                                                     ]
                                                 }
@@ -270,7 +276,7 @@
                                                 block: 'block',
                                                 content: {
                                                     elem: 'h1',
-                                                    elemMods: { star: 'red' },
+                                                    elemMods: { star: 'white' },
                                                     content: 'No Homework – No Play!<br>Second string...'
                                                 }
                                             }
