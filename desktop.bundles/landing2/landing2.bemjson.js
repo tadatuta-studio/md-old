@@ -53,7 +53,6 @@
                                         {
                                             block: 'button',
                                             mods: { size: 'm', theme: 'howitworks' },
-                                            url: '#landing-steps',
                                             content: 'How it works'
                                         }
                                     ]

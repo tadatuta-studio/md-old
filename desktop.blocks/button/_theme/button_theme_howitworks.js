@@ -3,10 +3,17 @@ BEM.DOM.decl({ block: 'button', modName: 'theme', modVal: 'howitworks' }, {
         js: {
             inited: function() {
                 this.on('click', function() {
-                    this
-                        .findBlockOutside('b-page')
-                        .findBlockInside('landing-steps')
-                        .domElem.show();
+                    var landingSteps = this
+                            .findBlockOutside('b-page')
+                            .findBlockInside('landing-steps')
+                            .domElem;
+
+                    landingSteps.show();
+
+                    $('html, body').animate({
+                        scrollTop: $(landingSteps).offset().top
+                    }, 500);
+
                 });
             }
         }
