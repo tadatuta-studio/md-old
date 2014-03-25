@@ -1,9 +1,7 @@
 .landing-demo
 {
     position: relative;
-    box-sizing: border-box;
     margin: 42px 0 0;
-    padding: 0 0 34px;
     width: 1200px;
     height: 670px;
 }
