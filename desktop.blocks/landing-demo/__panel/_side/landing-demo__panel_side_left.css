@@ -1,0 +1,48 @@
+.landing-demo__panel_side_left
+{
+    position: absolute;
+    top: 0;
+    bottom: 34px;
+    left: 0;
+    box-sizing: border-box;
+    padding: 0 0 86px;
+    width: 190px;
+    background: url(landing-demo__panel_side_left.png) 0 0 no-repeat;
+    background-color: #093d00;
+    color: #cdd8cc;
+    line-height: 43px;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
+.landing-demo__panel_side_left.landing-demo__panel_hidden_yes
+{
+    width: 36px;
+    background-image: none;
+}
+
+.landing-demo__panel_side_left.landing-demo__panel_hidden_yes .landing-demo__btn_action_programs
+{
+    display: none;
+}
+
+.landing-demo__panel_side_left .landing-demo__btn_action_choose,
+.landing-demo__panel_side_left .landing-demo__btn_action_toggle
+{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.landing-demo__panel_side_left .landing-demo__btn_action_choose
+{
+    bottom: 43px;
+}
+
+.landing-demo__panel_side_left .landing-demo__btn_action_toggle
+{
+    bottom: 0;
+}

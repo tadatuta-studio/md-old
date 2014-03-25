@@ -1,0 +1,31 @@
+.landing-demo__panel_side_bottom
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 32px;
+    border-top: 2px solid #334e34;
+    background-color: #1c301d;
+    color: #fff;
+    line-height: 32px;
+}
+
+.landing-demo__panel_side_bottom .landing-demo__btn_action_parent-control
+{
+    margin: auto;
+}
+
+.landing-demo__panel_side_bottom .landing-demo__btn_action_start,
+.landing-demo__panel_side_bottom .landing-demo__tray
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.landing-demo__panel_side_bottom .landing-demo__tray
+{
+    right: 0;
+    left: auto;
+}

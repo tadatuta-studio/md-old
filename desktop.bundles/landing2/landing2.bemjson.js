@@ -107,10 +107,126 @@
                             },
                             {
                                 block: 'landing-demo',
-                                content: {
-                                    tag: 'img',
-                                    attrs: { src: '/i/landing2-demo.png' }
-                                }
+                                mods: {
+                                    view: 'windows'
+                                },
+                                content: [
+                                    {
+                                        elem: 'preload-img',
+                                        tag: 'img',
+                                        attrs: {
+                                            src: '/desktop.blocks/landing-demo/landing-demo.jpg'
+                                        }
+                                    },
+                                    {
+                                        elem: 'preload-img',
+                                        tag: 'img',
+                                        attrs: {
+                                            src: '/desktop.blocks/landing-demo/landing-demo-win.jpg'
+                                        }
+                                    },
+                                    {
+                                        elem: 'panel',
+                                        elemMods: {
+                                            side: 'left'
+                                        },
+                                        content: [
+                                            {
+                                                elem: 'btn',
+                                                elemMods: {
+                                                    action: 'programs'
+                                                }
+                                            },
+                                            {
+                                                elem: 'btn',
+                                                elemMods: {
+                                                    action: 'choose'
+                                                }
+                                            },
+                                            {
+                                                elem: 'btn',
+                                                elemMods: {
+                                                    action: 'toggle'
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        elem: 'panel',
+                                        elemMods: {
+                                            side: 'bottom'
+                                        },
+                                        content: [
+                                            {
+                                                elem: 'btn',
+                                                elemMods: {
+                                                    action: 'start'
+                                                }
+                                            },
+                                            {
+                                                elem: 'btn',
+                                                elemMods: {
+                                                    action: 'parent-control'
+                                                }
+                                            },
+                                            {
+                                                elem: 'tray'
+                                            }
+                                        ]
+                                    },
+
+                                    {
+                                        elem: 'popup',
+                                        elemMods: {
+                                            type: 'parent-control',
+                                            hidden: 'yes'
+                                        }
+                                    },
+
+                                    {
+                                        elem: 'popup',
+                                        elemMods: {
+                                            type: 'personalization',
+                                            hidden: 'yes'
+                                        }
+                                    },
+
+                                    {
+                                        elem: 'popup',
+                                        elemMods: {
+                                            type: 'start',
+                                            hidden: 'yes'
+                                        },
+                                        content: {
+                                            elem: 'btn',
+                                            elemMods: {
+                                                action: 'personalization'
+                                            }
+                                        }
+                                    },
+
+                                    {
+                                        elem: 'btn',
+                                        elemMods: {
+                                            action: 'bonus'
+                                        }
+                                    },
+                                    {
+                                        elem: 'popup',
+                                        elemMods: {
+                                            type: 'bonus',
+                                            hidden: 'yes'
+                                        }
+                                    },
+
+                                    {
+                                        elem: 'popup',
+                                        elemMods: {
+                                            type: 'programs',
+                                            hidden: 'yes'
+                                        }
+                                    }
+                                ]
                             }
                         ]
                     }

@@ -1,0 +1,8 @@
+.landing-demo__preload-img
+{
+    position: absolute;
+    z-index: -10;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}

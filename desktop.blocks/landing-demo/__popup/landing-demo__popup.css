@@ -1,0 +1,16 @@
+.landing-demo__popup
+{
+    position: absolute;
+    -webkit-transition: opacity .25s ease-out;
+    -moz-transition: opacity .25s ease-out;
+    -o-transition: opacity .25s ease-out;
+    transition: opacity .25s ease-out;
+}
+
+.landing-demo__popup.landing-demo__popup_hidden_yes
+{
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}

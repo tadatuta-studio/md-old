@@ -1,4 +1,51 @@
 .landing-demo
 {
-    margin-top: 42px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 42px 0 0;
+    padding: 0 0 34px;
+    width: 1200px;
+    height: 670px;
+}
+
+.landing-demo_view_magic-desktop
+{
+    background: #fff url(landing-demo.jpg) 0 0 no-repeat;
+    cursor: url(landing-demo.cur), default;
+}
+
+.landing-demo_view_windows
+{
+    background: #fff url(landing-demo-win.jpg) 0 0 no-repeat;
+}
+
+.landing-demo:before
+{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+    z-index: 1;
+    background: #fff url(landing-demo-win.jpg) 0 0 no-repeat;
+    content: '';
+    opacity: 0;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+}
+
+.landing-demo_view_windows:before
+{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+}
+
+.landing-demo_view_windows .landing-demo__btn
+{
+    outline: none;
 }
