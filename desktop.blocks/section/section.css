@@ -66,9 +66,10 @@
     width: 360px;
 }
 
-.section .button_theme_download
+.section .button_theme_download,
+.section .button_theme_howitworks
 {
-    padding-right: 30px;
+    width: 310px;
 }
 
 .section_step_sixth
