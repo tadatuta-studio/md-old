@@ -126,6 +126,9 @@
                                         }
                                     },
                                     {
+                                        elem: 'mask'
+                                    },
+                                    {
                                         elem: 'panel',
                                         elemMods: {
                                             side: 'left'
