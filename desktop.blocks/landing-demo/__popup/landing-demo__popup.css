@@ -14,3 +14,8 @@
     height: 0;
     opacity: 0;
 }
+
+.landing-demo__popup_focused_yes
+{
+    z-index: 1;
+}

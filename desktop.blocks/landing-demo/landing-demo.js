@@ -61,16 +61,23 @@ BEM.DOM.decl('landing-demo', {
 
                     if ( relativeTarget ) {
                         if ( relativeTargetName === 'personalization' ) {
-                            this.setMod(relativeTarget, 'hidden', '');
+                            this.setMod(relativeTarget, 'hidden', '')
                         } else {
                             e.preventDefault();
                             this.toggleMod(relativeTarget, 'hidden', 'yes');
                         }
+
+                        this.delMod(this.findElem('popup', 'focused', 'yes'), 'focused');
+
+                        if ( !this.hasMod(relativeTarget, 'hidden') ) this.setMod(relativeTarget, 'focused', 'yes');
                     }
                 });
 
                 this.bindTo(this.elem('popup'), 'click', function(e) {
-                    this.toggleMod(this.elem('popup', 'type', this.getMod($(e.currentTarget), 'type')), 'hidden', 'yes');
+                    var popup = this.elem('popup', 'type', this.getMod($(e.currentTarget), 'type'));
+
+                    this.toggleMod(popup, 'hidden', 'yes');
+                    this.hasMod(popup, 'hidden') && this.delMod('focused', 'yes');
                 });
 
                 this.bindTo(this.elem('btn', 'action', 'toggle'), 'click', function() {
