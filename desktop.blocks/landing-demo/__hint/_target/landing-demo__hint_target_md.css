@@ -1,0 +1,9 @@
+.landing-demo__hint_target_md
+{
+    top: 43px;
+    left: 177px;
+    z-index: 1;
+    width: 321px;
+    height: 230px;
+    background-image: url(landing-demo__hint_target_md.png);
+}

@@ -1,0 +1,10 @@
+.landing-demo__hint
+{
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.landing-demo__hint_hidden_yes
+{
+    display: none;
+}

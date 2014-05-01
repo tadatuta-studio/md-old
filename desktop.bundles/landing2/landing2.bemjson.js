@@ -125,9 +125,11 @@
                                             src: '/desktop.blocks/landing-demo/landing-demo-win.jpg'
                                         }
                                     },
+
                                     {
                                         elem: 'mask'
                                     },
+
                                     {
                                         elem: 'panel',
                                         elemMods: {
@@ -179,13 +181,32 @@
                                     },
 
                                     {
+                                        elem: 'hint',
+                                        elemMods: {
+                                            target: 'windows',
+                                            hidden: 'yes'
+                                        }
+                                    },
+                                    {
+                                        elem: 'hint',
+                                        elemMods: {
+                                            target: 'md'
+                                        }
+                                    },
+
+                                    {
                                         elem: 'popup',
                                         elemMods: {
                                             type: 'parent-control',
                                             hidden: 'yes'
+                                        },
+                                        content : {
+                                            elem : 'btn',
+                                            elemMods : {
+                                                action : 'exit-md'
+                                            }
                                         }
                                     },
-
                                     {
                                         elem: 'popup',
                                         elemMods: {
@@ -193,7 +214,6 @@
                                             hidden: 'yes'
                                         }
                                     },
-
                                     {
                                         elem: 'popup',
                                         elemMods: {
@@ -221,7 +241,6 @@
                                             hidden: 'yes'
                                         }
                                     },
-
                                     {
                                         elem: 'popup',
                                         elemMods: {

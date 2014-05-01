@@ -6,3 +6,8 @@
     width: 230px;
     height: 32px;
 }
+
+.landing-demo__btn_action_bonus .landing-demo__btn-view
+{
+    outline: none;
+}

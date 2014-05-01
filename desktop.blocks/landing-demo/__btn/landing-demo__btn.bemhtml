@@ -1,0 +1,4 @@
+block landing-demo, elem btn, content: [
+    { elem : 'btn-view' },
+    { elem : 'hotspot' }
+]
