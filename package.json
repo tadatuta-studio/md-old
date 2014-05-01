@@ -4,7 +4,7 @@
   "description": "Minimal configs and folders to start BEM project ================================================",
   "main": "index.js",
   "dependencies": {
-    "bem": "~0.7.9"
+    "bem": "~0.8.1"
   },
   "devDependencies": {},
   "scripts": {
