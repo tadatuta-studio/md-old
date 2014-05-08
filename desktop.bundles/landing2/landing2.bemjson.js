@@ -127,7 +127,10 @@
                                     },
 
                                     {
-                                        elem: 'mask'
+                                        elem: 'mask',
+                                        elemMods: {
+                                            view: 'windows'
+                                        }
                                     },
 
                                     {

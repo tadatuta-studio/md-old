@@ -4,24 +4,18 @@
     margin: 42px 0 0;
     width: 1200px;
     height: 670px;
-    background: #fff url(landing-demo.jpg) 0 0 no-repeat;
+    background: #fff 0 0 no-repeat;
 }
 
 .landing-demo_view_magic-desktop
 {
+    background-image: url(__mask/_view/landing-demo__mask_view_magic-desktop.jpg);
     cursor: url(landing-demo.cur), default;
 }
 
-.landing-demo__mask
+.landing-demo_view_windows
 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    background: #fff url(landing-demo-win.jpg) 0 0 no-repeat;
-    content: '';
+    background-image: url(__mask/_view/landing-demo__mask_view_magic-desktop.jpg);
 }
 
 .landing-demo_view_windows .landing-demo__btn
