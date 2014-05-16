@@ -115,14 +115,14 @@
                                         elem: 'preload-img',
                                         tag: 'img',
                                         attrs: {
-                                            src: '/desktop.blocks/landing-demo/__mask/_view/landing-demo__mask_view_magic-desktop.jpg'
+                                            src: '/i/landing-demo__mask_view_magic-desktop.jpg'
                                         }
                                     },
                                     {
                                         elem: 'preload-img',
                                         tag: 'img',
                                         attrs: {
-                                            src: '/desktop.blocks/landing-demo/__mask/_view/landing-demo__mask_view_windows.jpg'
+                                            src: '/i/landing-demo__mask_view_windows.jpg'
                                         }
                                     },
 

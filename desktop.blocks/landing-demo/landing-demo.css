@@ -9,13 +9,13 @@
 
 .landing-demo_view_magic-desktop
 {
-    background-image: url(__mask/_view/landing-demo__mask_view_magic-desktop.jpg);
+    background-image: url(/i/landing-demo__mask_view_magic-desktop.jpg);
     cursor: url(landing-demo.cur), default;
 }
 
 .landing-demo_view_windows
 {
-    background-image: url(__mask/_view/landing-demo__mask_view_magic-desktop.jpg);
+    background-image: url(/i/landing-demo__mask_view_magic-desktop.jpg);
 }
 
 .landing-demo_view_windows .landing-demo__btn
