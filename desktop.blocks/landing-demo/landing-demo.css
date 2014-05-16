@@ -10,7 +10,7 @@
 .landing-demo_view_magic-desktop
 {
     background-image: url(/i/landing-demo__mask_view_magic-desktop.jpg);
-    cursor: url(landing-demo.cur), default;
+    cursor: url(/i/landing-demo.cur), default;
 }
 
 .landing-demo_view_windows
