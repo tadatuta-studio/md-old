@@ -19,15 +19,15 @@
 {
     padding-top: 45px;
     padding-bottom: 86px;
-    background: url(/i/landing2-first-bottom.jpg) no-repeat 29px 100%;
+    background: url(/i/landing2-first-bottom.jpg) no-repeat 13px 100%;
 }
 
 .container_type_landing-second-step
 {
     position: relative;
 
-    height: 658px;
-    padding-top: 100px;
+    height: 663px;
+    padding-top: 95px;
     background: url(/i/landing2-second.jpg) no-repeat 30px 0;
 }
 
@@ -52,6 +52,7 @@
 
 .container_type_landing-third-step
 {
+    position: relative;
     padding-top: 80px;
     height: 668px;
     background: url('/i/landing-activities-bg.png') no-repeat 438px 80px;
@@ -66,8 +67,9 @@
 
 .container_type_landing-third-step .button
 {
-    margin-top: 140px;
-    margin-left: 70px;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
 }
 
 .container_type_landing-fourth-step
@@ -94,6 +96,7 @@
 
 .container_type_landing-fifth-step
 {
+    position: relative;
     height: 652px;
     padding-top: 88px;
     background: url(/i/landing2-fifth.jpg) no-repeat 30px 0;
@@ -101,12 +104,15 @@
 
 .container_type_landing-fifth-step .button
 {
-    margin-top: 330px;
+    position: absolute;
+    bottom: 75px;
+    right: 60px;
 }
 
 .container_type_landing-sixth-step
 {
-    height: 608px;
+    padding-top: 10px;
+    height: 598px;
     background: url(/i/landing2-sixth.jpg) no-repeat 30px 0;
 }
 
