@@ -76,22 +76,22 @@ block footer, mod page index {
                                     elem: 'item',
                                     mods: { type: 'disney' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'hp' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'samsung' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'acer' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'asus' }
@@ -105,22 +105,22 @@ block footer, mod page index {
                                     elem: 'item',
                                     mods: { type: 'intel' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'dixons' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'milkshake' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'pb' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'pc-worlds' }
@@ -134,22 +134,22 @@ block footer, mod page index {
                                     elem: 'item',
                                     mods: { type: 'telenor' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'telecom' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'uol' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'advent' }
                                 },
-                                ' ',
+                                '&nbsp;',
                                 {
                                     elem: 'item',
                                     mods: { type: 'five' }
