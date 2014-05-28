@@ -52,6 +52,7 @@
                                         },
                                         {
                                             block: 'button',
+                                            url: '#',
                                             mods: { size: 'm', theme: 'howitworks' },
                                             content: 'How it works'
                                         }
