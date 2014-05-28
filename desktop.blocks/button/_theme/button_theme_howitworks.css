@@ -1,6 +1,6 @@
 .button_theme_howitworks
 {
-    background: #6cae11;
+    background: #3ea6da;
     background: -webkit-linear-gradient(top, #3ea6da, #39c);
     background:    -moz-linear-gradient(top, #3ea6da, #39c);
     background:      -o-linear-gradient(top, #3ea6da, #39c);
@@ -22,7 +22,7 @@
 
 .button_theme_howitworks.button_hovered_yes
 {
-    background: #6ba51b;
+    background: #3ea6da;
     background: -webkit-linear-gradient(top, #44b8f2, #39c);
     background:    -moz-linear-gradient(top, #44b8f2, #39c);
     background:      -o-linear-gradient(top, #44b8f2, #39c);
