@@ -1,0 +1,14 @@
+.landing-demo-wrapper
+{
+    position: relative;
+    margin: 42px -30px 0;
+    height: 670px;
+}
+
+.landing-demo-wrapper .landing-demo
+{
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
