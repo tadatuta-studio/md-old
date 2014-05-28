@@ -107,152 +107,155 @@
                                 ]
                             },
                             {
-                                block: 'landing-demo',
-                                mods: {
-                                    view: 'windows'
-                                },
-                                content: [
-                                    {
-                                        elem: 'preload-img',
-                                        tag: 'img',
-                                        attrs: {
-                                            src: '/i/landing-demo__mask_view_magic-desktop.jpg'
-                                        }
+                                block: 'landing-demo-wrapper',
+                                content: {
+                                    block: 'landing-demo',
+                                    mods: {
+                                        view: 'windows'
                                     },
-                                    {
-                                        elem: 'preload-img',
-                                        tag: 'img',
-                                        attrs: {
-                                            src: '/i/landing-demo__mask_view_windows.jpg'
-                                        }
-                                    },
-
-                                    {
-                                        elem: 'mask',
-                                        elemMods: {
-                                            view: 'windows'
-                                        }
-                                    },
-
-                                    {
-                                        elem: 'panel',
-                                        elemMods: {
-                                            side: 'left'
+                                    content: [
+                                        {
+                                            elem: 'preload-img',
+                                            tag: 'img',
+                                            attrs: {
+                                                src: '/i/landing-demo__mask_view_magic-desktop.jpg'
+                                            }
                                         },
-                                        content: [
-                                            {
-                                                elem: 'btn',
-                                                elemMods: {
-                                                    action: 'programs'
-                                                }
+                                        {
+                                            elem: 'preload-img',
+                                            tag: 'img',
+                                            attrs: {
+                                                src: '/i/landing-demo__mask_view_windows.jpg'
+                                            }
+                                        },
+
+                                        {
+                                            elem: 'mask',
+                                            elemMods: {
+                                                view: 'windows'
+                                            }
+                                        },
+
+                                        {
+                                            elem: 'panel',
+                                            elemMods: {
+                                                side: 'left'
                                             },
-                                            {
-                                                elem: 'btn',
-                                                elemMods: {
-                                                    action: 'choose'
+                                            content: [
+                                                {
+                                                    elem: 'btn',
+                                                    elemMods: {
+                                                        action: 'programs'
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'btn',
+                                                    elemMods: {
+                                                        action: 'choose'
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'btn',
+                                                    elemMods: {
+                                                        action: 'toggle'
+                                                    }
                                                 }
+                                            ]
+                                        },
+                                        {
+                                            elem: 'panel',
+                                            elemMods: {
+                                                side: 'bottom'
                                             },
-                                            {
-                                                elem: 'btn',
-                                                elemMods: {
-                                                    action: 'toggle'
+                                            content: [
+                                                {
+                                                    elem: 'btn',
+                                                    elemMods: {
+                                                        action: 'start'
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'btn',
+                                                    elemMods: {
+                                                        action: 'parent-control'
+                                                    }
+                                                },
+                                                {
+                                                    elem: 'tray'
+                                                }
+                                            ]
+                                        },
+
+                                        {
+                                            elem: 'hint',
+                                            elemMods: {
+                                                target: 'windows',
+                                                hidden: 'yes'
+                                            }
+                                        },
+                                        {
+                                            elem: 'hint',
+                                            elemMods: {
+                                                target: 'md'
+                                            }
+                                        },
+
+                                        {
+                                            elem: 'popup',
+                                            elemMods: {
+                                                type: 'parent-control',
+                                                hidden: 'yes'
+                                            },
+                                            content : {
+                                                elem : 'btn',
+                                                elemMods : {
+                                                    action : 'exit-md'
                                                 }
                                             }
-                                        ]
-                                    },
-                                    {
-                                        elem: 'panel',
-                                        elemMods: {
-                                            side: 'bottom'
                                         },
-                                        content: [
-                                            {
+                                        {
+                                            elem: 'popup',
+                                            elemMods: {
+                                                type: 'personalization',
+                                                hidden: 'yes'
+                                            }
+                                        },
+                                        {
+                                            elem: 'popup',
+                                            elemMods: {
+                                                type: 'start',
+                                                hidden: 'yes'
+                                            },
+                                            content: {
                                                 elem: 'btn',
                                                 elemMods: {
-                                                    action: 'start'
+                                                    action: 'personalization'
                                                 }
-                                            },
-                                            {
-                                                elem: 'btn',
-                                                elemMods: {
-                                                    action: 'parent-control'
-                                                }
-                                            },
-                                            {
-                                                elem: 'tray'
                                             }
-                                        ]
-                                    },
-
-                                    {
-                                        elem: 'hint',
-                                        elemMods: {
-                                            target: 'windows',
-                                            hidden: 'yes'
-                                        }
-                                    },
-                                    {
-                                        elem: 'hint',
-                                        elemMods: {
-                                            target: 'md'
-                                        }
-                                    },
-
-                                    {
-                                        elem: 'popup',
-                                        elemMods: {
-                                            type: 'parent-control',
-                                            hidden: 'yes'
                                         },
-                                        content : {
-                                            elem : 'btn',
-                                            elemMods : {
-                                                action : 'exit-md'
-                                            }
-                                        }
-                                    },
-                                    {
-                                        elem: 'popup',
-                                        elemMods: {
-                                            type: 'personalization',
-                                            hidden: 'yes'
-                                        }
-                                    },
-                                    {
-                                        elem: 'popup',
-                                        elemMods: {
-                                            type: 'start',
-                                            hidden: 'yes'
-                                        },
-                                        content: {
+
+                                        {
                                             elem: 'btn',
                                             elemMods: {
-                                                action: 'personalization'
+                                                action: 'bonus'
+                                            }
+                                        },
+                                        {
+                                            elem: 'popup',
+                                            elemMods: {
+                                                type: 'bonus',
+                                                hidden: 'yes'
+                                            }
+                                        },
+                                        {
+                                            elem: 'popup',
+                                            elemMods: {
+                                                type: 'programs',
+                                                hidden: 'yes'
                                             }
                                         }
-                                    },
-
-                                    {
-                                        elem: 'btn',
-                                        elemMods: {
-                                            action: 'bonus'
-                                        }
-                                    },
-                                    {
-                                        elem: 'popup',
-                                        elemMods: {
-                                            type: 'bonus',
-                                            hidden: 'yes'
-                                        }
-                                    },
-                                    {
-                                        elem: 'popup',
-                                        elemMods: {
-                                            type: 'programs',
-                                            hidden: 'yes'
-                                        }
-                                    }
-                                ]
+                                    ]
+                                }
                             }
                         ]
                     }
