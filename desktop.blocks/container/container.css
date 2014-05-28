@@ -2,7 +2,7 @@
 {
     height: 530px;
     padding-top: 210px;
-    background: url(/i/landing2-first.jpg) no-repeat 30px 0
+    background: url(/i/landing2-first.jpg) no-repeat 65% 0
 }
 
 .container_type_landing .block__p
@@ -19,7 +19,7 @@
 {
     padding-top: 45px;
     padding-bottom: 86px;
-    background: url(/i/landing2-first-bottom.jpg) no-repeat 13px 100%;
+    background: url(/i/landing2-first-bottom.jpg) no-repeat 65% 100%;
 }
 
 .container_type_landing-second-step
@@ -28,7 +28,7 @@
 
     height: 663px;
     padding-top: 95px;
-    background: url(/i/landing2-second.jpg) no-repeat 30px 0;
+    background: url(/i/landing2-second.jpg) no-repeat 65% 0;
 }
 
 .container_type_landing-second-step:after
@@ -77,7 +77,7 @@
     position: relative;
 
     height: 592px;
-    background: url(/i/landing2-fourth.jpg) no-repeat 30px 100%;
+    background: url(/i/landing2-fourth.jpg) no-repeat 65% 100%;
 }
 
 .container_type_landing-fourth-step:after
@@ -99,7 +99,7 @@
     position: relative;
     height: 652px;
     padding-top: 88px;
-    background: url(/i/landing2-fifth.jpg) no-repeat 30px 0;
+    background: url(/i/landing2-fifth.jpg) no-repeat 65% 0;
 }
 
 .container_type_landing-fifth-step .button
