@@ -516,7 +516,7 @@
                                                 {
                                                     elem: 'h1',
                                                     elemMods: { star: 'yes' },
-                                                    content: 'It\'s not only friendly, but is also&nbsp;completely safe.'
+                                                    content: 'It\'s not only friendly, but is&nbsp;also&nbsp;completely safe.'
                                                 },
                                                 {
                                                     elem: 'p',
