@@ -34,7 +34,7 @@
     position: absolute;
     left: 0;
     width: 100%;
-    cursor: pointer;
+    cursor: url(/i/landing-demo_type_hand.cur), pointer;
 }
 
 .landing-demo__panel_side_left .landing-demo__btn_action_choose

@@ -3,7 +3,32 @@
     top: 43px;
     left: 177px;
     z-index: 1;
+    margin: 47px 0 0;
     width: 321px;
-    height: 230px;
+    height: 183px;
+    background: url(/i/landing-demo__hint_target_md.png) 0 100%;
+}
+
+.landing-demo__hint_target_md:before
+{
+    position: absolute;
+    top: -47px;
+    left: 0;
+    width: 100px;
+    height: 47px;
     background-image: url(/i/landing-demo__hint_target_md.png);
+    content: '';
+    -webkit-animation: blink 1.5s infinite;
+    animation: blink 1.5s infinite;
+}
+
+@-webkit-keyframes blink {
+    0%   { opacity: 0; }
+    50%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes blink {
+    0%   { opacity: 0; }
+    50%  { opacity: 1; }
+    100% { opacity: 0; }
 }

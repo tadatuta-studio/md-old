@@ -15,9 +15,15 @@
 .landing-demo_view_windows
 {
     background-image: url(/i/landing-demo__mask_view_magic-desktop.jpg);
+    cursor: url(/i/landing-demo_type_hand.cur), pointer;
 }
 
-.landing-demo_view_windows .landing-demo__btn
+.landing-demo_view_windows .landing-demo__btn-view
+{
+    outline-color: rgba(255, 204, 51, 0);
+}
+
+.landing-demo_view_windows .landing-demo__hotspot
 {
     display: none;
 }

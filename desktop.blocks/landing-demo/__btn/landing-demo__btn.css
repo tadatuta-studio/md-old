@@ -10,7 +10,11 @@
     right: 0;
     bottom: 0;
     left: 0;
-    outline: 2px solid #ffcc33;
+    outline: 2px solid rgba(255, 204, 51, 1);
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
 }
 
 .landing-demo__btn .landing-demo__hotspot
@@ -21,5 +25,5 @@
     bottom: 0;
     left: 0;
     z-index: 1;
-    cursor: pointer;
+    cursor: url(/i/landing-demo_type_hand.cur), pointer;
 }

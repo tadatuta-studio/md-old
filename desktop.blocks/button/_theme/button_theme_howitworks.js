@@ -8,12 +8,9 @@ BEM.DOM.decl({ block: 'button', modName: 'theme', modVal: 'howitworks' }, {
                             .findBlockInside('landing-steps')
                             .domElem;
 
-                    landingSteps.show();
-
                     $('html, body').animate({
                         scrollTop: $(landingSteps).offset().top
                     }, 500);
-
                 });
             }
         }

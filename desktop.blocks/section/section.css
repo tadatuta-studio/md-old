@@ -25,7 +25,7 @@
 {
     position: absolute;
     left: 0;
-    top: 10px;
+    top: 12px;
 
     content: "";
 
@@ -85,6 +85,7 @@
 .section_step_second
 {
     background: #89c13b url(/i/gradient2.jpg) repeat-x;
+    height: 758px;
 }
 
 .section_step_third

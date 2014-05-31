@@ -34,7 +34,7 @@ BEM.DOM.decl('landing-demo', {
                 });
                 // клик по попапам
                 this.bindTo(this.elem('popup'), 'click', function(e) {
-                    this.toggleMod($(e.currentTarget), 'hidden', 'yes');
+                    this.setMod($(e.currentTarget), 'hidden', 'yes');
                 });
                 // клик по хостпоту кнопки 'toggle' - показать/скрыть боковое меню
                 this.bindTo(this.findElem(this.elem('btn', 'action', 'toggle'), 'hotspot'), 'click', function() {
@@ -57,7 +57,6 @@ BEM.DOM.decl('landing-demo', {
 
                 // скрыть/показать соответствующие подсказки
                 this.delMod(this.elem('hint', 'target', 'md'), 'hidden');
-                this.delMod(this.elem('hint', 'target', 'windows'), 'hidden');
 
                 this.setMod(this.elem('mask'), modName, modVal);
                 this._transitionEffect(true);
@@ -76,8 +75,12 @@ BEM.DOM.decl('landing-demo', {
         popup: {
             hidden: function(elem, modName, modVal) {
                 // пеерместить фокус(влияет на z-index) на последний открытый попап
+                // закрыть предыдущие открытые попапы
                 if ( !modVal ) {
                     this.delMod(this.findElem('popup', 'focused', 'yes'), 'focused');
+                    this.setMod(this.findElem('popup'), 'hidden', 'yes');
+
+                    this.delMod(elem, 'hidden');
                     this.setMod(elem, 'focused', 'yes');
                 } else {
                     // удалять фокус с закрытого попапа
@@ -88,7 +91,7 @@ BEM.DOM.decl('landing-demo', {
         hint: {
             hidden: function(elem, modName, modVal) {
                 // плавное показывание подсказки для windows
-                if(this.getMod(elem, 'target') === 'md' && !modVal) elem.stop().css({ opacity: 0 }).animate({ opacity: 1 }, 750);
+                if(this.getMod(elem, 'target') === 'md' && !modVal) elem.stop().css({ opacity: 0 }).delay(300).animate({ opacity: 1 }, 750);
             }
         }
     },
