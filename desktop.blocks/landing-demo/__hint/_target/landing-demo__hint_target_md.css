@@ -32,3 +32,11 @@
     50%  { opacity: 1; }
     100% { opacity: 0; }
 }
+
+.landing-demo__hint_target_md .landing-demo__hint-text
+{
+    top: 5px;
+    right: 45px;
+    bottom: 20px;
+    left: 50px;
+}

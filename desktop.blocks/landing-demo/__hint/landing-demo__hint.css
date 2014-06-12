@@ -8,3 +8,31 @@
 {
     display: none;
 }
+
+.landing-demo__hint-text
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    white-space: nowrap;
+}
+
+.landing-demo__hint-text:before
+{
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    content: '';
+    vertical-align: middle;
+}
+
+.landing-demo__hint-text-inner
+{
+    display: inline-block;
+    width: 100%;
+    font: 20px/1.3 'Comic Sans MS';
+    color: #303030;
+    vertical-align: middle;
+    text-align: center;
+    white-space: normal;
+}

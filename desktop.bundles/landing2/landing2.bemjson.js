@@ -191,12 +191,26 @@
                                             elemMods: {
                                                 target: 'windows',
                                                 hidden: 'yes'
+                                            },
+                                            content : {
+                                                elem : 'hint-text',
+                                                content : {
+                                                    elem : 'hint-text-inner',
+                                                    content : 'Click&nbsp;on<br>yellow&nbsp;zones&nbsp;to<br>see more.'
+                                                }
                                             }
                                         },
                                         {
                                             elem: 'hint',
                                             elemMods: {
                                                 target: 'md'
+                                            },
+                                            content : {
+                                                elem : 'hint-text',
+                                                content : {
+                                                    elem : 'hint-text-inner',
+                                                    content : 'Click on<br>Magic&nbsp;Desktop icon<br>to&nbsp;"load"<br>the&nbsp;environment.'
+                                                }
                                             }
                                         },
 

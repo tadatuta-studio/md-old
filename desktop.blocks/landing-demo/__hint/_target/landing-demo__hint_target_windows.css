@@ -6,3 +6,11 @@
     height: 280px;
     background-image: url(/i/landing-demo__hint_target_windows.png);
 }
+
+.landing-demo__hint_target_windows .landing-demo__hint-text
+{
+    top: 70px;
+    right: 80px;
+    bottom: 60px;
+    left: 180px;
+}
