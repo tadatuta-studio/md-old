@@ -4,6 +4,8 @@
 
 // process.env.YENV = 'production';
 
+require('bem-tools-autoprefixer').extendMake(MAKE);
+
 MAKE.decl('Arch', {
 
     getCachePolicy: function() {
@@ -51,6 +53,7 @@ MAKE.decl('BundleNode', {
             'deps.js',
             'bemhtml',
             'js',
+            'roole',
             'css',
             'ie.css',
             'ie6.css',
@@ -59,6 +62,25 @@ MAKE.decl('BundleNode', {
             'ie9.css',
             'html'
         ];
+    },
+
+    'create-css-node' : function(tech, bundleNode, magicNode) {
+        var source = this.getBundlePath('roole');
+        if(this.ctx.arch.hasNode(source)) {
+            return this.createAutoprefixerNode(tech, this.ctx.arch.getNode(source), bundleNode, magicNode);
+        }
+    }
+
+});
+
+MAKE.decl('AutoprefixerNode', {
+
+    getPlatform : function() {
+        return this.output.split('.')[0];
+    },
+
+    getBrowsers : function() {
+        return ['last 2 versions'];
     }
 
 });
