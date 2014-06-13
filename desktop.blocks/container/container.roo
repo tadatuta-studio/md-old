@@ -78,7 +78,7 @@
     position: relative;
 
     height: 592px;
-    background: url(/i/landing2-fourth.jpg) no-repeat 65% 100%;
+    background: no-repeat 65% 100%;
 }
 
 .container_type_landing-fourth-step:after
@@ -100,7 +100,7 @@
     position: relative;
     padding-top: 88px;
     height: 652px;
-    background: url(/i/landing2-fifth.jpg) no-repeat 65% 0;
+    background: no-repeat 65% 0;
 }
 
 .container_type_landing-fifth-step .button
@@ -114,7 +114,19 @@
 {
     padding: 10px 0 0;
     height: 598px;
-    background: url(/i/landing2-sixth.jpg) no-repeat 50% 0;
+    background: no-repeat 50% 0;
+}
+
+@for $lang in $langs {
+    .$lang .container_type_landing-fourth-step {
+        background-image: url("/i/$lang/landing2-fourth.jpg");
+    }
+    .$lang .container_type_landing-fifth-step {
+        background-image: url("/i/$lang/landing2-fifth.jpg");
+    }
+    .$lang .container_type_landing-sixth-step {
+        background-image: url("/i/$lang/landing2-sixth.jpg");
+    }
 }
 
 .container_type_landing-sixth-step .block__p

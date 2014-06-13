@@ -11,6 +11,7 @@
         { elem: 'meta', attrs: { name: 'keywords', content: '' }}
     ],
     mods: { page: 'landing2' },
+    cls: 'en-US',
     content: [
         {
             block: 'container',

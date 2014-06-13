@@ -7,7 +7,7 @@
     box-sizing: border-box;
     padding: 0 0 86px;
     width: 190px;
-    background: url(/i/landing-demo__panel_side_left.png) 0 0 no-repeat;
+    background: 0 0 no-repeat;
     background-color: #093d00;
     color: #cdd8cc;
     line-height: 43px;
@@ -15,6 +15,12 @@
     -moz-transition: all .25s ease-out;
     -o-transition: all .25s ease-out;
     transition: all .25s ease-out;
+}
+
+@for $lang in $langs {
+    .$lang .landing-demo__panel_side_left {
+        background-image: url("/i/$lang/landing-demo__panel_side_left.png");
+    }
 }
 
 .landing-demo__panel_side_left.landing-demo__panel_hidden_yes

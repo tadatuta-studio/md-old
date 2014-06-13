@@ -1,0 +1,14 @@
+.landing-demo__popup_type_start
+{
+    bottom: 34px;
+    left: 0;
+    width: 802px;
+    height: 636px;
+    background: 0 0 no-repeat;
+}
+
+@for $lang in $langs {
+    .$lang .landing-demo__popup_type_start {
+        background-image: url("/i/$lang/landing-demo__popup_type_start.png");
+    }
+}

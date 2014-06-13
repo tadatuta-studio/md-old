@@ -1,0 +1,22 @@
+.landing-demo__btn_action_choose
+{
+    width: 85px;
+    height: 43px;
+}
+
+.landing-demo__btn_action_choose .landing-demo__btn-view
+{
+    outline: none;
+    background-repeat: no-repeat;
+}
+
+@for $lang in $langs {
+    .$lang .landing-demo__btn_action_choose .landing-demo__btn-view {
+        background-image: url("/i/$lang/landing-demo__btn_action_choose.png");
+    }
+}
+
+.landing-demo__btn_action_choose .landing-demo__hotspot
+{
+    cursor: url(/i/landing-demo.cur), default;
+}

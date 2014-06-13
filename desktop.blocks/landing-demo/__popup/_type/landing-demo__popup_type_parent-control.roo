@@ -1,0 +1,14 @@
+.landing-demo__popup_type_parent-control
+{
+    bottom: 34px;
+    left: 190px;
+    width: 816px;
+    height: 636px;
+    background: 0 0 no-repeat;
+}
+
+@for $lang in $langs {
+    .$lang .landing-demo__popup_type_parent-control {
+        background-image: url("/i/$lang/landing-demo__popup_type_parent-control.png");
+    }
+}

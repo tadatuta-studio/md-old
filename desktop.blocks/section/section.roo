@@ -124,34 +124,25 @@
     height: 417px;
 }
 
-.section .b-carousel__item_type_first-block
-{
-    background: url('/i/landing-activities_first.jpg');
-}
-
-.section .b-carousel__item_type_second-block
-{
-    background: url('/i/landing-activities_second.jpg');
-}
-
-.section .b-carousel__item_type_third-block
-{
-    background: url('/i/landing-activities_third.jpg');
-}
-
-.section .b-carousel__item_type_fourth-block
-{
-    background: url('/i/landing-activities_fourth.jpg');
-}
-
-.section .b-carousel__item_type_fifth-block
-{
-    background: url('/i/landing-activities_fifth.jpg');
-}
-
-.section .b-carousel__item_type_sixth-block
-{
-    background: url('/i/landing-activities_sixth.jpg');
+@for $lang in $langs {
+    .$lang .section .b-carousel__item_type_first-block {
+        background-image: url("/i/$lang/landing-activities_first.jpg");
+    }
+    .$lang .section .b-carousel__item_type_second-block {
+        background-image: url("/i/$lang/landing-activities_second.jpg");
+    }
+    .$lang .section .b-carousel__item_type_third-block {
+        background-image: url("/i/$lang/landing-activities_third.jpg");
+    }
+    .$lang .section .b-carousel__item_type_fourth-block {
+        background-image: url("/i/$lang/landing-activities_fourth.jpg");
+    }
+    .$lang .section .b-carousel__item_type_fifth-block {
+        background-image: url("/i/$lang/landing-activities_fifth.jpg");
+    }
+    .$lang .section .b-carousel__item_type_sixth-block {
+        background-image: url("/i/$lang/landing-activities_sixth.jpg");
+    }
 }
 
 .section .b-carousel__switcher

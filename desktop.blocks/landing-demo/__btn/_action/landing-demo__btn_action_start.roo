@@ -1,0 +1,16 @@
+.landing-demo__btn_action_start
+{
+    width: 84px;
+    height: 32px;
+}
+
+.landing-demo__btn_action_start .landing-demo__btn-view
+{
+    background-repeat: no-repeat;
+}
+
+@for $lang in $langs {
+    .$lang .landing-demo__btn_action_start .landing-demo__btn-view {
+        background-image: url("/i/$lang/landing-demo__btn_action_start.png");
+    }
+}
