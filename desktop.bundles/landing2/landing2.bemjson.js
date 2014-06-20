@@ -152,12 +152,6 @@
                                                 {
                                                     elem: 'btn',
                                                     elemMods: {
-                                                        action: 'choose'
-                                                    }
-                                                },
-                                                {
-                                                    elem: 'btn',
-                                                    elemMods: {
                                                         action: 'toggle'
                                                     }
                                                 }
@@ -180,9 +174,6 @@
                                                     elemMods: {
                                                         action: 'parent-control'
                                                     }
-                                                },
-                                                {
-                                                    elem: 'tray'
                                                 }
                                             ]
                                         },

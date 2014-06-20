@@ -4,11 +4,17 @@
     right: 0;
     bottom: 0;
     left: 0;
+    padding: 2px 0 0;
     height: 32px;
-    border-top: 2px solid #334e34;
-    background-color: #1c301d;
+    background: #1c301d no-repeat;
     color: #fff;
     line-height: 32px;
+}
+
+@for $lang in $langs {
+    .$lang .landing-demo__panel_side_bottom {
+        background-image: url("/i/$lang/landing-demo__panel_side_bottom.png");
+    }
 }
 
 .landing-demo__panel_side_bottom .landing-demo__btn_action_parent-control
@@ -20,7 +26,7 @@
 .landing-demo__panel_side_bottom .landing-demo__tray
 {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
 }
 

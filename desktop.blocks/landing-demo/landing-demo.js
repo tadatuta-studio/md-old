@@ -62,6 +62,9 @@ BEM.DOM.decl('landing-demo', {
                 this._transitionEffect(true);
             },
             'magic-desktop': function(modName, modVal) {
+                // развернуть бокову панель
+                this.delMod(this.elem('panel', 'side', 'left'), 'hidden');
+
                 // скрыть/показать соответствующие подсказки
                 this.setMod(this.elem('hint', 'target', 'md'), 'hidden', 'yes');
                 this.delMod(this.elem('hint', 'target', 'windows'), 'hidden');

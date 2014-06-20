@@ -5,7 +5,6 @@
     bottom: 34px;
     left: 0;
     box-sizing: border-box;
-    padding: 0 0 86px;
     width: 190px;
     background: 0 0 no-repeat;
     background-color: #093d00;
