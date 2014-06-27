@@ -11,3 +11,8 @@
 {
     min-height: 634px;
 }
+
+.form_type_contact .field-validation-error
+{
+    color: #e25e3a;
+}
