@@ -1,5 +1,5 @@
 .landing-demo__btn_action_start
 {
-    width: 84px;
+    width: 90px;
     height: 32px;
 }
