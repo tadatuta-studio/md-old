@@ -10,8 +10,8 @@
 
 .section .list
 {
-    font-size: 18px;
     margin-top: 10px;
+    font-size: 18px;
 }
 
 .section .list__item
@@ -24,16 +24,16 @@
 .section .list__item:before
 {
     position: absolute;
-    left: 0;
     top: 12px;
-
-    content: "";
+    left: 0;
 
     width: 5px;
+
     height: 5px;
     border-radius: 50%;
-
     background: #e25e3a;
+
+    content: "";
 }
 
 .block__h1_star_yes,
@@ -46,6 +46,7 @@
 
 .block__h1_star_red
 {
+    min-height: 52px;
     background: url('/i/landing2-star_red.png') no-repeat;
 }
 
@@ -56,14 +57,15 @@
 
 .block__h1_star_white
 {
+    min-height: 52px;
     background: url('/i/landing2-star_white.png') no-repeat;
 }
 
 .section .block__p
 {
-    font-size: 18px;
-
     width: 360px;
+
+    font-size: 18px;
 }
 
 .section .button_theme_download,
@@ -84,8 +86,8 @@
 
 .section_step_second
 {
-    background: #89c13b url(/i/gradient2.jpg) repeat-x;
     height: 758px;
+    background: #89c13b url(/i/gradient2.jpg) repeat-x;
 }
 
 .section_step_third
@@ -109,8 +111,8 @@
 {
     margin-left: 70px;
     color: #39c;
-    font-size: 35px;
     font-style: italic;
+    font-size: 35px;
 }
 
 .section_step_seventh .button
@@ -156,13 +158,13 @@
 {
     position: relative;
 
-    font-size: 19px;
-    font-family: "Comic Sans MS", sans-serif;
-
-    width: 112px;
     margin-right: 0;
     padding-top: 120px;
+
+    width: 112px;
     background: url(/i/landing-activities-buttons.png) no-repeat;
+    font-size: 19px;
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 .section .b-carousel__button_type_second-block
@@ -206,11 +208,11 @@
     top: -10px;
     left: 50%;
 
-    width: 19px;
-    height: 13px;
-    margin-left: -9px;
-
     display: none;
+    margin-left: -9px;
+    width: 19px;
+
+    height: 13px;
     background: url(/i/landing-activities-select.png) no-repeat;
     content: "";
 }
