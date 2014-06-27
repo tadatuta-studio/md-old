@@ -115,7 +115,7 @@
 
 .section_step_seventh .button
 {
-    margin-top: 11px;
+    margin-top: 16px;
 }
 
 .section .b-carousel__item
