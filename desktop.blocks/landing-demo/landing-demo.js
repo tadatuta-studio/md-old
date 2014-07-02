@@ -3,9 +3,9 @@ BEM.DOM.decl('landing-demo', {
         js: {
             inited: function() {
                 // клик в любом месте блока
-                this.bindTo('click', function() {
+                this.bindTo(this.elem('mask', 'view', 'windows'), 'click', function() {
                     // переход из windows в magic-desktop
-                    if(this.getMod('view') === 'windows') this.setMod('view', 'magic-desktop');
+                    this.setMod('view', 'magic-desktop');
                 });
                 // клик по активным областям
                 this.bindTo(this.elem('hotspot'), 'click', function(e) {
@@ -43,7 +43,6 @@ BEM.DOM.decl('landing-demo', {
                 // клик по хостпоту кнопки 'exit-md' - возврат в windows
                 this.bindTo(this.findElem(this.elem('btn', 'action', 'exit-md'), 'hotspot'), 'click', function() {
                     this.setMod('view', 'windows');
-                    return false;
                 });
             }
         },
