@@ -99,54 +99,53 @@ BEM.DOM.decl('landing-demo', {
     },
 
     _transitionEffect: function(isShowMode) {
-        (function(t) {
-            var config = {
-                    count: 8,
-                    effectDuration: 300,
-                    transitionDuration: 750
-                },
-                src = t.elem('mask').css({ backgroundImage: '' }).css('background-image').replace(/.*?url\((.+?)\).*/, '$1'),
-                itemWidth = t.elem('mask').width() / config.count,
-                itemHeight = t.elem('mask').height() / config.count,
-                delayKoef = (config.transitionDuration - config.effectDuration) / (config.count * 2 - 1),
-                items = $();
+        var t = this,
+            config = {
+                count: 8,
+                effectDuration: 300,
+                transitionDuration: 750
+            },
+            src = t.elem('mask').css({ backgroundImage: '' }).css('background-image').replace(/.*?url\((.+?)\).*/, '$1'),
+            itemWidth = t.elem('mask').width() / config.count,
+            itemHeight = t.elem('mask').height() / config.count,
+            delayKoef = (config.transitionDuration - config.effectDuration) / (config.count * 2 - 1),
+            items = $();
 
-            for ( var j = 0; j < config.count; j += 1 ) {
-                for ( var i = 0; i < config.count; i += 1 ) {
-                    var item = $('<div></div>');
+        for ( var j = 0; j < config.count; j += 1 ) {
+            for ( var i = 0; i < config.count; i += 1 ) {
+                var item = $('<div></div>');
 
-                    items = items.add(item);
+                items = items.add(item);
 
-                    item.css({
-                        background: 'url(' + src + ') ' + (-i * itemWidth) + 'px ' + (-j * itemHeight) + 'px no-repeat',
-                        position: 'absolute',
-                        left: i * itemWidth + 'px',
-                        top: j * itemHeight + 'px',
-                        width: itemWidth + 'px',
-                        height: itemHeight + 'px',
-                        opacity: !!isShowMode ? 0 : 1
-                    });
-                }
+                item.css({
+                    background: 'url(' + src + ') ' + (-i * itemWidth) + 'px ' + (-j * itemHeight) + 'px no-repeat',
+                    position: 'absolute',
+                    left: i * itemWidth + 'px',
+                    top: j * itemHeight + 'px',
+                    width: itemWidth + 'px',
+                    height: itemHeight + 'px',
+                    opacity: !!isShowMode ? 0 : 1
+                });
             }
+        }
 
-            t.elem('mask').append(items);
+        t.elem('mask').append(items);
 
-            // задержка на reflow
-            setTimeout(function() {
-                t.elem('mask').css({ background: 'none' }).show();
+        // задержка на reflow
+        setTimeout(function() {
+            t.elem('mask').css({ background: 'none' }).show();
 
-                items.each(function(index) {
-                    var col = index % config.count,
-                        row = (index -  col) / config.count;
+            items.each(function(index) {
+                var col = index % config.count,
+                    row = (index -  col) / config.count;
 
-                    $(this).delay((config.count - row + col) * delayKoef)
-                        .transition({ opacity: !!isShowMode ? 1 : 0 }, config.effectDuration);
-                });
+                $(this).delay((config.count - row + col) * delayKoef)
+                    .transitionDuration({ opacity: !!isShowMode ? 1 : 0 }, config.effectDuration);
+            });
 
-                t.elem('mask').delay(config.transitionDuration)[!!isShowMode ? 'show' : 'hide'](0, function() {
-                    t.elem('mask').css({ backgroundImage: '' }).html('');
-                });
-            }, 250);
-        }(this));
+            t.elem('mask').delay(config.transitionDuration)[!!isShowMode ? 'show' : 'hide'](0, function() {
+                t.elem('mask').css({ backgroundImage: '' }).html('');
+            });
+        }, 250);
     }
 });
