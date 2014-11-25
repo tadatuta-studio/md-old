@@ -1,0 +1,65 @@
+.snippet
+{
+    display: inline-block;
+    padding: 30px 0;
+    width: 100%;
+    vertical-align: top;
+    font-family: 'Segoe UI';
+}
+
+.snippet__info
+{
+    float: left;
+    width: 346px;
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.snippet__info b
+{
+    color: #222;
+    font-weight: normal;
+}
+
+.snippet__description
+{
+    position: relative;
+    float: left;
+    padding: 0 0 0 40px;
+    width: 340px;
+    color: #222;
+}
+
+.snippet__description:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, #d9d9d9 50%, rgba(0, 0, 0, 0) 100%) 0 0 rgba(0, 0, 0, 0);
+    content: '';
+}
+
+.snippet__title
+{
+    margin: 0 0 18px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.snippet__text
+{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.snippet__picture
+{
+    float: right;
+}
+
+.snippet__more
+{}

@@ -1,0 +1,43 @@
+.serp
+{
+    margin: 50px 0 0;
+}
+
+.serp > .snippet
+{
+    margin: 30px 0;
+}
+
+.serp > .snippet:after
+{
+    display: block;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, #d9d9d9 50%, rgba(0, 0, 0, 0) 100%) 0 0 rgba(0, 0, 0, 0);
+    content: '';
+}
+
+.serp__more
+{
+    margin: 30px auto;
+    width: 150px;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.serp__more:before
+{
+    display: inline-block;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #9c9fa8;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAMCAYAAABvEu28AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMVJREFUeNqMkjEKg0AQRadIGRAWrAQrL2FrlTaVra2tB8mBPIBgFQikSpVLBARhM0P+wjDsbvzwQHf+/7jrkveemJKZmQbvR2iQkSzJgmPu/qc3Ux8oqeH1yDpCq9aLqTIlFTxaswxa5mMGz/DJhhIzLcm2wdBFyh7YdvA4rNmSLpxR4MJsxrgyBVjNbEOGbJFwZXYTWIDWDi+lioQ+UmZLeptL/ZkhUzTEMrm7MkZKxpT/38WbVMmU854orxtzVs9JfQUYADdooaubbLFnAAAAAElFTkSuQmCC');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    content: '';
+    vertical-align: middle;
+}

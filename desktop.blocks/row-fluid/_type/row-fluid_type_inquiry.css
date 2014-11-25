@@ -1,0 +1,29 @@
+.row-fluid_type_inquiry
+{
+    overflow: hidden;
+}
+
+.row-fluid_type_inquiry > :first-child
+{
+    float: left;
+    width: 400px;
+}
+
+.row-fluid_type_inquiry > :last-child
+{
+    float: right;
+    margin-left: 40px;
+    width: 730px;
+}
+
+.row-fluid_type_inquiry > :first-child .button
+{
+    margin-top: 50px;
+    width: 300px;
+}
+
+.row-fluid_type_inquiry .unit__image
+{
+    margin-top: 0;
+    vertical-align: top;
+}
