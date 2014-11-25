@@ -1,16 +1,20 @@
 .serp
 {
-    margin: 50px 0 0;
+    margin: 26px 0 0;
 }
 
 .serp > .snippet
 {
-    margin: 30px 0;
+    position: relative;
+    margin: 20px 0;
 }
 
 .serp > .snippet:after
 {
-    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     height: 1px;
     background: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, #d9d9d9 50%, rgba(0, 0, 0, 0) 100%) 0 0 rgba(0, 0, 0, 0);
     content: '';
@@ -18,7 +22,7 @@
 
 .serp__more
 {
-    margin: 30px auto;
+    margin: 10px auto 0;
     width: 150px;
     color: #333;
     text-align: center;
@@ -40,4 +44,12 @@
     background-repeat: no-repeat;
     content: '';
     vertical-align: middle;
+}
+
+.serp__spinner
+{
+    margin: 10px auto 0;
+    width: 40px;
+    height: 40px;
+    background: url('serp.gif') no-repeat;
 }

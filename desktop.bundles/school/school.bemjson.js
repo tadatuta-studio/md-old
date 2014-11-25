@@ -65,26 +65,26 @@
                             ]
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            block: 'row-fluid',
+            mix: [{ block: 'shadow' }],
+            mods: { background: 'gradient' },
+            content: [
                 {
-                    block: 'row-fluid',
-                    mix: [{ block: 'shadow' }],
-                    mods: { background: 'gray' },
+                    elem: 'inner',
                     content: [
                         {
-                            elem: 'inner',
-                            content: [
-                                {
-                                    block : 'block',
-                                    content : {
-                                        elem : 'h1',
-                                        elemMods : { level : 'h1' },
-                                        content : 'These organizations are already benefiting <br>from using Magic Desktop:'
-                                    }
-                                },
-                                { block : 'serp' }
-                            ]
-                        }
+                            block : 'block',
+                            content : {
+                                elem : 'h1',
+                                elemMods : { level : 'h1' },
+                                content : 'These organizations are already benefiting <br>from using Magic Desktop:'
+                            }
+                        },
+                        { block : 'serp' }
                     ]
                 }
             ]

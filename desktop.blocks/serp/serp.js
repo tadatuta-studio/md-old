@@ -7,8 +7,13 @@ BEM.DOM.decl('serp', {
         },
 
         pending : function(modName, modVal) {
-            if(modVal) this.findElem('more').remove();
-            else this._addMoreBtn();
+            if(modVal) {
+                this.findElem('more').remove();
+                this._addSpinner();
+            } else {
+                this.findElem('spinner').remove();
+                this._addMoreBtn();
+            }
         }
     },
 
@@ -17,6 +22,13 @@ BEM.DOM.decl('serp', {
             block : 'serp',
             elem : 'more',
             content : 'More schools'
+        }));
+    },
+
+    _addSpinner : function() {
+        BEM.DOM.append(this.domElem, BEMHTML.apply({
+            block : 'serp',
+            elem : 'spinner'
         }));
     },
 

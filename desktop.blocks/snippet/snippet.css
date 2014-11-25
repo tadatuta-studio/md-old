@@ -1,20 +1,25 @@
 .snippet
 {
     display: inline-block;
-    padding: 30px 0;
+    padding: 30px 0 27px;
     width: 100%;
     vertical-align: top;
-    font-family: 'Segoe UI';
+    font-family: 'SegoeUI';
 }
 
 .snippet__info
 {
     float: left;
-    width: 346px;
+    width: 28.8%;
     color: #666;
     text-align: center;
     font-size: 14px;
     line-height: 18px;
+}
+
+.snippet__logo
+{
+    margin: 0 0 20px 42px;
 }
 
 .snippet__info b
@@ -27,8 +32,9 @@
 {
     position: relative;
     float: left;
-    padding: 0 0 0 40px;
-    width: 340px;
+    margin: -10px 0 0 1.2%;
+    padding: 0 0 0 3%;
+    width: 33.3%;
     color: #222;
 }
 
@@ -45,7 +51,7 @@
 
 .snippet__title
 {
-    margin: 0 0 18px;
+    margin: 0 0 16px;
     font-weight: bold;
     font-size: 26px;
 }
@@ -59,7 +65,6 @@
 .snippet__picture
 {
     float: right;
+    margin: -18px 0 0 3%;
+    max-width: 30%;
 }
-
-.snippet__more
-{}

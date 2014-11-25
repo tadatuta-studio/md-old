@@ -1,0 +1,22 @@
+.row-fluid_background_gradient
+{
+    position: relative;
+    padding: 35px 0 30px;
+}
+
+.row-fluid__inner
+{
+    position: relative;
+    z-index: 1;
+}
+
+.row-fluid_background_gradient:after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105px;
+    background: linear-gradient(to bottom, rgba(245, 245, 245, 1), rgba(245, 245, 245, 0) 100%);
+    content: '';
+}
