@@ -84,7 +84,15 @@
                                 content : 'These organizations are already benefiting <br>from using Magic Desktop:'
                             }
                         },
-                        { block : 'serp' }
+                        {
+                            block : 'serp',
+                            js : {
+                                autoLoadingPaddingBottom : 200,
+                                itemsPerPage : 5,
+                                maxScrollPageNumber : 3,
+                                source : '/desktop.blocks/serp/data.json'
+                            }
+                        }
                     ]
                 }
             ]
