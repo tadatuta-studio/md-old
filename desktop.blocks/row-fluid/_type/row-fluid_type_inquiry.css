@@ -1,6 +1,7 @@
 .row-fluid_type_inquiry
 {
     overflow: hidden;
+    margin-top: 43px;
     margin-bottom: 40px;
 }
 
@@ -13,14 +14,26 @@
 .row-fluid_type_inquiry > :last-child
 {
     float: right;
+    margin-right: 11px;
     margin-left: 3%;
     width: 60.8%;
+}
+
+.row-fluid_type_inquiry .block__h1
+{
+    line-height: 42px;
+}
+
+.row-fluid_type_inquiry .block__p
+{
+    margin-top: 16px;
+    line-height: 18px;
 }
 
 .row-fluid_type_inquiry > :first-child .button
 {
     display: block;
-    margin-top: 50px;
+    margin-top: 46px;
     max-width: 300px;
 }
 
