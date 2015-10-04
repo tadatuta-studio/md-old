@@ -60,6 +60,12 @@ html
     min-width: 1200px;
 }
 
+@media (max-width: 1200px) {
+    html {
+        zoom: .823;
+    }
+}
+
 .b-page_page_landing2 .block__p
 {
     color: #222;

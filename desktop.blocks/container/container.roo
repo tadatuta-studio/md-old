@@ -95,6 +95,11 @@
     content: "";
 }
 
+.container_type_landing-fourth-step .block__p
+{
+    margin-top: 8px;
+}
+
 .container_type_landing-fifth-step
 {
     position: relative;

@@ -3,7 +3,7 @@ BEM.DOM.decl('landing-demo', {
         js: {
             inited: function() {
                 // клик в любом месте блока
-                this.bindTo(this.elem('mask', 'view', 'windows'), 'click', function() {
+                this.bindTo(this.elem('mask', 'view', 'windows').add(this.elem('hint', 'target', 'md')), 'click', function() {
                     // переход из windows в magic-desktop
                     this.setMod('view', 'magic-desktop');
                 });

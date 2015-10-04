@@ -25,3 +25,16 @@ BEM.DOM.decl({ block: 'b-page', modName: 'page', modVal: 'landing' },
         }
     }
 });
+
+BEM.DOM.decl({ block: 'b-page', modName: 'page', modVal: 'landing2' },
+{
+    onSetMod: {
+        'js': function() {
+            var win = BEM.DOM.win,
+                winHeight = win.height(),
+                FOLD_LINE_Y = 915;
+
+            winHeight < FOLD_LINE_Y && win.scrollTop(FOLD_LINE_Y - winHeight);
+        }
+    }
+});
