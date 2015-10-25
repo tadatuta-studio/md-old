@@ -34,6 +34,10 @@ BEM.DOM.decl({ block: 'b-page', modName: 'page', modVal: 'landing2' },
                 winHeight = win.height(),
                 FOLD_LINE_Y = 915;
 
+            if (navigator.userAgent.indexOf('Edge') > -1) {
+                $('html').addClass('edge');
+            }
+
             winHeight < FOLD_LINE_Y && win.scrollTop(FOLD_LINE_Y - winHeight);
         }
     }

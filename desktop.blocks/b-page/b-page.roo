@@ -61,7 +61,7 @@ html
 }
 
 @media (max-width: 1200px) {
-    html {
+    html:not(.edge) {
         zoom: .823;
     }
 }
